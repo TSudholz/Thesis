@@ -1,0 +1,138 @@
+\documentclass[a4paper,12pt,twoside,openright]{report}
+\usepackage[titletoc]{appendix}
+\usepackage{textcomp}
+\usepackage[pdftex]{color,graphics}
+\usepackage{amssymb}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage{amsmath}
+\usepackage{rotating}
+\usepackage{setspace}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{hhline}
+\usepackage[labelfont={bf}, margin=0.5cm]{caption}
+\usepackage{pdflscape}
+\usepackage{subcaption}
+\usepackage{caption}
+\usepackage{xspace}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{etoolbox}
+\usepackage{xkeyval}[2006/11/18]
+\usepackage{datetime}
+\usepackage[a4paper,inner=2.5cm,outer=1.5cm,top=2.5cm,bottom=2.5cm,pdftex]{geometry}
+\usepackage{emptypage}
+\usepackage{hyperref}
+
+\hypersetup{
+	linktocpage,
+    colorlinks = true,
+	linkcolor = blue,
+	citecolor = green
+}
+
+\usepackage{fancyhdr}
+\fancyfoot{}
+\pagestyle{fancy}
+\fancyhead[LO]{\leftmark}
+\fancyhead[RE]{\rightmark}
+\fancyhead[RO,LE]{\thepage}
+
+\renewcommand{\textfraction}{.05}
+\renewcommand{\floatpagefraction}{.40}
+
+\newcommand{\gr}{$\gamma$-ray\xspace}
+\newcommand{\grs}{$\gamma$-rays\xspace}
+
+\usepackage{lipsum}% just to automatically generate text
+
+\makeatletter
+\newcommand\ackname{Acknowledgements}
+\if@titlepage
+  \newenvironment{acknowledgements}{%
+      \titlepage
+      \null\vfil
+      \@beginparpenalty\@lowpenalty
+      \begin{center}%
+        \bfseries \ackname
+        \@endparpenalty\@M
+      \end{center}}%
+     {\par\vfil\null\endtitlepage}
+\else
+  \newenvironment{acknowledgements}{%
+      \if@twocolumn
+        \section*{\abstractname}%
+      \else
+        \small
+        \begin{center}%
+          {\bfseries \ackname\vspace{-.5em}\vspace{\z@}}%
+        \end{center}%
+        \quotation
+      \fi}
+      {\if@twocolumn\else\endquotation\fi}
+\fi
+\makeatother
+
+\newdateformat{monthyeardate}{%
+  \monthname[\THEMONTH], \THEYEAR}
+
+%\textheight 24cm
+%\textwidth 16.5cm
+%\topmargin -1cm
+%\oddsidemargin  0cm
+%\evensidemargin 0cm
+%\flushbottom
+
+%\usepackage{etoolbox}
+%\patchcmd{\chapter}{\thispagestyle{plain}}{\thispagestyle{fancy}}{}{}
+
+\setlength{\headheight}{15pt}
+
+
+\begin{document}
+
+
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+%\doublespace
+
+\pagenumbering{roman}
+
+\input{chapters/title.tex}
+
+%\input{chapters/declaration_page.tex}
+\input{chapters/abstract.tex}
+%
+\input{chapters/acknowledgements.tex}
+
+\tableofcontents
+%\listoffigures
+%\listoftables
+
+\input{nomenclature.tex}
+
+\input{chapters/introduction.tex}
+\input{chapters/cosmic_rays.tex}
+\input{chapters/cr_detection.tex}
+\input{chapters/pierre_auger.tex}
+%\input{chapters/}
+%\input{chapters/}
+%\input{chapters/}
+%\input{chapters/}
+
+\input{chapters/conclusion.tex}
+
+\begin{appendices}
+%\input{appendix/}
+%\input{appendix/}
+%\input{appendix/}
+%\input{appendix/}
+\end{appendices}
+
+\bibliographystyle{cj.bst}
+\bibliography{phd_thesis}
+
+\end{document}

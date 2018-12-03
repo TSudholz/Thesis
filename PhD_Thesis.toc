@@ -18,5 +18,6 @@
 \contentsline {subsection}{\numberline {3.4.1}Surface Detector}{7}{subsection.3.4.1}
 \contentsline {subsection}{\numberline {3.4.2}Fluorescence Detector}{7}{subsection.3.4.2}
 \contentsline {section}{\numberline {3.5}Enhancements and future upgrades}{7}{section.3.5}
-\contentsline {chapter}{\numberline {4}Conclusion}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Future Work}{11}{section.4.1}
+\contentsline {chapter}{\numberline {4}EAS Selection Efficiency with Increased NSB}{11}{chapter.4}
+\contentsline {chapter}{\numberline {5}Conclusion}{13}{chapter.5}
+\contentsline {section}{\numberline {5.1}Future Work}{13}{section.5.1}

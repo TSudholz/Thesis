@@ -1,0 +1,40 @@
+\chapter{EAS Selection Efficiency with Increased NSB}
+
+Typically the NSB measured at PAO is in Units of ADC$^2$. As the signal is AC coupled, this is the variance around the zero and is directly proportional to the fluctuations in the NSB. The average value of the NSB is:
+\begin{equation}
+\sigma^2 \sim 25 \ \mathrm{ADC}^2
+\end{equation}
+Converting the variance into photons by using:
+\begin{eqnarray}
+\sigma^2_{pe} &=& [\sigma^2_{\mathrm{ADC}}]^{\mathrm{sky}} \ / \ \mathrm{A}^2_{\mathrm{G}} \label{eq:simgaPE} \\
+\mathrm{n}_{\mathrm{ph}} &=& \frac{\sigma^2_{pe}}{(1 + \mathrm{V}_{\mathrm{G}})} \label{eq:numPhoton}
+\end{eqnarray}
+where $\sigma_{pe}$ is the standard deviation of the photo-electron count, n$_{\mathrm{ph}}$ is the photon count and A$_{\mathrm{G}}$ is equal to:
+\begin{equation}\label{eq:abs_gain}
+\mathrm{A}_{\mathrm{G}} = \frac{1}{\mathrm{C}_{\mathrm{FD}}.\mathrm{f}.\mathrm{Q}}
+\end{equation}
+where
+\begin{itemize}
+\item[] A$_{\mathrm{G}}$ is the absolute gain (ADC/photo-electron)
+\item[] $\mathrm{C}_{\mathrm{FD}}$ is the FD pixel calibration constant.
+\item[] Q is the Quantum efficiency of the PMT.
+\item[] f is the efficiency if the telescope optics.
+\end{itemize}
+
+/*------ Find reference to number below ------*/
+
+Assuming typical measured values for C$_{\mathrm{FD}}$, Q and f shown in:
+
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+C$_{\mathrm{FD}}$ & 4.5 photons/ADC \\
+\hline
+Q & 0.29 \\
+\hline
+f & 0.465 \\
+\hline
+\end{tabular}
+\end{center}
+
+Therefore can now calculate A$_{\mathrm{G}}$ from Eq. \ref{eq:abs_gain} and using 

@@ -1,0 +1,79 @@
+                Start of 2018
+
+25-01-2018 -> Three methods to calculate Gain Variance ratio
+           -> Mean of ICU pulses
+           -> **** Need to incorporate this into analysis *****
+02-02-2018 -> Weird Structure was observed in the variance at low gain CalA shots
+           -> Standard gain variance follow the mean
+           -> No structure in the noise
+09-02-2018 -> Recap and problem with current methods
+16-02-2018 -> Comparing two sets of real data taken on the 2016-06-11
+23-02-2018 -> More ideas about how to process CalA data
+02-03-2018 -> Maybe stripping caused by PMT Classes
+09-03-2018 -> Showing that the BG isn't the cause of the stripping Variance measurement
+16-03-2018 -> Looked at BGloop files
+           -> Plotted variance as a function of time
+           -> Moon was setting at the start of the run
+           -> No signs of stripping there either
+23-03-2018 -> Further investigation into the BGloop files to see if evidence of stripping
+           -> There wasn't any
+06-04-2018 -> Back to the PMT in the white box
+           -> in the dark and observing effects of HV changes
+13-04-2018 -> Effects of temperature on PMT gain
+           -> Another set of low gain runs at LL was done
+           -> Data was taken on the 5-3-18 to 7-3-18
+20-04-2018 -> Looking at CalB data from low gain run
+           -> Is there anything we can do with it?
+           -> Looked at integrating CalA pulses for Gain Variance ratio
+           -> PMT in White Box. BG LED turned on
+04-05-2018 -> Investigating integrating CalA pulses
+           -> Making sure mean BG noise and variance is removed correctly
+           -> Got control of aircon in lab
+           -> Some tests of PMT with BG LED on
+           -> Long and short term drift explanation from GAP 2007-111
+           -> Example seen by Roger, Ben and Neville. GAP 2008-026 
+11-05-2018 -> Looking at consistency of Noise traces from 50 pulses
+           -> More looking into signals mean and variance consistencies
+25-05-2018 -> Integrated means and variances for Standard and Low gain CalA run
+           -> CalB profiles for standard and low gain settings
+01-06-2018 -> Looking at the SNR for CalA pulses
+15-06-2018 -> Using CalB to find Gain Variance ratio
+           -> Include two CalB runs to boost statistics? Not using ICU file (might be worth it)
+29-06-2018 -> Further investigation into integration method of CalA
+06-07-2018 -> Explanation of the 3 method used to find Gain variance ratio from CalA and some results
+13-07-2018 -> More CalA Integral results
+20-07-2018 -> Found reason for stripping in CalA pulses
+           -> The 50 pulses have different start times
+           -> Changed HV on PMT in white box
+03-08-2018 -> Removed 10 fold pattern in Gain Variance ratio from CalA data
+           -> Results from Method 1 and Method 2
+           -> PMT simulation assuming both dynode uniform and variable efficiency
+           -> Expected Gain Variance ratio from PMT simulations
+10-08-2018 -> Results from Method 3 fro CalA analysis
+           -> Looking at PMT ADC vs detector temperature
+24-08-2018 -> Further PMT temperature correction plots
+           -> Plot of temperature and ADC count
+31-08-2018 -> More PMT temperature correction plots
+           -> Effect of BG LED on PMT gain
+           -> Effects of temperature on ADC pedestal
+           -> Simulated 2 shifts with BG LED on
+14-09-2018 -> Add a "third" shift to the analysis
+           -> Start of using MODTRAN to simulate Moonlight across FD FoV
+05-10-2018 -> Distribution of Pulse start timings
+           -> Results of Method 1,2 and 3 with different CalA runs
+12-10-2018 -> Complete write up of 3 methods with known uncertainties at that point
+19-10-2018 -> Start/End tails (where BG LED is off) of PMT
+           -> Are they consistent with each other?
+           -> PMT Anode mean with temperature correction
+           -> Using Bootstrap method to determine uncertainties for CalA method 3
+23-11-2018 -> Two 3 hour simulated with PMT in box
+           -> No. of photon-electrons seen by PMT when BG LED on
+(cloud.pdf)-> Effects of Cloud Cuts on Golden Hybrid data
+           -> XMax and Chi2 distributions
+           -> Flag meanings
+30-11-2018 -> Flag distribution bothu passed and did not
+07-12-2018 -> Normalised distributions of Xmax that passed and didn't
+           -> Normalised Distance to Xmax distributions
+14-12-2018 -> Flag no. distribution as function of energy
+           -> Distance to shower axis distributions
+           -> Zenith angle distributions

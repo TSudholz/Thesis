@@ -1,5 +1,5 @@
-\BOOKMARK [0][-]{chapter*.4}{Nomenclature}{}% 1
-\BOOKMARK [0][-]{chapter*.5}{Introduction}{}% 2
+\BOOKMARK [0][-]{chapter*.5}{Nomenclature}{}% 1
+\BOOKMARK [0][-]{chapter*.6}{Introduction}{}% 2
 \BOOKMARK [0][-]{chapter.1}{Cosmic-Rays}{}% 3
 \BOOKMARK [1][-]{section.1.1}{History of Cosmic-Rays}{chapter.1}% 4
 \BOOKMARK [1][-]{section.1.2}{Energy Spectrum and Mass composition}{chapter.1}% 5
@@ -19,5 +19,9 @@
 \BOOKMARK [2][-]{subsection.3.4.2}{Fluorescence Detector}{section.3.4}% 19
 \BOOKMARK [1][-]{section.3.5}{Enhancements and future upgrades}{chapter.3}% 20
 \BOOKMARK [0][-]{chapter.4}{EAS Selection Efficiency with Increased NSB}{}% 21
-\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 22
-\BOOKMARK [1][-]{section.5.1}{Future Work}{chapter.5}% 23
+\BOOKMARK [0][-]{chapter.5}{Quantifying Characteristics of the FD PMT}{}% 22
+\BOOKMARK [0][-]{chapter.6}{Computer Simulation of FD PMT}{}% 23
+\BOOKMARK [0][-]{chapter.7}{Measuring Gain Variance of FD PMT with CalA Data}{}% 24
+\BOOKMARK [0][-]{chapter.8}{Laboratory Simulation of FD shift}{}% 25
+\BOOKMARK [0][-]{chapter.9}{Conclusion}{}% 26
+\BOOKMARK [1][-]{section.9.1}{Future Work}{chapter.9}% 27

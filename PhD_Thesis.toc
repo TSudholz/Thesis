@@ -1,5 +1,5 @@
-\contentsline {chapter}{Nomenclature}{ix}{chapter*.4}
-\contentsline {chapter}{Introduction}{1}{chapter*.5}
+\contentsline {chapter}{Nomenclature}{xi}{chapter*.5}
+\contentsline {chapter}{Introduction}{1}{chapter*.6}
 \contentsline {chapter}{\numberline {1}Cosmic-Rays}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}History of Cosmic-Rays}{3}{section.1.1}
 \contentsline {section}{\numberline {1.2}Energy Spectrum and Mass composition}{3}{section.1.2}
@@ -19,5 +19,9 @@
 \contentsline {subsection}{\numberline {3.4.2}Fluorescence Detector}{7}{subsection.3.4.2}
 \contentsline {section}{\numberline {3.5}Enhancements and future upgrades}{7}{section.3.5}
 \contentsline {chapter}{\numberline {4}EAS Selection Efficiency with Increased NSB}{11}{chapter.4}
-\contentsline {chapter}{\numberline {5}Conclusion}{13}{chapter.5}
-\contentsline {section}{\numberline {5.1}Future Work}{13}{section.5.1}
+\contentsline {chapter}{\numberline {5}Quantifying Characteristics of the FD PMT}{13}{chapter.5}
+\contentsline {chapter}{\numberline {6}Computer Simulation of FD PMT}{15}{chapter.6}
+\contentsline {chapter}{\numberline {7}Measuring Gain Variance of FD PMT with CalA Data}{17}{chapter.7}
+\contentsline {chapter}{\numberline {8}Laboratory Simulation of FD shift}{19}{chapter.8}
+\contentsline {chapter}{\numberline {9}Conclusion}{21}{chapter.9}
+\contentsline {section}{\numberline {9.1}Future Work}{21}{section.9.1}

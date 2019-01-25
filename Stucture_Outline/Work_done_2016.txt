@@ -38,7 +38,7 @@
 (FDsim.pdf)-> Jarek result of Selection Efficiency versus NSB level
            -> Done for both smearing and simulation
            -> FLT rate from simulation
-22-03-2015 -> Background information on timing window and FLT
+22-03-2016 -> Background information on timing window and FLT
 30-02-2016 -> Simulation of FLT
            -> Calculations showing the FLT threshold above mean  for different NSB levels
 05-04-2016 -> Working through Jarek results and finding out what he did

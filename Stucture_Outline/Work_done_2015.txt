@@ -1,0 +1,58 @@
+                Start of 2015
+
+24-03-2015 -> Selection Efficiency plot from Michael Unger
+           -> Convert Variance (ADC^2) to number of photo-electrons
+01-04-2015 -> Incorrect? conversion of ADC^2 to Photons
+06-05-2015 -> OFFLINE version used to reconstruct EAS showers
+13-05-2015 -> Picture of Equipment in Lab
+           -> PMT Gain measurement
+           -> Added Gaussian noise to pixel traces in OFFLINE
+22-05-2015 -> More PMT Gain measurements
+           -> More adding noise to FD pixel traces
+29-05-2015 -> PMT Gain measurement cont.
+           -> more incorrect? calculations of conversion
+05-06-2015 -> Current vs PMT HV
+           -> Formula to convert ADC^2 to PE^2
+19-06-2015 -> Adding Gaussian Noise to FD pixel traces
+29-06-2015 -> Effects of Different cuts on real events
+           -> Energy bias due to differing amounts of NSB
+           -> Xmax bias due to differing amounts of NSB
+           -> Linearity of PMT (Anode Current vs HV)
+           -> Linearity measured by Anode Current vs PIN diode
+03-07-2015 -> Group Meeting Talk
+           -> Summary of work to do
+10-07-2015 -> Measuring Linearity of PMT using PIN diode and Anode Current (below 800V)
+24-07-2015 -> Summary of simulation. Define Efficiency, Resolution and Bias
+           -> Comparison of my simulation work and Michael Unger work
+           -> Problem found with using neutral density filters (conversion calculations)
+07-08-2015 -> Write up of the conversion of ADC variance to photon variance
+           -> Showing conversion was done correctly
+           -> Bias in Xmax
+           -> Track length as function of energy
+13-08-2015 -> Comparison of my method vs Michael Unger method on the same graphs. There was differences.
+           -> PMT Linearity using ND filters.
+21-08-2015 -> Extend length of track length integration under increased NSB?
+           -> More PMT Linearity with ND filters
+28-08-2015 -> Compared Result of my lab work with ND filters with GAP 99-001
+04-09-2015 -> More ND linearity result
+           -> Selection Efficiency, track length, energy bias, Xmax bias
+11-09-2015 -> Shower track and timing window
+           -> track length, energy bias, Xmax bias maybe have problems?
+           -> Continued Linearity test with ND filters
+18-09-2015 -> Looked at shower events by eye with and without added NSB
+           -> PMT back into white box
+25-09-2015 -> Fixed bug in energy and Xmax bias
+           -> First look at the PMT under simulated NSB
+09-10-2015 -> Data analysis of first NSB test of PMT
+19-10-2015 -> Fixed light leak in white box for PMT
+           -> Dark current over three days
+           -> Double LED method
+           -> CONEX simulations for increased NSB
+26-10-2015 -> Checking NSB photons in simulations
+           -> Further analysis of PMT data in white box
+30-11-2015 -> More checking NSB photons in simulations
+           -> Further analysis of PMT data in white box
+07-12-2015 -> Bad analysis of temperature vs ADC for PMT
+           -> Explanation of FdBackgroundSimulatorOG and FdElectronicsSimulatorOG
+14-12-2015 -> More setting of CONEX simulation
+           -> To Do list of start of 2016

@@ -30,7 +30,7 @@
 	linktocpage,
     colorlinks = true,
 	linkcolor = blue,
-	citecolor = green
+	citecolor = red
 }
 
 \usepackage{fancyhdr}
@@ -103,7 +103,7 @@
 
 \input{chapters/title.tex}
 
-%\input{chapters/declaration_page.tex}
+\input{chapters/declaration_page.tex}
 \input{chapters/abstract.tex}
 %
 \input{chapters/acknowledgements.tex}
@@ -114,16 +114,25 @@
 
 \input{nomenclature.tex}
 
+% Background Chapters
+
 \input{chapters/introduction.tex}
 \input{chapters/cosmic_rays.tex}
 \input{chapters/cr_detection.tex}
 \input{chapters/pierre_auger.tex}
-%\input{chapters/}
-%\input{chapters/}
-%\input{chapters/}
-%\input{chapters/}
+
+% Result Chapters
+
+\input{chapters/NSBselectionEfficiency.tex}
+\input{chapters/CharacterOfPMT.tex}
+\input{chapters/CompSimOfPMT.tex}
+\input{chapters/GainVarianceMeasure.tex}
+\input{chapters/LabSimOfFDshift.tex}
+\input{chapters/CloudCamera.tex}
 
 \input{chapters/conclusion.tex}
+
+% Other plots and stuff
 
 \begin{appendices}
 %\input{appendix/}
@@ -132,7 +141,7 @@
 %\input{appendix/}
 \end{appendices}
 
-\bibliographystyle{IEEtr}
+\bibliographystyle{ieeetr}
 \bibliography{PhD_PaperBiblography}
 
 \end{document}

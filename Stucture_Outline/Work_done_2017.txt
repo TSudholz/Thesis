@@ -1,0 +1,96 @@
+                Start of 2017
+
+13-01-2017 -> Showing 1st PE peak in XP2262 at 1900V
+           -> Shown with LED off
+           -> Simulation of noise, 1st and 2nd PE peak
+           -> Different noise models used
+           -> Further checking of linearity of Integrating ADC
+20-01-2017 -> Simulate Photo-electron peaks with differing 2nd PE peak size
+           -> Tried removing noise spectrum from XP2262 by scaling noise
+           -> Moved back into old lab (with new facelift)
+03-02-2017 -> More Single PE peak work 
+           -> XP3062 and XP2262 results
+           -> Expected ADC measurement for XP3062 single PE peak
+10-02-2017 -> Voltage Amplifier SR445A specifications
+           -> Results of voltage amplification
+17-02-2017 -> Thought had found SPP for XP3062. Most likely did not.
+24-04-2017 -> Newer XP3062 PMT photo-electron peak results
+10-03-2017 -> More XP3062 PMT SPP attempts
+31-03-2017 -> More XP3062 PMT SPP attempts
+07-04-2017 -> Write-up of Gain Variance Calculation from Lab Measurement
+           -> Completed before finding out problem with voltage amplifiers
+           -> Problems found!
+21-04-2017 -> Trying to explain weird Gain Variance results
+           -> Source Theory of Gain Variance from PMT: Principles and Applications
+28-04-2017 -> Calculating Gain Variance via mean/variance and known PE count
+           -> Still before knowing about voltage amplifier
+05-05-2017 -> PMT XP3062 voltage divider set-up
+           -> Gain Variance direct measurement results
+12-05-2017 -> Simulating PMT gain variance with a toy model
+19-05-2017 -> Single Dynode Simulation Check
+           -> Gain Variance simulation with 8 dynodes
+           -> SPP of XP3062 1300V with voltage amplifier
+26-05-2017 -> Simulated a PMT with 8 stages with a variable dynode
+           -> More SPP XP3062 1300V results with voltage amplifier
+02-06-2017 -> Timing issues with SRS SR445A voltage amplifier
+           -> Auger Analysis Meeting draft
+16-06-2017 -> Finding out weird interacting using voltage amplifier with small currents
+           -> Auger Analysis Meeting talk 
+           -> In update showed that the amplifier had non-linear effects at small voltages
+23-06-2017 -> Found amplifier is only linear b/w 2mV to 200mV input.
+           -> Ratio method is the favoured one
+           -> Simulated Vg with Gaussian spread on dynodes
+30-06-2017 -> Ratio Method for Gain Variance
+           -> Measurement in the lab
+07-07-2017 -> More ratio method for Gain Variance measurement in the lab
+21-07-2017 -> Excerpt from GAP-2003-083 about theory of Gain Variance
+           -> Monte Carlo results for simulating a PMT
+           -> Measuring Gain Variance with Pulses in lab
+           -> SPP of XP2262 at 1700V
+           -> Histograms of simulated PMT pulses
+11-08-2017 -> Calibrating Light source with XP2262 at 1700V
+           -> Drop HV until can see light source in both XP2262 and XP3062
+           -> Tried to measure Vg for XP3062 that way
+18-08-2017 -> Calibrate light source and have same cathode area exposed
+           -> The two PMT have different Quantum Efficiencies.
+25-08-2017 -> Dynode functionality and no. of emitted electron as function of voltage
+           -> Voltage divider set-up for XP3062
+           -> More Lab measurements of Gain variance Ratio
+01-09-2017 -> More Lab measurements of Gain variance Ratio
+08-09-2017 -> Calibrating LED light source in number of observed photo-electrons
+           -> Calculating average number of electrons emitted at each dynode per voltage unit
+15-09-2017 -> results of calculating number of electrons emitted at each dynode for both A and C configurations
+           -> Literature shows that cathode and anode sensitivity is not uniform 
+           -> Ran out of LED brightness to do below 900V
+           -> Need to use amplifiers
+29-09-2017 -> Gain Variance results from simulations
+           -> Comparison between flat and added Gaussian width to the dynodes
+           -> Done with configuration A and C
+           -> More lab measurements of Gain Variance ratio.
+           -> Going from 1300V down to 600V
+06-10-2017 -> Correct transcription of 600V and 900V PMT simulation results
+           -> Found region of LED brightness that could be see by both 900V and 600V
+           -> Repeated experiment twice to see if there is any consistency 
+           -> There was no consistency
+20-10-2017 -> Investigated why values were not consistent between 900V and 600V
+           -> Comparing gain variance between one PE and 40 PE in simulations
+27-10-2017 -> Investigating the consistency of measuring the Gain ratio between 900V and 600V
+           -> Multi-Threading example in C++
+           -> Another transcribing mistake for PMT simulations
+           -> Finding a way to separate the extra Gaussian broadening from the width just from the Poisson component
+03-11-2017 -> Investigated whether running multi-threading onto a GPU was viable
+           -> Steps on how I got CUDA installed to run multi-threading
+01-12-2017 -> Recap: Methods that can used to find Gain Variance
+           -> Comparison of methods using simulations
+           -> To Do list
+(RNG.pdf)  -> Improvements to PMT toy model simulation
+           -> Speed with different random generator engines
+08-12-2017 -> Relative Gain variance between 900V/600V and 900V/640V
+           -> Gain Variance Ratio taken from real data (LL mir4 2016-06-11)
+           -> Investigated the effects of discrete binning with a simple Monte Carlo
+15-12-2017 -> Re-visit of Gain Variance Ratio analysis with real data
+           -> Method involved
+           -> Check baseline is consistent across all traces
+           -> Average all 50 Traces before calculating Gain Variance ratio
+           -> Weird structure observed
+22-12-2017 -> Start of investigation of weird structure

@@ -1,0 +1,125 @@
+                Start of 2016
+
+11-01-2016 -> CONEX showers simulated and reconstructed
+18-01-2016 -> Results of using simulations
+           -> Selection Efficiency
+           -> Distance to Xmax
+           -> Zenith Angle Distributions
+           -> Energy Bias
+           -> Xmax Bias
+25-01-2016 -> Setting up SdSimpleSIM
+02-02-2016 -> Diagram of geometry of an air shower within the shower detector plane.
+           -> Rp Bias
+           -> White Box measurements.
+08-02-2016 -> Outline of Two LED method
+           -> Result of linearity using ND filters from GAP 99-001
+           -> Results of Selection Efficiency with SdSimpleSIM
+           -> Energy Bias
+           -> Xmas Bias
+15-02-2016 -> Results of Two LED method
+           -> Energy and Xmax Resolution of simulations
+           -> Comparison of resolution to Michael Unger results
+22-02-2016 -> Plot of Unger result, smearing and simulated Selection Efficiency
+           -> Sin2(theta) distributions of simulations
+           -> Distance to Xmax of simulations
+           -> Xmax distribution of simulations
+01-03-2016 -> Used the FidFOV of cuts on simulated EAS
+           -> Results of smearing agree with Unger measurement
+           -> Distance to Xmax and Sin2(theta) results
+           -> Update on Two LED method, having LED problems
+08-03-2016 -> Normalised Rp distributions
+           -> Normalised Zenith Angle distributions
+           -> Normalised Xmax distributions
+           -> Normalised distance to core
+           -> Normalised distance to Xmax
+15-03-2016 -> Two LED 900V, 100 ns pulse window result
+           -> Expected current draw from EAS and NSB
+           -> Normalised track length distributions
+(FDsim.pdf)-> Jarek result of Selection Efficiency versus NSB level
+           -> Done for both smearing and simulation
+           -> FLT rate from simulation
+22-03-2016 -> Background information on timing window and FLT
+30-02-2016 -> Simulation of FLT
+           -> Calculations showing the FLT threshold above mean  for different NSB levels
+05-04-2016 -> Working through Jarek results and finding out what he did
+           -> Two LED method update (problems...)
+12-04-2016 -> Differences between Simulation (BgFlux) vs Smearing real data
+           -> Looking at S/N for pixels in pulses
+19-04-2016 -> S/N of triggered pixels vs pulse width
+           -> Difference b/w number of triggered and pulse pixels
+26-04-2016 -> Does PulseFinder loop over all or pixels or just FLT pixels? Answer: All FLT pixels. 
+03-05-2018 -> Found two stable pulse generators for two LED method
+           -> Results for 900V and 600V
+           -> Comparison b/w FdAperatureLightFinderOG and FdAperatureLightFinderKG
+10-05-2016 -> Two LED diagnostics from oscilloscope
+           -> More details on how FdApertureLight works
+17-05-2016 -> Removing oscilloscope noise from LED traces
+           -> Comparing ApLightOG vs ApLightKG
+           -> Energy and Xmax bias
+24-05-2016 -> Noise Correct PMT pulse with fits for the peak
+           -> Comparing ApLightFindOG and ApLightFindKG
+           -> Track Length, Energy Bias, Xmax Bias
+31-05-2016 -> Comparing ApLightFindOG and ApLightFindKG
+           -> Energy resolution and Xmax resolution
+           -> Change in track length
+           -> More Two LED results: Pulse Integral test
+20-06-2016 -> Further Two LED results
+14-07-2016 -> Two LED 900V PMT results
+           -> Oscillation in data - no explanation
+           -> Start of Gain Variance investigation
+(8-7-2016) -> Two LED method PMT 900V 100 ns
+           -> Removing noise correctly
+           -> Comparing ApLightFindOG and ApLightFindKG (more)
+           -> Selection efficiency differences? No
+21-07-2016 -> Unstable pulse generator for Two LED method
+           -> Full result for 600V and 900V
+29-07-2016 -> Complete results for Two LED method for 600V 400 ns and 900V 400 ns
+           -> Investigating of direct measurement of Gain Variance
+           -> Using single Photo-electron peak
+           -> Looking at FD CalA data
+12-08-2016 -> Looked at EGain in the Auger mysql database
+           -> First look at FD CalA data taken on a low HV run on the 11-06-2016
+           -> Laser shoot seen at lower HV
+           -> Thoughts on how to measure the SPP in the lab
+18-08-2016 -> Simulating CalA shots and then calculating Kv
+           -> Had to move equipment to temp lab
+26-08-2016 -> Auger PMT first attempt at measuring SPP
+           -> Could we use XP2262 to calibrate LED light source?
+           -> Simulated Kv with and without NSB **** Interesting ****
+02-08-2016 -> Single Photo-electron peak for XP2262
+           -> Fitting for 1 PE, 2 PE and 3 PE peak and at different HV
+           -> More laser shots
+           -> Kv covers both PMT and ADC
+09-09-2016 -> More SPP data for XP2262
+           -> Used voltage amplifier
+           -> compiled CalA analysis program
+16-09-2016 -> Calibrating LED light source for SPP experiment
+           -> Was actually too bright
+23-09-2016 -> Swapped pulse generator for SPP experiment
+30-09-2016 -> First look at CalA data from 11-06-2016
+           -> Brief update on XP2262
+07-10-2016 -> Explanation of how Kv is calculated from CalA
+           -> Calculated EGain at different HV settings
+14-10-2016 -> CalA traces for Standard HV and Low HV settings
+           -> MCA data for PMT 2262?
+21-10-2016 -> Amplitude of CalA pulse vs calculated EGain
+04-11-2016 -> How changes in (1+Vg) translate to Vg
+           -> Diagram of XP3062 PMT
+           -> Theoretical calculation of gain variance (from Justus Thesis)
+08-11-2016 -> Astro Group meeting talk: Gain Variance of FD PMTs
+           -> Plugging the numbers into the theoretical formula for PMT
+           -> Gain Variance ratio measurements from LL Mir4 11-06-2016
+           -> Theory behind Gain Variance
+18-11-2016 -> Slides for Radomir for Malargue Meeting
+           -> Two LED method results (900V and 600V)
+           -> Change in Gain Variance measurement
+           -> Show that Gain Variance ratio works as expected
+           -> Show Laser traces from LL FD mir4 on 11-06-2016
+           -> MCA picture of SPP with LED off/on XP2262
+25-11-2016 -> MCA pix of noise and SPP of XP2262
+           -> Photo-electron distribution plots with changing LED brightness
+           -> Email from Radomir
+02-12-2016 -> Fitting Gaussians to Photo-electron distributions
+09-12-2016 -> Using fit from Arch et al. (2005)
+           -> Fitted data taken at 1900V for XP2262
+16-12-2016 -> Checking linearity of Integrating ADC

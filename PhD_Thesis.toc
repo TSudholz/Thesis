@@ -19,10 +19,10 @@
 \contentsline {subsection}{\numberline {3.4.2}Fluorescence Detector}{7}{subsection.3.4.2}
 \contentsline {section}{\numberline {3.5}Enhancements and future upgrades}{7}{section.3.5}
 \contentsline {chapter}{\numberline {4}EAS Selection Efficiency with Increased NSB}{11}{chapter.4}
-\contentsline {chapter}{\numberline {5}Quantifying Characteristics of the FD PMT}{17}{chapter.5}
-\contentsline {chapter}{\numberline {6}Computer Simulation of FD PMT}{19}{chapter.6}
-\contentsline {chapter}{\numberline {7}Measuring Gain Variance of FD PMT with CalA Data}{21}{chapter.7}
-\contentsline {chapter}{\numberline {8}Laboratory Simulation of FD shift}{23}{chapter.8}
-\contentsline {chapter}{\numberline {9}Cloud Camera Cuts Evaluation}{25}{chapter.9}
-\contentsline {chapter}{\numberline {10}Conclusion}{27}{chapter.10}
-\contentsline {section}{\numberline {10.1}Future Work}{27}{section.10.1}
+\contentsline {chapter}{\numberline {5}Quantifying Characteristics of the FD PMT}{19}{chapter.5}
+\contentsline {chapter}{\numberline {6}Computer Simulation of FD PMT}{21}{chapter.6}
+\contentsline {chapter}{\numberline {7}Measuring Gain Variance of FD PMT with CalA Data}{23}{chapter.7}
+\contentsline {chapter}{\numberline {8}Laboratory Simulation of FD shift}{25}{chapter.8}
+\contentsline {chapter}{\numberline {9}Cloud Camera Cuts Evaluation}{27}{chapter.9}
+\contentsline {chapter}{\numberline {10}Conclusion}{29}{chapter.10}
+\contentsline {section}{\numberline {10.1}Future Work}{29}{section.10.1}

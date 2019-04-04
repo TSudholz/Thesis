@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.11)  1 APR 2019 14:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.11)  4 APR 2019 14:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -631,7 +631,7 @@ LaTeX Info: Redefining \nameref on input line 94.
 \openout3 = `PhD_Thesis.out'.
 
  (./chapters/title.tex
-<pix/UoA_col_vert.png, id=116, 124.0635pt x 92.0238pt>
+<pix/UoA_col_vert.png, id=120, 124.0635pt x 92.0238pt>
 File: pix/UoA_col_vert.png Graphic file (type png)
 
 <use pix/UoA_col_vert.png>
@@ -675,7 +675,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [1])
 (./chapters/cosmic_rays.tex [2]
 Chapter 1.
-<chapters/pix/CosmicRay_Spectrum.png, id=225, 610.28pt x 753.81625pt>
+<chapters/pix/CosmicRay_Spectrum.png, id=230, 610.28pt x 753.81625pt>
 File: chapters/pix/CosmicRay_Spectrum.png Graphic file (type png)
 
 <use chapters/pix/CosmicRay_Spectrum.png>
@@ -693,7 +693,7 @@ Overfull \hbox (0.28099pt too wide) in paragraph at lines 5--9
 par-ti-cle in-ter-acts with the molecules
  []
 
-<chapters/pix/CR_ExtensiveAirShowers.png, id=239, 619.113pt x 462.528pt>
+<chapters/pix/CR_ExtensiveAirShowers.png, id=244, 619.113pt x 462.528pt>
 File: chapters/pix/CR_ExtensiveAirShowers.png Graphic file (type png)
 
 <use chapters/pix/CR_ExtensiveAirShowers.png>
@@ -706,14 +706,14 @@ line 14.
 
 Chapter 3.
 
-<chapters/pix/PAO_equipment_layout_overview.png, id=251, 853.1875pt x 770.88pt>
+<chapters/pix/PAO_equipment_layout_overview.png, id=256, 853.1875pt x 770.88pt>
 File: chapters/pix/PAO_equipment_layout_overview.png Graphic file (type png)
 <use chapters/pix/PAO_equipment_layout_overview.png>
 Package pdftex.def Info: chapters/pix/PAO_equipment_layout_overview.png used on
  input line 10.
 (pdftex.def)             Requested size: 338.58632pt x 305.92343pt.
 
-<chapters/pix/pierre-auger-observatory_tankAndTelescope.jpg, id=252, 552.0625pt
+<chapters/pix/pierre-auger-observatory_tankAndTelescope.jpg, id=257, 552.0625pt
  x 414.54875pt>
 File: chapters/pix/pierre-auger-observatory_tankAndTelescope.jpg Graphic file (
 type jpg)
@@ -723,7 +723,7 @@ Package pdftex.def Info: chapters/pix/pierre-auger-observatory_tankAndTelescope
 .jpg used on input line 13.
 (pdftex.def)             Requested size: 338.58632pt x 254.25964pt.
 
-<chapters/pix/inside_surface_detector.jpg, id=253, 466.74374pt x 350.30875pt>
+<chapters/pix/inside_surface_detector.jpg, id=258, 466.74374pt x 350.30875pt>
 File: chapters/pix/inside_surface_detector.jpg Graphic file (type jpg)
 
 <use chapters/pix/inside_surface_detector.jpg>
@@ -731,29 +731,33 @@ Package pdftex.def Info: chapters/pix/inside_surface_detector.jpg used on input
  line 23.
 (pdftex.def)             Requested size: 338.58632pt x 254.13037pt.
 
-<chapters/pix/fluorescence_telescope.png, id=254, 562.1pt x 546.04pt>
+<chapters/pix/fluorescence_telescope.png, id=259, 562.1pt x 546.04pt>
 File: chapters/pix/fluorescence_telescope.png Graphic file (type png)
 
 <use chapters/pix/fluorescence_telescope.png>
 Package pdftex.def Info: chapters/pix/fluorescence_telescope.png used on input 
-line 36.
+line 38.
 (pdftex.def)             Requested size: 338.58632pt x 328.90964pt.
 )
-(./chapters/NSBselectionEfficiency.tex [7
+(./chapters/NSBselectionEfficiency.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-] [8 <./chapters/pix/PAO_equipment_layout_overview.png> <./chapters/pix/pierre-
-auger-observatory_tankAndTelescope.jpg>] [9 <./chapters/pix/inside_surface_dete
-ctor.jpg> <./chapters/pix/fluorescence_telescope.png (PNG copy)>] [10
+ [7
 
 ]
+[8 <./chapters/pix/PAO_equipment_layout_overview.png> <./chapters/pix/pierre-au
+ger-observatory_tankAndTelescope.jpg>] [9 <./chapters/pix/inside_surface_detect
+or.jpg> <./chapters/pix/fluorescence_telescope.png (PNG copy)>] [10]
 Chapter 4.
-[11]
+[11
+
+]
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/SelectionEff_erro
 rbars_10timesNSB.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
 
-<chapters/graphs/SelectionEff/SelectionEff_errorbars_10timesNSB.pdf, id=285, 56
+<chapters/graphs/SelectionEff/SelectionEff_errorbars_10timesNSB.pdf, id=291, 56
 9.12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/SelectionEff_errorbars_10timesNSB.pdf Graphi
 c file (type pdf)
@@ -768,7 +772,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Smearing_RealData
 _EnergyBias.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
 
-<chapters/graphs/SelectionEff/Smearing_RealData_EnergyBias.pdf, id=286, 569.126
+<chapters/graphs/SelectionEff/Smearing_RealData_EnergyBias.pdf, id=292, 569.126
 25pt x 297.11pt>
 File: chapters/graphs/SelectionEff/Smearing_RealData_EnergyBias.pdf Graphic fil
 e (type pdf)
@@ -783,7 +787,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Simulation_Proton
 Iron_EnergyBias.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
 
-<chapters/graphs/SelectionEff/Simulation_ProtonIron_EnergyBias.pdf, id=287, 569
+<chapters/graphs/SelectionEff/Simulation_ProtonIron_EnergyBias.pdf, id=293, 569
 .12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/Simulation_ProtonIron_EnergyBias.pdf Graphic
  file (type pdf)
@@ -798,7 +802,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Smearing_RealData
 _XmaxBias.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.
 5> allowed
 
-<chapters/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf, id=288, 569.12625
+<chapters/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf, id=294, 569.12625
 pt x 297.11pt>
 File: chapters/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf Graphic file 
 (type pdf)
@@ -813,7 +817,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Simulation_Proton
 Iron_XmaxBias.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
 
-<chapters/graphs/SelectionEff/Simulation_ProtonIron_XmaxBias.pdf, id=289, 569.1
+<chapters/graphs/SelectionEff/Simulation_ProtonIron_XmaxBias.pdf, id=295, 569.1
 2625pt x 297.11pt>
 File: chapters/graphs/SelectionEff/Simulation_ProtonIron_XmaxBias.pdf Graphic f
 ile (type pdf)
@@ -828,7 +832,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Combined_EnergyRe
 s_All.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
 llowed
 
-<chapters/graphs/SelectionEff/Combined_EnergyRes_All.pdf, id=290, 569.12625pt x
+<chapters/graphs/SelectionEff/Combined_EnergyRes_All.pdf, id=296, 569.12625pt x
  305.14pt>
 File: chapters/graphs/SelectionEff/Combined_EnergyRes_All.pdf Graphic file (typ
 e pdf)
@@ -842,7 +846,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Combined_XmaxRes_
 All.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
 
-<chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf, id=291, 569.12625pt x 2
+<chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf, id=297, 569.12625pt x 2
 97.11pt>
 File: chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf Graphic file (type 
 pdf)
@@ -856,7 +860,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RealDataAndSim_Xm
 axDistComp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
 
-<chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf, id=292, 569.1262
+<chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf, id=298, 569.1262
 5pt x 305.14pt>
 File: chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf Graphic file
  (type pdf)
@@ -871,7 +875,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RealDataAndSim_Rp
 DistComp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5
 > allowed
 
-<chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf, id=293, 569.12625p
+<chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf, id=299, 569.12625p
 t x 305.14pt>
 File: chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf Graphic file (
 type pdf)
@@ -885,7 +889,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RealDataAndSim_Ze
 nithDistComp.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.pdf, id=294, 569.12
+<chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.pdf, id=300, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.pdf Graphic fi
 le (type pdf)
@@ -900,7 +904,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RealDataAndSim_Di
 stToXmaxDistComp.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
 
-<chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf, id=295, 56
+<chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf, id=301, 56
 9.12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf Graphi
 c file (type pdf)
@@ -915,7 +919,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Smearing_TrackLen
 gth_DiffNSBlevels.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
 sion <1.5> allowed
 
-<chapters/graphs/SelectionEff/Smearing_TrackLength_DiffNSBlevels.pdf, id=296, 5
+<chapters/graphs/SelectionEff/Smearing_TrackLength_DiffNSBlevels.pdf, id=302, 5
 69.12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/Smearing_TrackLength_DiffNSBlevels.pdf Graph
 ic file (type pdf)
@@ -931,7 +935,7 @@ ength_Comb_StandANdIncreasedNSB.pdf): PDF inclusion: found PDF version <1.7>, b
 ut at most version <1.5> allowed
 
 <chapters/graphs/SelectionEff/Simulation_TrackLength_Comb_StandANdIncreasedNSB.
-pdf, id=297, 569.12625pt x 297.11pt>
+pdf, id=303, 569.12625pt x 297.11pt>
 File: chapters/graphs/SelectionEff/Simulation_TrackLength_Comb_StandANdIncrease
 dNSB.pdf Graphic file (type pdf)
 
@@ -954,61 +958,164 @@ f>] [18 <./chapters/graphs/SelectionEff/Smearing_TrackLength_DiffNSBlevels.pdf>
  <./chapters/graphs/SelectionEff/Simulation_TrackLength_Comb_StandANdIncreasedN
 SB.pdf>]
 Chapter 5.
-) (./chapters/CompSimOfPMT.tex [19
 
-] [20
+<chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png, id=436, 929.4725pt x
+ 874.26625pt>
+File: chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png Graphic file (ty
+pe png)
+ <use chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png>
+Package pdftex.def Info: chapters/graphs/PMTchar/pmt_linearity_100V_privitera.p
+ng used on input line 15.
+(pdftex.def)             Requested size: 483.69687pt x 454.96791pt.
+
+
+pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT900V_linearityNDmet
+hod.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
+owed
+
+<chapters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf, id=437, 569.12625pt x 2
+97.11pt>
+File: chapters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf Graphic file (type 
+pdf)
+ <use chapters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf>
+Package pdftex.def Info: chapters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf 
+used on input line 22.
+(pdftex.def)             Requested size: 483.69687pt x 252.52202pt.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+
+
+pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT600V_linearityNDmet
+hod.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
+owed
+
+<chapters/graphs/PMTchar/PMT600V_linearityNDmethod.pdf, id=438, 569.12625pt x 2
+97.11pt>
+File: chapters/graphs/PMTchar/PMT600V_linearityNDmethod.pdf Graphic file (type 
+pdf)
+ <use chapters/graphs/PMTchar/PMT600V_linearityNDmethod.pdf>
+Package pdftex.def Info: chapters/graphs/PMTchar/PMT600V_linearityNDmethod.pdf 
+used on input line 26.
+(pdftex.def)             Requested size: 483.69687pt x 252.52202pt.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+
+<chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf, id=439, 462.75282pt x 329.57
+73pt>
+File: chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf Graphic file (type pdf)
+ <use chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf>
+Package pdftex.def Info: chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf used 
+on input line 34.
+(pdftex.def)             Requested size: 483.69687pt x 344.49231pt.
+
+
+pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT900V_linearity2LEDm
+ethod.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
+llowed
+
+<chapters/graphs/PMTchar/PMT900V_linearity2LEDmethod.pdf, id=440, 569.12625pt x
+ 297.11pt>
+File: chapters/graphs/PMTchar/PMT900V_linearity2LEDmethod.pdf Graphic file (typ
+e pdf)
+ <use chapters/graphs/PMTchar/PMT900V_linearity2LEDmethod.pdf>
+Package pdftex.def Info: chapters/graphs/PMTchar/PMT900V_linearity2LEDmethod.pd
+f used on input line 40.
+(pdftex.def)             Requested size: 483.69687pt x 252.52202pt.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+
+
+pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT600V_linearity2LEDm
+ethod.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
+llowed
+
+<chapters/graphs/PMTchar/PMT600V_linearity2LEDmethod.pdf, id=441, 569.12625pt x
+ 297.11pt>
+File: chapters/graphs/PMTchar/PMT600V_linearity2LEDmethod.pdf Graphic file (typ
+e pdf)
+ <use chapters/graphs/PMTchar/PMT600V_linearity2LEDmethod.pdf>
+Package pdftex.def Info: chapters/graphs/PMTchar/PMT600V_linearity2LEDmethod.pd
+f used on input line 44.
+(pdftex.def)             Requested size: 483.69687pt x 252.52202pt.
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ¢ in font cmr10!
+)
+(./chapters/CompSimOfPMT.tex [19
+
+] [20 <./chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png>] [21 <./chap
+ters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf> <./chapters/graphs/PMTchar/P
+MT600V_linearityNDmethod.pdf>] [22 <./chapters/graphs/PMTchar/diagram_TwoLEDmet
+hod.pdf>] [23 <./chapters/graphs/PMTchar/PMT900V_linearity2LEDmethod.pdf> <./ch
+apters/graphs/PMTchar/PMT600V_linearity2LEDmethod.pdf>] [24
 
 ]
 Chapter 6.
-) (./chapters/GainVarianceMeasure.tex [21] [22
+) (./chapters/GainVarianceMeasure.tex [25] [26
 
 ]
 Chapter 7.
-) (./chapters/LabSimOfFDshift.tex [23] [24
+) (./chapters/LabSimOfFDshift.tex [27] [28
 
 ]
 Chapter 8.
-) (./chapters/CloudCamera.tex [25] [26
+) (./chapters/CloudCamera.tex [29] [30
 
 ]
 Chapter 9.
-) (./chapters/conclusion.tex [27] [28
+) (./chapters/conclusion.tex [31] [32
 
 ]
 Chapter 10.
-) (./PhD_Thesis.bbl [29] [30
+) (./PhD_Thesis.bbl [33] [34
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 147.
- [31]
+ [35]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 147.
  (./PhD_Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 147.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 147.
 Package rerunfilecheck Info: File `PhD_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 948FE63E3D3BF765337313D8E70C52B8;1875.
+(rerunfilecheck)             Checksum: 82F27461D6763CBC486D5FD31BB75CBF;1939.
  ) 
 Here is how much of TeX's memory you used:
- 10167 strings out of 493029
- 153647 string characters out of 6136233
+ 10217 strings out of 493029
+ 155533 string characters out of 6136233
  356284 words of memory out of 5000000
- 13365 multiletter control sequences out of 15000+600000
- 11440 words of font info for 42 fonts, out of 8000000 for 9000
+ 13398 multiletter control sequences out of 15000+600000
+ 12048 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,11n,77p,1076b,389s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,11n,77p,1076b,573s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/tsudholz/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmti12.pfb>
-Output written on PhD_Thesis.pdf (43 pages, 3041336 bytes).
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmti12.pfb>
+Output written on PhD_Thesis.pdf (47 pages, 4059027 bytes).
 PDF statistics:
- 545 PDF objects out of 1000 (max. 8388607)
- 443 compressed objects within 5 object streams
- 93 named destinations out of 1000 (max. 500000)
- 325 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 614 PDF objects out of 1000 (max. 8388607)
+ 495 compressed objects within 5 object streams
+ 102 named destinations out of 1000 (max. 500000)
+ 363 words of extra memory for PDF output out of 10000 (max. 10000000)
 

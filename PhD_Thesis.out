@@ -11,18 +11,19 @@
 \BOOKMARK [1][-]{section.2.4}{Detectors and History}{chapter.2}% 11
 \BOOKMARK [0][-]{chapter.3}{Pierre Auger Observatory}{}% 12
 \BOOKMARK [1][-]{section.3.1}{Surface Detector}{chapter.3}% 13
-\BOOKMARK [1][-]{section.3.2}{Fluorescence Detector}{chapter.3}% 14
-\BOOKMARK [2][-]{subsection.3.2.1}{Photomultiplier Tubes}{section.3.2}% 15
-\BOOKMARK [1][-]{section.3.3}{Communication System and CDAS}{chapter.3}% 16
-\BOOKMARK [1][-]{section.3.4}{Event Reconstruction}{chapter.3}% 17
-\BOOKMARK [2][-]{subsection.3.4.1}{Surface Detector}{section.3.4}% 18
-\BOOKMARK [2][-]{subsection.3.4.2}{Fluorescence Detector}{section.3.4}% 19
-\BOOKMARK [1][-]{section.3.5}{Enhancements and future upgrades}{chapter.3}% 20
-\BOOKMARK [0][-]{chapter.4}{EAS Selection Efficiency with Increased NSB}{}% 21
-\BOOKMARK [0][-]{chapter.5}{Quantifying Characteristics of the FD PMT}{}% 22
-\BOOKMARK [0][-]{chapter.6}{Computer Simulation of FD PMT}{}% 23
-\BOOKMARK [0][-]{chapter.7}{Measuring Gain Variance of FD PMT with CalA Data}{}% 24
-\BOOKMARK [0][-]{chapter.8}{Laboratory Simulation of FD shift}{}% 25
-\BOOKMARK [0][-]{chapter.9}{Cloud Camera Cuts Evaluation}{}% 26
-\BOOKMARK [0][-]{chapter.10}{Conclusion}{}% 27
-\BOOKMARK [1][-]{section.10.1}{Future Work}{chapter.10}% 28
+\BOOKMARK [2][-]{subsection.3.1.1}{AugerPrime}{section.3.1}% 14
+\BOOKMARK [1][-]{section.3.2}{Fluorescence Detector}{chapter.3}% 15
+\BOOKMARK [2][-]{subsection.3.2.1}{Photomultiplier Tubes}{section.3.2}% 16
+\BOOKMARK [1][-]{section.3.3}{Communication System and CDAS}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.4}{Event Reconstruction}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.4.1}{Surface Detector}{section.3.4}% 19
+\BOOKMARK [2][-]{subsection.3.4.2}{Fluorescence Detector}{section.3.4}% 20
+\BOOKMARK [1][-]{section.3.5}{Enhancements and future upgrades}{chapter.3}% 21
+\BOOKMARK [0][-]{chapter.4}{EAS Selection Efficiency with Increased NSB}{}% 22
+\BOOKMARK [0][-]{chapter.5}{Quantifying Characteristics of the FD PMT}{}% 23
+\BOOKMARK [0][-]{chapter.6}{Computer Simulation of FD PMT}{}% 24
+\BOOKMARK [0][-]{chapter.7}{Measuring Gain Variance of FD PMT with CalA Data}{}% 25
+\BOOKMARK [0][-]{chapter.8}{Laboratory Simulation of FD shift}{}% 26
+\BOOKMARK [0][-]{chapter.9}{Cloud Camera Cuts Evaluation}{}% 27
+\BOOKMARK [0][-]{chapter.10}{Conclusion}{}% 28
+\BOOKMARK [1][-]{section.10.1}{Future Work}{chapter.10}% 29

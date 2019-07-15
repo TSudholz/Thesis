@@ -4,7 +4,7 @@
 \contentsline {section}{\numberline {1.1}History of Cosmic-Rays}{3}{section.1.1}
 \contentsline {section}{\numberline {1.2}Energy Spectrum and Mass composition}{3}{section.1.2}
 \contentsline {section}{\numberline {1.3}Production Method and Sources}{3}{section.1.3}
-\contentsline {chapter}{\numberline {2}Detections of Cosmic-Rays}{5}{chapter.2}
+\contentsline {chapter}{\numberline {2}Detection of Cosmic-rays}{5}{chapter.2}
 \contentsline {section}{\numberline {2.1}Extensive Air Showers}{5}{section.2.1}
 \contentsline {section}{\numberline {2.2}Fluorescence Production}{5}{section.2.2}
 \contentsline {section}{\numberline {2.3}Atmospheric Effects}{5}{section.2.3}
@@ -24,6 +24,6 @@
 \contentsline {chapter}{\numberline {6}Computer Simulation of FD PMT}{25}{chapter.6}
 \contentsline {chapter}{\numberline {7}Measuring FD PMT Gain Variance with CalA Data}{31}{chapter.7}
 \contentsline {chapter}{\numberline {8}Laboratory Simulation of FD shift}{33}{chapter.8}
-\contentsline {chapter}{\numberline {9}Cloud Camera Cuts Evaluation}{35}{chapter.9}
+\contentsline {chapter}{\numberline {9}Evaluation of Cloud Camera Cuts}{35}{chapter.9}
 \contentsline {chapter}{\numberline {10}Conclusion}{37}{chapter.10}
 \contentsline {section}{\numberline {10.1}Future Work}{37}{section.10.1}

@@ -23,7 +23,11 @@
 \BOOKMARK [0][-]{chapter.5}{Quantifying Characteristics of the FD PMT}{}% 23
 \BOOKMARK [0][-]{chapter.6}{Computer Simulation of FD PMT}{}% 24
 \BOOKMARK [0][-]{chapter.7}{Measuring FD PMT Gain Variance with CalA Data}{}% 25
-\BOOKMARK [0][-]{chapter.8}{Laboratory Simulation of FD shift}{}% 26
-\BOOKMARK [0][-]{chapter.9}{Evaluation of Cloud Camera Cuts}{}% 27
-\BOOKMARK [0][-]{chapter.10}{Conclusion}{}% 28
-\BOOKMARK [1][-]{section.10.1}{Future Work}{chapter.10}% 29
+\BOOKMARK [1][-]{section.7.1}{Result of Pairs Method}{chapter.7}% 26
+\BOOKMARK [1][-]{section.7.2}{Result of Averaging Sets of Traces Method}{chapter.7}% 27
+\BOOKMARK [1][-]{section.7.3}{Result of Averaging Sets of Traces Method with Least Trimmed Squares}{chapter.7}% 28
+\BOOKMARK [1][-]{section.7.4}{Result of Averaging Sets of Traces Method using Noise Distribution}{chapter.7}% 29
+\BOOKMARK [0][-]{chapter.8}{Laboratory Simulation of FD shift}{}% 30
+\BOOKMARK [0][-]{chapter.9}{Evaluation of Cloud Camera Cuts}{}% 31
+\BOOKMARK [0][-]{chapter.10}{Conclusion}{}% 32
+\BOOKMARK [1][-]{section.10.1}{Future Work}{chapter.10}% 33

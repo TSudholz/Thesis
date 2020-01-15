@@ -23,7 +23,11 @@
 \contentsline {chapter}{\numberline {5}Quantifying Characteristics of the FD PMT}{19}{chapter.5}
 \contentsline {chapter}{\numberline {6}Computer Simulation of FD PMT}{25}{chapter.6}
 \contentsline {chapter}{\numberline {7}Measuring FD PMT Gain Variance with CalA Data}{31}{chapter.7}
-\contentsline {chapter}{\numberline {8}Laboratory Simulation of FD shift}{33}{chapter.8}
-\contentsline {chapter}{\numberline {9}Evaluation of Cloud Camera Cuts}{35}{chapter.9}
-\contentsline {chapter}{\numberline {10}Conclusion}{37}{chapter.10}
-\contentsline {section}{\numberline {10.1}Future Work}{37}{section.10.1}
+\contentsline {section}{\numberline {7.1}Result of Pairs Method}{31}{section.7.1}
+\contentsline {section}{\numberline {7.2}Result of Averaging Sets of Traces Method}{31}{section.7.2}
+\contentsline {section}{\numberline {7.3}Result of Averaging Sets of Traces Method with Least Trimmed Squares}{31}{section.7.3}
+\contentsline {section}{\numberline {7.4}Result of Averaging Sets of Traces Method using Noise Distribution}{31}{section.7.4}
+\contentsline {chapter}{\numberline {8}Laboratory Simulation of FD shift}{43}{chapter.8}
+\contentsline {chapter}{\numberline {9}Evaluation of Cloud Camera Cuts}{45}{chapter.9}
+\contentsline {chapter}{\numberline {10}Conclusion}{47}{chapter.10}
+\contentsline {section}{\numberline {10.1}Future Work}{47}{section.10.1}

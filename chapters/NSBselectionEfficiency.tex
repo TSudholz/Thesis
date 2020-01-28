@@ -52,11 +52,56 @@ f & 0.465 \\
 
 Therefore can now calculate A$_{\mathrm{G}}$ from Eq. \ref{eq:abs_gain} and using 
 
+- Need graph of expected variance in ADC$^2$ for the moon above the horizon for different phases.
+
+- Want to increase the duty cycle of FD by measuring EAS under moonlight. Most likely observe under quarter to half moon. This will increased the NSB upto a factor of 10.
+
+- The aim of increasing the duty cycle of FD is too measure more EAS at the highest energy band ($> 10^{19.5}$ eV).
+
+- Need more statistics at highest energy band to complement SD measurements.
+
+
+\section{Selection Efficiency}
+
+I investigated a couple of method evaluating increasing the NSB by different factors. The main increase of NSB will be from half moon which equates to an increase in NSB by a factor of 10. The two methods involved simulating increased NSB on measured data and with simulating. The measured data had increased noise introduced across the entire signal trace and I have labelled as the smearing method.
+
+Selection Efficiency for the two methods are calculated via:
+\begin{equation}
+\mathrm{Efficiency} = \mathrm{N}_{\mathrm{Selected}} / \mathrm{N}_{\mathrm{total}}
+\end{equation}
+where for the Smearing method N$_{\mathrm{total}}$ is the total number of measured EAS events at standard NSB levels and N$_{\mathrm{Selected}}$ is the number of events after being reconstructed and passing the quality cuts with the increased NSB. For the simulations, N$_{\mathrm{total}}$ is the total number of simulated events before \textbf{need to check whether its the number of simulations before triggering or number of triggered events at standard NSB}.
+
+Smearing method involves taking fluorescence telescope EAS data that have been reconstructed and passed all of the quality cuts and adding addition random variance in ADC$^2$ equivalent to an increased NSB from moonlight. The EAS data is then reconstructed and passed through the same quality cuts. This a repartition of a similar method that M. Unger had preformed in \textbf{2012}. \textbf{Also need to refer to the study done by Brue and Andrew Smith around 1999}. This was done so a deeper analysis could be preformed to understand the underlying mechanics.
+
+The simulations were done using the simulation modules for the FD's within the OffLine analysis programs. The EAS profiles were generated within CONEX and the original showers were generated through CORSIKA. The NSB was added to the EAS profiles before the FD are triggered. A hybrid trigger is used to involve the SD but the SD is simulated in asimple way just to get a simulated core position.
+
+The smearing method was used as a proof of concept to show that EAS showers could still be reconstructed with the increased NSB. The limitation was that EAS were used that already triggered the FD's normally. The full simulation using CONEX showers was used to full test trigger conditions through to reconstruction. The simulations are not an 100\% accurate representation of the POA array so that will introduce some differences too.
+
+
 \begin{figure}[!hp]
 \centering
 \includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/SelectionEff_errorbars_10timesNSB.pdf}
 \caption{Selection Efficiency plot containing data from both the Smearing method and simulated showers. These results are compared to the work done by M. Unger.}
 \end{figure}
+
+\section{Resolution and Bias}
+
+To further evaluate the effects of increasing the NSB on the quality of the reconstructed EAS data, I look at the resolution and bias of both the reconstructed energy and reconstructed Xmax. A quick reminder that Xmax is the measurement of the brightest part of the shower relating to the maximum number of particles produced. For the smearing method the energy and Xmax bias is comparing to the measured data taken at standard NSB levels to the reconstructed with the increased NSB levels. For the simulations the energy and Xmax bias can be calculated using the true energy and Xmax values used to generate each EAS profile.
+
+The trend of the energy resolution for both methods is that as the energy of the EAS event increases the bias decreases. This was expected as the energy of the shower increases the brighter and longer the track that is observed. A brighter and longer track allows for a better reconstruction.
+
+- Need to find out what's a good bias value for energy and Xmax.
+
+the energy and Xamx bias is calcualted via:
+\begin{eqnarray}
+\Delta \mathrm{E} &=& \frac{\mathrm{E}_{\mathrm{recon}} - \mathrm{E}_{\mathrm{true}}}{\mathrm{E}_{\mathrm{true}}} \\ 
+\Delta \mathrm{E} &=& \frac{\mathrm{E}_{\mathrm{IncreasedNSB}} - \mathrm{E}_{\mathrm{StandardNSB}}}{\mathrm{E}_{\mathrm{StandardNSB}}} \\
+\Delta \mathrm{Xmax} &=& \mathrm{Xmax}_{\mathrm{recon}} - \mathrm{Xmax}_{\mathrm{true}} \\
+\Delta \mathrm{Xmax} &=& \mathrm{Xmax}_{\mathrm{IncreasedNSB}} - \mathrm{Xmax}_{\mathrm{StandardNSB}}
+\end{eqnarray}
+
+The energy and Xmax resolution is calculated via:
+
 
 \begin{figure}
 \centering
@@ -85,6 +130,8 @@ Therefore can now calculate A$_{\mathrm{G}}$ from Eq. \ref{eq:abs_gain} and usin
 \caption{Xmax Resolution using both Smearing Method data and simulated showers.}
 \end{figure}
 
+\section{Comparing Simulated Data to Real Data}
+
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf}
@@ -102,6 +149,8 @@ Therefore can now calculate A$_{\mathrm{G}}$ from Eq. \ref{eq:abs_gain} and usin
 \includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf}
 \caption{Distribution of Distance to Xmax with Real Data and simulation of proton and iron showers.}
 \end{figure}
+
+\section{EAS Track Length in FD}
 
 \begin{figure}
 \centering

@@ -20,14 +20,18 @@
 \BOOKMARK [2][-]{subsection.3.4.2}{Fluorescence Detector}{section.3.4}% 20
 \BOOKMARK [1][-]{section.3.5}{Enhancements and future upgrades}{chapter.3}% 21
 \BOOKMARK [0][-]{chapter.4}{EAS Selection Efficiency with Increased NSB}{}% 22
-\BOOKMARK [0][-]{chapter.5}{Quantifying Characteristics of the FD PMT}{}% 23
-\BOOKMARK [0][-]{chapter.6}{Computer Simulation of FD PMT}{}% 24
-\BOOKMARK [0][-]{chapter.7}{Measuring FD PMT Gain Variance with CalA Data}{}% 25
-\BOOKMARK [1][-]{section.7.1}{Result of Pairs Method}{chapter.7}% 26
-\BOOKMARK [1][-]{section.7.2}{Result of Averaging Sets of Traces Method}{chapter.7}% 27
-\BOOKMARK [1][-]{section.7.3}{Result of Averaging Sets of Traces Method with Least Trimmed Squares}{chapter.7}% 28
-\BOOKMARK [1][-]{section.7.4}{Result of Averaging Sets of Traces Method using Noise Distribution}{chapter.7}% 29
-\BOOKMARK [0][-]{chapter.8}{Laboratory Simulation of FD shift}{}% 30
-\BOOKMARK [0][-]{chapter.9}{Evaluation of Cloud Camera Cuts}{}% 31
-\BOOKMARK [0][-]{chapter.10}{Conclusion}{}% 32
-\BOOKMARK [1][-]{section.10.1}{Future Work}{chapter.10}% 33
+\BOOKMARK [1][-]{section.4.1}{Selection Efficiency}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.2}{Resolution and Bias}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.3}{Comparing Simulated Data to Real Data}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.4}{EAS Track Length in FD}{chapter.4}% 26
+\BOOKMARK [0][-]{chapter.5}{Quantifying Characteristics of the FD PMT}{}% 27
+\BOOKMARK [0][-]{chapter.6}{Computer Simulation of FD PMT}{}% 28
+\BOOKMARK [0][-]{chapter.7}{Measuring FD PMT Gain Variance with CalA Data}{}% 29
+\BOOKMARK [1][-]{section.7.1}{Result of Pairs Method}{chapter.7}% 30
+\BOOKMARK [1][-]{section.7.2}{Result of Averaging Sets of Traces Method}{chapter.7}% 31
+\BOOKMARK [1][-]{section.7.3}{Result of Averaging Sets of Traces Method with Least Trimmed Squares}{chapter.7}% 32
+\BOOKMARK [1][-]{section.7.4}{Result of Averaging Sets of Traces Method using Noise Distribution}{chapter.7}% 33
+\BOOKMARK [0][-]{chapter.8}{Laboratory Simulation of FD shift}{}% 34
+\BOOKMARK [0][-]{chapter.9}{Evaluation of Cloud Camera Cuts}{}% 35
+\BOOKMARK [0][-]{chapter.10}{Conclusion}{}% 36
+\BOOKMARK [1][-]{section.10.1}{Future Work}{chapter.10}% 37

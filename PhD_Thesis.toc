@@ -22,8 +22,8 @@
 \contentsline {chapter}{\numberline {4}EAS Selection Efficiency with Increased NSB}{13}{chapter.4}
 \contentsline {section}{\numberline {4.1}Selection Efficiency}{14}{section.4.1}
 \contentsline {section}{\numberline {4.2}Resolution and Bias}{15}{section.4.2}
-\contentsline {section}{\numberline {4.3}Comparing Simulated Data to Real Data}{16}{section.4.3}
-\contentsline {section}{\numberline {4.4}EAS Track Length in FD}{16}{section.4.4}
+\contentsline {subsection}{\numberline {4.2.1}Comparing Simulated Data to Real Data}{16}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}EAS Track Length in the FD's}{16}{section.4.3}
 \contentsline {chapter}{\numberline {5}Quantifying Characteristics of the FD PMT}{23}{chapter.5}
 \contentsline {chapter}{\numberline {6}Computer Simulation of FD PMT}{29}{chapter.6}
 \contentsline {chapter}{\numberline {7}Measuring FD PMT Gain Variance with CalA Data}{35}{chapter.7}

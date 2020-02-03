@@ -25,13 +25,17 @@
 \BOOKMARK [2][-]{subsection.4.2.1}{Comparing Simulated Data to Real Data}{section.4.2}% 25
 \BOOKMARK [1][-]{section.4.3}{EAS Track Length in the FD's}{chapter.4}% 26
 \BOOKMARK [0][-]{chapter.5}{Quantifying Characteristics of the FD PMT}{}% 27
-\BOOKMARK [0][-]{chapter.6}{Computer Simulation of FD PMT}{}% 28
-\BOOKMARK [0][-]{chapter.7}{Measuring FD PMT Gain Variance with CalA Data}{}% 29
-\BOOKMARK [1][-]{section.7.1}{Result of Pairs Method}{chapter.7}% 30
-\BOOKMARK [1][-]{section.7.2}{Result of Averaging Sets of Traces Method}{chapter.7}% 31
-\BOOKMARK [1][-]{section.7.3}{Result of Averaging Sets of Traces Method with Least Trimmed Squares}{chapter.7}% 32
-\BOOKMARK [1][-]{section.7.4}{Result of Averaging Sets of Traces Method using Noise Distribution}{chapter.7}% 33
-\BOOKMARK [0][-]{chapter.8}{Laboratory Simulation of FD shift}{}% 34
-\BOOKMARK [0][-]{chapter.9}{Evaluation of Cloud Camera Cuts}{}% 35
-\BOOKMARK [0][-]{chapter.10}{Conclusion}{}% 36
-\BOOKMARK [1][-]{section.10.1}{Future Work}{chapter.10}% 37
+\BOOKMARK [1][-]{section.5.1}{PMT Linearity}{chapter.5}% 28
+\BOOKMARK [2][-]{subsection.5.1.1}{Neutral Density Filters}{section.5.1}% 29
+\BOOKMARK [2][-]{subsection.5.1.2}{Two LED Method}{section.5.1}% 30
+\BOOKMARK [1][-]{section.5.2}{Effects of Temperature on PMT Gain}{chapter.5}% 31
+\BOOKMARK [0][-]{chapter.6}{Computer Simulation of FD PMT}{}% 32
+\BOOKMARK [0][-]{chapter.7}{Measuring FD PMT Gain Variance with CalA Data}{}% 33
+\BOOKMARK [1][-]{section.7.1}{Result of Pairs Method}{chapter.7}% 34
+\BOOKMARK [1][-]{section.7.2}{Result of Averaging Sets of Traces Method}{chapter.7}% 35
+\BOOKMARK [1][-]{section.7.3}{Result of Averaging Sets of Traces Method with Least Trimmed Squares}{chapter.7}% 36
+\BOOKMARK [1][-]{section.7.4}{Result of Averaging Sets of Traces Method using Noise Distribution}{chapter.7}% 37
+\BOOKMARK [0][-]{chapter.8}{Laboratory Simulation of FD shift}{}% 38
+\BOOKMARK [0][-]{chapter.9}{Evaluation of Cloud Camera Cuts}{}% 39
+\BOOKMARK [0][-]{chapter.10}{Conclusion}{}% 40
+\BOOKMARK [1][-]{section.10.1}{Future Work}{chapter.10}% 41

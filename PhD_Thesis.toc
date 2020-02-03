@@ -25,13 +25,17 @@
 \contentsline {subsection}{\numberline {4.2.1}Comparing Simulated Data to Real Data}{16}{subsection.4.2.1}
 \contentsline {section}{\numberline {4.3}EAS Track Length in the FD's}{16}{section.4.3}
 \contentsline {chapter}{\numberline {5}Quantifying Characteristics of the FD PMT}{23}{chapter.5}
-\contentsline {chapter}{\numberline {6}Computer Simulation of FD PMT}{29}{chapter.6}
-\contentsline {chapter}{\numberline {7}Measuring FD PMT Gain Variance with CalA Data}{35}{chapter.7}
-\contentsline {section}{\numberline {7.1}Result of Pairs Method}{35}{section.7.1}
-\contentsline {section}{\numberline {7.2}Result of Averaging Sets of Traces Method}{35}{section.7.2}
-\contentsline {section}{\numberline {7.3}Result of Averaging Sets of Traces Method with Least Trimmed Squares}{35}{section.7.3}
-\contentsline {section}{\numberline {7.4}Result of Averaging Sets of Traces Method using Noise Distribution}{35}{section.7.4}
-\contentsline {chapter}{\numberline {8}Laboratory Simulation of FD shift}{47}{chapter.8}
-\contentsline {chapter}{\numberline {9}Evaluation of Cloud Camera Cuts}{49}{chapter.9}
-\contentsline {chapter}{\numberline {10}Conclusion}{51}{chapter.10}
-\contentsline {section}{\numberline {10.1}Future Work}{51}{section.10.1}
+\contentsline {section}{\numberline {5.1}PMT Linearity}{23}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Neutral Density Filters}{23}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Two LED Method}{26}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}Effects of Temperature on PMT Gain}{28}{section.5.2}
+\contentsline {chapter}{\numberline {6}Computer Simulation of FD PMT}{31}{chapter.6}
+\contentsline {chapter}{\numberline {7}Measuring FD PMT Gain Variance with CalA Data}{37}{chapter.7}
+\contentsline {section}{\numberline {7.1}Result of Pairs Method}{37}{section.7.1}
+\contentsline {section}{\numberline {7.2}Result of Averaging Sets of Traces Method}{37}{section.7.2}
+\contentsline {section}{\numberline {7.3}Result of Averaging Sets of Traces Method with Least Trimmed Squares}{37}{section.7.3}
+\contentsline {section}{\numberline {7.4}Result of Averaging Sets of Traces Method using Noise Distribution}{37}{section.7.4}
+\contentsline {chapter}{\numberline {8}Laboratory Simulation of FD shift}{49}{chapter.8}
+\contentsline {chapter}{\numberline {9}Evaluation of Cloud Camera Cuts}{51}{chapter.9}
+\contentsline {chapter}{\numberline {10}Conclusion}{53}{chapter.10}
+\contentsline {section}{\numberline {10.1}Future Work}{53}{section.10.1}

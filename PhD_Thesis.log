@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.11)  3 FEB 2020 16:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.11)  6 FEB 2020 10:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -674,7 +674,7 @@ LaTeX Info: Redefining \nameref on input line 99.
 \openout3 = `PhD_Thesis.out'.
 
  (./chapters/title.tex
-<pix/UoA_col_vert.png, id=168, 124.0635pt x 92.0238pt>
+<pix/UoA_col_vert.png, id=196, 124.0635pt x 92.0238pt>
 File: pix/UoA_col_vert.png Graphic file (type png)
 
 <use pix/UoA_col_vert.png>
@@ -729,7 +729,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--121
 ] [1]) (./chapters/cosmic_rays.tex
 [2]
 Chapter 1.
-<chapters/pix/CosmicRay_Spectrum.png, id=290, 610.28pt x 753.81625pt>
+<chapters/pix/CosmicRay_Spectrum.png, id=326, 610.28pt x 753.81625pt>
 File: chapters/pix/CosmicRay_Spectrum.png Graphic file (type png)
 
 <use chapters/pix/CosmicRay_Spectrum.png>
@@ -746,7 +746,7 @@ Missing character: There is no ™ in font cmr12!
 
 ]
 Chapter 2.
-<chapters/pix/CR_ExtensiveAirShowers.png, id=315, 619.113pt x 462.528pt>
+<chapters/pix/CR_ExtensiveAirShowers.png, id=350, 619.113pt x 462.528pt>
 File: chapters/pix/CR_ExtensiveAirShowers.png Graphic file (type png)
 
 <use chapters/pix/CR_ExtensiveAirShowers.png>
@@ -757,14 +757,14 @@ line 14.
 g>]
 Chapter 3.
 
-<chapters/pix/PAO_equipment_layout_overview.png, id=327, 853.1875pt x 770.88pt>
+<chapters/pix/PAO_equipment_layout_overview.png, id=362, 853.1875pt x 770.88pt>
 File: chapters/pix/PAO_equipment_layout_overview.png Graphic file (type png)
 <use chapters/pix/PAO_equipment_layout_overview.png>
 Package pdftex.def Info: chapters/pix/PAO_equipment_layout_overview.png used on
  input line 10.
 (pdftex.def)             Requested size: 308.71106pt x 278.92812pt.
 
-<chapters/pix/pierre-auger-observatory_tankAndTelescope.jpg, id=328, 552.0625pt
+<chapters/pix/pierre-auger-observatory_tankAndTelescope.jpg, id=363, 552.0625pt
  x 414.54875pt>
 File: chapters/pix/pierre-auger-observatory_tankAndTelescope.jpg Graphic file (
 type jpg)
@@ -774,7 +774,7 @@ Package pdftex.def Info: chapters/pix/pierre-auger-observatory_tankAndTelescope
 .jpg used on input line 13.
 (pdftex.def)             Requested size: 308.71106pt x 231.8231pt.
 
-<chapters/pix/inside_surface_detector.jpg, id=329, 466.74374pt x 350.30875pt>
+<chapters/pix/inside_surface_detector.jpg, id=364, 466.74374pt x 350.30875pt>
 File: chapters/pix/inside_surface_detector.jpg Graphic file (type jpg)
 
 <use chapters/pix/inside_surface_detector.jpg>
@@ -782,7 +782,7 @@ Package pdftex.def Info: chapters/pix/inside_surface_detector.jpg used on input
  line 23.
 (pdftex.def)             Requested size: 308.71106pt x 231.70694pt.
 
-<chapters/pix/fluorescence_telescope.png, id=330, 562.1pt x 546.04pt>
+<chapters/pix/fluorescence_telescope.png, id=365, 562.1pt x 546.04pt>
 File: chapters/pix/fluorescence_telescope.png Graphic file (type png)
 
 <use chapters/pix/fluorescence_telescope.png>
@@ -808,7 +808,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/SelectionEff_erro
 rbars_10timesNSB.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
 
-<chapters/graphs/SelectionEff/SelectionEff_errorbars_10timesNSB.pdf, id=365, 56
+<chapters/graphs/SelectionEff/SelectionEff_errorbars_10timesNSB.pdf, id=400, 56
 9.12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/SelectionEff_errorbars_10timesNSB.pdf Graphi
 c file (type pdf)
@@ -826,7 +826,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Smearing_RealData
 _EnergyBias.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
 
-<chapters/graphs/SelectionEff/Smearing_RealData_EnergyBias.pdf, id=379, 569.126
+<chapters/graphs/SelectionEff/Smearing_RealData_EnergyBias.pdf, id=414, 569.126
 25pt x 297.11pt>
 File: chapters/graphs/SelectionEff/Smearing_RealData_EnergyBias.pdf Graphic fil
 e (type pdf)
@@ -841,7 +841,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Simulation_Proton
 Iron_EnergyBias.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
 
-<chapters/graphs/SelectionEff/Simulation_ProtonIron_EnergyBias.pdf, id=380, 569
+<chapters/graphs/SelectionEff/Simulation_ProtonIron_EnergyBias.pdf, id=415, 569
 .12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/Simulation_ProtonIron_EnergyBias.pdf Graphic
  file (type pdf)
@@ -856,7 +856,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Smearing_RealData
 _XmaxBias.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.
 5> allowed
 
-<chapters/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf, id=381, 569.12625
+<chapters/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf, id=416, 569.12625
 pt x 297.11pt>
 File: chapters/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf Graphic file 
 (type pdf)
@@ -871,7 +871,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Simulation_Proton
 Iron_XmaxBias.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
 
-<chapters/graphs/SelectionEff/Simulation_ProtonIron_XmaxBias.pdf, id=382, 569.1
+<chapters/graphs/SelectionEff/Simulation_ProtonIron_XmaxBias.pdf, id=417, 569.1
 2625pt x 297.11pt>
 File: chapters/graphs/SelectionEff/Simulation_ProtonIron_XmaxBias.pdf Graphic f
 ile (type pdf)
@@ -886,7 +886,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Combined_EnergyRe
 s_All.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
 llowed
 
-<chapters/graphs/SelectionEff/Combined_EnergyRes_All.pdf, id=383, 569.12625pt x
+<chapters/graphs/SelectionEff/Combined_EnergyRes_All.pdf, id=418, 569.12625pt x
  305.14pt>
 File: chapters/graphs/SelectionEff/Combined_EnergyRes_All.pdf Graphic file (typ
 e pdf)
@@ -900,7 +900,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Combined_XmaxRes_
 All.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
 
-<chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf, id=384, 569.12625pt x 2
+<chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf, id=419, 569.12625pt x 2
 97.11pt>
 File: chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf Graphic file (type 
 pdf)
@@ -914,7 +914,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RealDataAndSim_Xm
 axDistComp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
 
-<chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf, id=385, 569.1262
+<chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf, id=420, 569.1262
 5pt x 305.14pt>
 File: chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf Graphic file
  (type pdf)
@@ -929,7 +929,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RealDataAndSim_Rp
 DistComp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5
 > allowed
 
-<chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf, id=386, 569.12625p
+<chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf, id=421, 569.12625p
 t x 305.14pt>
 File: chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf Graphic file (
 type pdf)
@@ -943,7 +943,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RealDataAndSim_Ze
 nithDistComp.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.pdf, id=387, 569.12
+<chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.pdf, id=422, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.pdf Graphic fi
 le (type pdf)
@@ -958,7 +958,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RealDataAndSim_Di
 stToXmaxDistComp.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
 
-<chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf, id=388, 56
+<chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf, id=423, 56
 9.12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf Graphi
 c file (type pdf)
@@ -973,7 +973,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Smearing_TrackLen
 gth_DiffNSBlevels.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
 sion <1.5> allowed
 
-<chapters/graphs/SelectionEff/Smearing_TrackLength_DiffNSBlevels.pdf, id=389, 5
+<chapters/graphs/SelectionEff/Smearing_TrackLength_DiffNSBlevels.pdf, id=424, 5
 69.12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/Smearing_TrackLength_DiffNSBlevels.pdf Graph
 ic file (type pdf)
@@ -989,7 +989,7 @@ ength_Comb_StandANdIncreasedNSB.pdf): PDF inclusion: found PDF version <1.7>, b
 ut at most version <1.5> allowed
 
 <chapters/graphs/SelectionEff/Simulation_TrackLength_Comb_StandANdIncreasedNSB.
-pdf, id=390, 569.12625pt x 297.11pt>
+pdf, id=425, 569.12625pt x 297.11pt>
 File: chapters/graphs/SelectionEff/Simulation_TrackLength_Comb_StandANdIncrease
 dNSB.pdf Graphic file (type pdf)
 
@@ -1014,7 +1014,7 @@ Chapter 5.
 [23
 
 ]
-<chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png, id=521, 929.4725pt x
+<chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png, id=556, 929.4725pt x
  874.26625pt>
 File: chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png Graphic file (ty
 pe png)
@@ -1028,7 +1028,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT900V_linearityNDmet
 hod.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
 
-<chapters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf, id=522, 569.12625pt x 2
+<chapters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf, id=557, 569.12625pt x 2
 97.11pt>
 File: chapters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf Graphic file (type 
 pdf)
@@ -1048,7 +1048,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT600V_linearityNDmet
 hod.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
 
-<chapters/graphs/PMTchar/PMT600V_linearityNDmethod.pdf, id=523, 569.12625pt x 2
+<chapters/graphs/PMTchar/PMT600V_linearityNDmethod.pdf, id=558, 569.12625pt x 2
 97.11pt>
 File: chapters/graphs/PMTchar/PMT600V_linearityNDmethod.pdf Graphic file (type 
 pdf)
@@ -1065,7 +1065,7 @@ Missing character: There is no ¢ in font cmr10!
  [24 <./chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png>] [25 <./chapt
 ers/graphs/PMTchar/PMT900V_linearityNDmethod.pdf> <./chapters/graphs/PMTchar/PM
 T600V_linearityNDmethod.pdf>]
-<chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf, id=554, 462.75282pt x 329.57
+<chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf, id=590, 462.75282pt x 329.57
 73pt>
 File: chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf Graphic file (type pdf)
  <use chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf>
@@ -1078,7 +1078,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT900V_linearity2LEDm
 ethod.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
 llowed
 
-<chapters/graphs/PMTchar/PMT900V_linearity2LEDmethod.pdf, id=555, 569.12625pt x
+<chapters/graphs/PMTchar/PMT900V_linearity2LEDmethod.pdf, id=591, 569.12625pt x
  297.11pt>
 File: chapters/graphs/PMTchar/PMT900V_linearity2LEDmethod.pdf Graphic file (typ
 e pdf)
@@ -1098,7 +1098,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT600V_linearity2LEDm
 ethod.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
 llowed
 
-<chapters/graphs/PMTchar/PMT600V_linearity2LEDmethod.pdf, id=556, 569.12625pt x
+<chapters/graphs/PMTchar/PMT600V_linearity2LEDmethod.pdf, id=592, 569.12625pt x
  297.11pt>
 File: chapters/graphs/PMTchar/PMT600V_linearity2LEDmethod.pdf Graphic file (typ
 e pdf)
@@ -1121,7 +1121,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT900V_temperatureVsA
 DC.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
 
-<chapters/graphs/PMTchar/PMT900V_temperatureVsADC.pdf, id=592, 569.12625pt x 29
+<chapters/graphs/PMTchar/PMT900V_temperatureVsADC.pdf, id=627, 569.12625pt x 29
 7.11pt>
 File: chapters/graphs/PMTchar/PMT900V_temperatureVsADC.pdf Graphic file (type p
 df)
@@ -1141,7 +1141,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT600V_temperatureVsA
 DC.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
 
-<chapters/graphs/PMTchar/PMT600V_temperatureVsADC.pdf, id=593, 569.12625pt x 29
+<chapters/graphs/PMTchar/PMT600V_temperatureVsADC.pdf, id=628, 569.12625pt x 29
 7.11pt>
 File: chapters/graphs/PMTchar/PMT600V_temperatureVsADC.pdf Graphic file (type p
 df)
@@ -1159,20 +1159,22 @@ Missing character: There is no ¢ in font cmr10!
 (./chapters/CompSimOfPMT.tex [29] [30 <./chapters/graphs/PMTchar/PMT900V_temper
 atureVsADC.pdf> <./chapters/graphs/PMTchar/PMT600V_temperatureVsADC.pdf>]
 Chapter 6.
+[31
 
+]
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _PoissonFit_Dynode1_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
 
 <chapters/graphs/PMTsimulation/ElectronsLeaving_PoissonFit_Dynode1_5e4.pdf, id=
-617, 569.12625pt x 305.14pt>
+657, 569.12625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_PoissonFit_Dynode1_5e4.pdf
  Graphic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_PoissonFit_Dynode1_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Poisson
-Fit_Dynode1_5e4.pdf used on input line 16.
+Fit_Dynode1_5e4.pdf used on input line 29.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1180,14 +1182,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _Dynode2_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode2_5e4.pdf, id=618, 569.12
+<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode2_5e4.pdf, id=658, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode2_5e4.pdf Graphic fi
 le (type pdf)
 
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode2_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode2
-_5e4.pdf used on input line 21.
+_5e4.pdf used on input line 34.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1195,14 +1197,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _Dynode3_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode3_5e4.pdf, id=619, 569.12
+<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode3_5e4.pdf, id=659, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode3_5e4.pdf Graphic fi
 le (type pdf)
 
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode3_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode3
-_5e4.pdf used on input line 28.
+_5e4.pdf used on input line 41.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1210,14 +1212,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _Dynode4_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode4_5e4.pdf, id=620, 569.12
+<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode4_5e4.pdf, id=660, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode4_5e4.pdf Graphic fi
 le (type pdf)
 
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode4_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode4
-_5e4.pdf used on input line 33.
+_5e4.pdf used on input line 46.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1225,14 +1227,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _Dynode5_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode5_5e4.pdf, id=621, 569.12
+<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode5_5e4.pdf, id=661, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode5_5e4.pdf Graphic fi
 le (type pdf)
 
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode5_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode5
-_5e4.pdf used on input line 40.
+_5e4.pdf used on input line 53.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1240,14 +1242,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _Dynode6_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode6_5e4.pdf, id=622, 569.12
+<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode6_5e4.pdf, id=662, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode6_5e4.pdf Graphic fi
 le (type pdf)
 
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode6_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode6
-_5e4.pdf used on input line 45.
+_5e4.pdf used on input line 58.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1255,14 +1257,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _Dynode7_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode7_5e4.pdf, id=623, 569.12
+<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode7_5e4.pdf, id=663, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode7_5e4.pdf Graphic fi
 le (type pdf)
 
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode7_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode7
-_5e4.pdf used on input line 52.
+_5e4.pdf used on input line 65.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1270,14 +1272,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _Dynode8_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode8_5e4.pdf, id=624, 569.12
+<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode8_5e4.pdf, id=664, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode8_5e4.pdf Graphic fi
 le (type pdf)
 
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode8_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode8
-_5e4.pdf used on input line 57.
+_5e4.pdf used on input line 70.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1285,14 +1287,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_5e5.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e5.pdf, id=625, 56
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e5.pdf, id=665, 56
 9.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e5.pdf Graphi
 c file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e5.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_5e5.pdf used on input line 65.
+igm0_5e5.pdf used on input line 81.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1300,14 +1302,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_1_5e5.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e5.pdf, id=626, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e5.pdf, id=666, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e5.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e5.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_1_5e5.pdf used on input line 70.
+igm0_1_5e5.pdf used on input line 86.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1315,14 +1317,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_2_5e5.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e5.pdf, id=627, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e5.pdf, id=667, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e5.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e5.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_2_5e5.pdf used on input line 77.
+igm0_2_5e5.pdf used on input line 93.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1330,14 +1332,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_3_5e5.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e5.pdf, id=628, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e5.pdf, id=668, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e5.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e5.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_3_5e5.pdf used on input line 82.
+igm0_3_5e5.pdf used on input line 98.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1345,14 +1347,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_4_5e5.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e5.pdf, id=629, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e5.pdf, id=669, 
 569.12625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e5.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e5.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_4_5e5.pdf used on input line 89.
+igm0_4_5e5.pdf used on input line 105.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1360,14 +1362,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_5_5e5.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e5.pdf, id=630, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e5.pdf, id=670, 
 569.12625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e5.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e5.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_5_5e5.pdf used on input line 94.
+igm0_5_5e5.pdf used on input line 110.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1375,14 +1377,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e4.pdf, id=631, 56
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e4.pdf, id=671, 56
 9.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e4.pdf Graphi
 c file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_5e4.pdf used on input line 102.
+igm0_5e4.pdf used on input line 118.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1390,14 +1392,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_1_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e4.pdf, id=632, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e4.pdf, id=672, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e4.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_1_5e4.pdf used on input line 107.
+igm0_1_5e4.pdf used on input line 123.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1405,14 +1407,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_2_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e4.pdf, id=633, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e4.pdf, id=673, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e4.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_2_5e4.pdf used on input line 114.
+igm0_2_5e4.pdf used on input line 130.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1420,14 +1422,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_3_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e4.pdf, id=634, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e4.pdf, id=674, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e4.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_3_5e4.pdf used on input line 119.
+igm0_3_5e4.pdf used on input line 135.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1435,14 +1437,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_4_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e4.pdf, id=635, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e4.pdf, id=675, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e4.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_4_5e4.pdf used on input line 126.
+igm0_4_5e4.pdf used on input line 142.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1450,14 +1452,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_5_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e4.pdf, id=636, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e4.pdf, id=676, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e4.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_5_5e4.pdf used on input line 131.
+igm0_5_5e4.pdf used on input line 147.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1465,14 +1467,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_5e3.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e3.pdf, id=637, 56
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e3.pdf, id=677, 56
 9.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e3.pdf Graphi
 c file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e3.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_5e3.pdf used on input line 139.
+igm0_5e3.pdf used on input line 155.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1480,14 +1482,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_1_5e3.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e3.pdf, id=638, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e3.pdf, id=678, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e3.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e3.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_1_5e3.pdf used on input line 144.
+igm0_1_5e3.pdf used on input line 160.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1495,14 +1497,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_2_5e3.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e3.pdf, id=639, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e3.pdf, id=679, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e3.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e3.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_2_5e3.pdf used on input line 151.
+igm0_2_5e3.pdf used on input line 167.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1510,14 +1512,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_3_5e3.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e3.pdf, id=640, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e3.pdf, id=680, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e3.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e3.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_3_5e3.pdf used on input line 156.
+igm0_3_5e3.pdf used on input line 172.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1525,14 +1527,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_4_5e3.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e3.pdf, id=641, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e3.pdf, id=681, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e3.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e3.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_4_5e3.pdf used on input line 163.
+igm0_4_5e3.pdf used on input line 179.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1540,14 +1542,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_5_5e3.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e3.pdf, id=642, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e3.pdf, id=682, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e3.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e3.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_5_5e3.pdf used on input line 168.
+igm0_5_5e3.pdf used on input line 184.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1555,14 +1557,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/FLT_simulation_2
 _71pePER100ns.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
 
-<chapters/graphs/PMTsimulation/FLT_simulation_2_71pePER100ns.pdf, id=643, 569.1
+<chapters/graphs/PMTsimulation/FLT_simulation_2_71pePER100ns.pdf, id=683, 569.1
 2625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/FLT_simulation_2_71pePER100ns.pdf Graphic f
 ile (type pdf)
 
 <use chapters/graphs/PMTsimulation/FLT_simulation_2_71pePER100ns.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/FLT_simulation_2_71pePER
-100ns.pdf used on input line 176.
+100ns.pdf used on input line 197.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1570,14 +1572,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/FLT_simulation_6
 _60pePER100ns.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
 
-<chapters/graphs/PMTsimulation/FLT_simulation_6_60pePER100ns.pdf, id=644, 569.1
+<chapters/graphs/PMTsimulation/FLT_simulation_6_60pePER100ns.pdf, id=684, 569.1
 2625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/FLT_simulation_6_60pePER100ns.pdf Graphic f
 ile (type pdf)
 
 <use chapters/graphs/PMTsimulation/FLT_simulation_6_60pePER100ns.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/FLT_simulation_6_60pePER
-100ns.pdf used on input line 181.
+100ns.pdf used on input line 202.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1585,14 +1587,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/FLT_simulation_4
 6_8pePER100ns.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
 
-<chapters/graphs/PMTsimulation/FLT_simulation_46_8pePER100ns.pdf, id=645, 569.1
+<chapters/graphs/PMTsimulation/FLT_simulation_46_8pePER100ns.pdf, id=685, 569.1
 2625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/FLT_simulation_46_8pePER100ns.pdf Graphic f
 ile (type pdf)
 
 <use chapters/graphs/PMTsimulation/FLT_simulation_46_8pePER100ns.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/FLT_simulation_46_8pePER
-100ns.pdf used on input line 188.
+100ns.pdf used on input line 209.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1600,14 +1602,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/FLT_simulation_6
 5_8pePER100ns.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
 
-<chapters/graphs/PMTsimulation/FLT_simulation_65_8pePER100ns.pdf, id=646, 569.1
+<chapters/graphs/PMTsimulation/FLT_simulation_65_8pePER100ns.pdf, id=686, 569.1
 2625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/FLT_simulation_65_8pePER100ns.pdf Graphic f
 ile (type pdf)
 
 <use chapters/graphs/PMTsimulation/FLT_simulation_65_8pePER100ns.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/FLT_simulation_65_8pePER
-100ns.pdf used on input line 193.
+100ns.pdf used on input line 214.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1615,14 +1617,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/FLT_simulation_2
 63pePER100ns.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/PMTsimulation/FLT_simulation_263pePER100ns.pdf, id=647, 569.12
+<chapters/graphs/PMTsimulation/FLT_simulation_263pePER100ns.pdf, id=687, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/FLT_simulation_263pePER100ns.pdf Graphic fi
 le (type pdf)
 
 <use chapters/graphs/PMTsimulation/FLT_simulation_263pePER100ns.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/FLT_simulation_263pePER1
-00ns.pdf used on input line 199.
+00ns.pdf used on input line 220.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1630,78 +1632,79 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/FLT_simulation_6
 57pePER100ns.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/PMTsimulation/FLT_simulation_657pePER100ns.pdf, id=648, 569.12
+<chapters/graphs/PMTsimulation/FLT_simulation_657pePER100ns.pdf, id=688, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/FLT_simulation_657pePER100ns.pdf Graphic fi
 le (type pdf)
 
 <use chapters/graphs/PMTsimulation/FLT_simulation_657pePER100ns.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/FLT_simulation_657pePER1
-00ns.pdf used on input line 204.
+00ns.pdf used on input line 225.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 )
-(./chapters/GainVarianceMeasure.tex [31
+(./chapters/GainVarianceMeasure.tex [32] [33 <./chapters/graphs/PMTsimulation/E
+lectronsLeaving_PoissonFit_Dynode1_5e4.pdf> <./chapters/graphs/PMTsimulation/El
+ectronsLeaving_Dynode2_5e4.pdf> <./chapters/graphs/PMTsimulation/ElectronsLeavi
+ng_Dynode3_5e4.pdf> <./chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode4_5
+e4.pdf> <./chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode5_5e4.pdf> <./c
+hapters/graphs/PMTsimulation/ElectronsLeaving_Dynode6_5e4.pdf> <./chapters/grap
+hs/PMTsimulation/ElectronsLeaving_Dynode7_5e4.pdf> <./chapters/graphs/PMTsimula
+tion/ElectronsLeaving_Dynode8_5e4.pdf>] [34 <./chapters/graphs/PMTsimulation/PM
+Tsim_1PE_TypeC_DynodeSigm0_5e5.pdf> <./chapters/graphs/PMTsimulation/PMTsim_1PE
+_TypeC_DynodeSigm0_1_5e5.pdf> <./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
+_DynodeSigm0_2_5e5.pdf> <./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_Dynod
+eSigm0_3_5e5.pdf> <./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0
+_4_5e5.pdf> <./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e5
+.pdf>] [35 <./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e4.pd
+f> <./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e4.pdf> <./
+chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e4.pdf> <./chapte
+rs/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e4.pdf> <./chapters/gra
+phs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e4.pdf> <./chapters/graphs/PM
+Tsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e4.pdf>] [36 <./chapters/graphs/PMT
+simulation/PMTsim_1PE_TypeC_DynodeSigm0_5e3.pdf> <./chapters/graphs/PMTsimulati
+on/PMTsim_1PE_TypeC_DynodeSigm0_1_5e3.pdf> <./chapters/graphs/PMTsimulation/PMT
+sim_1PE_TypeC_DynodeSigm0_2_5e3.pdf> <./chapters/graphs/PMTsimulation/PMTsim_1P
+E_TypeC_DynodeSigm0_3_5e3.pdf> <./chapters/graphs/PMTsimulation/PMTsim_1PE_Type
+C_DynodeSigm0_4_5e3.pdf> <./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_Dyno
+deSigm0_5_5e3.pdf>] [37 <./chapters/graphs/PMTsimulation/FLT_simulation_2_71peP
+ER100ns.pdf> <./chapters/graphs/PMTsimulation/FLT_simulation_6_60pePER100ns.pdf
+> <./chapters/graphs/PMTsimulation/FLT_simulation_46_8pePER100ns.pdf> <./chapte
+rs/graphs/PMTsimulation/FLT_simulation_65_8pePER100ns.pdf> <./chapters/graphs/P
+MTsimulation/FLT_simulation_263pePER100ns.pdf> <./chapters/graphs/PMTsimulation
+/FLT_simulation_657pePER100ns.pdf>] [38
 
-] [32 <./chapters/graphs/PMTsimulation/ElectronsLeaving_PoissonFit_Dynode1_5e4.
-pdf> <./chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode2_5e4.pdf> <./chap
-ters/graphs/PMTsimulation/ElectronsLeaving_Dynode3_5e4.pdf> <./chapters/graphs/
-PMTsimulation/ElectronsLeaving_Dynode4_5e4.pdf> <./chapters/graphs/PMTsimulatio
-n/ElectronsLeaving_Dynode5_5e4.pdf> <./chapters/graphs/PMTsimulation/ElectronsL
-eaving_Dynode6_5e4.pdf> <./chapters/graphs/PMTsimulation/ElectronsLeaving_Dynod
-e7_5e4.pdf> <./chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode8_5e4.pdf>]
- [33 <./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e5.pdf> <./
-chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e5.pdf> <./chapte
-rs/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e5.pdf> <./chapters/gra
-phs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e5.pdf> <./chapters/graphs/PM
-Tsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e5.pdf> <./chapters/graphs/PMTsimul
-ation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e5.pdf>] [34 <./chapters/graphs/PMTsimula
-tion/PMTsim_1PE_TypeC_DynodeSigm0_5e4.pdf> <./chapters/graphs/PMTsimulation/PMT
-sim_1PE_TypeC_DynodeSigm0_1_5e4.pdf> <./chapters/graphs/PMTsimulation/PMTsim_1P
-E_TypeC_DynodeSigm0_2_5e4.pdf> <./chapters/graphs/PMTsimulation/PMTsim_1PE_Type
-C_DynodeSigm0_3_5e4.pdf> <./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_Dyno
-deSigm0_4_5e4.pdf> <./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm
-0_5_5e4.pdf>] [35 <./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0
-_5e3.pdf> <./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e3.p
-df> <./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e3.pdf> <.
-/chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e3.pdf> <./chapt
-ers/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e3.pdf> <./chapters/gr
-aphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e3.pdf>] [36 <./chapters/gra
-phs/PMTsimulation/FLT_simulation_2_71pePER100ns.pdf> <./chapters/graphs/PMTsimu
-lation/FLT_simulation_6_60pePER100ns.pdf> <./chapters/graphs/PMTsimulation/FLT_
-simulation_46_8pePER100ns.pdf> <./chapters/graphs/PMTsimulation/FLT_simulation_
-65_8pePER100ns.pdf> <./chapters/graphs/PMTsimulation/FLT_simulation_263pePER100
-ns.pdf> <./chapters/graphs/PMTsimulation/FLT_simulation_657pePER100ns.pdf>]
+]
 Chapter 7.
-
+[39]
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /example_NoiseHist1.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
 
-<chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist1.pdf, id=978,
- 569.12625pt x 297.11pt>
+<chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist1.pdf, id=1028
+, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist1.pdf Gra
 phic file (type pdf)
 
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist1.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example
-_NoiseHist1.pdf used on input line 14.
-(pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
+_NoiseHist1.pdf used on input line 36.
+(pdftex.def)             Requested size: 418.96548pt x 218.7291pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /example_NoiseHist2.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
 
-<chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist2.pdf, id=979,
- 569.12625pt x 297.11pt>
+<chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist2.pdf, id=1029
+, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist2.pdf Gra
 phic file (type pdf)
 
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example
-_NoiseHist2.pdf used on input line 17.
-(pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
+_NoiseHist2.pdf used on input line 41.
+(pdftex.def)             Requested size: 418.96548pt x 218.7291pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
@@ -1709,14 +1712,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 n <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_StandHV_Pairs
-_set0and2.pdf, id=980, 569.12625pt x 297.11pt>
+_set0and2.pdf, id=1030, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_StandHV_
 Pairs_set0and2.pdf Graphic file (type pdf)
 
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_StandHV_P
 airs_set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/meanHist_StandHV_Pairs_set0and2.pdf used on input line 24.
+2/meanHist_StandHV_Pairs_set0and2.pdf used on input line 54.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1725,14 +1728,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_LowHV_Pairs_s
-et0and2.pdf, id=981, 569.12625pt x 297.11pt>
+et0and2.pdf, id=1031, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_LowHV_Pa
 irs_set0and2.pdf Graphic file (type pdf)
 
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_LowHV_Pai
 rs_set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/meanHist_LowHV_Pairs_set0and2.pdf used on input line 27.
+2/meanHist_LowHV_Pairs_set0and2.pdf used on input line 57.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1741,14 +1744,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 rsion <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_StandHV_P
-airs_set0and2.pdf, id=982, 569.12625pt x 297.11pt>
+airs_set0and2.pdf, id=1032, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_Stan
 dHV_Pairs_set0and2.pdf Graphic file (type pdf)
 
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_Stand
 HV_Pairs_set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/varianceHist_StandHV_Pairs_set0and2.pdf used on input line 32.
+2/varianceHist_StandHV_Pairs_set0and2.pdf used on input line 62.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1757,14 +1760,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 ion <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_LowHV_Pai
-rs_set0and2.pdf, id=983, 569.12625pt x 297.11pt>
+rs_set0and2.pdf, id=1033, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_LowH
 V_Pairs_set0and2.pdf Graphic file (type pdf)
 
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_LowHV
 _Pairs_set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/varianceHist_LowHV_Pairs_set0and2.pdf used on input line 35.
+2/varianceHist_LowHV_Pairs_set0and2.pdf used on input line 65.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1773,14 +1776,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_Pairs
-.pdf, id=984, 569.12625pt x 297.11pt>
+.pdf, id=1034, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_
 Pairs.pdf Graphic file (type pdf)
 
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_P
 airs.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/GainVairanceHist_Pairs.pdf used on input line 40.
+2/GainVairanceHist_Pairs.pdf used on input line 70.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1789,14 +1792,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 und PDF version <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_Gain
-Variance_Pairs_Set0and2.pdf, id=985, 569.12625pt x 297.11pt>
+Variance_Pairs_Set0and2.pdf, id=1035, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel
 _GainVariance_Pairs_Set0and2.pdf Graphic file (type pdf)
 
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_
 GainVariance_Pairs_Set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/GainVars_Vs_Pixel_GainVariance_Pairs_Set0and2.pdf used on input line 43.
+2/GainVars_Vs_Pixel_GainVariance_Pairs_Set0and2.pdf used on input line 73.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1805,14 +1808,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 ion <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_StandHV_Avera
-ge_set0and2.pdf, id=986, 569.12625pt x 297.11pt>
+ge_set0and2.pdf, id=1036, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_StandHV_
 Average_set0and2.pdf Graphic file (type pdf)
 
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_StandHV_A
 verage_set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/meanHist_StandHV_Average_set0and2.pdf used on input line 50.
+2/meanHist_StandHV_Average_set0and2.pdf used on input line 80.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1821,14 +1824,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 n <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_LowHV_Average
-_set0and2.pdf, id=987, 569.12625pt x 297.11pt>
+_set0and2.pdf, id=1037, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_LowHV_Av
 erage_set0and2.pdf Graphic file (type pdf)
 
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_LowHV_Ave
 rage_set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/meanHist_LowHV_Average_set0and2.pdf used on input line 53.
+2/meanHist_LowHV_Average_set0and2.pdf used on input line 83.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1837,14 +1840,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 version <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_StandHV_A
-verage_set0and2.pdf, id=988, 569.12625pt x 297.11pt>
+verage_set0and2.pdf, id=1038, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_Stan
 dHV_Average_set0and2.pdf Graphic file (type pdf)
 
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_Stand
 HV_Average_set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/varianceHist_StandHV_Average_set0and2.pdf used on input line 58.
+2/varianceHist_StandHV_Average_set0and2.pdf used on input line 88.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1853,14 +1856,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 rsion <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_LowHV_Ave
-rage_set0and2.pdf, id=989, 569.12625pt x 297.11pt>
+rage_set0and2.pdf, id=1039, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_LowH
 V_Average_set0and2.pdf Graphic file (type pdf)
 
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_LowHV
 _Average_set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/varianceHist_LowHV_Average_set0and2.pdf used on input line 61.
+2/varianceHist_LowHV_Average_set0and2.pdf used on input line 91.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1869,14 +1872,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 on <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_Avera
-ge_Method1.pdf, id=990, 569.12625pt x 297.11pt>
+ge_Method1.pdf, id=1040, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_
 Average_Method1.pdf Graphic file (type pdf)
 
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_A
 verage_Method1.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/GainVairanceHist_Average_Method1.pdf used on input line 66.
+2/GainVairanceHist_Average_Method1.pdf used on input line 96.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1885,7 +1888,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_Gain
-Variance_Average_Method1_Set0and2.pdf, id=991, 569.12625pt x 297.11pt>
+Variance_Average_Method1_Set0and2.pdf, id=1041, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel
 _GainVariance_Average_Method1_Set0and2.pdf Graphic file (type pdf)
 
@@ -1893,7 +1896,7 @@ _GainVariance_Average_Method1_Set0and2.pdf Graphic file (type pdf)
 GainVariance_Average_Method1_Set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
 2/GainVars_Vs_Pixel_GainVariance_Average_Method1_Set0and2.pdf used on input lin
-e 69.
+e 99.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1902,14 +1905,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 ion <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod_Sig
-nal_StandHV.pdf, id=992, 569.12625pt x 297.11pt>
+nal_StandHV.pdf, id=1042, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMetho
 d_Signal_StandHV.pdf Graphic file (type pdf)
 
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod
 _Signal_StandHV.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/Chi2_AverageMethod_Signal_StandHV.pdf used on input line 76.
+2/Chi2_AverageMethod_Signal_StandHV.pdf used on input line 106.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1918,14 +1921,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 n <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod_Sig
-nal_LowHV.pdf, id=993, 569.12625pt x 297.11pt>
+nal_LowHV.pdf, id=1043, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMetho
 d_Signal_LowHV.pdf Graphic file (type pdf)
 
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod
 _Signal_LowHV.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/Chi2_AverageMethod_Signal_LowHV.pdf used on input line 79.
+2/Chi2_AverageMethod_Signal_LowHV.pdf used on input line 109.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1934,14 +1937,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 on <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod_Noi
-se_StandHV.pdf, id=994, 569.12625pt x 297.11pt>
+se_StandHV.pdf, id=1044, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMetho
 d_Noise_StandHV.pdf Graphic file (type pdf)
 
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod
 _Noise_StandHV.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/Chi2_AverageMethod_Noise_StandHV.pdf used on input line 84.
+2/Chi2_AverageMethod_Noise_StandHV.pdf used on input line 114.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1950,14 +1953,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
  <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod_Noi
-se_LowHV.pdf, id=995, 569.12625pt x 297.11pt>
+se_LowHV.pdf, id=1045, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMetho
 d_Noise_LowHV.pdf Graphic file (type pdf)
 
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod
 _Noise_LowHV.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/Chi2_AverageMethod_Noise_LowHV.pdf used on input line 87.
+2/Chi2_AverageMethod_Noise_LowHV.pdf used on input line 117.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1966,14 +1969,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_Avera
-ge_LTS.pdf, id=996, 569.12625pt x 297.11pt>
+ge_LTS.pdf, id=1046, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_
 Average_LTS.pdf Graphic file (type pdf)
 
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_A
 verage_LTS.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/GainVairanceHist_Average_LTS.pdf used on input line 93.
+2/GainVairanceHist_Average_LTS.pdf used on input line 123.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1982,15 +1985,15 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 n: found PDF version <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_Gain
-Variance_AverageLTS_Set0and2.pdf, id=997, 569.12625pt x 297.11pt>
+Variance_AverageLTS_Set0and2.pdf, id=1047, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel
 _GainVariance_AverageLTS_Set0and2.pdf Graphic file (type pdf)
 
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_
 GainVariance_AverageLTS_Set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/GainVars_Vs_Pixel_GainVariance_AverageLTS_Set0and2.pdf used on input line 96.
-
+2/GainVars_Vs_Pixel_GainVariance_AverageLTS_Set0and2.pdf used on input line 126
+.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1999,14 +2002,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 on <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_Avera
-ge_Method2.pdf, id=998, 569.12625pt x 297.11pt>
+ge_Method2.pdf, id=1048, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_
 Average_Method2.pdf Graphic file (type pdf)
 
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_A
 verage_Method2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/GainVairanceHist_Average_Method2.pdf used on input line 103.
+2/GainVairanceHist_Average_Method2.pdf used on input line 133.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -2015,7 +2018,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_Gain
-Variance_Average_Method2_Set0and2.pdf, id=999, 569.12625pt x 297.11pt>
+Variance_Average_Method2_Set0and2.pdf, id=1049, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel
 _GainVariance_Average_Method2_Set0and2.pdf Graphic file (type pdf)
 
@@ -2023,78 +2026,75 @@ _GainVariance_Average_Method2_Set0and2.pdf Graphic file (type pdf)
 GainVariance_Average_Method2_Set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
 2/GainVars_Vs_Pixel_GainVariance_Average_Method2_Set0and2.pdf used on input lin
-e 106.
+e 136.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 ) (./chapters/LabSimOfFDshift.tex
-[37
-
-]
+[40] [41 <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist1.p
+df> <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist2.pdf>]
 
 Package Fancyhdr Warning: \headheight is too small (15.0pt): 
  Make it at least 27.05003pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38 <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist1.pdf> <
-./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist2.pdf>]
-[39 <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_StandHV
+[42 <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_StandHV
 _Pairs_set0and2.pdf> <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2
-/meanHist_LowHV_Pairs_set0and2.pdf>] [40 <./chapters/graphs/GainVarsMeas/LL_m04
+/meanHist_LowHV_Pairs_set0and2.pdf>] [43 <./chapters/graphs/GainVarsMeas/LL_m04
 _2016-06-11/Set0and2/varianceHist_StandHV_Pairs_set0and2.pdf> <./chapters/graph
 s/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_LowHV_Pairs_set0and2.pdf
->] [41 <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceH
+>] [44 <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceH
 ist_Pairs.pdf> <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainV
-ars_Vs_Pixel_GainVariance_Pairs_Set0and2.pdf>] [42 <./chapters/graphs/GainVarsM
+ars_Vs_Pixel_GainVariance_Pairs_Set0and2.pdf>] [45 <./chapters/graphs/GainVarsM
 eas/LL_m04_2016-06-11/Set0and2/meanHist_StandHV_Average_set0and2.pdf> <./chapte
 rs/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_LowHV_Average_set0an
-d2.pdf>] [43 <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianc
+d2.pdf>] [46 <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianc
 eHist_StandHV_Average_set0and2.pdf> <./chapters/graphs/GainVarsMeas/LL_m04_2016
--06-11/Set0and2/varianceHist_LowHV_Average_set0and2.pdf>] [44 <./chapters/graph
+-06-11/Set0and2/varianceHist_LowHV_Average_set0and2.pdf>] [47 <./chapters/graph
 s/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_Average_Method1.pdf>
  <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_G
-ainVariance_Average_Method1_Set0and2.pdf>] [45 <./chapters/graphs/GainVarsMeas/
+ainVariance_Average_Method1_Set0and2.pdf>] [48 <./chapters/graphs/GainVarsMeas/
 LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod_Signal_StandHV.pdf> <./chapters/g
 raphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod_Signal_LowHV.p
-df>] [46 <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_Averag
+df>] [49 <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_Averag
 eMethod_Noise_StandHV.pdf> <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Se
-t0and2/Chi2_AverageMethod_Noise_LowHV.pdf>] [47 <./chapters/graphs/GainVarsMeas
+t0and2/Chi2_AverageMethod_Noise_LowHV.pdf>] [50 <./chapters/graphs/GainVarsMeas
 /LL_m04_2016-06-11/Set0and2/GainVairanceHist_Average_LTS.pdf> <./chapters/graph
 s/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_GainVariance_Averag
-eLTS_Set0and2.pdf>] [48 <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0a
+eLTS_Set0and2.pdf>] [51 <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0a
 nd2/GainVairanceHist_Average_Method2.pdf> <./chapters/graphs/GainVarsMeas/LL_m0
 4_2016-06-11/Set0and2/GainVars_Vs_Pixel_GainVariance_Average_Method2_Set0and2.p
-df>]
-Chapter 8.
-) (./chapters/CloudCamera.tex [49
+df>] [52
 
-] [50
+]
+Chapter 8.
+) (./chapters/CloudCamera.tex [53] [54
 
 ]
 Chapter 9.
-) (./chapters/conclusion.tex [51] [52
+) (./chapters/conclusion.tex [55] [56
 
 ]
 Chapter 10.
-) (./PhD_Thesis.bbl [53] [54
+) (./PhD_Thesis.bbl [57] [58
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
- [55]
+ [59]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
  (./PhD_Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 152.
 Package rerunfilecheck Info: File `PhD_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 4431F01FEDFF4415D47A3F171C2E3E37;2908.
+(rerunfilecheck)             Checksum: 951CD486389E3BE27F8552E22ED24661;3493.
  ) 
 Here is how much of TeX's memory you used:
- 11197 strings out of 493029
- 186840 string characters out of 6136233
+ 11217 strings out of 493029
+ 187084 string characters out of 6136233
  382834 words of memory out of 5000000
- 14236 multiletter control sequences out of 15000+600000
+ 14243 multiletter control sequences out of 15000+600000
  13902 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,12n,77p,1079b,593s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,12n,77p,1079b,595s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/tsudholz/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texliv
@@ -2107,10 +2107,10 @@ msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 >
-Output written on PhD_Thesis.pdf (67 pages, 5342123 bytes).
+Output written on PhD_Thesis.pdf (71 pages, 5351162 bytes).
 PDF statistics:
- 1310 PDF objects out of 1440 (max. 8388607)
- 1013 compressed objects within 11 object streams
- 156 named destinations out of 1000 (max. 500000)
- 739 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1366 PDF objects out of 1440 (max. 8388607)
+ 1065 compressed objects within 11 object streams
+ 169 named destinations out of 1000 (max. 500000)
+ 795 words of extra memory for PDF output out of 10000 (max. 10000000)
 

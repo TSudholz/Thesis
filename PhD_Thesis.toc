@@ -30,12 +30,19 @@
 \contentsline {subsection}{\numberline {5.1.2}Two LED Method}{26}{subsection.5.1.2}
 \contentsline {section}{\numberline {5.2}Effects of Temperature on PMT Gain}{26}{section.5.2}
 \contentsline {chapter}{\numberline {6}Computer Simulation of FD PMT}{31}{chapter.6}
-\contentsline {chapter}{\numberline {7}Measuring FD PMT Gain Variance with CalA Data}{37}{chapter.7}
-\contentsline {section}{\numberline {7.1}Result of Pairs Method}{37}{section.7.1}
-\contentsline {section}{\numberline {7.2}Result of Averaging Sets of Traces Method}{37}{section.7.2}
-\contentsline {section}{\numberline {7.3}Result of Averaging Sets of Traces Method with Least Trimmed Squares}{37}{section.7.3}
-\contentsline {section}{\numberline {7.4}Result of Averaging Sets of Traces Method using Noise Distribution}{37}{section.7.4}
-\contentsline {chapter}{\numberline {8}Laboratory Simulation of FD shift}{49}{chapter.8}
-\contentsline {chapter}{\numberline {9}Evaluation of Cloud Camera Cuts}{51}{chapter.9}
-\contentsline {chapter}{\numberline {10}Conclusion}{53}{chapter.10}
-\contentsline {section}{\numberline {10.1}Future Work}{53}{section.10.1}
+\contentsline {section}{\numberline {6.1}Method and Theory}{31}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Theoretical value of Gain Variance?}{31}{subsection.6.1.1}
+\contentsline {section}{\numberline {6.2}Results of PMT Gain Variance Simulation}{32}{section.6.2}
+\contentsline {section}{\numberline {6.3}FD FLT under different NSB levels}{32}{section.6.3}
+\contentsline {chapter}{\numberline {7}Measuring FD PMT Gain Variance with CalA Data}{39}{chapter.7}
+\contentsline {section}{\numberline {7.1}Using CalA to measure relative changes in Gain Variance}{39}{section.7.1}
+\contentsline {section}{\numberline {7.2}Pairs Method}{40}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Results}{40}{subsection.7.2.1}
+\contentsline {section}{\numberline {7.3}Result of Averaging Sets of Traces Method}{40}{section.7.3}
+\contentsline {section}{\numberline {7.4}Result of Averaging Sets of Traces Method with Least Trimmed Squares}{40}{section.7.4}
+\contentsline {section}{\numberline {7.5}Result of Averaging Sets of Traces Method using Noise Distribution}{40}{section.7.5}
+\contentsline {section}{\numberline {7.6}Attempts to measure Gain Variance in Lab at University of Adelaide}{40}{section.7.6}
+\contentsline {chapter}{\numberline {8}Laboratory Simulation of FD shift}{53}{chapter.8}
+\contentsline {chapter}{\numberline {9}Evaluation of Cloud Camera Cuts}{55}{chapter.9}
+\contentsline {chapter}{\numberline {10}Conclusion}{57}{chapter.10}
+\contentsline {section}{\numberline {10.1}Future Work}{57}{section.10.1}

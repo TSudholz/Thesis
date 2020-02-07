@@ -25,10 +25,20 @@ The absolute value of the gain variance cannot be found but using K$_{\mathrm{V}
 
 The method used to measure the ratio in gain variance is to take the calculated means and sigmas from the pulses and then find a ratio between the K$_{\mathrm{V}}$ and Gains at the two different voltage settings.
 \begin{eqnarray}
-\left(\mathrm{K}_{\mathrm{V}}\right)_{\mathrm{Stand}} = \frac{\mathrm{Mean}_{\mathrm{Stand}}}{\mathrm{Sigma}^2_{\mathrm{Stand}}} &=& \frac{10}{2 \times \mathrm{G}_{\mathrm{Stand}} (1 + \mathrm{V}_{\mathrm{G}})_{\mathrm{Stand}} \times \mathrm{F}} \\
-\left(\mathrm{K}_{\mathrm{V}}\right)_{\mathrm{Low}} = \frac{\mathrm{Mean}_{\mathrm{Low}}}{\mathrm{Sigma}^2_{\mathrm{Low}}} &=& \frac{10}{2 \times \mathrm{G}_{\mathrm{Low}} (1 + \mathrm{V}_{\mathrm{G}})_{\mathrm{Low}} \times \mathrm{F}} \\
-\frac{\left(\mathrm{K}_{\mathrm{V}}\right)_{\mathrm{Low}}}{\left(\mathrm{K}_{\mathrm{V}}\right)_{\mathrm{Stand}}}
+\mathrm{K} = \frac{\mathrm{Mean}}{\mathrm{Sigma}^2} &=& \frac{10}{2 \times \mathrm{G} (1 + \mathrm{V}_{\mathrm{G}}) \times \mathrm{F}} \\ 
+\frac{\left(\mathrm{K}_{\mathrm{V}}\right)_{\mathrm{Low}}}{\left(\mathrm{K}_{\mathrm{V}}\right)_{\mathrm{Stand}}} &=& \frac{\mathrm{Mean}_{\mathrm{Low}}}{\mathrm{Sigma}^2_{\mathrm{Low}}} \div \frac{\mathrm{Mean}_{\mathrm{Stand}}}{\mathrm{Sigma}^2_{\mathrm{Stand}}} \\ 
+\frac{\mathrm{Mean}_{\mathrm{Low}}}{\mathrm{Sigma}^2_{\mathrm{Low}}} \div \frac{\mathrm{Mean}_{\mathrm{Stand}}}{\mathrm{Sigma}^2_{\mathrm{Stand}}} &=& \frac{\mathrm{G}_{\mathrm{Stand}} (1 + \mathrm{V}_{\mathrm{G}})_{\mathrm{Stand}}}{\mathrm{G}_{\mathrm{Low}} (1 + \mathrm{V}_{\mathrm{G}})_{\mathrm{Low}}} \\
+\frac{\mathrm{G}_{\mathrm{Stand}}}{\mathrm{G}_{\mathrm{Low}}} &=& \frac{\mathrm{Mean}_{\mathrm{Stand}}}{\mathrm{Mean}_{\mathrm{Low}}} \\
+\frac{(1 + \mathrm{V}_{\mathrm{G}})_{\mathrm{Low}}}{(1 + \mathrm{V}_{\mathrm{G}})_{\mathrm{Stand}}} &=& \frac{\mathrm{Sigma}^2_{\mathrm{Low}} \times \mathrm{Mean}^2_{\mathrm{Stand}}}{\mathrm{Sigma}^2_{\mathrm{Stand}} \times \mathrm{Mean}^2_{\mathrm{Low}}}
 \end{eqnarray}
+
+\section{Electronic Noise}
+
+Investigated the consistency of the electronic noise across a set of 50 CalA traces. The consistency was looked as there is only about 140 bins of noise before the signal pulse start. Therefore finding an accurate mean and variance of the electronic noise on an individual pulse is difficult. An accurate measurement of the electronic noise mean and variance was required as the measured gain variance ratio was only a few percent.
+
+\textbf{Need to show electronic noise as function of time.}
+
+An example of a pixel electronic noise trace is shown in Fig. \ref{}. It can be seen in this figure that stitching all of the noise bins from the 50 traces is remarkably stable. This result allows for all the noise for a single PMT pixel to be place into a histogram to find a more accurate value for the mean and variance.
 
 \begin{figure} % Electronic Noise Distribution
 \centering
@@ -46,7 +56,9 @@ The method used to measure the ratio in gain variance is to take the calculated 
 
 \section{Pairs Method}
 
-For both standard and reduced voltage settings 50 sets of pulses are recorded for the CalA analysis. The pair method
+For both standard and reduced voltage settings 50 sets of pulses are recorded for the CalA analysis. The pair method involves taking single CalA shots from standard and lower voltage settings and fitting an exponential to the signal. The fitted exponential is used to find the mean value at the top of the signal and the variance around the fit. For each pixel 50 values for the Gain Variance ratio is found and this is repeated for the 440 pixels within the FD telescope.
+
+Fig. \ref{fig:CalAMeanADC_Pairs} shows the average ADC count found across a camera for a FD telescope. The pattern follow how the camera is illuminated by the LED pointing at the camera. It shows that the spot is brightness in the middle and the intensity drops off towards the edges \textbf{need to add in diagram of labelled pixel no. across a FD camera}. There are uncertainties on the averages but are smaller then the displayed points. The variance measured in Fig. \ref{fig:CalAVarsADC_Pairs} shows an expected pattern too. The variance is proportional to the mean
 
 \subsection{Results}
 
@@ -55,7 +67,7 @@ For both standard and reduced voltage settings 50 sets of pulses are recorded fo
 \caption{}
 \vspace{3mm}
 \includegraphics[width=\textwidth]{chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_LowHV_Pairs_set0and2.pdf}
-\caption{}
+\caption{} \label{fig:CalAMeanADC_Pairs}
 \end{figure}
 
 \begin{figure} % Variance Plot
@@ -63,7 +75,7 @@ For both standard and reduced voltage settings 50 sets of pulses are recorded fo
 \caption{}
 \vspace{3mm}
 \includegraphics[width=\textwidth]{chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_LowHV_Pairs_set0and2.pdf}
-\caption{}
+\caption{} \label{fig:CalAVarsADC_Pairs}
 \end{figure}
 
 \begin{figure} % Gain Variance Plot
@@ -137,4 +149,4 @@ For both standard and reduced voltage settings 50 sets of pulses are recorded fo
 \caption{}
 \end{figure}
 
-\section{Attempts to measure Gain Variance in Lab at University of Adelaide}
+\section{Attempts to measure Gain Variance directly in the Lab}

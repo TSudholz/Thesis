@@ -36,13 +36,14 @@
 \BOOKMARK [1][-]{section.6.3}{FD FLT under different NSB levels}{chapter.6}% 36
 \BOOKMARK [0][-]{chapter.7}{Measuring FD PMT Gain Variance with CalA Data}{}% 37
 \BOOKMARK [1][-]{section.7.1}{Using CalA to measure relative changes in Gain Variance}{chapter.7}% 38
-\BOOKMARK [1][-]{section.7.2}{Pairs Method}{chapter.7}% 39
-\BOOKMARK [2][-]{subsection.7.2.1}{Results}{section.7.2}% 40
-\BOOKMARK [1][-]{section.7.3}{Result of Averaging Sets of Traces Method}{chapter.7}% 41
-\BOOKMARK [1][-]{section.7.4}{Result of Averaging Sets of Traces Method with Least Trimmed Squares}{chapter.7}% 42
-\BOOKMARK [1][-]{section.7.5}{Result of Averaging Sets of Traces Method using Noise Distribution}{chapter.7}% 43
-\BOOKMARK [1][-]{section.7.6}{Attempts to measure Gain Variance in Lab at University of Adelaide}{chapter.7}% 44
-\BOOKMARK [0][-]{chapter.8}{Laboratory Simulation of FD shift}{}% 45
-\BOOKMARK [0][-]{chapter.9}{Evaluation of Cloud Camera Cuts}{}% 46
-\BOOKMARK [0][-]{chapter.10}{Conclusion}{}% 47
-\BOOKMARK [1][-]{section.10.1}{Future Work}{chapter.10}% 48
+\BOOKMARK [1][-]{section.7.2}{Electronic Noise}{chapter.7}% 39
+\BOOKMARK [1][-]{section.7.3}{Pairs Method}{chapter.7}% 40
+\BOOKMARK [2][-]{subsection.7.3.1}{Results}{section.7.3}% 41
+\BOOKMARK [1][-]{section.7.4}{Result of Averaging Sets of Traces Method}{chapter.7}% 42
+\BOOKMARK [1][-]{section.7.5}{Result of Averaging Sets of Traces Method with Least Trimmed Squares}{chapter.7}% 43
+\BOOKMARK [1][-]{section.7.6}{Result of Averaging Sets of Traces Method using Noise Distribution}{chapter.7}% 44
+\BOOKMARK [1][-]{section.7.7}{Attempts to measure Gain Variance directly in the Lab}{chapter.7}% 45
+\BOOKMARK [0][-]{chapter.8}{Laboratory Simulation of FD shift}{}% 46
+\BOOKMARK [0][-]{chapter.9}{Evaluation of Cloud Camera Cuts}{}% 47
+\BOOKMARK [0][-]{chapter.10}{Conclusion}{}% 48
+\BOOKMARK [1][-]{section.10.1}{Future Work}{chapter.10}% 49

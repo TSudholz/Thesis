@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.11)  13 FEB 2020 14:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.11)  13 FEB 2020 16:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -815,7 +815,7 @@ c file (type pdf)
 
 <use chapters/graphs/SelectionEff/SelectionEff_errorbars_10timesNSB.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/SelectionEff_errorbars_10
-timesNSB.pdf used on input line 109.
+timesNSB.pdf used on input line 111.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -833,7 +833,7 @@ e (type pdf)
 
 <use chapters/graphs/SelectionEff/Smearing_RealData_EnergyBias.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Smearing_RealData_EnergyB
-ias.pdf used on input line 137.
+ias.pdf used on input line 139.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -848,7 +848,7 @@ File: chapters/graphs/SelectionEff/Simulation_ProtonIron_EnergyBias.pdf Graphic
 
 <use chapters/graphs/SelectionEff/Simulation_ProtonIron_EnergyBias.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Simulation_ProtonIron_Ene
-rgyBias.pdf used on input line 140.
+rgyBias.pdf used on input line 142.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
@@ -863,7 +863,7 @@ File: chapters/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf Graphic file
 
 <use chapters/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Smearing_RealData_XmaxBia
-s.pdf used on input line 146.
+s.pdf used on input line 148.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -878,7 +878,7 @@ ile (type pdf)
 
 <use chapters/graphs/SelectionEff/Simulation_ProtonIron_XmaxBias.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Simulation_ProtonIron_Xma
-xBias.pdf used on input line 149.
+xBias.pdf used on input line 151.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -892,7 +892,7 @@ File: chapters/graphs/SelectionEff/Combined_EnergyRes_All.pdf Graphic file (typ
 e pdf)
  <use chapters/graphs/SelectionEff/Combined_EnergyRes_All.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Combined_EnergyRes_All.pd
-f used on input line 155.
+f used on input line 157.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
@@ -906,7 +906,7 @@ File: chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf Graphic file (type
 pdf)
  <use chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf 
-used on input line 158.
+used on input line 160.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -921,7 +921,7 @@ File: chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf Graphic file
 
 <use chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistCo
-mp.pdf used on input line 170.
+mp.pdf used on input line 172.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
@@ -935,7 +935,7 @@ File: chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf Graphic file (
 type pdf)
  <use chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp
-.pdf used on input line 173.
+.pdf used on input line 175.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
@@ -950,7 +950,7 @@ le (type pdf)
 
 <use chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/RealDataAndSim_ZenithDist
-Comp.pdf used on input line 179.
+Comp.pdf used on input line 181.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
@@ -965,7 +965,7 @@ c file (type pdf)
 
 <use chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/RealDataAndSim_DistToXmax
-DistComp.pdf used on input line 182.
+DistComp.pdf used on input line 184.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
@@ -980,7 +980,7 @@ ic file (type pdf)
 
 <use chapters/graphs/SelectionEff/Smearing_TrackLength_DiffNSBlevels.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Smearing_TrackLength_Diff
-NSBlevels.pdf used on input line 192.
+NSBlevels.pdf used on input line 194.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
@@ -996,7 +996,7 @@ dNSB.pdf Graphic file (type pdf)
 <use chapters/graphs/SelectionEff/Simulation_TrackLength_Comb_StandANdIncreased
 NSB.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Simulation_TrackLength_Co
-mb_StandANdIncreasedNSB.pdf used on input line 195.
+mb_StandANdIncreasedNSB.pdf used on input line 197.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 ) (./chapters/CharacterOfPMT.tex [16] [17 <./chapters/graphs/SelectionEff/Smear
 ing_RealData_EnergyBias.pdf> <./chapters/graphs/SelectionEff/Simulation_ProtonI

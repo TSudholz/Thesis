@@ -20,30 +20,33 @@
 \BOOKMARK [2][-]{subsection.3.4.2}{Fluorescence Detector}{section.3.4}% 20
 \BOOKMARK [1][-]{section.3.5}{Enhancements and future upgrades}{chapter.3}% 21
 \BOOKMARK [0][-]{chapter.4}{EAS Selection Efficiency with Increased NSB}{}% 22
-\BOOKMARK [1][-]{section.4.1}{Selection Efficiency}{chapter.4}% 23
-\BOOKMARK [1][-]{section.4.2}{Resolution and Bias}{chapter.4}% 24
-\BOOKMARK [2][-]{subsection.4.2.1}{Comparing Simulated Data to Real Data}{section.4.2}% 25
-\BOOKMARK [1][-]{section.4.3}{EAS Track Length in the FD's}{chapter.4}% 26
-\BOOKMARK [0][-]{chapter.5}{Quantifying Characteristics of the FD PMT}{}% 27
-\BOOKMARK [1][-]{section.5.1}{PMT Linearity}{chapter.5}% 28
-\BOOKMARK [2][-]{subsection.5.1.1}{Neutral Density Filters}{section.5.1}% 29
-\BOOKMARK [2][-]{subsection.5.1.2}{Two LED Method}{section.5.1}% 30
-\BOOKMARK [1][-]{section.5.2}{Effects of Temperature on PMT Gain}{chapter.5}% 31
-\BOOKMARK [0][-]{chapter.6}{Computer Simulation of FD PMT}{}% 32
-\BOOKMARK [1][-]{section.6.1}{Method and Theory}{chapter.6}% 33
-\BOOKMARK [2][-]{subsection.6.1.1}{Theoretical value of Gain Variance?}{section.6.1}% 34
-\BOOKMARK [1][-]{section.6.2}{Results of PMT Gain Variance Simulation}{chapter.6}% 35
-\BOOKMARK [1][-]{section.6.3}{FD FLT under different NSB levels}{chapter.6}% 36
-\BOOKMARK [0][-]{chapter.7}{Measuring FD PMT Gain Variance with CalA Data}{}% 37
-\BOOKMARK [1][-]{section.7.1}{Using CalA to measure relative changes in Gain Variance}{chapter.7}% 38
-\BOOKMARK [1][-]{section.7.2}{Electronic Noise}{chapter.7}% 39
-\BOOKMARK [1][-]{section.7.3}{Pairs Method}{chapter.7}% 40
-\BOOKMARK [2][-]{subsection.7.3.1}{Results}{section.7.3}% 41
-\BOOKMARK [1][-]{section.7.4}{Result of Averaging Sets of Traces Method}{chapter.7}% 42
-\BOOKMARK [1][-]{section.7.5}{Result of Averaging Sets of Traces Method with Least Trimmed Squares}{chapter.7}% 43
-\BOOKMARK [1][-]{section.7.6}{Result of Averaging Sets of Traces Method using Noise Distribution}{chapter.7}% 44
-\BOOKMARK [1][-]{section.7.7}{Attempts to measure Gain Variance directly in the Lab}{chapter.7}% 45
-\BOOKMARK [0][-]{chapter.8}{Laboratory Simulation of FD shift}{}% 46
-\BOOKMARK [0][-]{chapter.9}{Evaluation of Cloud Camera Cuts}{}% 47
-\BOOKMARK [0][-]{chapter.10}{Conclusion}{}% 48
-\BOOKMARK [1][-]{section.10.1}{Future Work}{chapter.10}% 49
+\BOOKMARK [1][-]{section.4.1}{Motivation}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.2}{Selection Efficiency}{chapter.4}% 24
+\BOOKMARK [1][-]{section.4.3}{Resolution and Bias}{chapter.4}% 25
+\BOOKMARK [2][-]{subsection.4.3.1}{Comparing Simulated Data to Real Data}{section.4.3}% 26
+\BOOKMARK [1][-]{section.4.4}{EAS Track Length in the FD's}{chapter.4}% 27
+\BOOKMARK [0][-]{chapter.5}{Quantifying Characteristics of the FD PMT}{}% 28
+\BOOKMARK [1][-]{section.5.1}{PMT Linearity}{chapter.5}% 29
+\BOOKMARK [2][-]{subsection.5.1.1}{Neutral Density Filters}{section.5.1}% 30
+\BOOKMARK [2][-]{subsection.5.1.2}{Two LED Method}{section.5.1}% 31
+\BOOKMARK [1][-]{section.5.2}{Effects of Temperature on PMT Gain}{chapter.5}% 32
+\BOOKMARK [0][-]{chapter.6}{Computer Simulation of FD PMT}{}% 33
+\BOOKMARK [1][-]{section.6.1}{Method and Theory}{chapter.6}% 34
+\BOOKMARK [2][-]{subsection.6.1.1}{Theoretical value of Gain Variance?}{section.6.1}% 35
+\BOOKMARK [1][-]{section.6.2}{Results of PMT Gain Variance Simulation}{chapter.6}% 36
+\BOOKMARK [1][-]{section.6.3}{Simulation of Gain Variance Method}{chapter.6}% 37
+\BOOKMARK [1][-]{section.6.4}{FD FLT under different NSB levels}{chapter.6}% 38
+\BOOKMARK [0][-]{chapter.7}{Measuring FD PMT Gain Variance with CalA Data}{}% 39
+\BOOKMARK [1][-]{section.7.1}{Using CalA to measure relative changes in Gain Variance}{chapter.7}% 40
+\BOOKMARK [1][-]{section.7.2}{Electronic Noise}{chapter.7}% 41
+\BOOKMARK [1][-]{section.7.3}{Pairs Method}{chapter.7}% 42
+\BOOKMARK [2][-]{subsection.7.3.1}{Results}{section.7.3}% 43
+\BOOKMARK [1][-]{section.7.4}{Averaging Sets of Traces Method}{chapter.7}% 44
+\BOOKMARK [2][-]{subsection.7.4.1}{Results}{section.7.4}% 45
+\BOOKMARK [1][-]{section.7.5}{Result of Averaging Sets of Traces Method with Least Trimmed Squares}{chapter.7}% 46
+\BOOKMARK [1][-]{section.7.6}{Result of Averaging Sets of Traces Method using Noise Distribution}{chapter.7}% 47
+\BOOKMARK [1][-]{section.7.7}{Attempts to measure Gain Variance directly in the Lab}{chapter.7}% 48
+\BOOKMARK [0][-]{chapter.8}{Laboratory Simulation of FD shift}{}% 49
+\BOOKMARK [0][-]{chapter.9}{Evaluation of Cloud Camera Cuts}{}% 50
+\BOOKMARK [0][-]{chapter.10}{Conclusion}{}% 51
+\BOOKMARK [1][-]{section.10.1}{Future Work}{chapter.10}% 52

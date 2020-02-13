@@ -1,23 +1,49 @@
 \chapter[EAS Selection Efficiency with Increased NSB]{\centering EAS Selection Efficiency \\ with Increased NSB \\}\label{Ch:SelectEff}
 
 
-Selection Efficiency of EAS under increased NSB
-\begin{itemize}
-\item Smearing real data with extra noise
-\item Simulating EAS with an increased NSB
-\item Talk about differences in smearing and simulating EAS (different triggering conditions)
-\item Energy and Xmas resolution and bias
-\item Rp bias
-\item differences in track length
-\end{itemize}
+%Selection Efficiency of EAS under increased NSB
+%\begin{itemize}
+%\item Smearing real data with extra noise
+%\item Simulating EAS with an increased NSB
+%\item Talk about differences in smearing and simulating EAS (different triggering conditions)
+%\item Energy and Xmas resolution and bias
+%\item Rp bias
+%\item differences in track length
+%\end{itemize}
 
+\section{Motivation}
 
+The FD shifts are typically organised for night with the illuminated fraction of the moon less then 70\% and can be operated longer than 3 hours of moon below the horizon. The Fd telescope shutters are then opened when the sun is below -18\textdegree of the horizon (astronomical twilight), the average variance of the camera PMTs less then 100 ADC$^2$ and individual PMTs less then 2000 ADC$^2$. Two calculations where done by the collaboration to estimate the theoretical up time of the FD's. Before 2012 the theoretical calculations looked like:
 
-Typically the NSB measured at PAO is in Units of ADC$^2$. As the signal is AC coupled, this is the variance around the zero and is directly proportional to the fluctuations in the NSB. The average value of the NSB is:
+\begin{table}[h]
+\centering
+\begin{tabular}{c c}
+Theoretical up time & 22\% \\
+Loss due to shor nights ($<$ 3 hrs) & -2\% \\
+Loss due to bad weather or fails & -5\% \\ \hline \hline
+Total measurement time & 15\% 
+\end{tabular}
+\end{table}
+
+For context the measured ADC$^2$ for typically observed Night Sky Background (NSB) with no moon, quarter moon and full moon/twilight is:
+\begin{table}[h]
+\centering
+\begin{tabular}{c c c}
+\hline\hline
+Condition & $\sigma^2$ [ADC$^2$] & I$_{\mathrm{a}}$ [$\mu$A] \\ \hline\hline
+no moon & 25 & 0.5 \\
+quarter moon & 250 & 5 \\
+full moon/twilight & 2500 & 50 \\ \hline\hline
+\end{tabular}
+\end{table}
+
+These values are measured under the standard operation of the FD's. Further within this thesis I will investigate lower the gain on the PMTs to reduce the variance and current that their under. A lower current when observing under moonlight would help make sure that the PMT lifespans are not changed by the increased in NSB.
+
+The signal that the FD's observe is AC coupled, which means the mean signal of the NSB is zero. Instead the variance around zero is calculated andis directly proportional to the fluctuations in the NSB. The average value of the NSB measured by POA at Malargue is:
 \begin{equation}
 \sigma^2 \sim 25 \ \mathrm{ADC}^2
 \end{equation}
-Converting the variance into photons by using:
+The variance in ADC$^2$ can be converted into photons seen at the aperture by using:
 \begin{eqnarray}
 \sigma^2_{pe} &=& [\sigma^2_{\mathrm{ADC}}]^{\mathrm{sky}} \ / \ \mathrm{A}^2_{\mathrm{G}} \label{eq:simgaPE} \\
 \mathrm{n}_{\mathrm{ph}} &=& \frac{\sigma^2_{pe}}{(1 + \mathrm{V}_{\mathrm{G}})} \label{eq:numPhoton}
@@ -34,7 +60,7 @@ where
 \item[] f is the efficiency if the telescope optics.
 \end{itemize}
 
-/*------ Find reference to number below ------*/
+/*------ \textbf{Find reference to number below} ------*/
 
 Assuming typical measured values for C$_{\mathrm{FD}}$, Q and f shown in:
 

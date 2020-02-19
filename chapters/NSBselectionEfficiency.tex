@@ -63,7 +63,7 @@ where
 /*------ \textbf{Find reference to number below} ------*/
 
 Assuming typical measured values for C$_{\mathrm{FD}}$, Q and f shown in:
-
+\begin{table}[h]
 \begin{center}
 \begin{tabular}{|c|c|}
 \hline
@@ -73,11 +73,32 @@ Q & 0.29 \\
 \hline
 f & 0.465 \\
 \hline
+\end{tabular} 
+\end{center}
+\caption{} 
+\end{table} \label{tab:CFD_Q_F}
+
+Therefore A$_{\mathrm{G}}$ can be calculated from Eq. \ref{eq:abs_gain} and using the values from Table \ref{tab:CFD_Q_F}. If $\sigma^2_{\mathrm{ADC}}$ = 25 ADC$^2$, through the calculations n$_{\mathrm{ph}}$ = 23 photons / 100 ns. The calculations to work out the RMS$_{\mathrm{ph}}$ from the measured variance in ADC$^2$ is as follows:
+\begin{equation}
+\mathrm{RMS}_{\mathrm{ph}} = \mathrm{C}_{\mathrm{FD}} \times \sqrt{\mathrm{ADC}^2}
+\end{equation}
+From all of the equations stated above I have outlined a table showing the expected photon count at the aperture per 100 ns from the measured variance (ADC$^2$ / 100 ns).
+\begin{center}
+\begin{tabular}{| c | c | c | c |}
+\hline \hline
+\textbf{Variance} & \multirow{2}{*}{\textbf{log$_{10}$(V/ADC$^2$)}} & \multirow{2}{*}{\textbf{Photons/100 ns}} & \textbf{RMS} \\
+\textbf{(ADC$^2$ / 100 ns)} & & & \textbf{(Photons/100 ns)} \\
+\hline \hline
+25 & 1.40 & 22.7 & 22.5 \\
+\hline
+178 & 2.25 & 161.4 & 60 \\
+\hline
+259 & 2.40 & 226.7 & 71.2 \\
+\hline
+1000 & 3.00 & 907.0 & 142.3 \\
+\hline
 \end{tabular}
 \end{center}
-
-Therefore can now calculate A$_{\mathrm{G}}$ from Eq. \ref{eq:abs_gain} and using 
-
 
 
 - Need graph of expected variance in ADC$^2$ for the moon above the horizon for different phases.

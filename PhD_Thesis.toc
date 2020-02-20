@@ -26,10 +26,11 @@
 \contentsline {subsection}{\numberline {4.3.1}Comparing Simulated Data to Real Data}{17}{subsection.4.3.1}
 \contentsline {section}{\numberline {4.4}EAS Track Length in the FD's}{17}{section.4.4}
 \contentsline {chapter}{\numberline {5}Quantifying Characteristics of the FD PMT}{25}{chapter.5}
-\contentsline {section}{\numberline {5.1}PMT Linearity}{25}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Neutral Density Filters}{25}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Two LED Method}{28}{subsection.5.1.2}
-\contentsline {section}{\numberline {5.2}Effects of Temperature on PMT Gain}{28}{section.5.2}
+\contentsline {section}{\numberline {5.1}Motivation}{25}{section.5.1}
+\contentsline {section}{\numberline {5.2}PMT Linearity}{25}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Neutral Density Filters}{26}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Two LED Method}{26}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Effects of Temperature on PMT Gain}{29}{section.5.3}
 \contentsline {chapter}{\numberline {6}Computer Simulation of FD PMT}{33}{chapter.6}
 \contentsline {section}{\numberline {6.1}Method and Theory}{33}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Theoretical value of Gain Variance?}{33}{subsection.6.1.1}

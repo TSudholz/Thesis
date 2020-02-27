@@ -1,36 +1,34 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.11)  20 FEB 2020 16:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.14)  27 FEB 2020 20:57
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
-**PhD_Thesis.tex
-(./PhD_Thesis.tex
-LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+**./PhD_Thesis.tex
+(PhD_Thesis.tex
+LaTeX2e <2018-04-01> patch level 5
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@chapter=\count80
-\c@section=\count81
-\c@subsection=\count82
-\c@subsubsection=\count83
-\c@paragraph=\count84
-\c@subparagraph=\count85
-\c@figure=\count86
-\c@table=\count87
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
-) (./appendix.sty
+) (appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count88
-\c@@ppsavesec=\count89
-\c@@ppsaveapp=\count90
+\c@@pps=\count89
+\c@@ppsavesec=\count90
+\c@@ppsaveapp=\count91
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.st
+y"
+Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
 (textcomp)               4 = 5 + \texteuro
@@ -44,9 +42,83 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-)
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
 LaTeX Info: Redefining \oldstylenums on input line 334.
 Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
 Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
@@ -111,40 +183,40 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2016/01/03 v1.1b Standard LaTeX Color (DPC)
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\color.s
+ty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
-File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\col
+or.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 143.
+Package color Info: Driver file: pdftex.def on input line 147.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count91
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdf
+tex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
+s.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.st
+y"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\gra
+phics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 95.
+Package graphics Info: Driver file: pdftex.def on input line 99.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amssymb
+.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\amsfont
+s.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks14
 \symAMSa=\mathgroup4
@@ -152,57 +224,66 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\verbatim.s
+ty"
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks15
 \verbatim@line=\toks16
 \verbatim@in@stream=\read1
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphic
+x.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.
+sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/03/03 v2.15a AMS math features
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.
+sty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.
+sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.s
+ty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen105
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.s
+ty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen106
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 1999/12/14 v2.01 operator names
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.s
+ty"
+Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count92
-LaTeX Info: Redefining \frac on input line 199.
+LaTeX Info: Redefining \frac on input line 213.
 \uproot@=\count93
 \leftroot@=\count94
-LaTeX Info: Redefining \overline on input line 297.
+LaTeX Info: Redefining \overline on input line 375.
 \classnum@=\count95
 \DOTSCASE@=\count96
-LaTeX Info: Redefining \ldots on input line 394.
-LaTeX Info: Redefining \dots on input line 397.
-LaTeX Info: Redefining \cdots on input line 518.
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen107
-LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count97
 \c@MaxMatrixCols=\count98
 \dotsspace@=\muskip10
@@ -223,13 +304,14 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2735.
-LaTeX Info: Redefining \] on input line 2736.
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/rotating/rotating.sty
-Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\rotatin
+g.sty"
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count104
@@ -238,29 +320,40 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box28
 \rot@mess@toks=\toks23
 )
-(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\setspace\setspac
+e.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
 )
-(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\multirow\multiro
+w.sty"
+Package: multirow 2016/11/25 v2.2 Span multiple rows of a table
+\multirow@colwidth=\skip48
+\multirow@cntb=\count105
+\multirow@dima=\skip49
 \bigstrutjot=\dimen114
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
 \col@sep=\dimen115
+\ar@mcellbox=\box29
 \extrarowheight=\dimen116
 \NC@list=\toks24
-\extratabsurround=\skip48
-\backup@length=\skip49
+\extratabsurround=\skip50
+\backup@length=\skip51
+\ar@cellbox=\box30
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/hhline.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\hhline.sty
+"
 Package: hhline 2014/10/28 v2.03 Table rule package (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption.
+sty"
+Package: caption 2018/05/01 v3.3-147 Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 67.
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\caption3
+.sty"
+Package: caption3 2018/05/27 v1.8a caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
 \captionmargin=\dimen117
 \captionmargin@=\dimen118
 \captionwidth=\dimen119
@@ -269,118 +362,132 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen122
 \caption@hangindent=\dimen123
 )
-\c@ContinuedFloat=\count105
+\c@ContinuedFloat=\count106
 Package caption Info: rotating package is loaded.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
-Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\pdflsca
+pe.sty"
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\lscape.
+sty"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf
+.sty"
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\ifxetex\ifxete
+x.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
-\c@subfigure=\count106
-\c@subtable=\count107
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\caption\subcapti
+on.sty"
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+\c@subfigure=\count107
+\c@subtable=\count108
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\xspace.sty
+"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count108
+\c@float@type=\count109
 \float@exts=\toks25
-\float@box=\box29
+\float@box=\box31
 \@float@everytoks=\toks26
-\@floatcapt=\box30
+\@floatcapt=\box32
 )
-(/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\placeins\placein
+s.sty"
 Package: placeins 2005/04/18  v 2.2
 )
-(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count109
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\etoolbox\etoolbo
+x.sty"
+Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count110
 )
-(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.
+sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyva
+l.tex"
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvuti
+ls.tex"
 \XKV@toks=\toks27
 \XKV@tempa@toks=\toks28
 )
-\XKV@depth=\count110
+\XKV@depth=\count111
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datetime\datetim
+e.sty"
 Package: datetime 2015/03/20 v2.60 Date Time Package
 
-(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fmtcount.sty
-Package: fmtcount 2015/05/05 v3.01
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fmtcoun
+t.sty"
+Package: fmtcount 2017/12/24 v3.05
 
-(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcprefix.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fcprefi
+x.sty"
 Package: fcprefix 2012/09/28
 
-(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fcnumparser.sty
-Package: fcnumparser 2012/09/28
-\fc@digit@counter=\count111
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fcnumpa
+rser.sty"
+Package: fcnumparser 2017/06/15
+\fc@digit@counter=\count112
 ))
-\c@padzeroesN=\count112
-\fc@tmpcatcode=\count113
-\@DT@modctr=\count114
-\@ordinalctr=\count115
-\@orgargctr=\count116
-\@strctr=\count117
-\@tmpstrctr=\count118
-\@DT@loopN=\count119
-\@DT@X=\count120
-
-(/usr/share/texlive/texmf-dist/tex/latex/fmtcount/fc-english.def
-File: fc-english.def 2013/08/17
-))
-(/usr/share/texlive/texmf-dist/tex/latex/datetime/datetime-defaults.sty
+\c@padzeroesN=\count113
+\fc@tmpcatcode=\count114
+\@DT@modctr=\count115
+\@ordinalctr=\count116
+\@orgargctr=\count117
+\@strctr=\count118
+\@tmpstrctr=\count119
+\@DT@loopN=\count120
+\@DT@X=\count121
+)
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\datetime\datetim
+e-defaults.sty"
 Package: datetime-defaults 2013/09/10
 )
-\@day=\count121
-\@month=\count122
-\@year=\count123
-\c@HOUR=\count124
-\c@HOURXII=\count125
-\c@MINUTE=\count126
-\c@TOHOUR=\count127
-\c@TOMINUTE=\count128
-\c@SECOND=\count129
-\currenthour=\count130
-\currentminute=\count131
-\currentsecond=\count132
+\@day=\count122
+\@month=\count123
+\@year=\count124
+\c@HOUR=\count125
+\c@HOURXII=\count126
+\c@MINUTE=\count127
+\c@TOHOUR=\count128
+\c@TOMINUTE=\count129
+\c@SECOND=\count130
+\currenthour=\count131
+\currentminute=\count132
+\currentsecond=\count133
 Package datetime Info: No datetime.cfg file found, using default settings on in
 put line 308.
-\@dtctr=\count133
-\dayofyear=\count134
-\dayofweek=\count135
+\@dtctr=\count134
+\dayofyear=\count135
+\dayofweek=\count136
 LaTeX Info: Redefining \today on input line 736.
 \dt@a=\toks29
 \dt@b=\toks30
 )
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometr
+y.sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifvte
+x.sty"
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-\Gm@cnth=\count136
-\Gm@cntv=\count137
-\c@Gm@tempcnt=\count138
+\Gm@cnth=\count137
+\Gm@cntv=\count138
+\c@Gm@tempcnt=\count139
 \Gm@bindingoffset=\dimen124
 \Gm@wd@mp=\dimen125
 \Gm@odd@mp=\dimen126
@@ -390,133 +497,150 @@ Package ifvtex Info: VTeX not detected.
 \Gm@layouthoffset=\dimen130
 \Gm@layoutvoffset=\dimen131
 \Gm@dimlist=\toks31
-)
-(/usr/share/texlive/texmf-dist/tex/latex/emptypage/emptypage.sty
+
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\geometry\geometr
+y.cfg"))
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\emptypage\emptyp
+age.sty"
 Package: emptypage 2010/05/30 v1.2 Suppress page numbers and headings on empty 
 pages
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hyperre
+f.sty"
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
-Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsu
+b-hyperref.sty"
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
-Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
-Package hobsub Info: Skipping package `infwarerr' (already loaded).
-Package hobsub Info: Skipping package `ltxcmds' (already loaded).
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\hobsu
+b-generic.sty"
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package hobsub Info: Skipping package `ifvtex' (already loaded).
-Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
 Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
 )
-Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
-Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
 )
 Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
-Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
-Package: xcolor-patch 2011/01/30 xcolor patch
-Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
-Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
-Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
-Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
-Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\auxhook
+.sty"
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoptio
+ns.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen132
-\Hy@linkcounter=\count139
-\Hy@pagecounter=\count140
+\Hy@linkcounter=\count140
+\Hy@pagecounter=\count141
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\pd1enc.
+def"
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count141
+\Hy@SavedSpaceFactor=\count142
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\00miktex\hyperre
+f.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4443.
-Package hyperref Info: Link nesting OFF on input line 4448.
-Package hyperref Info: Hyper index ON on input line 4451.
-Package hyperref Info: Plain pages OFF on input line 4458.
-Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4688.
-\c@Hy@tempcnt=\count142
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count143
 
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5041.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen133
-\Fld@menulength=\count143
+\Fld@menulength=\count144
 \Field@Width=\dimen134
 \Fld@charsize=\dimen135
-Package hyperref Info: Hyper figures OFF on input line 6295.
-Package hyperref Info: Link nesting OFF on input line 6300.
-Package hyperref Info: Hyper index ON on input line 6303.
-Package hyperref Info: backreferencing OFF on input line 6310.
-Package hyperref Info: Link coloring OFF on input line 6315.
-Package hyperref Info: Link coloring with OCG OFF on input line 6320.
-Package hyperref Info: PDF/A mode OFF on input line 6325.
-LaTeX Info: Redefining \ref on input line 6365.
-LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count144
-\c@Item=\count145
-\c@Hfootnote=\count146
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count145
+\c@Item=\count146
+\c@Hfootnote=\count147
 )
+Package hyperref Info: Driver (autodetected): hpdftex.
 
-Package hyperref Message: Driver (autodetected): hpdftex.
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\hpdftex
+.def"
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count148
+\c@bookmark@seq@number=\count149
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count147
-\c@bookmark@seq@number=\count148
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
-Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\rerunfi
+lecheck.sty"
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip50
+\Hy@SectionHShift=\skip52
 )
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
-Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjust
+box.sty"
+Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
 
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjcal
+c.sty"
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
-Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\trimcl
+ip.sty"
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
 
-(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\collectbox\colle
+ctbox.sty"
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
-\collectedbox=\box31
+\collectedbox=\box33
 )
 \tc@llx=\dimen136
 \tc@lly=\dimen137
@@ -524,47 +648,59 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \tc@ury=\dimen139
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
-File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\tc-pdf
+tex.def"
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen140
 \adjbox@Height=\dimen141
 \adjbox@Depth=\dimen142
 \adjbox@Totalheight=\dimen143
+\adjbox@pwidth=\dimen144
+\adjbox@pheight=\dimen145
+\adjbox@pdepth=\dimen146
+\adjbox@ptotalheight=\dimen147
 
-(/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
-Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
-\c@checkoddpage=\count149
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifoddpage\ifoddp
+age.sty"
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count150
 )
-(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\varwidth\varwidt
+h.sty"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box32
-\sift@deathcycles=\count150
-\@vwid@loff=\dimen144
-\@vwid@roff=\dimen145
+\@vwid@box=\box34
+\sift@deathcycles=\count151
+\@vwid@loff=\dimen148
+\@vwid@roff=\dimen149
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\sectsty\sectsty.
+sty"
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 )
 Package hyperref Info: Option `linktocpage' set `true' on input line 36.
 Package hyperref Info: Option `colorlinks' set `true' on input line 36.
 
-(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-\fancy@headwidth=\skip51
-\f@ncyO@elh=\skip52
-\f@ncyO@erh=\skip53
-\f@ncyO@olh=\skip54
-\f@ncyO@orh=\skip55
-\f@ncyO@elf=\skip56
-\f@ncyO@erf=\skip57
-\f@ncyO@olf=\skip58
-\f@ncyO@orf=\skip59
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyhdr\fancyhd
+r.sty"
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip53
+\f@nch@O@elh=\skip54
+\f@nch@O@erh=\skip55
+\f@nch@O@olh=\skip56
+\f@nch@O@orh=\skip57
+\f@nch@O@elf=\skip58
+\f@nch@O@erf=\skip59
+\f@nch@O@olf=\skip60
+\f@nch@O@orf=\skip61
 )
-(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\lipsum\lipsum.st
+y"
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
-\c@lips@count=\count151
-) (./PhD_Thesis.aux)
+\c@lips@count=\count152
+) (PhD_Thesis.aux)
 \openout1 = `PhD_Thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
@@ -582,46 +718,52 @@ LaTeX Font Info:    ... okay on input line 99.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 99.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 99.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
 LaTeX Font Info:    ... okay on input line 99.
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.
+mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count152
-\scratchdimen=\dimen146
-\scratchbox=\box33
-\nofMPsegments=\count153
-\nofMParguments=\count154
+\scratchcounter=\count153
+\scratchdimen=\dimen150
+\scratchbox=\box35
+\nofMPsegments=\count154
+\nofMParguments=\count155
 \everyMPshowfont=\toks32
-\MPscratchCnt=\count155
-\MPscratchDim=\dimen147
-\MPnumerator=\count156
-\makeMPintoPDFobject=\count157
+\MPscratchCnt=\count156
+\MPscratchDim=\dimen151
+\MPnumerator=\count157
+\makeMPintoPDFobject=\count158
 \everyMPtoPDFconversion=\toks33
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopd
+f-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.
+sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+)
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fmtcount\fc-engl
+ish.def"
+File: fc-english.def 2016/01/12
+)
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
@@ -655,64 +797,61 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box34
+\AtBeginShipoutBox=\box36
 Package hyperref Info: Link coloring ON on input line 99.
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\hyperref\nameref
+.sty"
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\getti
+tlestring.sty"
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count158
+\c@section@level=\count159
 )
 LaTeX Info: Redefining \ref on input line 99.
 LaTeX Info: Redefining \pageref on input line 99.
 LaTeX Info: Redefining \nameref on input line 99.
-
-(./PhD_Thesis.out) (./PhD_Thesis.out)
+ (PhD_Thesis.out) (PhD_Thesis.out)
 \@outlinefile=\write3
 \openout3 = `PhD_Thesis.out'.
 
- (./chapters/title.tex
-<pix/UoA_col_vert.png, id=217, 124.0635pt x 92.0238pt>
+ (chapters/title.tex
+<pix/UoA_col_vert.png, id=215, 124.0635pt x 92.0238pt>
 File: pix/UoA_col_vert.png Graphic file (type png)
-
 <use pix/UoA_col_vert.png>
-Package pdftex.def Info: pix/UoA_col_vert.png used on input line 17.
+Package pdftex.def Info: pix/UoA_col_vert.png  used on input line 17.
 (pdftex.def)             Requested size: 132.30666pt x 98.13731pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./pix/UoA_col_vert.png>]) 
-(./chapters/declaration_page.tex [2
+{C:/Users/Tristan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./pix/UoA
+_col_vert.png>]) (chapters/declaration_page.tex [2
 
-]
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
-)
-(./chapters/abstract.tex [3] [4
+]) (chapters/abstract.tex [3]
+[4
 
-]) (./chapters/acknowledgements.tex [5] [6
+]) (chapters/acknowledgements.tex [5] [6
 
-])
-[7] [8
+]) [7] [8
 
-] (./PhD_Thesis.toc
+] (PhD_Thesis.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd
+"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+("C:\Users\Tristan\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd
+"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [9])
 \tf@toc=\write4
 \openout4 = `PhD_Thesis.toc'.
 
-
-(./nomenclature.tex [10])
+ (nomenclature.tex [10])
 Overfull \hbox (29.47763pt too wide) in paragraph at lines 5--121
 []
  []
@@ -722,75 +861,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--121
 
  []
 
-(./chapters/introduction.tex [11
+(chapters/introduction.tex [11
 
 ] [12
 
-] [1]) (./chapters/cosmic_rays.tex
-[2]
+] [1]) (chapters/cosmic_rays.tex [2]
 Chapter 1.
-<chapters/pix/CosmicRay_Spectrum.png, id=351, 610.28pt x 753.81625pt>
+<chapters/pix/CosmicRay_Spectrum.png, id=348, 610.28pt x 753.81625pt>
 File: chapters/pix/CosmicRay_Spectrum.png Graphic file (type png)
-
 <use chapters/pix/CosmicRay_Spectrum.png>
-Package pdftex.def Info: chapters/pix/CosmicRay_Spectrum.png used on input line
- 25.
+Package pdftex.def Info: chapters/pix/CosmicRay_Spectrum.png  used on input lin
+e 25.
 (pdftex.def)             Requested size: 441.01773pt x 544.7602pt.
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ™ in font cmr12!
- [3
+[3
 
-] [4 <./chapters/pix/CosmicRay_Spectrum.png>]) (./chapters/cr_detection.tex [5]
- [6
+] [4 <./chapters/pix/CosmicRay_Spectrum.png>]) (chapters/cr_detection.tex
+[5] [6
 
 ]
 Chapter 2.
-<chapters/pix/CR_ExtensiveAirShowers.png, id=375, 619.113pt x 462.528pt>
+<chapters/pix/CR_ExtensiveAirShowers.png, id=372, 619.113pt x 462.528pt>
 File: chapters/pix/CR_ExtensiveAirShowers.png Graphic file (type png)
-
 <use chapters/pix/CR_ExtensiveAirShowers.png>
-Package pdftex.def Info: chapters/pix/CR_ExtensiveAirShowers.png used on input 
-line 14.
+Package pdftex.def Info: chapters/pix/CR_ExtensiveAirShowers.png  used on input
+ line 14.
 (pdftex.def)             Requested size: 308.71106pt x 230.6353pt.
- [7]) (./chapters/pierre_auger.tex [8 <./chapters/pix/CR_ExtensiveAirShowers.pn
-g>]
+[7]) (chapters/pierre_auger.tex [8 <./chapters/pix/CR_ExtensiveAirShowers.png>]
 Chapter 3.
+<chapters/pix/PAO_equipment_layout_overview.png, id=384, 853.1875pt x 770.88pt>
 
-<chapters/pix/PAO_equipment_layout_overview.png, id=387, 853.1875pt x 770.88pt>
 File: chapters/pix/PAO_equipment_layout_overview.png Graphic file (type png)
 <use chapters/pix/PAO_equipment_layout_overview.png>
-Package pdftex.def Info: chapters/pix/PAO_equipment_layout_overview.png used on
- input line 10.
+Package pdftex.def Info: chapters/pix/PAO_equipment_layout_overview.png  used o
+n input line 10.
 (pdftex.def)             Requested size: 308.71106pt x 278.92812pt.
-
-<chapters/pix/pierre-auger-observatory_tankAndTelescope.jpg, id=388, 552.0625pt
+<chapters/pix/pierre-auger-observatory_tankAndTelescope.jpg, id=385, 552.0625pt
  x 414.54875pt>
 File: chapters/pix/pierre-auger-observatory_tankAndTelescope.jpg Graphic file (
 type jpg)
-
 <use chapters/pix/pierre-auger-observatory_tankAndTelescope.jpg>
 Package pdftex.def Info: chapters/pix/pierre-auger-observatory_tankAndTelescope
-.jpg used on input line 13.
+.jpg  used on input line 13.
 (pdftex.def)             Requested size: 308.71106pt x 231.8231pt.
-
-<chapters/pix/inside_surface_detector.jpg, id=389, 466.74374pt x 350.30875pt>
+<chapters/pix/inside_surface_detector.jpg, id=386, 466.74374pt x 350.30875pt>
 File: chapters/pix/inside_surface_detector.jpg Graphic file (type jpg)
-
 <use chapters/pix/inside_surface_detector.jpg>
-Package pdftex.def Info: chapters/pix/inside_surface_detector.jpg used on input
- line 23.
+Package pdftex.def Info: chapters/pix/inside_surface_detector.jpg  used on inpu
+t line 23.
 (pdftex.def)             Requested size: 308.71106pt x 231.70694pt.
-
-<chapters/pix/fluorescence_telescope.png, id=390, 562.1pt x 546.04pt>
+<chapters/pix/fluorescence_telescope.png, id=387, 562.1pt x 546.04pt>
 File: chapters/pix/fluorescence_telescope.png Graphic file (type png)
-
 <use chapters/pix/fluorescence_telescope.png>
-Package pdftex.def Info: chapters/pix/fluorescence_telescope.png used on input 
-line 38.
+Package pdftex.def Info: chapters/pix/fluorescence_telescope.png  used on input
+ line 38.
 (pdftex.def)             Requested size: 308.71106pt x 299.88966pt.
-)
-(./chapters/NSBselectionEfficiency.tex
+) (chapters/NSBselectionEfficiency.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9
@@ -807,200 +932,176 @@ Chapter 4.
 pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/SelectionEff_erro
 rbars_10timesNSB.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
-
-<chapters/graphs/SelectionEff/SelectionEff_errorbars_10timesNSB.pdf, id=430, 56
+<chapters/graphs/SelectionEff/SelectionEff_errorbars_10timesNSB.pdf, id=427, 56
 9.12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/SelectionEff_errorbars_10timesNSB.pdf Graphi
 c file (type pdf)
-
 <use chapters/graphs/SelectionEff/SelectionEff_errorbars_10timesNSB.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/SelectionEff_errorbars_10
-timesNSB.pdf used on input line 132.
+timesNSB.pdf  used on input line 132.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
-
 [15] [16 <./chapters/graphs/SelectionEff/SelectionEff_errorbars_10timesNSB.pdf>
 ]
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Smearing_RealData
 _EnergyBias.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
-
-<chapters/graphs/SelectionEff/Smearing_RealData_EnergyBias.pdf, id=454, 569.126
+<chapters/graphs/SelectionEff/Smearing_RealData_EnergyBias.pdf, id=450, 569.126
 25pt x 297.11pt>
 File: chapters/graphs/SelectionEff/Smearing_RealData_EnergyBias.pdf Graphic fil
 e (type pdf)
-
 <use chapters/graphs/SelectionEff/Smearing_RealData_EnergyBias.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Smearing_RealData_EnergyB
-ias.pdf used on input line 161.
+ias.pdf  used on input line 161.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Simulation_Proton
 Iron_EnergyBias.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
-
-<chapters/graphs/SelectionEff/Simulation_ProtonIron_EnergyBias.pdf, id=455, 569
+<chapters/graphs/SelectionEff/Simulation_ProtonIron_EnergyBias.pdf, id=451, 569
 .12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/Simulation_ProtonIron_EnergyBias.pdf Graphic
  file (type pdf)
-
 <use chapters/graphs/SelectionEff/Simulation_ProtonIron_EnergyBias.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Simulation_ProtonIron_Ene
-rgyBias.pdf used on input line 164.
+rgyBias.pdf  used on input line 164.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Smearing_RealData
 _XmaxBias.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.
 5> allowed
-
-<chapters/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf, id=456, 569.12625
+<chapters/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf, id=452, 569.12625
 pt x 297.11pt>
 File: chapters/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf Graphic file 
 (type pdf)
-
 <use chapters/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Smearing_RealData_XmaxBia
-s.pdf used on input line 170.
+s.pdf  used on input line 170.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Simulation_Proton
 Iron_XmaxBias.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
-
-<chapters/graphs/SelectionEff/Simulation_ProtonIron_XmaxBias.pdf, id=457, 569.1
+<chapters/graphs/SelectionEff/Simulation_ProtonIron_XmaxBias.pdf, id=453, 569.1
 2625pt x 297.11pt>
 File: chapters/graphs/SelectionEff/Simulation_ProtonIron_XmaxBias.pdf Graphic f
 ile (type pdf)
-
 <use chapters/graphs/SelectionEff/Simulation_ProtonIron_XmaxBias.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Simulation_ProtonIron_Xma
-xBias.pdf used on input line 173.
+xBias.pdf  used on input line 173.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Combined_EnergyRe
 s_All.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
 llowed
-
-<chapters/graphs/SelectionEff/Combined_EnergyRes_All.pdf, id=458, 569.12625pt x
+<chapters/graphs/SelectionEff/Combined_EnergyRes_All.pdf, id=454, 569.12625pt x
  305.14pt>
 File: chapters/graphs/SelectionEff/Combined_EnergyRes_All.pdf Graphic file (typ
 e pdf)
- <use chapters/graphs/SelectionEff/Combined_EnergyRes_All.pdf>
+<use chapters/graphs/SelectionEff/Combined_EnergyRes_All.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Combined_EnergyRes_All.pd
-f used on input line 179.
+f  used on input line 179.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Combined_XmaxRes_
 All.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
-
-<chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf, id=459, 569.12625pt x 2
+<chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf, id=455, 569.12625pt x 2
 97.11pt>
 File: chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf Graphic file (type 
 pdf)
- <use chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf>
+<use chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf 
-used on input line 182.
+ used on input line 182.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RealDataAndSim_Xm
 axDistComp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
-
-<chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf, id=460, 569.1262
+<chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf, id=456, 569.1262
 5pt x 305.14pt>
 File: chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf Graphic file
  (type pdf)
-
 <use chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistCo
-mp.pdf used on input line 194.
+mp.pdf  used on input line 194.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RealDataAndSim_Rp
 DistComp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5
 > allowed
-
-<chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf, id=461, 569.12625p
+<chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf, id=457, 569.12625p
 t x 305.14pt>
 File: chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf Graphic file (
 type pdf)
- <use chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf>
+<use chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp
-.pdf used on input line 197.
+.pdf  used on input line 197.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RealDataAndSim_Ze
 nithDistComp.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-
-<chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.pdf, id=462, 569.12
+<chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.pdf, id=458, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.pdf Graphic fi
 le (type pdf)
-
 <use chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/RealDataAndSim_ZenithDist
-Comp.pdf used on input line 203.
+Comp.pdf  used on input line 203.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RealDataAndSim_Di
 stToXmaxDistComp.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
-
-<chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf, id=463, 56
+<chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf, id=459, 56
 9.12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf Graphi
 c file (type pdf)
-
 <use chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/RealDataAndSim_DistToXmax
-DistComp.pdf used on input line 206.
+DistComp.pdf  used on input line 206.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Smearing_TrackLen
 gth_DiffNSBlevels.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
 sion <1.5> allowed
-
-<chapters/graphs/SelectionEff/Smearing_TrackLength_DiffNSBlevels.pdf, id=466, 5
+<chapters/graphs/SelectionEff/Smearing_TrackLength_DiffNSBlevels.pdf, id=462, 5
 69.12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/Smearing_TrackLength_DiffNSBlevels.pdf Graph
 ic file (type pdf)
-
 <use chapters/graphs/SelectionEff/Smearing_TrackLength_DiffNSBlevels.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Smearing_TrackLength_Diff
-NSBlevels.pdf used on input line 216.
+NSBlevels.pdf  used on input line 216.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Simulation_TrackL
 ength_Comb_StandANdIncreasedNSB.pdf): PDF inclusion: found PDF version <1.7>, b
 ut at most version <1.5> allowed
-
 <chapters/graphs/SelectionEff/Simulation_TrackLength_Comb_StandANdIncreasedNSB.
-pdf, id=467, 569.12625pt x 297.11pt>
+pdf, id=463, 569.12625pt x 297.11pt>
 File: chapters/graphs/SelectionEff/Simulation_TrackLength_Comb_StandANdIncrease
 dNSB.pdf Graphic file (type pdf)
-
 <use chapters/graphs/SelectionEff/Simulation_TrackLength_Comb_StandANdIncreased
 NSB.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Simulation_TrackLength_Co
-mb_StandANdIncreasedNSB.pdf used on input line 219.
+mb_StandANdIncreasedNSB.pdf  used on input line 219.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
-) (./chapters/CharacterOfPMT.tex [17] [18 <./chapters/graphs/SelectionEff/Smear
-ing_RealData_EnergyBias.pdf> <./chapters/graphs/SelectionEff/Simulation_ProtonI
-ron_EnergyBias.pdf>] [19 <./chapters/graphs/SelectionEff/Smearing_RealData_Xmax
-Bias.pdf> <./chapters/graphs/SelectionEff/Simulation_ProtonIron_XmaxBias.pdf>] 
+) (chapters/CharacterOfPMT.tex [17] [18 <./chapters/graphs/SelectionEff/Smearin
+g_RealData_EnergyBias.pdf> <./chapters/graphs/SelectionEff/Simulation_ProtonIro
+n_EnergyBias.pdf>] [19 <./chapters/graphs/SelectionEff/Smearing_RealData_XmaxBi
+as.pdf> <./chapters/graphs/SelectionEff/Simulation_ProtonIron_XmaxBias.pdf>]
 [20 <./chapters/graphs/SelectionEff/Combined_EnergyRes_All.pdf> <./chapters/gra
 phs/SelectionEff/Combined_XmaxRes_All.pdf>] [21 <./chapters/graphs/SelectionEff
 /RealDataAndSim_XmaxDistComp.pdf> <./chapters/graphs/SelectionEff/RealDataAndSi
@@ -1013,106 +1114,76 @@ SB.pdf>] [24
 ]
 Chapter 5.
 [25]
-<chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png, id=602, 929.4725pt x
+<chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png, id=597, 929.4725pt x
  874.26625pt>
 File: chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png Graphic file (ty
 pe png)
- <use chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png>
+<use chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png>
 Package pdftex.def Info: chapters/graphs/PMTchar/pmt_linearity_100V_privitera.p
-ng used on input line 37.
+ng  used on input line 43.
 (pdftex.def)             Requested size: 441.01773pt x 414.81387pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT900V_linearityNDmet
 hod.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
-
-<chapters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf, id=603, 569.12625pt x 2
+<chapters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf, id=598, 569.12625pt x 2
 97.11pt>
 File: chapters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf Graphic file (type 
 pdf)
- <use chapters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf>
+<use chapters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf>
 Package pdftex.def Info: chapters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf 
-used on input line 44.
+ used on input line 50.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ¢ in font cmr10!
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT600V_linearityNDmet
 hod.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
-
-<chapters/graphs/PMTchar/PMT600V_linearityNDmethod.pdf, id=604, 569.12625pt x 2
+<chapters/graphs/PMTchar/PMT600V_linearityNDmethod.pdf, id=599, 569.12625pt x 2
 97.11pt>
 File: chapters/graphs/PMTchar/PMT600V_linearityNDmethod.pdf Graphic file (type 
 pdf)
- <use chapters/graphs/PMTchar/PMT600V_linearityNDmethod.pdf>
+<use chapters/graphs/PMTchar/PMT600V_linearityNDmethod.pdf>
 Package pdftex.def Info: chapters/graphs/PMTchar/PMT600V_linearityNDmethod.pdf 
-used on input line 48.
+ used on input line 54.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ¢ in font cmr10!
- [26]
-[27 <./chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png>] [28 <./chapte
-rs/graphs/PMTchar/PMT900V_linearityNDmethod.pdf> <./chapters/graphs/PMTchar/PMT
-600V_linearityNDmethod.pdf>]
-<chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf, id=640, 462.75282pt x 329.57
+[26] [27 <./chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png>] [28 <./c
+hapters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf> <./chapters/graphs/PMTcha
+r/PMT600V_linearityNDmethod.pdf>]
+<chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf, id=636, 462.75282pt x 329.57
 73pt>
 File: chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf Graphic file (type pdf)
- <use chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf>
-Package pdftex.def Info: chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf used 
-on input line 68.
+<use chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf>
+Package pdftex.def Info: chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf  used
+ on input line 74.
 (pdftex.def)             Requested size: 441.01773pt x 314.09741pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT900V_linearity2LEDm
 ethod.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
 llowed
-
-<chapters/graphs/PMTchar/PMT900V_linearity2LEDmethod.pdf, id=641, 569.12625pt x
+<chapters/graphs/PMTchar/PMT900V_linearity2LEDmethod.pdf, id=637, 569.12625pt x
  297.11pt>
 File: chapters/graphs/PMTchar/PMT900V_linearity2LEDmethod.pdf Graphic file (typ
 e pdf)
- <use chapters/graphs/PMTchar/PMT900V_linearity2LEDmethod.pdf>
+<use chapters/graphs/PMTchar/PMT900V_linearity2LEDmethod.pdf>
 Package pdftex.def Info: chapters/graphs/PMTchar/PMT900V_linearity2LEDmethod.pd
-f used on input line 76.
+f  used on input line 82.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ¢ in font cmr10!
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT600V_linearity2LEDm
 ethod.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
 llowed
-
-<chapters/graphs/PMTchar/PMT600V_linearity2LEDmethod.pdf, id=642, 569.12625pt x
+<chapters/graphs/PMTchar/PMT600V_linearity2LEDmethod.pdf, id=638, 569.12625pt x
  297.11pt>
 File: chapters/graphs/PMTchar/PMT600V_linearity2LEDmethod.pdf Graphic file (typ
 e pdf)
- <use chapters/graphs/PMTchar/PMT600V_linearity2LEDmethod.pdf>
+<use chapters/graphs/PMTchar/PMT600V_linearity2LEDmethod.pdf>
 Package pdftex.def Info: chapters/graphs/PMTchar/PMT600V_linearity2LEDmethod.pd
-f used on input line 80.
+f  used on input line 86.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-
 [29 <./chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf>] [30 <./chapters/graph
 s/PMTchar/PMT900V_linearity2LEDmethod.pdf> <./chapters/graphs/PMTchar/PMT600V_l
 inearity2LEDmethod.pdf>]
@@ -1120,43 +1191,28 @@ inearity2LEDmethod.pdf>]
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT900V_temperatureVsA
 DC.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-
-<chapters/graphs/PMTchar/PMT900V_temperatureVsADC.pdf, id=671, 569.12625pt x 29
+<chapters/graphs/PMTchar/PMT900V_temperatureVsADC.pdf, id=667, 569.12625pt x 29
 7.11pt>
 File: chapters/graphs/PMTchar/PMT900V_temperatureVsADC.pdf Graphic file (type p
 df)
- <use chapters/graphs/PMTchar/PMT900V_temperatureVsADC.pdf>
-Package pdftex.def Info: chapters/graphs/PMTchar/PMT900V_temperatureVsADC.pdf u
-sed on input line 96.
+<use chapters/graphs/PMTchar/PMT900V_temperatureVsADC.pdf>
+Package pdftex.def Info: chapters/graphs/PMTchar/PMT900V_temperatureVsADC.pdf  
+used on input line 102.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ¢ in font cmr10!
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT600V_temperatureVsA
 DC.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-
-<chapters/graphs/PMTchar/PMT600V_temperatureVsADC.pdf, id=672, 569.12625pt x 29
+<chapters/graphs/PMTchar/PMT600V_temperatureVsADC.pdf, id=668, 569.12625pt x 29
 7.11pt>
 File: chapters/graphs/PMTchar/PMT600V_temperatureVsADC.pdf Graphic file (type p
 df)
- <use chapters/graphs/PMTchar/PMT600V_temperatureVsADC.pdf>
-Package pdftex.def Info: chapters/graphs/PMTchar/PMT600V_temperatureVsADC.pdf u
-sed on input line 100.
+<use chapters/graphs/PMTchar/PMT600V_temperatureVsADC.pdf>
+Package pdftex.def Info: chapters/graphs/PMTchar/PMT600V_temperatureVsADC.pdf  
+used on input line 106.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ¢ in font cmr10!
-)
-(./chapters/CompSimOfPMT.tex [31] [32 <./chapters/graphs/PMTchar/PMT900V_temper
+) (chapters/CompSimOfPMT.tex [31] [32 <./chapters/graphs/PMTchar/PMT900V_temper
 atureVsADC.pdf> <./chapters/graphs/PMTchar/PMT600V_temperatureVsADC.pdf>]
 Chapter 6.
 [33
@@ -1166,483 +1222,419 @@ Chapter 6.
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _PoissonFit_Dynode1_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
-
 <chapters/graphs/PMTsimulation/ElectronsLeaving_PoissonFit_Dynode1_5e4.pdf, id=
-702, 569.12625pt x 305.14pt>
+697, 569.12625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_PoissonFit_Dynode1_5e4.pdf
  Graphic file (type pdf)
-
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_PoissonFit_Dynode1_5e4.pdf>
+
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Poisson
-Fit_Dynode1_5e4.pdf used on input line 29.
+Fit_Dynode1_5e4.pdf  used on input line 29.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _Dynode2_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-
-<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode2_5e4.pdf, id=703, 569.12
+<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode2_5e4.pdf, id=698, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode2_5e4.pdf Graphic fi
 le (type pdf)
-
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode2_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode2
-_5e4.pdf used on input line 34.
+_5e4.pdf  used on input line 34.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _Dynode3_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-
-<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode3_5e4.pdf, id=704, 569.12
+<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode3_5e4.pdf, id=699, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode3_5e4.pdf Graphic fi
 le (type pdf)
-
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode3_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode3
-_5e4.pdf used on input line 41.
+_5e4.pdf  used on input line 41.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _Dynode4_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-
-<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode4_5e4.pdf, id=705, 569.12
+<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode4_5e4.pdf, id=700, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode4_5e4.pdf Graphic fi
 le (type pdf)
-
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode4_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode4
-_5e4.pdf used on input line 46.
+_5e4.pdf  used on input line 46.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _Dynode5_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-
-<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode5_5e4.pdf, id=706, 569.12
+<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode5_5e4.pdf, id=701, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode5_5e4.pdf Graphic fi
 le (type pdf)
-
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode5_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode5
-_5e4.pdf used on input line 53.
+_5e4.pdf  used on input line 53.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _Dynode6_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-
-<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode6_5e4.pdf, id=707, 569.12
+<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode6_5e4.pdf, id=702, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode6_5e4.pdf Graphic fi
 le (type pdf)
-
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode6_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode6
-_5e4.pdf used on input line 58.
+_5e4.pdf  used on input line 58.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _Dynode7_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-
-<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode7_5e4.pdf, id=708, 569.12
+<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode7_5e4.pdf, id=703, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode7_5e4.pdf Graphic fi
 le (type pdf)
-
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode7_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode7
-_5e4.pdf used on input line 65.
+_5e4.pdf  used on input line 65.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _Dynode8_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-
-<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode8_5e4.pdf, id=709, 569.12
+<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode8_5e4.pdf, id=704, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode8_5e4.pdf Graphic fi
 le (type pdf)
-
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode8_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode8
-_5e4.pdf used on input line 70.
+_5e4.pdf  used on input line 70.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_5e5.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
-
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e5.pdf, id=710, 56
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e5.pdf, id=705, 56
 9.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e5.pdf Graphi
 c file (type pdf)
-
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e5.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_5e5.pdf used on input line 81.
+igm0_5e5.pdf  used on input line 81.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_1_5e5.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e5.pdf, id=711, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e5.pdf, id=706, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e5.pdf Grap
 hic file (type pdf)
-
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e5.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_1_5e5.pdf used on input line 86.
+igm0_1_5e5.pdf  used on input line 86.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_2_5e5.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e5.pdf, id=712, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e5.pdf, id=707, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e5.pdf Grap
 hic file (type pdf)
-
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e5.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_2_5e5.pdf used on input line 93.
+igm0_2_5e5.pdf  used on input line 93.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_3_5e5.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e5.pdf, id=713, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e5.pdf, id=708, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e5.pdf Grap
 hic file (type pdf)
-
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e5.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_3_5e5.pdf used on input line 98.
+igm0_3_5e5.pdf  used on input line 98.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_4_5e5.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e5.pdf, id=714, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e5.pdf, id=709, 
 569.12625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e5.pdf Grap
 hic file (type pdf)
-
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e5.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_4_5e5.pdf used on input line 105.
+igm0_4_5e5.pdf  used on input line 105.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_5_5e5.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e5.pdf, id=715, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e5.pdf, id=710, 
 569.12625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e5.pdf Grap
 hic file (type pdf)
-
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e5.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_5_5e5.pdf used on input line 110.
+igm0_5_5e5.pdf  used on input line 110.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
-
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e4.pdf, id=716, 56
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e4.pdf, id=711, 56
 9.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e4.pdf Graphi
 c file (type pdf)
-
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_5e4.pdf used on input line 118.
+igm0_5e4.pdf  used on input line 118.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_1_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e4.pdf, id=717, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e4.pdf, id=712, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e4.pdf Grap
 hic file (type pdf)
-
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_1_5e4.pdf used on input line 123.
+igm0_1_5e4.pdf  used on input line 123.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_2_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e4.pdf, id=718, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e4.pdf, id=713, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e4.pdf Grap
 hic file (type pdf)
-
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_2_5e4.pdf used on input line 130.
+igm0_2_5e4.pdf  used on input line 130.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_3_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e4.pdf, id=719, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e4.pdf, id=714, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e4.pdf Grap
 hic file (type pdf)
-
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_3_5e4.pdf used on input line 135.
+igm0_3_5e4.pdf  used on input line 135.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_4_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e4.pdf, id=720, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e4.pdf, id=715, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e4.pdf Grap
 hic file (type pdf)
-
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_4_5e4.pdf used on input line 142.
+igm0_4_5e4.pdf  used on input line 142.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_5_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e4.pdf, id=721, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e4.pdf, id=716, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e4.pdf Grap
 hic file (type pdf)
-
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_5_5e4.pdf used on input line 147.
+igm0_5_5e4.pdf  used on input line 147.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_5e3.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
-
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e3.pdf, id=722, 56
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e3.pdf, id=717, 56
 9.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e3.pdf Graphi
 c file (type pdf)
-
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e3.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_5e3.pdf used on input line 155.
+igm0_5e3.pdf  used on input line 155.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_1_5e3.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e3.pdf, id=723, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e3.pdf, id=718, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e3.pdf Grap
 hic file (type pdf)
-
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e3.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_1_5e3.pdf used on input line 160.
+igm0_1_5e3.pdf  used on input line 160.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_2_5e3.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e3.pdf, id=724, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e3.pdf, id=719, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e3.pdf Grap
 hic file (type pdf)
-
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e3.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_2_5e3.pdf used on input line 167.
+igm0_2_5e3.pdf  used on input line 167.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_3_5e3.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e3.pdf, id=725, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e3.pdf, id=720, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e3.pdf Grap
 hic file (type pdf)
-
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e3.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_3_5e3.pdf used on input line 172.
+igm0_3_5e3.pdf  used on input line 172.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_4_5e3.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e3.pdf, id=726, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e3.pdf, id=721, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e3.pdf Grap
 hic file (type pdf)
-
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e3.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_4_5e3.pdf used on input line 179.
+igm0_4_5e3.pdf  used on input line 179.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_5_5e3.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
-
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e3.pdf, id=727, 
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e3.pdf, id=722, 
 569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e3.pdf Grap
 hic file (type pdf)
-
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e3.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_5_5e3.pdf used on input line 184.
+igm0_5_5e3.pdf  used on input line 184.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/FLT_simulation_2
 _71pePER100ns.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
-
-<chapters/graphs/PMTsimulation/FLT_simulation_2_71pePER100ns.pdf, id=728, 569.1
+<chapters/graphs/PMTsimulation/FLT_simulation_2_71pePER100ns.pdf, id=723, 569.1
 2625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/FLT_simulation_2_71pePER100ns.pdf Graphic f
 ile (type pdf)
-
 <use chapters/graphs/PMTsimulation/FLT_simulation_2_71pePER100ns.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/FLT_simulation_2_71pePER
-100ns.pdf used on input line 207.
+100ns.pdf  used on input line 207.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/FLT_simulation_6
 _60pePER100ns.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
-
-<chapters/graphs/PMTsimulation/FLT_simulation_6_60pePER100ns.pdf, id=729, 569.1
+<chapters/graphs/PMTsimulation/FLT_simulation_6_60pePER100ns.pdf, id=724, 569.1
 2625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/FLT_simulation_6_60pePER100ns.pdf Graphic f
 ile (type pdf)
-
 <use chapters/graphs/PMTsimulation/FLT_simulation_6_60pePER100ns.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/FLT_simulation_6_60pePER
-100ns.pdf used on input line 212.
+100ns.pdf  used on input line 212.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/FLT_simulation_4
 6_8pePER100ns.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
-
-<chapters/graphs/PMTsimulation/FLT_simulation_46_8pePER100ns.pdf, id=730, 569.1
+<chapters/graphs/PMTsimulation/FLT_simulation_46_8pePER100ns.pdf, id=725, 569.1
 2625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/FLT_simulation_46_8pePER100ns.pdf Graphic f
 ile (type pdf)
-
 <use chapters/graphs/PMTsimulation/FLT_simulation_46_8pePER100ns.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/FLT_simulation_46_8pePER
-100ns.pdf used on input line 219.
+100ns.pdf  used on input line 219.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/FLT_simulation_6
 5_8pePER100ns.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
-
-<chapters/graphs/PMTsimulation/FLT_simulation_65_8pePER100ns.pdf, id=731, 569.1
+<chapters/graphs/PMTsimulation/FLT_simulation_65_8pePER100ns.pdf, id=726, 569.1
 2625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/FLT_simulation_65_8pePER100ns.pdf Graphic f
 ile (type pdf)
-
 <use chapters/graphs/PMTsimulation/FLT_simulation_65_8pePER100ns.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/FLT_simulation_65_8pePER
-100ns.pdf used on input line 224.
+100ns.pdf  used on input line 224.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/FLT_simulation_2
 63pePER100ns.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-
-<chapters/graphs/PMTsimulation/FLT_simulation_263pePER100ns.pdf, id=732, 569.12
+<chapters/graphs/PMTsimulation/FLT_simulation_263pePER100ns.pdf, id=727, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/FLT_simulation_263pePER100ns.pdf Graphic fi
 le (type pdf)
-
 <use chapters/graphs/PMTsimulation/FLT_simulation_263pePER100ns.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/FLT_simulation_263pePER1
-00ns.pdf used on input line 230.
+00ns.pdf  used on input line 230.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/FLT_simulation_6
 57pePER100ns.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
-
-<chapters/graphs/PMTsimulation/FLT_simulation_657pePER100ns.pdf, id=733, 569.12
+<chapters/graphs/PMTsimulation/FLT_simulation_657pePER100ns.pdf, id=728, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/FLT_simulation_657pePER100ns.pdf Graphic fi
 le (type pdf)
-
 <use chapters/graphs/PMTsimulation/FLT_simulation_657pePER100ns.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/FLT_simulation_657pePER1
-00ns.pdf used on input line 235.
+00ns.pdf  used on input line 235.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
-)
-(./chapters/GainVarianceMeasure.tex [34] [35 <./chapters/graphs/PMTsimulation/E
+) (chapters/GainVarianceMeasure.tex [34] [35 <./chapters/graphs/PMTsimulation/E
 lectronsLeaving_PoissonFit_Dynode1_5e4.pdf> <./chapters/graphs/PMTsimulation/El
 ectronsLeaving_Dynode2_5e4.pdf> <./chapters/graphs/PMTsimulation/ElectronsLeavi
 ng_Dynode3_5e4.pdf> <./chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode4_5
@@ -1684,360 +1676,316 @@ LaTeX Warning: Reference `' on page 42 undefined on input line 41.
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /example_NoiseHist1.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-
-<chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist1.pdf, id=1072
+<chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist1.pdf, id=1065
 , 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist1.pdf Gra
 phic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist1.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example
-_NoiseHist1.pdf used on input line 46.
+_NoiseHist1.pdf  used on input line 46.
 (pdftex.def)             Requested size: 418.96548pt x 218.7291pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /example_NoiseHist2.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
-
-<chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist2.pdf, id=1073
+<chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist2.pdf, id=1066
 , 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist2.pdf Gra
 phic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example
-_NoiseHist2.pdf used on input line 51.
+_NoiseHist2.pdf  used on input line 51.
 (pdftex.def)             Requested size: 418.96548pt x 218.7291pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /Set0and2/meanHist_StandHV_Pairs_set0and2.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
-
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_StandHV_Pairs
-_set0and2.pdf, id=1076, 569.12625pt x 297.11pt>
+_set0and2.pdf, id=1069, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_StandHV_
 Pairs_set0and2.pdf Graphic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_StandHV_P
 airs_set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/meanHist_StandHV_Pairs_set0and2.pdf used on input line 64.
+2/meanHist_StandHV_Pairs_set0and2.pdf  used on input line 64.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /Set0and2/meanHist_LowHV_Pairs_set0and2.pdf): PDF inclusion: found PDF version 
 <1.7>, but at most version <1.5> allowed
-
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_LowHV_Pairs_s
-et0and2.pdf, id=1077, 569.12625pt x 297.11pt>
+et0and2.pdf, id=1070, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_LowHV_Pa
 irs_set0and2.pdf Graphic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_LowHV_Pai
 rs_set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/meanHist_LowHV_Pairs_set0and2.pdf used on input line 67.
+2/meanHist_LowHV_Pairs_set0and2.pdf  used on input line 67.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /Set0and2/varianceHist_StandHV_Pairs_set0and2.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_StandHV_P
-airs_set0and2.pdf, id=1078, 569.12625pt x 297.11pt>
+airs_set0and2.pdf, id=1071, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_Stan
 dHV_Pairs_set0and2.pdf Graphic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_Stand
 HV_Pairs_set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/varianceHist_StandHV_Pairs_set0and2.pdf used on input line 72.
+2/varianceHist_StandHV_Pairs_set0and2.pdf  used on input line 72.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /Set0and2/varianceHist_LowHV_Pairs_set0and2.pdf): PDF inclusion: found PDF vers
 ion <1.7>, but at most version <1.5> allowed
-
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_LowHV_Pai
-rs_set0and2.pdf, id=1079, 569.12625pt x 297.11pt>
+rs_set0and2.pdf, id=1072, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_LowH
 V_Pairs_set0and2.pdf Graphic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_LowHV
 _Pairs_set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/varianceHist_LowHV_Pairs_set0and2.pdf used on input line 75.
+2/varianceHist_LowHV_Pairs_set0and2.pdf  used on input line 75.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
- [42] [43 <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist1.
-pdf> <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist2.pdf>]
- [44 <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_StandH
-V_Pairs_set0and2.pdf> <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/meanHist_LowHV_Pairs_set0and2.pdf>] [45 <./chapters/graphs/GainVarsMeas/LL_m0
-4_2016-06-11/Set0and2/varianceHist_StandHV_Pairs_set0and2.pdf> <./chapters/grap
-hs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_LowHV_Pairs_set0and2.pd
-f>]
+[42] [43 <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist1.p
+df> <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist2.pdf>]
+[44 <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_StandHV
+_Pairs_set0and2.pdf> <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2
+/meanHist_LowHV_Pairs_set0and2.pdf>] [45 <./chapters/graphs/GainVarsMeas/LL_m04
+_2016-06-11/Set0and2/varianceHist_StandHV_Pairs_set0and2.pdf> <./chapters/graph
+s/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_LowHV_Pairs_set0and2.pdf
+>]
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /Set0and2/GainVairanceHist_Pairs.pdf): PDF inclusion: found PDF version <1.7>, 
 but at most version <1.5> allowed
-
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_Pairs
-.pdf, id=1142, 569.12625pt x 297.11pt>
+.pdf, id=1134, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_
 Pairs.pdf Graphic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_P
 airs.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/GainVairanceHist_Pairs.pdf used on input line 86.
+2/GainVairanceHist_Pairs.pdf  used on input line 86.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /Set0and2/GainVars_Vs_Pixel_GainVariance_Pairs_Set0and2.pdf): PDF inclusion: fo
 und PDF version <1.7>, but at most version <1.5> allowed
-
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_Gain
-Variance_Pairs_Set0and2.pdf, id=1143, 569.12625pt x 297.11pt>
+Variance_Pairs_Set0and2.pdf, id=1135, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel
 _GainVariance_Pairs_Set0and2.pdf Graphic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_
 GainVariance_Pairs_Set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/GainVars_Vs_Pixel_GainVariance_Pairs_Set0and2.pdf used on input line 89.
+2/GainVars_Vs_Pixel_GainVariance_Pairs_Set0and2.pdf  used on input line 89.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /Set0and2/meanHist_StandHV_Average_set0and2.pdf): PDF inclusion: found PDF vers
 ion <1.7>, but at most version <1.5> allowed
-
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_StandHV_Avera
-ge_set0and2.pdf, id=1144, 569.12625pt x 297.11pt>
+ge_set0and2.pdf, id=1136, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_StandHV_
 Average_set0and2.pdf Graphic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_StandHV_A
 verage_set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/meanHist_StandHV_Average_set0and2.pdf used on input line 98.
+2/meanHist_StandHV_Average_set0and2.pdf  used on input line 98.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /Set0and2/meanHist_LowHV_Average_set0and2.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
-
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_LowHV_Average
-_set0and2.pdf, id=1145, 569.12625pt x 297.11pt>
+_set0and2.pdf, id=1137, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_LowHV_Av
 erage_set0and2.pdf Graphic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_LowHV_Ave
 rage_set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/meanHist_LowHV_Average_set0and2.pdf used on input line 101.
+2/meanHist_LowHV_Average_set0and2.pdf  used on input line 101.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /Set0and2/varianceHist_StandHV_Average_set0and2.pdf): PDF inclusion: found PDF 
 version <1.7>, but at most version <1.5> allowed
-
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_StandHV_A
-verage_set0and2.pdf, id=1146, 569.12625pt x 297.11pt>
+verage_set0and2.pdf, id=1138, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_Stan
 dHV_Average_set0and2.pdf Graphic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_Stand
 HV_Average_set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/varianceHist_StandHV_Average_set0and2.pdf used on input line 106.
+2/varianceHist_StandHV_Average_set0and2.pdf  used on input line 106.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /Set0and2/varianceHist_LowHV_Average_set0and2.pdf): PDF inclusion: found PDF ve
 rsion <1.7>, but at most version <1.5> allowed
-
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_LowHV_Ave
-rage_set0and2.pdf, id=1147, 569.12625pt x 297.11pt>
+rage_set0and2.pdf, id=1139, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_LowH
 V_Average_set0and2.pdf Graphic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_LowHV
 _Average_set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/varianceHist_LowHV_Average_set0and2.pdf used on input line 109.
+2/varianceHist_LowHV_Average_set0and2.pdf  used on input line 109.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /Set0and2/GainVairanceHist_Average_Method1.pdf): PDF inclusion: found PDF versi
 on <1.7>, but at most version <1.5> allowed
-
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_Avera
-ge_Method1.pdf, id=1152, 569.12625pt x 297.11pt>
+ge_Method1.pdf, id=1144, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_
 Average_Method1.pdf Graphic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_A
 verage_Method1.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/GainVairanceHist_Average_Method1.pdf used on input line 118.
+2/GainVairanceHist_Average_Method1.pdf  used on input line 118.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /Set0and2/GainVars_Vs_Pixel_GainVariance_Average_Method1_Set0and2.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_Gain
-Variance_Average_Method1_Set0and2.pdf, id=1153, 569.12625pt x 297.11pt>
+Variance_Average_Method1_Set0and2.pdf, id=1145, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel
 _GainVariance_Average_Method1_Set0and2.pdf Graphic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_
 GainVariance_Average_Method1_Set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/GainVars_Vs_Pixel_GainVariance_Average_Method1_Set0and2.pdf used on input lin
-e 121.
+2/GainVars_Vs_Pixel_GainVariance_Average_Method1_Set0and2.pdf  used on input li
+ne 121.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /Set0and2/Chi2_AverageMethod_Signal_StandHV.pdf): PDF inclusion: found PDF vers
 ion <1.7>, but at most version <1.5> allowed
-
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod_Sig
-nal_StandHV.pdf, id=1154, 569.12625pt x 297.11pt>
+nal_StandHV.pdf, id=1146, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMetho
 d_Signal_StandHV.pdf Graphic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod
 _Signal_StandHV.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/Chi2_AverageMethod_Signal_StandHV.pdf used on input line 126.
+2/Chi2_AverageMethod_Signal_StandHV.pdf  used on input line 126.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /Set0and2/Chi2_AverageMethod_Signal_LowHV.pdf): PDF inclusion: found PDF versio
 n <1.7>, but at most version <1.5> allowed
-
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod_Sig
-nal_LowHV.pdf, id=1155, 569.12625pt x 297.11pt>
+nal_LowHV.pdf, id=1147, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMetho
 d_Signal_LowHV.pdf Graphic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod
 _Signal_LowHV.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/Chi2_AverageMethod_Signal_LowHV.pdf used on input line 129.
+2/Chi2_AverageMethod_Signal_LowHV.pdf  used on input line 129.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /Set0and2/Chi2_AverageMethod_Noise_StandHV.pdf): PDF inclusion: found PDF versi
 on <1.7>, but at most version <1.5> allowed
-
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod_Noi
-se_StandHV.pdf, id=1156, 569.12625pt x 297.11pt>
+se_StandHV.pdf, id=1148, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMetho
 d_Noise_StandHV.pdf Graphic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod
 _Noise_StandHV.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/Chi2_AverageMethod_Noise_StandHV.pdf used on input line 134.
+2/Chi2_AverageMethod_Noise_StandHV.pdf  used on input line 134.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /Set0and2/Chi2_AverageMethod_Noise_LowHV.pdf): PDF inclusion: found PDF version
  <1.7>, but at most version <1.5> allowed
-
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod_Noi
-se_LowHV.pdf, id=1157, 569.12625pt x 297.11pt>
+se_LowHV.pdf, id=1149, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMetho
 d_Noise_LowHV.pdf Graphic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod
 _Noise_LowHV.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/Chi2_AverageMethod_Noise_LowHV.pdf used on input line 137.
+2/Chi2_AverageMethod_Noise_LowHV.pdf  used on input line 137.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /Set0and2/GainVairanceHist_Average_LTS.pdf): PDF inclusion: found PDF version <
 1.7>, but at most version <1.5> allowed
-
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_Avera
-ge_LTS.pdf, id=1158, 569.12625pt x 297.11pt>
+ge_LTS.pdf, id=1150, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_
 Average_LTS.pdf Graphic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_A
 verage_LTS.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/GainVairanceHist_Average_LTS.pdf used on input line 147.
+2/GainVairanceHist_Average_LTS.pdf  used on input line 147.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /Set0and2/GainVars_Vs_Pixel_GainVariance_AverageLTS_Set0and2.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_Gain
-Variance_AverageLTS_Set0and2.pdf, id=1159, 569.12625pt x 297.11pt>
+Variance_AverageLTS_Set0and2.pdf, id=1151, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel
 _GainVariance_AverageLTS_Set0and2.pdf Graphic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_
 GainVariance_AverageLTS_Set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/GainVars_Vs_Pixel_GainVariance_AverageLTS_Set0and2.pdf used on input line 150
-.
+2/GainVars_Vs_Pixel_GainVariance_AverageLTS_Set0and2.pdf  used on input line 15
+0.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /Set0and2/GainVairanceHist_Average_Method2.pdf): PDF inclusion: found PDF versi
 on <1.7>, but at most version <1.5> allowed
-
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_Avera
-ge_Method2.pdf, id=1160, 569.12625pt x 297.11pt>
+ge_Method2.pdf, id=1152, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_
 Average_Method2.pdf Graphic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_A
 verage_Method2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/GainVairanceHist_Average_Method2.pdf used on input line 157.
+2/GainVairanceHist_Average_Method2.pdf  used on input line 157.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /Set0and2/GainVars_Vs_Pixel_GainVariance_Average_Method2_Set0and2.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_Gain
-Variance_Average_Method2_Set0and2.pdf, id=1161, 569.12625pt x 297.11pt>
+Variance_Average_Method2_Set0and2.pdf, id=1153, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel
 _GainVariance_Average_Method2_Set0and2.pdf Graphic file (type pdf)
-
 <use chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_
 GainVariance_Average_Method2_Set0and2.pdf>
 Package pdftex.def Info: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and
-2/GainVars_Vs_Pixel_GainVariance_Average_Method2_Set0and2.pdf used on input lin
-e 160.
+2/GainVars_Vs_Pixel_GainVariance_Average_Method2_Set0and2.pdf  used on input li
+ne 160.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 Underfull \vbox (badness 1303) has occurred while \output is active []
@@ -2068,61 +2016,64 @@ hs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod_Noise_LowHV.pdf>]
 [53 <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist
 _Average_LTS.pdf> <./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Ga
 inVars_Vs_Pixel_GainVariance_AverageLTS_Set0and2.pdf>])
-(./chapters/LabSimOfFDshift.tex [54] [55 <./chapters/graphs/GainVarsMeas/LL_m04
-_2016-06-11/Set0and2/GainVairanceHist_Average_Method2.pdf> <./chapters/graphs/G
-ainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_GainVariance_Average_M
-ethod2_Set0and2.pdf>] [56
+(chapters/LabSimOfFDshift.tex [54] [55 <./chapters/graphs/GainVarsMeas/LL_m04_2
+016-06-11/Set0and2/GainVairanceHist_Average_Method2.pdf> <./chapters/graphs/Gai
+nVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_GainVariance_Average_Met
+hod2_Set0and2.pdf>] [56
 
 ]
 Chapter 8.
-) (./chapters/CloudCamera.tex [57] [58
+) (chapters/CloudCamera.tex [57] [58
 
 ]
 Chapter 9.
-) (./chapters/conclusion.tex [59] [60
+) (chapters/conclusion.tex [59] [60
 
 ]
 Chapter 10.
-) (./PhD_Thesis.bbl [61] [62
+) (PhD_Thesis.bbl [61] [62
 
 ])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 152.
  [63]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 152.
- (./PhD_Thesis.aux)
+ (PhD_Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 152.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 152.
 Package rerunfilecheck Info: File `PhD_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 8444E6B32DB2D881EB41F9C96648FE68;3789.
+(rerunfilecheck)             Checksum: 643D1B8C2B99FCE7AC9FE109CF8B8A73;3842.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 11258 strings out of 493029
- 187931 string characters out of 6136233
- 386408 words of memory out of 5000000
- 14271 multiletter control sequences out of 15000+600000
- 13902 words of font info for 51 fonts, out of 8000000 for 9000
+ 11588 strings out of 492973
+ 200279 string characters out of 3125806
+ 393275 words of memory out of 3000000
+ 14938 multiletter control sequences out of 15000+200000
+ 14243 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,12n,77p,1216b,595s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/tsudholz/.texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1200.600pk></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
-y8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
->
-Output written on PhD_Thesis.pdf (75 pages, 5364286 bytes).
+ 38i,12n,77p,1218b,601s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Tristan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi60
+0\tcrm1095.pk> <C:\Users\Tristan\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknap
+pen\ec\dpi600\tcrm1200.pk><C:/Users/Tristan/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Tristan/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Tristan/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/User
+s/Tristan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
+12.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Tristan/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Tristan/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Tristan
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
+:/Users/Tristan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmsy8.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmti12.pfb>
+Output written on PhD_Thesis.pdf (75 pages, 5537632 bytes).
 PDF statistics:
- 1434 PDF objects out of 1440 (max. 8388607)
- 1128 compressed objects within 12 object streams
+ 1426 PDF objects out of 1440 (max. 8388607)
  182 named destinations out of 1000 (max. 500000)
  835 words of extra memory for PDF output out of 10000 (max. 10000000)
 

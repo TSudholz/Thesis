@@ -41,11 +41,11 @@ The method used to measure the ratio in gain variance is to take the calculated 
 
 \section{Electronic Noise}
 
-I investigated the consistency of the electronic noise across a set of 50 CalA traces. The consistency was looked at as there is only about 140 bins of noise before each of the signal pulse starts. Therefore finding an accurate mean and variance of the electronic noise on individual pulses is difficult. An accurate measurement of the electronic noise mean and variance was required as the measured gain variance ratio was only a few percent.
+I investigated the consistency of the electronic noise across a set of 50 CalA traces. The consistency was looked at as there is only about 140 bins of noise before each of the signal pulse starts. Therefore finding an accurate mean and variance of the electronic noise on individual pulses is difficult. An accurate measurement of the electronic noise mean and variance was required as the measured change in the relative gain variance ratio was only a few percent.
 
 \textbf{Need to show electronic noise as function of time.}
 
-An example of a pixel electronic noise trace is shown in Fig. \ref{}. It can be seen in this figure that stitching all of the noise bins from the 50 traces is remarkably stable. This result allows for all the noise for a single PMT pixel to be place into a histogram to find a more accurate value for the mean and variance.
+An example of a pixel electronic noise trace is shown in Fig. \ref{}. It can be seen in this figure that stitching all of the noise bins from the 50 traces is remarkably stable. This result allows for all the noise for a single PMT pixel to be placed into a histogram to find a more accurate value for the mean and variance.
 
 \begin{figure} % Electronic Noise Distribution
 \centering
@@ -63,9 +63,9 @@ An example of a pixel electronic noise trace is shown in Fig. \ref{}. It can be 
 
 \section{Pairs Method}
 
-For both standard and reduced voltage settings 50 sets of pulses are recorded for the CalA analysis. The pair method involves taking single CalA shots from standard and lower voltage settings and fitting an exponential to the signal. The fitted exponential is used to find the mean value at the top of the signal and the variance around the fit. For each pixel 50 values for the Gain Variance ratio is found and this is repeated for the 440 pixels within the FD telescope.
+For both standard and lower voltage settings, 50 sets of pulses are recorded for the CalA analysis. The pair method involves taking single CalA shots from standard and lower voltage settings and fitting an exponential to the signal. The fitted exponential is used to find the mean value at the top of the signal and the variance around the fit. For each pixel 50 values for the Gain Variance ratio was found and this was repeated for the 440 pixels within the FD telescope camera.
 
-Fig. \ref{fig:CalAMeanADC_Pairs} shows the average ADC count found across a camera for a FD telescope. The pattern follow how the camera is illuminated by the LED pointing at the camera. It shows that the spot is brightness in the middle and the intensity drops off towards the edges \textbf{need to add in diagram of labelled pixel no. across a FD camera}. There are uncertainties on the averages but are smaller then the displayed points. The variance measured in Fig. \ref{fig:CalAVarsADC_Pairs} shows an expected pattern too. The variance is proportional to the mean and is expected to follow a similar shape. This will not be exact but a good indicator of whether the variance was calculated correctly.
+Fig. \ref{fig:CalAMeanADC_Pairs} shows the average ADC found across a camera for a FD telescope. The pattern follows how the camera is illuminated by the LED pointing at it. It shows that the spot is brightest in the middle and the intensity drops off towards the edges \textbf{need to add in diagram of labelled pixel no. across a FD camera}. There are uncertainties on the averages, but are smaller then the points displayed on the figures. The variance measured in Fig. \ref{fig:CalAVarsADC_Pairs} shows an expected pattern also. The variance is proportional to the mean and is expected to follow a similar shape. This will not be exact but a good indicator of whether the variance was calculated correctly.
 
 \begin{figure} % Mean Plot
 \includegraphics[width=\textwidth]{chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_StandHV_Pairs_set0and2.pdf}

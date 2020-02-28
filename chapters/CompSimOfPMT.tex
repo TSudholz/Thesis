@@ -1,4 +1,4 @@
-\chapter[Computer Simulation of FD PMT]{\centering Computer Simulation of FD PMT \\}\label{Ch:CompSimPMT}
+\chapter[Computer Simulation of FD PMT]{\centering Computer Simulation of Fluorescence Detector Photomultiplier Tubes \\}\label{Ch:CompSimPMT}
 
 Simulating the FD PMT under differing NSB and for different reasons.
 \begin{itemize}
@@ -9,19 +9,23 @@ Simulating the FD PMT under differing NSB and for different reasons.
 \item FD FLT under increased NSB
 \end{itemize}
 
+\section{Motivation}
 
+- PMT Theory/Background
 
 \section{Method and Theory}
 
-To get a deeper understanding of how a PMT gain variance I used a toy model Monte Carlo to follow simulated electrons throughout the PMT chain. Gain Variance is the Gaussian broadening of the measured anode signal. The number of electrons that are emitted off of each dynode follows a Poisson distribution but as electrons travel further down the dynode chain and the number of electrons emitted per dynode increase the distribution becomes more Gaussian like. When an electron hits a dynode there is a probability distribution that is Poission in shape. As the number of electrons hitting an individual dynode increases the overlapping Poission distribution becomes more Gaussian in shape.
+For a deeper understanding of how the PMT gain variance works I used a toy model Monte Carlo to  simulate electrons moving throughout the PMT dynode chain. Gain Variance is the Gaussian broadening of the measured anode signal. The number of electrons that are emitted from each dynode follows a Poisson distribution.  When an electron hits a dynode the number of electrons emitted follow a probability distribution that is Poission in shape. As electrons travel further down the dynode chain and the number of electrons emitted per dynode increase the distribution becomes more Gaussian like.
 
-To simulate the Gain Variance within a PMT I set-up 8 dynode stages to match the XP3062 PMT used by the FD telescopes. I was only looking at the single photo-electron case (IE. where only a single electron is emitted from the cathode.). If there was no extra broadening then the distribution would be dictated by the Poisson distribution. For each electron that hits a dynode a random number generator is used to determine the number of electrons that leave the dynode.
+To simulate the Gain Variance within a PMT I set-up my toy model to match the number of stages with the XP3062 PMT. I was only looking at the single photo-electron case (ie. where only a single electron is emitted from the cathode.). If there was no extra broadening then the distribution would be dictated by the Poisson distribution. For each electron that hits a dynode a random number generator is used to determine the number of electrons that leave the dynode.
+
+- Lot more detail. Through how the toy model is produced.
 
 \textbf{Draw flow chart of toy model Monte Carlo.}
 
 \subsection{Theoretical value of Gain Variance?}
 
-Investigated different scenarios - each dynode able to emit uniformly across its surface and each dynode having some sort of irregularity across its surface. The irregularity was added by shifting the mean of the Poisson distribution by sampling from a random Gaussian distribution. The gain variance was investigated at different PMT gain values. The PMT gain values was equivalent to a high voltage across the PMT of 1300V, 900V and 600V. 1300V was picked as that the high voltage for which a gain variance measurement was preformed by Auger, 900V is the typical high voltage used when running the FD telescopes and 600V is the approximate high voltage to be used when using the FD telescopes to observe under increased NSB conditions. 
+I investigated different scenarios - firstly each dynode able to emit electrons with uniform Poission distribution across its surface and secondly each dynode having some sort of irregularity across its surface. The irregularity was added by shifting the mean of the Poisson distribution by sampling from a random Gaussian distribution. The gain variance was investigated at different PMT gain values. The PMT gain values picked was equivalent to a high voltage across the PMT of 1300V, 900V and 600V. The high voltage of 1300V was picked as a direct gain variance measurement was preformed by  \textbf{some group within Auger}, 900V is the typical high voltage used when the FD telescopes are operating and 600V is the approximate high voltage that is expected to be used when the FD telescopes are observing under increased NSB conditions. 
 
 \begin{figure}
 \centering
@@ -198,7 +202,7 @@ Investigated different scenarios - each dynode able to emit uniformly across its
 
 \section{FD FLT under different NSB levels}
 
-Looked at study to simulate the effects of increased NSB on the First Level Trigger (FLT). The PAO maintains the FLT to trigger at 100 Hz range. From simulations with different NSB levels it can be seen trigger threshold above the mean would be required to maintain the expected trigger level. The NSB of 2.71$\backslash$100 ns is the typical NSB level observed at the site. From there I picked 5 increased NSB levels to show how threshold above the mean changes. 
+Looked at study to simulate the effects of increased NSB on the First Level Trigger (FLT). The Auger maintains the FLT to trigger at 100 Hz range. From simulations with different NSB levels it can be seen trigger threshold above the mean would be required to maintain the expected trigger level. The NSB of 2.71$\backslash$100 ns is the typical NSB level observed at the site. From there I picked 5 increased NSB levels to show how threshold above the mean changes. 
 
 
 \begin{figure}

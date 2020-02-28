@@ -1,4 +1,4 @@
-\chapter[Measuring FD PMT Gain Variance with CalA Data]{\centering Measuring FD PMT Gain Variance with CalA Data \\}\label{Ch:GainVariance}
+\chapter[Measuring FD PMT Gain Variance with CalA Data]{\centering Measuring Fluorescence Detector Photomultiplier Gain Variance with CalA Data \\}\label{Ch:GainVariance}
 
 Measuring Gain Variance of FD PMT with CalA Data
 \begin{itemize}
@@ -9,21 +9,28 @@ Measuring Gain Variance of FD PMT with CalA Data
 \item Bootstrap method to find uncertainties on Method 2
 \end{itemize}
 
+\section{Motivation}
+\
+- Background
+
+- Why?
+
+The absolute value of the gain variance cannot be found but using the CalA data a relative change can be found. This is useful for the collaboration simulations as a Gain variance is coded for the PMT at standard voltage settings. Finding out the relative change in gain variance would be useful to be used for simulations of the FD PMTs at a lower voltage settings (eg. 600V).
+
 \section{Using CalA to measure relative changes in Gain Variance}
 
-Using CalA data from the FD telescopes to measure the relative changes in PMT  gain variance as the gain is changed by a factor of 10. CalA data is calibration data used to monitor any changes in PMT gain as a function of time. CalA is performed at the beginning and end of a nightly observation done with the FDs. Pulses from a monitored light source are piped to point at the camera. There are 50 pulses sent with a width of approximately 60 $\mu$s.
+I am using CalA data from the FD telescopes to measure the relative changes in PMT gain variance as the gain was changed by a factor of 10. CalA data is calibration data used to monitor any changes in PMT gain as a function of time. CalA is performed at the beginning and end of a nightly observation while FDs are operated. Pulses of light are piped via fibre optics cables which is pointed at each of the Fd telescope cameras. Each CalA run is a set of 50 pulses which have a width of approximately 60 $\mu$s.
 
 \textbf{show image of CalA pulse}
 
-One of the values that can be calculated from the CalA is a value denoted K$_{\mathrm{V}}$. K$_{\mathrm{V}}$ is calculated via:
+One of the values that can be calculated from the CalA is denoted K$_{\mathrm{V}}$. The value K$_{\mathrm{V}}$ is calculated via:
 \begin{equation}
 \mathrm{K}_{\mathrm{V}} = \frac{\mathrm{Mean}}{\mathrm{Sigma}^2} = \frac{10}{2 \times \mathrm{G} (1 + \mathrm{V}_{\mathrm{G}}) \times \mathrm{F}}
 \end{equation}
-Mean is the average ADC count of the observed CalA pulse seen the FD pixel, sigma$^2$ is the variance calculated around fit to the signal in ADC$^2$. The signal has a slope due to the effects of a capacitor used to remove the DC component of the signal. The slope is proportional to the time constant of the capacitor employed. G is the PMT gain, F is the noise equivalent bandwidth (Hz) and V$_{\mathrm{G}}$ is the PMT gain variance.
+The Mean is the average ADC count of the observed CalA pulse seen in the FD pixel. The Sigma$^2$ is the variance calculated around a fit to the signal in ADC$^2$. The signal has a slope due to the effects of a capacitor used to remove the DC component of the signal. The slope is proportional to the time constant of the capacitor employed. G is the PMT gain, F is the noise equivalent bandwidth (Hz) and V$_{\mathrm{G}}$ is the PMT gain variance.
 
-The absolute value of the gain variance cannot be found but using K$_{\mathrm{V}}$ a relative change can be found. This is useful for the collaboration simulations as a Gain variance is coded for the PMT at standard voltage settings. Finding out the relative change in gain variance would be useful to be used for simulations of the FD PMTs at a lower voltage settings (IE. 600V).
 
-The method used to measure the ratio in gain variance is to take the calculated means and sigmas from the pulses and then find a ratio between the K$_{\mathrm{V}}$ and Gains at the two different voltage settings.
+The method used to measure the ratio in gain variance is to take the calculated means and sigmas from the pulses and then finding a ratio between the K$_{\mathrm{V}}$ and Gains at the two different voltage settings.
 \begin{eqnarray}
 \mathrm{K} = \frac{\mathrm{Mean}}{\mathrm{Sigma}^2} &=& \frac{10}{2 \times \mathrm{G} (1 + \mathrm{V}_{\mathrm{G}}) \times \mathrm{F}} \\ 
 \frac{\left(\mathrm{K}_{\mathrm{V}}\right)_{\mathrm{Low}}}{\left(\mathrm{K}_{\mathrm{V}}\right)_{\mathrm{Stand}}} &=& \frac{\mathrm{Mean}_{\mathrm{Low}}}{\mathrm{Sigma}^2_{\mathrm{Low}}} \div \frac{\mathrm{Mean}_{\mathrm{Stand}}}{\mathrm{Sigma}^2_{\mathrm{Stand}}} \\ 
@@ -34,7 +41,7 @@ The method used to measure the ratio in gain variance is to take the calculated 
 
 \section{Electronic Noise}
 
-Investigated the consistency of the electronic noise across a set of 50 CalA traces. The consistency was looked as there is only about 140 bins of noise before the signal pulse start. Therefore finding an accurate mean and variance of the electronic noise on an individual pulse is difficult. An accurate measurement of the electronic noise mean and variance was required as the measured gain variance ratio was only a few percent.
+I investigated the consistency of the electronic noise across a set of 50 CalA traces. The consistency was looked at as there is only about 140 bins of noise before each of the signal pulse starts. Therefore finding an accurate mean and variance of the electronic noise on individual pulses is difficult. An accurate measurement of the electronic noise mean and variance was required as the measured gain variance ratio was only a few percent.
 
 \textbf{Need to show electronic noise as function of time.}
 

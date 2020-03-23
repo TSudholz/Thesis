@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.14)  28 FEB 2020 19:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.7.14)  28 FEB 2020 19:42
 entering extended mode
 **./PhD_Thesis.tex
 (PhD_Thesis.tex
@@ -1120,7 +1120,7 @@ File: chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png Graphic file (ty
 pe png)
 <use chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png>
 Package pdftex.def Info: chapters/graphs/PMTchar/pmt_linearity_100V_privitera.p
-ng  used on input line 43.
+ng  used on input line 45.
 (pdftex.def)             Requested size: 441.01773pt x 414.81387pt.
 
 
@@ -1133,7 +1133,7 @@ File: chapters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf Graphic file (type
 pdf)
 <use chapters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf>
 Package pdftex.def Info: chapters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf 
- used on input line 50.
+ used on input line 52.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1146,7 +1146,7 @@ File: chapters/graphs/PMTchar/PMT600V_linearityNDmethod.pdf Graphic file (type
 pdf)
 <use chapters/graphs/PMTchar/PMT600V_linearityNDmethod.pdf>
 Package pdftex.def Info: chapters/graphs/PMTchar/PMT600V_linearityNDmethod.pdf 
- used on input line 54.
+ used on input line 56.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 [26] [27 <./chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png>] [28 <./c
 hapters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf> <./chapters/graphs/PMTcha
@@ -1156,7 +1156,7 @@ r/PMT600V_linearityNDmethod.pdf>]
 File: chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf Graphic file (type pdf)
 <use chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf>
 Package pdftex.def Info: chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf  used
- on input line 74.
+ on input line 76.
 (pdftex.def)             Requested size: 441.01773pt x 314.09741pt.
 
 
@@ -1169,7 +1169,7 @@ File: chapters/graphs/PMTchar/PMT900V_linearity2LEDmethod.pdf Graphic file (typ
 e pdf)
 <use chapters/graphs/PMTchar/PMT900V_linearity2LEDmethod.pdf>
 Package pdftex.def Info: chapters/graphs/PMTchar/PMT900V_linearity2LEDmethod.pd
-f  used on input line 82.
+f  used on input line 84.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1182,7 +1182,7 @@ File: chapters/graphs/PMTchar/PMT600V_linearity2LEDmethod.pdf Graphic file (typ
 e pdf)
 <use chapters/graphs/PMTchar/PMT600V_linearity2LEDmethod.pdf>
 Package pdftex.def Info: chapters/graphs/PMTchar/PMT600V_linearity2LEDmethod.pd
-f  used on input line 86.
+f  used on input line 88.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 [29 <./chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf>] [30 <./chapters/graph
 s/PMTchar/PMT900V_linearity2LEDmethod.pdf> <./chapters/graphs/PMTchar/PMT600V_l
@@ -1197,7 +1197,7 @@ File: chapters/graphs/PMTchar/PMT900V_temperatureVsADC.pdf Graphic file (type p
 df)
 <use chapters/graphs/PMTchar/PMT900V_temperatureVsADC.pdf>
 Package pdftex.def Info: chapters/graphs/PMTchar/PMT900V_temperatureVsADC.pdf  
-used on input line 102.
+used on input line 104.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1210,7 +1210,7 @@ File: chapters/graphs/PMTchar/PMT600V_temperatureVsADC.pdf Graphic file (type p
 df)
 <use chapters/graphs/PMTchar/PMT600V_temperatureVsADC.pdf>
 Package pdftex.def Info: chapters/graphs/PMTchar/PMT600V_temperatureVsADC.pdf  
-used on input line 106.
+used on input line 108.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 ) (chapters/CompSimOfPMT.tex [31] [32 <./chapters/graphs/PMTchar/PMT900V_temper
 atureVsADC.pdf> <./chapters/graphs/PMTchar/PMT600V_temperatureVsADC.pdf>]
@@ -2038,7 +2038,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  11592 strings out of 492973
  200327 string characters out of 3125806
- 393275 words of memory out of 3000000
+ 394275 words of memory out of 3000000
  14940 multiletter control sequences out of 15000+200000
  14243 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2059,7 +2059,7 @@ l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/Tristan
 :/Users/Tristan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
 m/cmsy8.pfb><C:/Users/Tristan/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
 lic/amsfonts/cm/cmti12.pfb>
-Output written on PhD_Thesis.pdf (75 pages, 5538829 bytes).
+Output written on PhD_Thesis.pdf (75 pages, 5538815 bytes).
 PDF statistics:
  1436 PDF objects out of 1440 (max. 8388607)
  184 named destinations out of 1000 (max. 500000)

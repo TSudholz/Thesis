@@ -13,35 +13,37 @@
 
 \section{Motivation}
 
-The FD shifts are typically organised for night with the illuminated fraction of the moon less then 70\% and can be operated longer than 3 hours of moon below the horizon. The Fd telescope shutters are then opened when the sun is below -18\textdegree of the horizon (astronomical twilight), the average variance of the camera PMTs less then 100 ADC$^2$ and individual PMTs less then 2000 ADC$^2$. Two calculations where done by the collaboration to estimate the theoretical up time of the FD's. Before 2012 the theoretical calculations looked like:
+The Fluorescence Detectors (FDs) are operated under strict guidelines: an observation run is organised for nights when the illuminated fraction of the moon less then 70\% and can have a minimum of 3 hours of operation with the moon below the horizon. The FD telescope shutters are then opened when the sun is below -18\textdegree \ of the horizon (beginning of astronomical twilight). The FD shutters remain open while the average variance across the FD camera is less then 100 ADC$^2$/100 ns and the variance of individual PMTs is less then 2000 ADC$^2$/100 ns. From these guidelines the FD time of operation can be calculated. A calculation performed by the collaboration to estimate the theoretical up time of the FD's was done before 2012 \textbf{(find ref.)}:
 
 \begin{table}[h]
 \centering
 \begin{tabular}{c c}
+\hline\hline
 Theoretical up time & 22\% \\
 Loss due to short nights ($<$ 3 hrs) & -2\% \\
 Loss due to bad weather or fails & -5\% \\ \hline \hline
-Total measurement time & 15\% 
+Total measurement time & 15\% \\
+\hline\hline
 \end{tabular}
 \end{table}
-
-For context the measured ADC$^2$ for typically observed Night Sky Background (NSB) with no moon, quarter moon and full moon/twilight is:
+For context, the ADC$^2$/100 ns measured by the FD PMTs at standard operation typically observe Night Sky Background (NSB) with no moon, quarter moon and full moon/twilight to be:
 \begin{table}[h]
 \centering
 \begin{tabular}{c c c}
 \hline\hline
-Condition & $\sigma^2$ [ADC$^2$] & I$_{\mathrm{a}}$ [$\mu$A] \\ \hline\hline
+Condition & $\sigma^2$ [ADC$^2$/100 ns] & I$_{\mathrm{a}}$ [$\mu$A] \\ \hline\hline
 no moon & 25 & 0.5 \\
 quarter moon & 250 & 5 \\
-full moon/twilight & 2500 & 50 \\ \hline\hline
+full moon/twilight & 2500 & 50 \\ 
+\hline\hline
 \end{tabular}
 \end{table}
 
-These values are measured under the standard operation of the FD's. Further within this thesis I will investigate lower the gain on the PMTs to reduce the variance and current that their under. A lower current when observing under moonlight would help make sure that the PMT lifespans are not changed by the increased in NSB.
+The PMTs used as camera pixels are XP3062 and are operated at a gain of $\sim$ 5 $\times$ 10$^4$ electrons/photo-electron which give the above values in the table. The datasheet \textbf{(find ref.)} for the XP3062 recommend that for good stability anode currents less than 10 $\mu$A be measured. Later within this thesis I will investigate the effects of lower the gain on the PMTs to reduce the measured anode current. A lower anode current when observing under moonlight would help make sure that the PMT lifespans are not changed by the increased in NSB. A PMT lifetime is measured in the amount of anode current removed in operation. A reduced gain by a factor of ten would theoretical allow the operation of the PMTs while a quarter moon is above the horizon in the same way as the current PMT operation.  
 
-The signal that the FD's observe is AC coupled, which means the mean signal of the NSB is zero. Instead the variance around zero is calculated andis directly proportional to the fluctuations in the NSB. The average value of the NSB measured by POA at Malargue is:
+The signal that the FD's observe is AC coupled, which means the mean signal of the NSB is zero. Instead the variance around zero is calculated and is directly proportional to the fluctuations in the NSB. The average value of the NSB measured by Auger at Malargue is:
 \begin{equation}
-\sigma^2 \sim 25 \ \mathrm{ADC}^2
+\sigma^2 \sim 25 \ \mathrm{ADC}^2 \ / \ 100 \mathrm{ns}
 \end{equation}
 The variance in ADC$^2$ can be converted into photons seen at the aperture by using:
 \begin{eqnarray}
@@ -63,10 +65,11 @@ where
 /*------ \textbf{Find reference to number below} ------*/
 
 Assuming typical measured values for C$_{\mathrm{FD}}$, Q and f shown in:
+\vspace{3mm}
 \begin{table}[h]
 \begin{center}
 \begin{tabular}{|c|c|}
-\hline
+\hline 
 C$_{\mathrm{FD}}$ & 4.5 photons/ADC \\
 \hline
 Q & 0.29 \\
@@ -78,7 +81,7 @@ f & 0.465 \\
 \caption{} 
 \end{table} \label{tab:CFD_Q_F}
 
-Therefore A$_{\mathrm{G}}$ can be calculated from Eq. \ref{eq:abs_gain} and using the values from Table \ref{tab:CFD_Q_F}. If $\sigma^2_{\mathrm{ADC}}$ = 25 ADC$^2$, through the calculations n$_{\mathrm{ph}}$ = 23 photons / 100 ns. The calculations to work out the RMS$_{\mathrm{ph}}$ from the measured variance in ADC$^2$ is as follows:
+Therefore A$_{\mathrm{G}}$ can be calculated from Eq. \ref{eq:abs_gain} and using the values from Table \ref{tab:CFD_Q_F}. If $\sigma^2_{\mathrm{ADC}}$ = 25 ADC$^2$ / 100 ns, through the calculations n$_{\mathrm{ph}}$ = 23 photons / 100 ns. The calculations to work out the RMS$_{\mathrm{ph}}$ from the measured variance in ADC$^2$ is as follows:
 \begin{equation}
 \mathrm{RMS}_{\mathrm{ph}} = \mathrm{C}_{\mathrm{FD}} \times \sqrt{\mathrm{ADC}^2}
 \end{equation}
@@ -101,9 +104,9 @@ From all of the equations stated above I have outlined a table showing the expec
 \end{center}
 
 
-- Need graph of expected variance in ADC$^2$ for the moon above the horizon for different phases.
+- Need graph of expected variance in ADC$^2$ / 100 ns for the moon above the horizon for different phases.
 
-- Want to increase the duty cycle of FD by measuring EAS under moonlight. Most likely observe under quarter to half moon. This will increased the NSB upto a factor of 10.
+- Want to increase the duty cycle of FD by measuring EAS under moonlight. Most likely observe under quarter to half moon. This will increased the NSB up to a factor of 10.
 
 - The aim of increasing the duty cycle of FD is too measure more EAS at the highest energy band ($> 10^{19.5}$ eV).
 

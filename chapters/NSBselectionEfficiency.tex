@@ -1,4 +1,4 @@
-\chapter[EAS Selection Efficiency with Increased NSB]{\centering Extensive Air Shower Selection Efficiency with Increased \\ Night Sky Background \\}\label{Ch:SelectEff}
+\chapter[The Effects of Increased NSB on the Detection and Reconstruction of EAS]{\centering The Effects of \\ Increased Night Sky Background on \\ the Detection and Reconstruction \\ of Extensive Air Showers \\}\label{Ch:SelectEff}
 
 
 %Selection Efficiency of EAS under increased NSB
@@ -11,9 +11,16 @@
 %\item differences in track length
 %\end{itemize}
 
+% Quantifying Effects of Increased Night Sky Background on Reconstruction and Detection of Extensive Air Showers
+
 \section{Motivation}
 
-The Fluorescence Detectors (FDs) are operated under strict guidelines: an observation run is organised for nights when the illuminated fraction of the moon less then 70\% and can have a minimum of 3 hours of operation with the moon below the horizon. The FD telescope shutters are then opened when the sun is below -18\textdegree \ of the horizon (beginning of astronomical twilight). The FD shutters remain open while the average variance across the FD camera is less then 100 ADC$^2$/100 ns and the variance of individual PMTs is less then 2000 ADC$^2$/100 ns. From these guidelines the FD time of operation can be calculated. A calculation performed by the collaboration to estimate the theoretical up time of the FD's was done before 2012 \textbf{(find ref.)}:
+The Pierre Auger Observatory has been operational since 2004 and the collaboration  is in the process of rolling out upgrades to improve operations. The upgrade has been name Auger Prime \textbf{(ref)} and is a large project to improve both the Surface Detectors (SD) and the Fluorescence Detectors (FD). The FD portion of Auger Prime involves extending the duty cycle to observe EAS events while the moon is above the horizon. The main purpose of this is for the collaboration to be able to collect more EAS events in the highest energy bin ($>$ 10$^{19.5}$ eV). This chapter will explore the viability of the collaboration reconstruction analysis program coping with increasing the Night Sky Background (NSB) and simulate how the FD telescope would cope with observation under increased NSB. 
+
+%The reconstruction program was evaluated by quantifying the number of real data events that could reconstructed and then pass the standard quality cuts \textbf{(ref)} when extra simulated noise was added to each of the FD PMT signal trace. 
+
+
+The Fluorescence Detectors (FDs) are operated under strict guidelines: an observation run is organised for nights when the illuminated fraction of the moon less then 70\% and can have a minimum of 3 hours of operation with the moon below the horizon. The FD telescope shutters are then opened when the sun is below -18\textdegree \ of the horizon (beginning of astronomical twilight). The FD shutters remain open while the average variance across the FD camera is less then 100 ADC$^2$/100 ns and the variance of individual PMTs is less then 2000 ADC$^2$/100 ns. The FD shutters at each site will also close if the individual rain sensors are trigger or the measured wind speed is above \textbf{(Find SPEED)} km/h.  From these guidelines the FD time of operation can be calculated. A calculation performed by the collaboration to estimate the theoretical up time of the FD's was done before 2012 \textbf{(find ref.)}:
 
 \begin{table}[h]
 \centering
@@ -26,7 +33,7 @@ Total measurement time & 15\% \\
 \hline\hline
 \end{tabular}
 \end{table}
-For context, the ADC$^2$/100 ns measured by the FD PMTs at standard operation typically observe Night Sky Background (NSB) with no moon, quarter moon and full moon/twilight to be:
+For context, the ADC$^2$/100 ns measured by the FD PMTs at standard operation typically observe Night Sky Background (NSB) with no moon, quarter moon and full moon/twilight are shown in Table \ref{tab:MoonLightADC}. Bad weather is the inclusion of rain, high wind speeds and lightning strikes in the FDs field of view.
 \begin{table}[h]
 \centering
 \begin{tabular}{c c c}
@@ -37,9 +44,14 @@ quarter moon & 250 & 5 \\
 full moon/twilight & 2500 & 50 \\ 
 \hline\hline
 \end{tabular}
+\caption{} \label{tab:MoonLightADC}
 \end{table}
 
-The PMTs used as camera pixels are XP3062 and are operated at a gain of $\sim$ 5 $\times$ 10$^4$ electrons/photo-electron which give the above values in the table. The datasheet \textbf{(find ref.)} for the XP3062 recommend that for good stability anode currents less than 10 $\mu$A be measured. Later within this thesis I will investigate the effects of lower the gain on the PMTs to reduce the measured anode current. A lower anode current when observing under moonlight would help make sure that the PMT lifespans are not changed by the increased in NSB. A PMT lifetime is measured in the amount of anode current removed in operation. A reduced gain by a factor of ten would theoretical allow the operation of the PMTs while a quarter moon is above the horizon in the same way as the current PMT operation.  
+The PMTs used as camera pixels are XP3062 and are operated at a gain of $\sim$ 5 $\times$ 10$^4$ electrons/photo-electron which give the above values in the table. The datasheet \textbf{(find ref.)} for the XP3062 recommend that for good stability anode currents less than 10 $\mu$A be measured. 
+  
+
+
+Later within this thesis I will investigate the effects of lower the gain on the PMTs to reduce the measured anode current. A lower anode current when observing under moonlight would help make sure that the PMT lifespans are not changed by the increased in NSB. A PMT lifetime is measured in the amount of anode current removed in operation. A reduced gain by a factor of ten would theoretical allow the operation of the PMTs while a quarter moon is above the horizon in the same way as the current PMT operation.  
 
 The signal that the FD's observe is AC coupled, which means the mean signal of the NSB is zero. Instead the variance around zero is calculated and is directly proportional to the fluctuations in the NSB. The average value of the NSB measured by Auger at Malargue is:
 \begin{equation}
@@ -64,7 +76,7 @@ where
 
 /*------ \textbf{Find reference to number below} ------*/
 
-Assuming typical measured values for C$_{\mathrm{FD}}$, Q and f shown in:
+Typical measured values for C$_{\mathrm{FD}}$, Q and f shown in Table \ref{tab:CFD_Q_F}.
 \vspace{3mm}
 \begin{table}[h]
 \begin{center}

@@ -17,11 +17,10 @@
 
 The Pierre Auger Observatory has been operational since 2004 and the collaboration  is in the process of rolling out upgrades to improve operations. The upgrade has been name Auger Prime \textbf{(ref)} and is a large project to improve both the Surface Detectors (SD) and the Fluorescence Detectors (FD). The FD portion of Auger Prime involves extending the duty cycle to observe EAS events while the moon is above the horizon. The main purpose of this is for the collaboration to be able to collect more EAS events in the highest energy bin ($>$ 10$^{19.5}$ eV). This chapter will explore the viability of the collaboration reconstruction analysis program coping with increasing the Night Sky Background (NSB) and simulate how the FD telescope would cope with observation under increased NSB. 
 
-%The reconstruction program was evaluated by quantifying the number of real data events that could reconstructed and then pass the standard quality cuts \textbf{(ref)} when extra simulated noise was added to each of the FD PMT signal trace. 
+The reconstruction program was evaluated by quantifying the number of real data events that could reconstructed and then pass the standard quality cuts \textbf{(ref)} after extra simulated noise was added to each of the FD PMT signal traces. I quantified the changes by measuring the Selection Efficiency, the mean and spread in the Energy and Xmax distributions. 
 
 
-The Fluorescence Detectors (FDs) are operated under strict guidelines: an observation run is organised for nights when the illuminated fraction of the moon less then 70\% and can have a minimum of 3 hours of operation with the moon below the horizon. The FD telescope shutters are then opened when the sun is below -18\textdegree \ of the horizon (beginning of astronomical twilight). The FD shutters remain open while the average variance across the FD camera is less then 100 ADC$^2$/100 ns and the variance of individual PMTs is less then 2000 ADC$^2$/100 ns. The FD shutters at each site will also close if the individual rain sensors are trigger or the measured wind speed is above \textbf{(Find SPEED)} km/h.  From these guidelines the FD time of operation can be calculated. A calculation performed by the collaboration to estimate the theoretical up time of the FD's was done before 2012 \textbf{(find ref.)}:
-
+The Fluorescence Detectors (FDs) are operated under these guidelines: an observation run is organised for nights when the illuminated fraction of the moon less then 70\% and can have a minimum of 3 hours of operation with the moon below the horizon. The FD telescope shutters are then opened when the sun is below -18\textdegree \ of the horizon (beginning of astronomical twilight). The FD shutters remain open while the average variance across the FD camera is less then 100 ADC$^2$/100 ns and the variance of individual PMTs is less then 2000 ADC$^2$/100 ns. The FD shutters at each site will also close if the individual rain sensors are trigger or the measured wind speed is above 50 km/h.  From these guidelines the FD time of operation can be calculated. A calculation performed by the collaboration to estimate the theoretical up time of the FD's was done before 2012 \textbf{(find ref.)} in Table \ref{tab:CFD_Q_F}.
 \begin{table}[h]
 \centering
 \begin{tabular}{c c}
@@ -32,6 +31,7 @@ Loss due to bad weather or fails & -5\% \\ \hline \hline
 Total measurement time & 15\% \\
 \hline\hline
 \end{tabular}
+\caption{Calculation of the FD up-time done by the Colabration. Bad weather is the inclusion of rain, high wind speeds and lightning strikes in the FDs field of view.} \label{tab:FD_uptime}
 \end{table}
 For context, the ADC$^2$/100 ns measured by the FD PMTs at standard operation typically observe Night Sky Background (NSB) with no moon, quarter moon and full moon/twilight are shown in Table \ref{tab:MoonLightADC}. Bad weather is the inclusion of rain, high wind speeds and lightning strikes in the FDs field of view.
 \begin{table}[h]
@@ -44,7 +44,7 @@ quarter moon & 250 & 5 \\
 full moon/twilight & 2500 & 50 \\ 
 \hline\hline
 \end{tabular}
-\caption{} \label{tab:MoonLightADC}
+\caption{Expected average observed variance in ADC$^2$ and anode current in $\mu$A by the PMTs in the FD telescopes under different NSB conditions. No Moon is the typical conditions that the FD shift is run under.  } \label{tab:MoonLightADC}
 \end{table}
 
 The PMTs used as camera pixels are XP3062 and are operated at a gain of $\sim$ 5 $\times$ 10$^4$ electrons/photo-electron which give the above values in the table. The datasheet \textbf{(find ref.)} for the XP3062 recommend that for good stability anode currents less than 10 $\mu$A be measured. 
@@ -70,8 +70,8 @@ where
 \begin{itemize}
 \item[] A$_{\mathrm{G}}$ is the absolute gain (ADC/photo-electron)
 \item[] $\mathrm{C}_{\mathrm{FD}}$ is the FD pixel calibration constant.
-\item[] Q is the Quantum efficiency of the PMT.
-\item[] f is the efficiency if the telescope optics.
+\item[] Q is the Quantum efficiency of the PMT turning photons into photo-electrons.
+\item[] f is the photon collection efficiency of the telescope optics.
 \end{itemize}
 
 /*------ \textbf{Find reference to number below} ------*/
@@ -90,8 +90,8 @@ f & 0.465 \\
 \hline
 \end{tabular} 
 \end{center}
-\caption{} 
-\end{table} \label{tab:CFD_Q_F}
+\caption{Typical values for the constants use to calculate A$_{\mathrm{G}}$ which is the absolute gain (ADC/photo-electron). $\mathrm{C}_{\mathrm{FD}}$ is the FD pixel calibration constant, Q is the Quantum efficiency of the PMT turning photons into photo-electrons and f is the photon collection efficiency of the telescope optics.} \label{tab:CFD_Q_F}
+\end{table} 
 
 Therefore A$_{\mathrm{G}}$ can be calculated from Eq. \ref{eq:abs_gain} and using the values from Table \ref{tab:CFD_Q_F}. If $\sigma^2_{\mathrm{ADC}}$ = 25 ADC$^2$ / 100 ns, through the calculations n$_{\mathrm{ph}}$ = 23 photons / 100 ns. The calculations to work out the RMS$_{\mathrm{ph}}$ from the measured variance in ADC$^2$ is as follows:
 \begin{equation}

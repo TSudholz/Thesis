@@ -21,10 +21,10 @@
 \contentsline {section}{\numberline {3.5}Enhancements and future upgrades}{12}{section.3.5}
 \contentsline {chapter}{\numberline {4}The Effects of Increased NSB on the Detection and Reconstruction of EAS}{13}{chapter.4}
 \contentsline {section}{\numberline {4.1}Motivation}{13}{section.4.1}
-\contentsline {section}{\numberline {4.2}Selection Efficiency}{15}{section.4.2}
-\contentsline {section}{\numberline {4.3}Resolution and Bias}{17}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Comparing Simulated Data to Real Data}{17}{subsection.4.3.1}
-\contentsline {section}{\numberline {4.4}EAS Track Length in the FD's}{17}{section.4.4}
+\contentsline {section}{\numberline {4.2}Selection Efficiency}{16}{section.4.2}
+\contentsline {section}{\numberline {4.3}Resolution and Bias}{16}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Comparing Simulated Data to Real Data}{18}{subsection.4.3.1}
+\contentsline {section}{\numberline {4.4}EAS Track Length in the FD's}{18}{section.4.4}
 \contentsline {chapter}{\numberline {5}Quantifying Characteristics of the FD PMT}{25}{chapter.5}
 \contentsline {section}{\numberline {5.1}Motivation}{25}{section.5.1}
 \contentsline {section}{\numberline {5.2}PMT Linearity}{26}{section.5.2}

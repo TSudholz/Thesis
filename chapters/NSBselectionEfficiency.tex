@@ -15,23 +15,23 @@
 
 \section{Motivation}
 
-The Pierre Auger Observatory has been operational since 2004 and the collaboration  is in the process of rolling out upgrades to improve operations. The upgrade has been name Auger Prime \textbf{(ref)} and is a large project to improve both the Surface Detectors (SD) and the Fluorescence Detectors (FD). The FD portion of Auger Prime involves extending the duty cycle to observe EAS events while the moon is above the horizon. The main purpose of this is for the collaboration to be able to collect more EAS events in the highest energy bin ($>$ 10$^{19.5}$ eV). This chapter will explore the viability of the collaboration reconstruction analysis program coping with increasing the Night Sky Background (NSB) and simulate how the FD telescope would cope with observation under increased NSB. 
+The Pierre Auger Observatory has been operational since 2004 and the collaboration  is in the process of rolling out upgrades to improve operations. The upgrade has been name AugerPrime \textbf{(ref)} and is a large project to improve both the Surface Detectors (SD) and the Fluorescence Detectors (FD). The FD portion of AugerPrime involves extending the duty cycle to observe EAS events while the moon is above the horizon. The main purpose of this is for the collaboration to be able to collect more EAS events in the highest energy bin ($>$ 10$^{19.5}$ eV). This chapter will explore the viability of the collaboration reconstruction analysis program coping with increasing the Night Sky Background (NSB) and simulate how the FD telescope would cope with observation under increased NSB. 
 
 The reconstruction program was evaluated by quantifying the number of real data events that could reconstructed and then pass the standard quality cuts \textbf{(ref)} after extra simulated noise was added to each of the FD PMT signal traces. I quantified the changes by measuring the Selection Efficiency, the mean and spread in the Energy and Xmax distributions. 
 
 
-The Fluorescence Detectors (FDs) are operated under these guidelines: an observation run is organised for nights when the illuminated fraction of the moon less then 70\% and can have a minimum of 3 hours of operation with the moon below the horizon. The FD telescope shutters are then opened when the sun is below -18\textdegree \ of the horizon (beginning of astronomical twilight). The FD shutters remain open while the average variance across the FD camera is less then 100 ADC$^2$/100 ns and the variance of individual PMTs is less then 2000 ADC$^2$/100 ns. The FD shutters at each site will also close if the individual rain sensors are trigger or the measured wind speed is above 50 km/h.  From these guidelines the FD time of operation can be calculated. A calculation performed by the collaboration to estimate the theoretical up time of the FD's was done before 2012 \textbf{(find ref.)} in Table \ref{tab:CFD_Q_F}.
+Currently the Fluorescence Detectors (FDs) are operated under these guidelines: an observation run is organised for nights when the illuminated fraction of the moon less then 70\% and can have a minimum of 3 hours of operation with the moon below the horizon. The FD telescope shutters are then opened when the sun is below -18\textdegree \ of the horizon (beginning of astronomical twilight). The FD shutters remain open while the average variance across the FD camera is less then 100 ADC$^2$/100 ns and the variance of individual PMTs is less then 2000 ADC$^2$/100 ns. The FD shutters at each site will also close if the individual rain sensors are trigger or the measured wind speed is above 50 km/h.  From these guidelines the FD time of operation can be calculated. A calculation performed by the collaboration to estimate the theoretical up time of the FD's was done before 2012 \textbf{(find ref.)} in Table \ref{tab:CFD_Q_F}.
 \begin{table}[h]
 \centering
 \begin{tabular}{c c}
 \hline\hline
 Theoretical up time & 22\% \\
 Loss due to short nights ($<$ 3 hrs) & -2\% \\
-Loss due to bad weather or fails & -5\% \\ \hline \hline
+Loss due to bad weather or failures & -5\% \\ \hline \hline
 Total measurement time & 15\% \\
 \hline\hline
 \end{tabular}
-\caption{Calculation of the FD up-time done by the Colabration. Bad weather is the inclusion of rain, high wind speeds and lightning strikes in the FDs field of view.} \label{tab:FD_uptime}
+\caption{Calculation of the FD up-time done by the Colabration. Bad weather is the inclusion of rain, high wind speeds and lightning strikes in the FDs field of view. Explain Failure - equipment not working.} \label{tab:FD_uptime}
 \end{table}
 For context, the ADC$^2$/100 ns measured by the FD PMTs at standard operation typically observe Night Sky Background (NSB) with no moon, quarter moon and full moon/twilight are shown in Table \ref{tab:MoonLightADC}. Bad weather is the inclusion of rain, high wind speeds and lightning strikes in the FDs field of view.
 \begin{table}[h]

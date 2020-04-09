@@ -17,7 +17,7 @@
 
 The Pierre Auger Observatory has been operational since 2004 and the collaboration  is in the process of rolling out upgrades to improve operations. The upgrade has been name AugerPrime \textbf{(ref)} and is a large project to improve both the Surface Detectors (SD) and the Fluorescence Detectors (FD). The FD portion of AugerPrime involves extending the duty cycle to observe EAS events while the moon is above the horizon. The main purpose of this is for the collaboration to be able to collect more EAS events in the highest energy bin ($>$ 10$^{19.5}$ eV). 
 
-In this chapter I used real data and simulations to explore the effects of increasing the Night Sky Background on the collaboration's reconstruction method and trigger efficiency .A real data set was used to evaluate the efficiency of the reconstruction method under different NSB levels by artificially adding extra noise to signal traces. This was a repetition of a study done by M. Unger \textbf{Find ref.} which was used as a starting point and then was expanded on. The expanded work lead to using simulations to evaluate the full trigger and reconstruction efficiency. The Efficiency was calculated with he equation used is:
+In this chapter I used real data and simulations to explore the effects of increasing the Night Sky Background on the collaboration's reconstruction method and trigger efficiency .A real data set was used to evaluate the efficiency of the reconstruction method under different NSB levels by artificially adding extra noise to signal traces. This was a repetition of a study done by M. Unger \textbf{Find ref.} which was used as a starting point and then was expanded on. The expanded work lead to using simulations to evaluate the full trigger and reconstruction efficiency. The Efficiency was calculated with the equation used is:
 \begin{equation}
 \mathrm{Efficiency} = \mathrm{N}^{'}_{\mathrm{Select}} \ / \ \mathrm{N}^0_{\mathrm{Select}}
 \end{equation}
@@ -40,9 +40,6 @@ The energy and Xmax resolution is calculated via:
 \begin{eqnarray}
 \sigma_{\mathrm{res}} &=& \left( \frac{1}{\mathrm{N}} \sum \frac{1}{\sigma^2_i} \right)^{1/2}
 \end{eqnarray}
-
-
-
 
 
 Currently the Fluorescence Detectors (FDs) are operated under these guidelines: an observation run is organised for nights when the illuminated fraction of the moon less then 70\% and can have a minimum of 3 hours of operation with the moon below the horizon. The FD telescope shutters are then opened when the sun is below -18\textdegree \ of the horizon (beginning of astronomical twilight). The FD shutters remain open while the average variance across the FD camera is less then 100 ADC$^2$/100 ns and the variance of individual PMTs is less then 2000 ADC$^2$/100 ns. The FD shutters at each site will also close if the individual rain sensors are trigger or the measured wind speed is above 50 km/h.  From these guidelines the FD time of operation can be calculated. A calculation performed by the collaboration to estimate the theoretical up time of the FD's was done before 2012 \textbf{(find ref.)} in Table \ref{tab:CFD_Q_F}.
@@ -150,14 +147,14 @@ From all of the equations stated above I have outlined a table showing the expec
 - Need more statistics at highest energy band to complement SD measurements.
 
 
-\section{Selection Efficiency}
+\section{Reconstruction Efficiency using Real Data}
 
-I investigated evaluating increasing the NSB by different factors on event reconstruction seen the FD's through a couple of different methods. The main increase of NSB will from observing while the moon is above the horizon. The two methods involved simulating increased NSB on measured data and with simulating. The measured data had increased noise introduced across the entire signal trace and I have labelled as the smearing method.
+I investigated evaluating increasing the NSB by different factors on event reconstruction seen by the FD's through two different methods. The main increase of NSB will from observing while the moon is above the horizon. The two methods involved simulating increased NSB on measured data and with simulating. The measured data had increased noise introduced across the entire signal trace and I have labelled as the smearing method.
 
-Selection Efficiency for the two methods are calculated via:
-\begin{equation}
-\mathrm{Efficiency} = \mathrm{N}_{\mathrm{Selected}} / \mathrm{N}_{\mathrm{total}}
-\end{equation}
+%Selection Efficiency for the two methods are calculated via:
+%\begin{equation}
+%\mathrm{Efficiency} = \mathrm{N}_{\mathrm{Selected}} / \mathrm{N}_{\mathrm{total}}
+%\end{equation}
 where for the Smearing method N$_{\mathrm{total}}$ is the total number of measured EAS events at standard NSB levels and N$_{\mathrm{Selected}}$ is the number of events after being reconstructed and passing the quality cuts with the increased NSB. For the simulations, N$_{\mathrm{total}}$ is the total number of simulated events before \textbf{need to check whether its the number of simulations before triggering or number of triggered events at standard NSB. Pretty sure the comparison is done with no. of simulated event at standard NSB}.
 
 Smearing method involves taking the raw fluorescence telescope EAS shower events that would passed reconstruction and quality cuts and adding addition variance in ADC$^2$ equivalent to an increased NSB from moonlight to the FD pixel signal traces. The shower events are then reconstructed and passed through the same quality cuts. This a repartition of a similar method that M. Unger had preformed in \textbf{2012}. \textbf{Also need to refer to the study done by Brue and Andrew Smith around 1999}. This was done so a deeper analysis could be preformed to understand the underlying mechanics. 
@@ -173,7 +170,7 @@ The smearing method was originally used as a proof of concept to show that EAS s
 \caption{Selection Efficiency plot containing data from both the Smearing method and simulated showers. These results are compared to the work done by M. Unger.}
 \end{figure}
 
-\section{Resolution and Bias}
+\subsection{Resolution and Bias}
 
 To further evaluate the effects of increasing the NSB on the quality of the reconstructed EAS data, I look at the resolution and bias of both the reconstructed energy and reconstructed Xmax. A quick reminder that Xmax is the measurement of the brightest part of the shower relating to the maximum number of particles produced. For the smearing method the energy and Xmax bias is comparing to the measured data taken at standard NSB levels to the reconstructed with the increased NSB levels. For the simulations the energy and Xmax bias can be calculated using the true energy and Xmax values used to generate each EAS profile.
 
@@ -181,19 +178,19 @@ The trend of the energy resolution for both methods is that as the energy of the
 
 - Need to find out what's a good bias value for energy and Xmax.
 
-the energy and Xamx bias is calcualted via:
-\begin{eqnarray}
-\Delta \mathrm{E} &=& \frac{\mathrm{E}_{\mathrm{recon}} - \mathrm{E}_{\mathrm{true}}}{\mathrm{E}_{\mathrm{true}}}  \label{eq:energybias_sim} \\
-\Delta \mathrm{E} &=& \frac{\mathrm{E}_{\mathrm{IncreasedNSB}} - \mathrm{E}_{\mathrm{StandardNSB}}}{\mathrm{E}_{\mathrm{StandardNSB}}} \label{eq:energybias_data} \\
-\Delta \mathrm{Xmax} &=& \mathrm{Xmax}_{\mathrm{recon}} - \mathrm{Xmax}_{\mathrm{true}} \label{eq:xmaxbias_sim} \\
-\Delta \mathrm{Xmax} &=& \mathrm{Xmax}_{\mathrm{IncreasedNSB}} - \mathrm{Xmax}_{\mathrm{StandardNSB}}\label{eq:xmaxbias_data}
-\end{eqnarray}
-Eq. \ref{eq:energybias_sim} and Eq. \ref{eq:xmaxbias_sim} are used on the simulated data sets while Eq. \ref{eq:energybias_data} and Eq. \ref{eq:xmaxbias_data} is used on the smeared data set.
-
-The energy and Xmax resolution is calculated via:
-\begin{eqnarray}
-\sigma_{\mathrm{res}} &=& \left( \frac{1}{\mathrm{N}} \sum \frac{1}{\sigma^2_i} \right)^{1/2}
-\end{eqnarray}
+%the energy and Xamx bias is calcualted via:
+%\begin{eqnarray}
+%\Delta \mathrm{E} &=& \frac{\mathrm{E}_{\mathrm{recon}} - \mathrm{E}_{\mathrm{true}}}{\mathrm{E}_{\mathrm{true}}}  \label{eq:energybias_sim} \\
+%\Delta \mathrm{E} &=& \frac{\mathrm{E}_{\mathrm{IncreasedNSB}} - \mathrm{E}_{\mathrm{StandardNSB}}}{\mathrm{E}_{\mathrm{StandardNSB}}} \label{eq:energybias_data} \\
+%\Delta \mathrm{Xmax} &=& \mathrm{Xmax}_{\mathrm{recon}} - \mathrm{Xmax}_{\mathrm{true}} \label{eq:xmaxbias_sim} \\
+%\Delta \mathrm{Xmax} &=& \mathrm{Xmax}_{\mathrm{IncreasedNSB}} - \mathrm{Xmax}_{\mathrm{StandardNSB}}\label{eq:xmaxbias_data}
+%\end{eqnarray}
+%Eq. \ref{eq:energybias_sim} and Eq. \ref{eq:xmaxbias_sim} are used on the simulated data sets while Eq. \ref{eq:energybias_data} and Eq. \ref{eq:xmaxbias_data} is used on the smeared data set.
+%
+%The energy and Xmax resolution is calculated via:
+%\begin{eqnarray}
+%\sigma_{\mathrm{res}} &=& \left( \frac{1}{\mathrm{N}} \sum \frac{1}{\sigma^2_i} \right)^{1/2}
+%\end{eqnarray}
 
 
 \begin{figure}
@@ -223,6 +220,8 @@ The energy and Xmax resolution is calculated via:
 \caption{Xmax Resolution using both Smearing Method data and simulated showers.}
 \end{figure}
 
+\section{Trigger and Reconstruction Efficiency using \\ Simulation}
+
 \subsection{Comparing Simulated Data to Real Data}
 
 \textbf{Think about where to locate this section.}
@@ -246,6 +245,8 @@ Comparing the simulated data with real data. Checking to make sure that the simu
 \includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf}
 \caption{Distribution of Distance to Xmax with Real Data and simulation of proton and iron showers.}
 \end{figure}
+
+\subsection{Bias and Resolution}
 
 \section{EAS Track Length in the FD's}
 

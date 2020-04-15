@@ -21,37 +21,37 @@
 \contentsline {section}{\numberline {3.5}Enhancements and future upgrades}{12}{section.3.5}
 \contentsline {chapter}{\numberline {4}The Effects of Increased NSB on the FD Trigger and Reconstruction}{13}{chapter.4}
 \contentsline {section}{\numberline {4.1}Motivation}{13}{section.4.1}
-\contentsline {section}{\numberline {4.2}Reconstruction Efficiency using Real Data}{16}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Resolution and Bias}{17}{subsection.4.2.1}
-\contentsline {section}{\numberline {4.3}Trigger and Reconstruction Efficiency using \\ Simulation}{21}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Comparing Simulated Data to Real Data}{21}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Bias and Resolution}{21}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4}EAS Track Length in the FD's}{21}{section.4.4}
-\contentsline {chapter}{\numberline {5}Quantifying Characteristics of the FD PMT}{25}{chapter.5}
-\contentsline {section}{\numberline {5.1}Motivation}{25}{section.5.1}
-\contentsline {section}{\numberline {5.2}PMT Linearity}{26}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Neutral Density Filters}{26}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Two LED Method}{26}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Effects of Temperature on PMT Gain}{29}{section.5.3}
-\contentsline {chapter}{\numberline {6}Computer Simulation of FD PMT}{33}{chapter.6}
-\contentsline {section}{\numberline {6.1}Motivation}{33}{section.6.1}
-\contentsline {section}{\numberline {6.2}Method and Theory}{33}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}Theoretical value of Gain Variance?}{34}{subsection.6.2.1}
-\contentsline {section}{\numberline {6.3}Results of PMT Gain Variance Simulation}{34}{section.6.3}
-\contentsline {section}{\numberline {6.4}Simulation of Gain Variance Method}{34}{section.6.4}
-\contentsline {section}{\numberline {6.5}FD FLT under different NSB levels}{34}{section.6.5}
-\contentsline {chapter}{\numberline {7}Measuring FD PMT Gain Variance with CalA Data}{41}{chapter.7}
-\contentsline {section}{\numberline {7.1}Motivation}{41}{section.7.1}
-\contentsline {section}{\numberline {7.2}Using CalA to measure relative changes in Gain Variance}{41}{section.7.2}
-\contentsline {section}{\numberline {7.3}Electronic Noise}{42}{section.7.3}
-\contentsline {section}{\numberline {7.4}Pairs Method}{42}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Results}{44}{subsection.7.4.1}
-\contentsline {section}{\numberline {7.5}Averaging Sets of Traces Method}{44}{section.7.5}
-\contentsline {subsection}{\numberline {7.5.1}Results}{44}{subsection.7.5.1}
-\contentsline {section}{\numberline {7.6}Result of Averaging Sets of Traces Method with Least Trimmed Squares}{53}{section.7.6}
-\contentsline {section}{\numberline {7.7}Result of Averaging Sets of Traces Method using Noise Distribution}{53}{section.7.7}
-\contentsline {section}{\numberline {7.8}Attempts to measure Gain Variance directly in the Lab}{53}{section.7.8}
-\contentsline {chapter}{\numberline {8}Laboratory Simulation of FD shift}{57}{chapter.8}
-\contentsline {chapter}{\numberline {9}Evaluation of Cloud Camera Cuts}{59}{chapter.9}
-\contentsline {chapter}{\numberline {10}Conclusion}{61}{chapter.10}
-\contentsline {section}{\numberline {10.1}Future Work}{61}{section.10.1}
+\contentsline {section}{\numberline {4.2}Reconstruction Efficiency using Real Data}{17}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Resolution and Bias}{19}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.3}Trigger and Reconstruction Efficiency using \\ Simulation}{19}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Comparing Simulated Data to Real Data}{19}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Bias and Resolution}{19}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}EAS Track Length in the FD's}{19}{section.4.4}
+\contentsline {chapter}{\numberline {5}Quantifying Characteristics of the FD PMT}{27}{chapter.5}
+\contentsline {section}{\numberline {5.1}Motivation}{27}{section.5.1}
+\contentsline {section}{\numberline {5.2}PMT Linearity}{28}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Neutral Density Filters}{28}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Two LED Method}{28}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Effects of Temperature on PMT Gain}{31}{section.5.3}
+\contentsline {chapter}{\numberline {6}Computer Simulation of FD PMT}{35}{chapter.6}
+\contentsline {section}{\numberline {6.1}Motivation}{35}{section.6.1}
+\contentsline {section}{\numberline {6.2}Method and Theory}{35}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Theoretical value of Gain Variance?}{36}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Results of PMT Gain Variance Simulation}{36}{section.6.3}
+\contentsline {section}{\numberline {6.4}Simulation of Gain Variance Method}{36}{section.6.4}
+\contentsline {section}{\numberline {6.5}FD FLT under different NSB levels}{36}{section.6.5}
+\contentsline {chapter}{\numberline {7}Measuring FD PMT Gain Variance with CalA Data}{43}{chapter.7}
+\contentsline {section}{\numberline {7.1}Motivation}{43}{section.7.1}
+\contentsline {section}{\numberline {7.2}Using CalA to measure relative changes in Gain Variance}{43}{section.7.2}
+\contentsline {section}{\numberline {7.3}Electronic Noise}{44}{section.7.3}
+\contentsline {section}{\numberline {7.4}Pairs Method}{44}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Results}{46}{subsection.7.4.1}
+\contentsline {section}{\numberline {7.5}Averaging Sets of Traces Method}{46}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Results}{46}{subsection.7.5.1}
+\contentsline {section}{\numberline {7.6}Result of Averaging Sets of Traces Method with Least Trimmed Squares}{55}{section.7.6}
+\contentsline {section}{\numberline {7.7}Result of Averaging Sets of Traces Method using Noise Distribution}{55}{section.7.7}
+\contentsline {section}{\numberline {7.8}Attempts to measure Gain Variance directly in the Lab}{55}{section.7.8}
+\contentsline {chapter}{\numberline {8}Laboratory Simulation of FD shift}{59}{chapter.8}
+\contentsline {chapter}{\numberline {9}Evaluation of Cloud Camera Cuts}{61}{chapter.9}
+\contentsline {chapter}{\numberline {10}Conclusion}{63}{chapter.10}
+\contentsline {section}{\numberline {10.1}Future Work}{63}{section.10.1}

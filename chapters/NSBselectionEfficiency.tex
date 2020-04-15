@@ -15,9 +15,9 @@
 
 \section{Motivation}
 
-The Pierre Auger Observatory has been operational since 2004 and the collaboration  is in the process of rolling out upgrades to improve operations. The upgrade has been name AugerPrime \textbf{(ref)} and is a large project to improve both the Surface Detectors (SD) and the Fluorescence Detectors (FD). The FD portion of AugerPrime involves extending the duty cycle to observe EAS events while the moon is above the horizon. The main purpose of this is for the collaboration to be able to collect more EAS events in the highest energy bin ($>$ 10$^{19.5}$ eV). 
+The Pierre Auger Observatory has been operational since 2004 and the collaboration  is in the process of rolling out upgrades to improve operations. The upgrade has been name AugerPrime \textbf{(ref)} and is a large project to improve both the Surface Detectors (SD) and the Fluorescence Detectors (FD). The FD portion of AugerPrime involves extending the duty cycle to observe EAS events while the moon is above the horizon. The main purpose of the FD upgrade is to increase the statistics per year for Extensive Air Shower (EAS) events in the highest energy bin ($>$ 10$^{19.5}$ eV). 
 
-In this chapter I used real data and simulations to explore the effects of increasing the Night Sky Background on the collaboration's reconstruction method and trigger efficiency .A real data set was used to evaluate the efficiency of the reconstruction method under different NSB levels by artificially adding extra noise to signal traces. This was a repetition of a study done by M. Unger \textbf{Find ref.} which was used as a starting point and then was expanded on. The expanded work lead to using simulations to evaluate the full trigger and reconstruction efficiency. The Efficiency was calculated with the equation used is:
+In this chapter I used real data and simulations to explore the effects of increasing the Night Sky Background on the collaboration's reconstruction method and trigger efficiency. A real data set was used to evaluate the efficiency of the reconstruction method under different NSB levels by artificially adding extra noise to signal traces. This was a repetition of a study done by M. Unger \textbf{Find ref.} which was used as a starting point and then was expanded on. The expanded work lead to using simulations to evaluate the full trigger and reconstruction efficiency. The Efficiency was calculated with the equation used:
 \begin{equation}
 \mathrm{Efficiency} = \mathrm{N}^{'}_{\mathrm{Select}} \ / \ \mathrm{N}^0_{\mathrm{Select}}
 \end{equation}
@@ -68,6 +68,27 @@ full moon/twilight & 2500 & 50 \\
 \end{tabular}
 \caption{Expected average observed variance in ADC$^2$ and anode current in $\mu$A by the PMTs in the FD telescopes under different NSB conditions. No Moon is the typical conditions that the FD shift is run under.  } \label{tab:MoonLightADC}
 \end{table}
+
+
+\begin{figure}
+\centering
+\begin{subfigure}[b]{0.45\textwidth}
+\includegraphics[width=\textwidth]{chapters/pix/SelEff/IlluminatedMoonFrac_Twilight.JPG}
+\caption{}
+\end{subfigure}
+\hspace*{3mm}
+\begin{subfigure}[b]{0.45\textwidth}
+\includegraphics[width=\textwidth]{chapters/pix/SelEff/IlluminatedMoon_brightness.JPG}
+\caption{}
+\end{subfigure}
+\caption{\textbf{(a)} Effects on different definitions of twilight. The solid line is the astronomical twilight (sun at least 18\textdegree \ below horizon). The dotted lines represent relaxed definition of twilight with the sun being at 15\textdegree , 12\textdegree \ and 9\textdegree \ below the horizon. \textbf{(b)} Relative brightness of the moon in the nigh sky compared with a full moon as a function of illuminated fraction. Images taken from \textbf{ref{(GAP1996-034)}}. }
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{chapters/pix/SelEff/BGLoop_Variance_crop.jpg}
+\caption{Measured NSB variance from the Fluorescence Detectors with different moon illuminated fractions. The moon was 30\textdegree \ above horizon or greater. Image taken from \textbf{ref(Radamir)}.}
+\end{figure}
 
 The PMTs used as camera pixels are XP3062 and are operated at a gain of $\sim$ 5 $\times$ 10$^4$ electrons/photo-electron which give the above values in the table. The datasheet \textbf{(find ref.)} for the XP3062 recommend that for good stability anode currents less than 10 $\mu$A be measured. 
   
@@ -121,18 +142,18 @@ Therefore A$_{\mathrm{G}}$ can be calculated from Eq. \ref{eq:abs_gain} and usin
 \end{equation}
 From all of the equations stated above I have outlined a table showing the expected photon count at the aperture per 100 ns from the measured variance (ADC$^2$ / 100 ns).
 \begin{center}
-\begin{tabular}{| c | c | c | c |}
+\begin{tabular}{| c | c | c |}
 \hline \hline
-\textbf{Variance} & \multirow{2}{*}{\textbf{log$_{10}$(V/ADC$^2$)}} & \multirow{2}{*}{\textbf{Photons/100 ns}} & \textbf{RMS} \\
-\textbf{(ADC$^2$ / 100 ns)} & & & \textbf{(Photons/100 ns)} \\
+\textbf{Variance} & \multirow{2}{*}{\textbf{Photons / 100 ns}} & \textbf{RMS} \\
+\textbf{(ADC$^2$ / 100 ns)} & & \textbf{(Photons / 100 ns)} \\
 \hline \hline
-25 & 1.40 & 22.7 & 22.5 \\
+25  & 22.7 & 22.5 \\
 \hline
-178 & 2.25 & 161.4 & 60 \\
+178  & 161.4 & 60 \\
 \hline
-259 & 2.40 & 226.7 & 71.2 \\
+259  & 226.7 & 71.2 \\
 \hline
-1000 & 3.00 & 907.0 & 142.3 \\
+1000  & 907.0 & 142.3 \\
 \hline
 \end{tabular}
 \end{center}
@@ -140,11 +161,6 @@ From all of the equations stated above I have outlined a table showing the expec
 
 - Need graph of expected variance in ADC$^2$ / 100 ns for the moon above the horizon for different phases.
 
-- Want to increase the duty cycle of FD by measuring EAS under moonlight. Most likely observe under quarter to half moon. This will increased the NSB up to a factor of 10.
-
-- The aim of increasing the duty cycle of FD is too measure more EAS at the highest energy band ($> 10^{19.5}$ eV).
-
-- Need more statistics at highest energy band to complement SD measurements.
 
 
 \section{Reconstruction Efficiency using Real Data}

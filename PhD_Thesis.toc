@@ -21,8 +21,8 @@
 \contentsline {section}{\numberline {3.5}Enhancements and future upgrades}{12}{section.3.5}
 \contentsline {chapter}{\numberline {4}The Effects of Increased NSB on the FD Trigger and Reconstruction}{13}{chapter.4}
 \contentsline {section}{\numberline {4.1}Motivation}{13}{section.4.1}
-\contentsline {section}{\numberline {4.2}Reconstruction Efficiency using Real Data}{17}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Resolution and Bias}{19}{subsection.4.2.1}
+\contentsline {section}{\numberline {4.2}Reconstruction Efficiency using Real Data}{18}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Resolution and Bias}{18}{subsection.4.2.1}
 \contentsline {section}{\numberline {4.3}Trigger and Reconstruction Efficiency using \\ Simulation}{19}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Comparing Simulated Data to Real Data}{19}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Bias and Resolution}{19}{subsection.4.3.2}

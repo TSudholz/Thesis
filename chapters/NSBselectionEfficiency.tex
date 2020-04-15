@@ -55,7 +55,7 @@ Total measurement time & 15\% \\
 \end{tabular}
 \caption{Calculation of the FD up-time done by the Colabration. Bad weather is the inclusion of rain, high wind speeds and lightning strikes in the FDs field of view. Explain Failure - equipment not working.} \label{tab:FD_uptime}
 \end{table}
-For context, the ADC$^2$/100 ns measured by the FD PMTs at standard operation typically observe Night Sky Background (NSB) with no moon, quarter moon and full moon/twilight are shown in Table \ref{tab:MoonLightADC}. Bad weather is the inclusion of rain, high wind speeds and lightning strikes in the FDs field of view.
+For context, the ADC$^2$/100 ns measured by the FD PMTs at standard operation typically observe Night Sky Background (NSB) with no moon, quarter moon and full moon/twilight are shown in Table \ref{tab:MoonLightADC}. Bad weather is the inclusion of rain, high wind speeds and lightning strikes in the FDs field of view. Failures include any software or hardware issues that prevented any of the FD telescopes from collecting data.
 \begin{table}[h]
 \centering
 \begin{tabular}{c c c}
@@ -69,6 +69,11 @@ full moon/twilight & 2500 & 50 \\
 \caption{Expected average observed variance in ADC$^2$ and anode current in $\mu$A by the PMTs in the FD telescopes under different NSB conditions. No Moon is the typical conditions that the FD shift is run under.  } \label{tab:MoonLightADC}
 \end{table}
 
+- Think about order to put Table 4.2, Figure 4.1 and Figure 4.2
+
+- What to talk about how more observation time we can get while operating under moonlight.
+
+- While under moonlight need to point out the increases in variance that FD's will have to cope with.
 
 \begin{figure}
 \centering
@@ -96,11 +101,11 @@ The PMTs used as camera pixels are XP3062 and are operated at a gain of $\sim$ 5
 
 Later within this thesis I will investigate the effects of lower the gain on the PMTs to reduce the measured anode current. A lower anode current when observing under moonlight would help make sure that the PMT lifespans are not changed by the increased in NSB. A PMT lifetime is measured in the amount of anode current removed in operation. A reduced gain by a factor of ten would theoretical allow the operation of the PMTs while a quarter moon is above the horizon in the same way as the current PMT operation.  
 
-The signal that the FD's observe is AC coupled, which means the mean signal of the NSB is zero. Instead the variance around zero is calculated and is directly proportional to the fluctuations in the NSB. The average value of the NSB measured by Auger at Malargue is:
+The signal that the FD's observe is AC coupled, which means the mean signal of the NSB is zero. Instead the variance around zero is calculated and is directly proportional to the fluctuations in the NSB. The mean variance of the NSB measured by Auger at Malargue is:
 \begin{equation}
-\sigma^2 \sim 25 \ \mathrm{ADC}^2 \ / \ 100 \mathrm{ns}
+\sigma^2_{\mathrm{ADC}} = 25 \ \mathrm{ADC}^2 \ / \ 100 / \mathrm{ns}
 \end{equation}
-The variance in ADC$^2$ can be converted into photons seen at the aperture by using:
+The ADC is measured in 100 ns increments as that is the digitisation rate within the FD telescopes. The expectation is the three HEAT telescopes which all do the digitisation once per 50 ns.  The mean variance in ADC$^2$ can be converted into photons seen at the aperture by using:
 \begin{eqnarray}
 \sigma^2_{pe} &=& [\sigma^2_{\mathrm{ADC}}]^{\mathrm{sky}} \ / \ \mathrm{A}^2_{\mathrm{G}} \label{eq:simgaPE} \\
 \mathrm{n}_{\mathrm{ph}} &=& \frac{\sigma^2_{pe}}{(1 + \mathrm{V}_{\mathrm{G}})} \label{eq:numPhoton}
@@ -136,7 +141,7 @@ f & 0.465 \\
 \caption{Typical values for the constants use to calculate A$_{\mathrm{G}}$ which is the absolute gain (ADC/photo-electron). $\mathrm{C}_{\mathrm{FD}}$ is the FD pixel calibration constant, Q is the Quantum efficiency of the PMT turning photons into photo-electrons and f is the photon collection efficiency of the telescope optics.} \label{tab:CFD_Q_F}
 \end{table} 
 
-Therefore A$_{\mathrm{G}}$ can be calculated from Eq. \ref{eq:abs_gain} and using the values from Table \ref{tab:CFD_Q_F}. If $\sigma^2_{\mathrm{ADC}}$ = 25 ADC$^2$ / 100 ns, through the calculations n$_{\mathrm{ph}}$ = 23 photons / 100 ns. The calculations to work out the RMS$_{\mathrm{ph}}$ from the measured variance in ADC$^2$ is as follows:
+Therefore A$_{\mathrm{G}}$ can be calculated from Eq. \ref{eq:abs_gain} using the values from Table \ref{tab:CFD_Q_F}. If $\sigma^2_{\mathrm{ADC}}$ = 25 ADC$^2$ / 100 ns, through the calculations n$_{\mathrm{ph}}$ = 23 photons / 100 ns. The calculations to work out the standard deviation of the photon count (RMS$_{\mathrm{ph}}$ / 100 ns) from the measured variance in ADC$^2$ is as follows:
 \begin{equation}
 \mathrm{RMS}_{\mathrm{ph}} = \mathrm{C}_{\mathrm{FD}} \times \sqrt{\mathrm{ADC}^2}
 \end{equation}
@@ -161,23 +166,31 @@ From all of the equations stated above I have outlined a table showing the expec
 
 - Need graph of expected variance in ADC$^2$ / 100 ns for the moon above the horizon for different phases.
 
+- Theoretical fraction of lost collection area?
+
 
 
 \section{Reconstruction Efficiency using Real Data}
 
-I investigated evaluating increasing the NSB by different factors on event reconstruction seen by the FD's through two different methods. The main increase of NSB will from observing while the moon is above the horizon. The two methods involved simulating increased NSB on measured data and with simulating. The measured data had increased noise introduced across the entire signal trace and I have labelled as the smearing method.
+I investigated evaluating increasing the NSB by different factors on event reconstruction seen by the FD's through two different methods. In this section I will be discussing the method used to evaluate the effects of increasing the NSB on the reconstruction efficiency with the use of real data. The method involved using the raw signal traces from fluorescence telescope EAS shower events that would passed reconstruction and quality cuts and adding addition variance in ADC$^2$ equivalent to an increased NSB from moonlight to the FD pixel signal traces.  The shower events are then reconstructed and passed through the same quality cuts. 
+
+This a repetition of a similar method that M. Unger had preformed in \textbf{2012}. \textbf{Also need to refer to the study done by Brue and Andrew Smith around 1999}. Adding artificial noise to the signal traces was used as an initial proof of concept that EAS showers could still be reconstructed with our current software package. I repeated this study to have a known base-line to work from and have the ability to perform a deeper analysis to understand any underlying mechanics. 
+
+
+
+%Smearing method involves taking the raw fluorescence telescope EAS shower events that would passed reconstruction and quality cuts and adding addition variance in ADC$^2$ equivalent to an increased NSB from moonlight to the FD pixel signal traces. The shower events are then reconstructed and passed through the same quality cuts. This a repartition of a similar method that M. Unger had preformed in \textbf{2012}. \textbf{Also need to refer to the study done by Brue and Andrew Smith around 1999}. This was done so a deeper analysis could be preformed to understand the underlying mechanics. 
+
+%The main increase of NSB will from observing while the moon is above the horizon. The two methods involved simulating increased NSB on measured data and with simulating. The measured data had increased noise introduced across the entire signal trace and I have labelled as the smearing method.
 
 %Selection Efficiency for the two methods are calculated via:
 %\begin{equation}
 %\mathrm{Efficiency} = \mathrm{N}_{\mathrm{Selected}} / \mathrm{N}_{\mathrm{total}}
 %\end{equation}
-where for the Smearing method N$_{\mathrm{total}}$ is the total number of measured EAS events at standard NSB levels and N$_{\mathrm{Selected}}$ is the number of events after being reconstructed and passing the quality cuts with the increased NSB. For the simulations, N$_{\mathrm{total}}$ is the total number of simulated events before \textbf{need to check whether its the number of simulations before triggering or number of triggered events at standard NSB. Pretty sure the comparison is done with no. of simulated event at standard NSB}.
+%where for the Smearing method N$_{\mathrm{total}}$ is the total number of measured EAS events at standard NSB levels and N$_{\mathrm{Selected}}$ is the number of events after being reconstructed and passing the quality cuts with the increased NSB. For the simulations, N$_{\mathrm{total}}$ is the total number of simulated events before \textbf{need to check whether its the number of simulations before triggering or number of triggered events at standard NSB. Pretty sure the comparison is done with no. of simulated event at standard NSB}.
 
-Smearing method involves taking the raw fluorescence telescope EAS shower events that would passed reconstruction and quality cuts and adding addition variance in ADC$^2$ equivalent to an increased NSB from moonlight to the FD pixel signal traces. The shower events are then reconstructed and passed through the same quality cuts. This a repartition of a similar method that M. Unger had preformed in \textbf{2012}. \textbf{Also need to refer to the study done by Brue and Andrew Smith around 1999}. This was done so a deeper analysis could be preformed to understand the underlying mechanics. 
 
-The simulations were done using the simulation modules for the FD's within the $\overline{\mathrm{Off}}$\underline{Line} analysis programs. The EAS profiles were generated within CONEX and the original showers were generated through CORSIKA. The NSB was added to the EAS profiles before the FD are triggered. A hybrid trigger is used to involve the SD but the SD is simulated in a simple way just to get a simulated core position.
 
-The smearing method was originally used as a proof of concept to show that EAS showers could still be reconstructed with the increased NSB. The limitation was that EAS were used that already triggered the FD's normally. The full simulation using CONEX showers was used to full test trigger conditions through to reconstruction. The simulations are not an 100\% accurate representation of the POA array so that will introduce some differences too.
+%The smearing method was originally used as a proof of concept to show that EAS showers could still be reconstructed with the increased NSB. The limitation was that EAS were used that already triggered the FD's normally. The full simulation using CONEX showers was used to full test trigger conditions through to reconstruction. The simulations are not an 100\% accurate representation of the POA array so that will introduce some differences too.
 
 
 \begin{figure}[!hp]
@@ -237,6 +250,8 @@ The trend of the energy resolution for both methods is that as the energy of the
 \end{figure}
 
 \section{Trigger and Reconstruction Efficiency using \\ Simulation}
+
+The simulations were done using the simulation modules for the FD's within the $\overline{\mathrm{Off}}$\underline{Line} analysis programs. The EAS profiles were generated within CONEX and the original showers were generated through CORSIKA. The NSB was added to the EAS profiles before the FD are triggered. A hybrid trigger is used to involve the SD but the SD is simulated in a simple way just to get a simulated core position.
 
 \subsection{Comparing Simulated Data to Real Data}
 

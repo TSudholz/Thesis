@@ -128,7 +128,96 @@ From all of the equations stated above I have outlined a table showing the expec
 \hline
 \end{tabular}
 \end{center}
+
 \subsection{Toy Model of the effect of increased NSB on aperture}
+
+To find a theoretical value for how well a detector will work is to calculate the signal-to-noise ratio. The steps to do this calculation was outline in \ref{P. Sokolsky}. The equation is get the background photo-electron count seen from the night sky is:
+\begin{equation}
+B \propto \epsilon A b \Delta \Omega \Delta t
+\end{equation}
+where $\epsilon$ is the optical efficiency of the telescope, $A$ is the mirror area, $b$ is the background light flux and $\Delta\Omega$ is the solid angle of the sky viewed by a single PMT. $B$ calculates the DC signal from the NSB but as the FD is AC coupled this signal is not seen. It is the fluctuations in the NSB that can be interpreted as an EAS signal. The  fluctuations on Noise become:
+\begin{equation}
+N = \sqrt{B} \propto \sqrt{\epsilon A b \Delta \Omega \Delta t}
+\end{equation}
+
+
+
+\begin{itemize}
+\item Now consider the number of signal photo-electrons:
+\begin{equation}
+S \propto \frac{\epsilon A n_{e} n_{\gamma} c \Delta t}{4 \pi R^2} e^{-R/\lambda}
+\end{equation}
+where $n_e$ is the shower size viewed by the PMT, $n_{\gamma}$ is the photon yield per electron for atmospheric scintillation, $R$ is the distance to the shower segment, $c\Delta t$ is the length of the shower segment, and $\lambda$ is the beam attenuation length of light in the atmosphere.
+\item The signal-to-noise becomes:
+\begin{equation}
+\frac{S}{N} = n_e n_{\gamma} c \frac{(1 + cos\theta)}{4 \pi (R sin\theta)^2} \sqrt{\frac{\epsilon A \Delta t}{b \Delta\Omega}} e^{-R/\lambda}
+\end{equation}
+\item $\theta$ is the viewing angle of the EAS.
+\end{itemize}
+
+\begin{itemize}
+\item Calculating the Rayleigh Attenuation Length:
+\begin{equation}
+x_R = 2974 \left(\frac{\lambda}{400 \ nm} \right)^4 g/cm^2
+\end{equation}
+\item We want the light path $\Delta$X$_P$ also in g/cm$^2$ so the attenuation factor will be:
+\begin{equation}
+exp(-X / x_R )
+\end{equation}
+\item Convert R$_P$ to $\Delta$X$_P$:
+\begin{eqnarray}
+h &=& R_P sin15^{\circ} \\
+\Delta X_{vertical} &=& 860 - 860exp(-h/7500)
+\end{eqnarray}
+\item Light path in grammage:
+\begin{equation}
+\Delta X_P = \Delta X_{vertical} / cos75^{\circ}
+\end{equation}
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics[height=0.45\textheight]{chapters/pix/SelEff/ShowerPlane_and_Detector.png}
+\caption{Diagram showing the parameters used. Also show how they relate to the plane of the shower axis and to the position of the detector.}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/XpVsRp.pdf}
+\caption{How the relationship between the distance to the shower axis and grammage along the path. In this case the distance to the shower axis is denoted R$_P$ and the grammage is denoted $\Delta$X$_P$. The angle of the shower is 15$^{\circ}$}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/RangeIncreaseVsRangeStand_Xp.pdf}
+\caption{The image of how a detector measure the Signal-to-Noise ratio the NSB at the Standard value and Increased by a factor of 10 as a function of distance. The dashed black line denotes the distances where the Signal-to-Noise ratio is the same. The solid black line denotes where the distances are equal.}
+\includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/RatioAreaVsDistance_Xp.pdf}
+\caption{The image shows how the ratio of the detector viewing area changes with increasing the NSB by a factor of 10 as a function of distance from the detector. The solid black line denotes where the Signal-to-Noise ratio is the same.}
+\end{figure}
+
+\begin{figure}
+\centering
+\begin{subfigure}[b]{0.45\textwidth}
+\includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E1e18eV.pdf}
+\caption{E = 1 $\times$ 10$^{18}$ eV}
+\end{subfigure}
+\hspace{3mm}
+\begin{subfigure}[b]{0.45\textwidth}
+\includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E3e18eV.pdf}
+\caption{E = 3 $\times$ 10$^{18}$ eV}
+\end{subfigure}
+\vspace{3mm}
+\begin{subfigure}[b]{0.45\textwidth}
+\includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E1e19eV.pdf}
+\caption{E = 1 $\times$ 10$^{19}$ eV}
+\end{subfigure}
+\hspace{3mm}
+\begin{subfigure}[b]{0.45\textwidth}
+\includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E3e19eV.pdf}
+\caption{E = 3 $\times$ 10$^{19}$ eV}
+\end{subfigure}
+\caption{Using values for the equation to calculate the Signal-to-Noise ratio from specific values for the FD, NSB and conversion's from shower energy to photons to photo-electrons. }
+\end{figure}
 
 \section{Increasing NSB in Real Data to evaluate Reconstruction Efficiency}
 

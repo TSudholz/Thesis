@@ -25,16 +25,16 @@
 \contentsline {subsection}{\numberline {4.2.1}Current FD Operation}{13}{subsection.4.2.1}
 \contentsline {subsection}{\numberline {4.2.2}NSB and the Moon}{14}{subsection.4.2.2}
 \contentsline {subsection}{\numberline {4.2.3}Toy Model of the effect of increased NSB on aperture}{17}{subsection.4.2.3}
-\contentsline {section}{\numberline {4.3}Increasing NSB in Real Data to evaluate Reconstruction Efficiency}{21}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Method}{21}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Results}{22}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Discussion}{22}{subsection.4.3.3}
-\contentsline {section}{\numberline {4.4}Increasing NSB in Simulations to evaluate Trigger/Reconstruction Efficiency}{22}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Method}{22}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Comparison of Simulated Data to Real Data}{26}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Results}{26}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Discussion}{26}{subsection.4.4.4}
-\contentsline {section}{\numberline {4.5}Conclusion/Summary}{26}{section.4.5}
+\contentsline {section}{\numberline {4.3}Increasing NSB in Real Data to evaluate Reconstruction Efficiency}{19}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Method}{22}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Results}{23}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Discussion}{23}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Increasing NSB in Simulations to evaluate Trigger/Reconstruction Efficiency}{23}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Method}{23}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Comparison of Simulated Data to Real Data}{23}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Results}{23}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Discussion}{23}{subsection.4.4.4}
+\contentsline {section}{\numberline {4.5}Conclusion/Summary}{23}{section.4.5}
 \contentsline {chapter}{\numberline {5}Quantifying Characteristics of the FD PMT}{33}{chapter.5}
 \contentsline {section}{\numberline {5.1}Motivation}{33}{section.5.1}
 \contentsline {section}{\numberline {5.2}PMT Linearity}{34}{section.5.2}

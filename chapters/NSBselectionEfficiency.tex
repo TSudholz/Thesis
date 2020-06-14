@@ -187,6 +187,51 @@ h &=& R_P sin15^{\circ} \\
 \caption{How the relationship between the distance to the shower axis and grammage along the path. In this case the distance to the shower axis is denoted R$_P$ and the grammage is denoted $\Delta$X$_P$. The angle of the shower is 15$^{\circ}$}
 \end{figure}
 
+\begin{itemize}
+\item Substituting $\Delta X_P$ for R$_P$ into the signal-to-noise equation    :
+\begin{equation}
+\frac{S}{N} = n_e n_{\gamma} c \frac{(1 + cos\theta)}{4 \pi (R sin\theta)^2} \sqrt{\frac{\epsilon A \Delta t}{b \Delta\Omega}} e^{-\Delta X_P / x_R}
+\end{equation}
+\end{itemize}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+optical efficiency & $\epsilon$ & 0.135 \\ \hline
+mirror area & $A$ & 3.8 m$^2$ \\ \hline
+Standard background light flux & $b1$ & 5e5 photons / m$^2$ / sr / $\mu$s \\ \hline
+Increased background light flux & $b2$ & 5e6 photons / m$^2$ / sr / $\mu$s \\ \hline
+solid angle of a single PMT & $\Delta\Omega$ & 5.38e-4 sr \\ \hline
+viewing angle & $\theta$ & 90$^\circ$ \\ \hline
+speed of light & $c$ & 3e2 m / $\mu$s \\ \hline
+number of charged particles & $n_e$ & Particle Energy / 1e9 \\ \hline
+Fluorescence yield & $n_{\gamma}$ & 4 photons / m / charged particle\\ \hline
+\end{tabular}
+\caption{Values specific to the Fluorescence Detectors.}
+\end{table}
+
+\begin{itemize}
+\item The optical efficiency $\epsilon$ = F $\times$ L $\times$ T $\times$ R $\times$ M $\times$ Q where
+\end{itemize}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Optical Efficiency & $\epsilon$ & F $\times$ L $\times$ T $\times$ R $\times$ M $\times$ Q \\ \hline
+Filter Transmission & F & 0.83 \\ \hline
+Corrector Ring lens Transmission & L & 0.90 \\ \hline
+Mirror Reflectivity & R & 0.90 \\ \hline
+Camera Shadow Factor & T & 0.79 \\ \hline
+Mercedes Collection Efficiency & M & 0.93 \\ \hline
+PMT Quantum Efficiency & Q & 0.29 \\ \hline
+\end{tabular}
+\caption{Breakdown of all the components that go into the FD optical efficiency.}
+\end{table}
+
+
+
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/RangeIncreaseVsRangeStand_Xp.pdf}

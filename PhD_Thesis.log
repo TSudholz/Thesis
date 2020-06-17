@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.11)  14 JUN 2020 19:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.11)  18 JUN 2020 09:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -821,7 +821,7 @@ File: chapters/pix/SelEff/IlluminatedMoonFrac_Twilight.JPG Graphic file (type j
 pg)
  <use chapters/pix/SelEff/IlluminatedMoonFrac_Twilight.JPG>
 Package pdftex.def Info: chapters/pix/SelEff/IlluminatedMoonFrac_Twilight.JPG u
-sed on input line 49.
+sed on input line 43.
 (pdftex.def)             Requested size: 185.22664pt x 168.0665pt.
 
 
@@ -837,7 +837,7 @@ LogScale.pdf Graphic file (type pdf)
 <use /home/tsudholz/PhD/Thesis/chapters/pix/SelEff/RelMoonBright_Vs_IllumFrac_L
 ogScale.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/pix/SelEff/RelMoonB
-right_Vs_IllumFrac_LogScale.pdf used on input line 54.
+right_Vs_IllumFrac_LogScale.pdf used on input line 48.
 (pdftex.def)             Requested size: 211.68661pt x 171.73738pt.
 
 <chapters/pix/SelEff/BGLoop_Variance_crop.jpg, id=481, 619.56468pt x 418.56375p
@@ -845,7 +845,7 @@ t>
 File: chapters/pix/SelEff/BGLoop_Variance_crop.jpg Graphic file (type jpg)
  <use chapters/pix/SelEff/BGLoop_Variance_crop.jpg>
 Package pdftex.def Info: chapters/pix/SelEff/BGLoop_Variance_crop.jpg used on i
-nput line 62.
+nput line 56.
 (pdftex.def)             Requested size: 352.81552pt x 238.35388pt.
  [14]
 
@@ -856,17 +856,17 @@ Package Fancyhdr Warning: \headheight is too small (15.0pt):
 
 [15 <./chapters/pix/SelEff/IlluminatedMoonFrac_Twilight.JPG> </home/tsudholz/Ph
 D/Thesis/chapters/pix/SelEff/RelMoonBright_Vs_IllumFrac_LogScale.pdf> <./chapte
-rs/pix/SelEff/BGLoop_Variance_crop.jpg>] [16]
+rs/pix/SelEff/BGLoop_Variance_crop.jpg>]
 
-LaTeX Warning: Reference `P. Sokolsky' on page 17 undefined on input line 134.
+LaTeX Warning: Reference `P. Sokolsky' on page 16 undefined on input line 128.
 
-
+[16]
 <chapters/pix/SelEff/ShowerPlane_and_Detector.png, id=515, 591.20876pt x 859.21
 pt>
 File: chapters/pix/SelEff/ShowerPlane_and_Detector.png Graphic file (type png)
  <use chapters/pix/SelEff/ShowerPlane_and_Detector.png>
 Package pdftex.def Info: chapters/pix/SelEff/ShowerPlane_and_Detector.png used 
-on input line 180.
+on input line 174.
 (pdftex.def)             Requested size: 217.60715pt x 316.25023pt.
 
 
@@ -877,23 +877,29 @@ File: chapters/graphs/SelectionEff/XpVsRp.pdf Graphic file (type pdf)
 
 <use chapters/graphs/SelectionEff/XpVsRp.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/XpVsRp.pdf used on input 
-line 186.
+line 180.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
- [17] [18 <./chapters/pix/SelEff/ShowerPlane_and_Detector.png> <./chapters/grap
-hs/SelectionEff/XpVsRp.pdf>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RangeIncreaseVsRa
 ngeStand_Xp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
 
-<chapters/graphs/SelectionEff/RangeIncreaseVsRangeStand_Xp.pdf, id=541, 569.126
+<chapters/graphs/SelectionEff/RangeIncreaseVsRangeStand_Xp.pdf, id=517, 569.126
 25pt x 305.14pt>
 File: chapters/graphs/SelectionEff/RangeIncreaseVsRangeStand_Xp.pdf Graphic fil
 e (type pdf)
 
 <use chapters/graphs/SelectionEff/RangeIncreaseVsRangeStand_Xp.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/RangeIncreaseVsRangeStand
-_Xp.pdf used on input line 233.
+_Xp.pdf used on input line 227.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
@@ -901,13 +907,13 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RatioAreaVsDistan
 ce_Xp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
 llowed
 
-<chapters/graphs/SelectionEff/RatioAreaVsDistance_Xp.pdf, id=542, 569.12625pt x
+<chapters/graphs/SelectionEff/RatioAreaVsDistance_Xp.pdf, id=518, 569.12625pt x
  305.14pt>
 File: chapters/graphs/SelectionEff/RatioAreaVsDistance_Xp.pdf Graphic file (typ
 e pdf)
  <use chapters/graphs/SelectionEff/RatioAreaVsDistance_Xp.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/RatioAreaVsDistance_Xp.pd
-f used on input line 235.
+f used on input line 229.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
@@ -915,14 +921,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/SignalToNoiseVsDi
 stance_E1e18eV.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
 n <1.5> allowed
 
-<chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E1e18eV.pdf, id=543, 569.
+<chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E1e18eV.pdf, id=519, 569.
 12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E1e18eV.pdf Graphic 
 file (type pdf)
 
 <use chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E1e18eV.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E
-1e18eV.pdf used on input line 242.
+1e18eV.pdf used on input line 236.
 (pdftex.def)             Requested size: 198.45662pt x 106.40482pt.
 
 
@@ -930,14 +936,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/SignalToNoiseVsDi
 stance_E3e18eV.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
 n <1.5> allowed
 
-<chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E3e18eV.pdf, id=544, 569.
+<chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E3e18eV.pdf, id=520, 569.
 12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E3e18eV.pdf Graphic 
 file (type pdf)
 
 <use chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E3e18eV.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E
-3e18eV.pdf used on input line 247.
+3e18eV.pdf used on input line 241.
 (pdftex.def)             Requested size: 198.45662pt x 106.40482pt.
 
 
@@ -945,14 +951,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/SignalToNoiseVsDi
 stance_E1e19eV.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
 n <1.5> allowed
 
-<chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E1e19eV.pdf, id=545, 569.
+<chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E1e19eV.pdf, id=521, 569.
 12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E1e19eV.pdf Graphic 
 file (type pdf)
 
 <use chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E1e19eV.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E
-1e19eV.pdf used on input line 252.
+1e19eV.pdf used on input line 246.
 (pdftex.def)             Requested size: 198.45662pt x 106.40482pt.
 
 
@@ -960,35 +966,36 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/SignalToNoiseVsDi
 stance_E3e19eV.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
 n <1.5> allowed
 
-<chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E3e19eV.pdf, id=546, 569.
+<chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E3e19eV.pdf, id=522, 569.
 12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E3e19eV.pdf Graphic 
 file (type pdf)
 
 <use chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E3e19eV.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E
-3e19eV.pdf used on input line 257.
+3e19eV.pdf used on input line 251.
 (pdftex.def)             Requested size: 198.45662pt x 106.40482pt.
- [19]
-[20 <./chapters/graphs/SelectionEff/RangeIncreaseVsRangeStand_Xp.pdf> <./chapte
-rs/graphs/SelectionEff/RatioAreaVsDistance_Xp.pdf>] [21 <./chapters/graphs/Sele
-ctionEff/SignalToNoiseVsDistance_E1e18eV.pdf> <./chapters/graphs/SelectionEff/S
-ignalToNoiseVsDistance_E3e18eV.pdf> <./chapters/graphs/SelectionEff/SignalToNoi
-seVsDistance_E1e19eV.pdf> <./chapters/graphs/SelectionEff/SignalToNoiseVsDistan
-ce_E3e19eV.pdf>]
+ [17]
+[18 <./chapters/pix/SelEff/ShowerPlane_and_Detector.png> <./chapters/graphs/Sel
+ectionEff/XpVsRp.pdf>] [19 <./chapters/graphs/SelectionEff/RangeIncreaseVsRange
+Stand_Xp.pdf> <./chapters/graphs/SelectionEff/RatioAreaVsDistance_Xp.pdf>]
+[20 <./chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E1e18eV.pdf> <./cha
+pters/graphs/SelectionEff/SignalToNoiseVsDistance_E3e18eV.pdf> <./chapters/grap
+hs/SelectionEff/SignalToNoiseVsDistance_E1e19eV.pdf> <./chapters/graphs/Selecti
+onEff/SignalToNoiseVsDistance_E3e19eV.pdf>] [21]
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Smearing_RealData
 _EnergyBias.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
 
-<chapters/graphs/SelectionEff/Smearing_RealData_EnergyBias.pdf, id=611, 569.126
+<chapters/graphs/SelectionEff/Smearing_RealData_EnergyBias.pdf, id=613, 569.126
 25pt x 297.11pt>
 File: chapters/graphs/SelectionEff/Smearing_RealData_EnergyBias.pdf Graphic fil
 e (type pdf)
 
 <use chapters/graphs/SelectionEff/Smearing_RealData_EnergyBias.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Smearing_RealData_EnergyB
-ias.pdf used on input line 302.
+ias.pdf used on input line 296.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -996,14 +1003,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Simulation_Proton
 Iron_EnergyBias.pdf): PDF inclusion: found PDF version <1.7>, but at most versi
 on <1.5> allowed
 
-<chapters/graphs/SelectionEff/Simulation_ProtonIron_EnergyBias.pdf, id=612, 569
+<chapters/graphs/SelectionEff/Simulation_ProtonIron_EnergyBias.pdf, id=614, 569
 .12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/Simulation_ProtonIron_EnergyBias.pdf Graphic
  file (type pdf)
 
 <use chapters/graphs/SelectionEff/Simulation_ProtonIron_EnergyBias.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Simulation_ProtonIron_Ene
-rgyBias.pdf used on input line 305.
+rgyBias.pdf used on input line 299.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
@@ -1011,14 +1018,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Smearing_RealData
 _XmaxBias.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.
 5> allowed
 
-<chapters/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf, id=613, 569.12625
+<chapters/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf, id=615, 569.12625
 pt x 297.11pt>
 File: chapters/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf Graphic file 
 (type pdf)
 
 <use chapters/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Smearing_RealData_XmaxBia
-s.pdf used on input line 311.
+s.pdf used on input line 305.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1026,14 +1033,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Simulation_Proton
 Iron_XmaxBias.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
 
-<chapters/graphs/SelectionEff/Simulation_ProtonIron_XmaxBias.pdf, id=614, 569.1
+<chapters/graphs/SelectionEff/Simulation_ProtonIron_XmaxBias.pdf, id=616, 569.1
 2625pt x 297.11pt>
 File: chapters/graphs/SelectionEff/Simulation_ProtonIron_XmaxBias.pdf Graphic f
 ile (type pdf)
 
 <use chapters/graphs/SelectionEff/Simulation_ProtonIron_XmaxBias.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Simulation_ProtonIron_Xma
-xBias.pdf used on input line 314.
+xBias.pdf used on input line 308.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1041,13 +1048,13 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Combined_EnergyRe
 s_All.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
 llowed
 
-<chapters/graphs/SelectionEff/Combined_EnergyRes_All.pdf, id=615, 569.12625pt x
+<chapters/graphs/SelectionEff/Combined_EnergyRes_All.pdf, id=617, 569.12625pt x
  305.14pt>
 File: chapters/graphs/SelectionEff/Combined_EnergyRes_All.pdf Graphic file (typ
 e pdf)
  <use chapters/graphs/SelectionEff/Combined_EnergyRes_All.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Combined_EnergyRes_All.pd
-f used on input line 320.
+f used on input line 314.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
@@ -1055,13 +1062,13 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Combined_XmaxRes_
 All.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
 
-<chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf, id=616, 569.12625pt x 2
+<chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf, id=618, 569.12625pt x 2
 97.11pt>
 File: chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf Graphic file (type 
 pdf)
  <use chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf 
-used on input line 323.
+used on input line 317.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 
@@ -1069,14 +1076,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Smearing_TrackLen
 gth_DiffNSBlevels.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
 sion <1.5> allowed
 
-<chapters/graphs/SelectionEff/Smearing_TrackLength_DiffNSBlevels.pdf, id=617, 5
+<chapters/graphs/SelectionEff/Smearing_TrackLength_DiffNSBlevels.pdf, id=619, 5
 69.12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/Smearing_TrackLength_DiffNSBlevels.pdf Graph
 ic file (type pdf)
 
 <use chapters/graphs/SelectionEff/Smearing_TrackLength_DiffNSBlevels.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Smearing_TrackLength_Diff
-NSBlevels.pdf used on input line 329.
+NSBlevels.pdf used on input line 323.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 [22] [23 <./chapters/graphs/SelectionEff/Smearing_RealData_EnergyBias.pdf> <./c
@@ -1084,21 +1091,20 @@ hapters/graphs/SelectionEff/Simulation_ProtonIron_EnergyBias.pdf>] [24 <./chapt
 ers/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf> <./chapters/graphs/Sele
 ctionEff/Simulation_ProtonIron_XmaxBias.pdf>] [25 <./chapters/graphs/SelectionE
 ff/Combined_EnergyRes_All.pdf> <./chapters/graphs/SelectionEff/Combined_XmaxRes
-_All.pdf>] [26 <./chapters/graphs/SelectionEff/Smearing_TrackLength_DiffNSBleve
-ls.pdf>]
+_All.pdf>]
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RealDataAndSim_Xm
 axDistComp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
 
-<chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf, id=701, 569.1262
+<chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf, id=686, 569.1262
 5pt x 305.14pt>
 File: chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf Graphic file
  (type pdf)
 
 <use chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistCo
-mp.pdf used on input line 364.
+mp.pdf used on input line 358.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
@@ -1106,13 +1112,13 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RealDataAndSim_Rp
 DistComp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5
 > allowed
 
-<chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf, id=702, 569.12625p
+<chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf, id=687, 569.12625p
 t x 305.14pt>
 File: chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf Graphic file (
 type pdf)
  <use chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp
-.pdf used on input line 367.
+.pdf used on input line 361.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
@@ -1120,14 +1126,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RealDataAndSim_Ze
 nithDistComp.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.pdf, id=703, 569.12
+<chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.pdf, id=688, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.pdf Graphic fi
 le (type pdf)
 
 <use chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/RealDataAndSim_ZenithDist
-Comp.pdf used on input line 373.
+Comp.pdf used on input line 367.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
@@ -1135,42 +1141,42 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RealDataAndSim_Di
 stToXmaxDistComp.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
 
-<chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf, id=704, 56
+<chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf, id=689, 56
 9.12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf Graphi
 c file (type pdf)
 
 <use chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/RealDataAndSim_DistToXmax
-DistComp.pdf used on input line 376.
+DistComp.pdf used on input line 370.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 File: chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf Graphic file
  (type pdf)
 
 <use chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistCo
-mp.pdf used on input line 383.
+mp.pdf used on input line 377.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 File: chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf Graphic file (
 type pdf)
 
 <use chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp
-.pdf used on input line 386.
+.pdf used on input line 380.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 File: chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.pdf Graphic fi
 le (type pdf)
 
 <use chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/RealDataAndSim_ZenithDist
-Comp.pdf used on input line 392.
+Comp.pdf used on input line 386.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 File: chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf Graphi
 c file (type pdf)
 
 <use chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/RealDataAndSim_DistToXmax
-DistComp.pdf used on input line 395.
+DistComp.pdf used on input line 389.
 (pdftex.def)             Requested size: 441.01773pt x 236.46242pt.
 
 
@@ -1179,25 +1185,26 @@ ength_Comb_StandANdIncreasedNSB.pdf): PDF inclusion: found PDF version <1.7>, b
 ut at most version <1.5> allowed
 
 <chapters/graphs/SelectionEff/Simulation_TrackLength_Comb_StandANdIncreasedNSB.
-pdf, id=705, 569.12625pt x 297.11pt>
+pdf, id=690, 569.12625pt x 297.11pt>
 File: chapters/graphs/SelectionEff/Simulation_TrackLength_Comb_StandANdIncrease
 dNSB.pdf Graphic file (type pdf)
 
 <use chapters/graphs/SelectionEff/Simulation_TrackLength_Comb_StandANdIncreased
 NSB.pdf>
 Package pdftex.def Info: chapters/graphs/SelectionEff/Simulation_TrackLength_Co
-mb_StandANdIncreasedNSB.pdf used on input line 402.
+mb_StandANdIncreasedNSB.pdf used on input line 396.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
-) (./chapters/CharacterOfPMT.tex [27] [28 <./chapters/graphs/SelectionEff/RealD
-ataAndSim_XmaxDistComp.pdf> <./chapters/graphs/SelectionEff/RealDataAndSim_RpDi
-stComp.pdf>] [29 <./chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.
-pdf> <./chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf>] [3
-0] [31] [32 <./chapters/graphs/SelectionEff/Simulation_TrackLength_Comb_StandAN
-dIncreasedNSB.pdf>]
-Chapter 5.
-[33
+) (./chapters/CharacterOfPMT.tex [26 <./chapters/graphs/SelectionEff/Smearing_T
+rackLength_DiffNSBlevels.pdf>] [27 <./chapters/graphs/SelectionEff/RealDataAndS
+im_XmaxDistComp.pdf> <./chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.
+pdf>] [28 <./chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.pdf> <.
+/chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf>]
+[29] [30] [31 <./chapters/graphs/SelectionEff/Simulation_TrackLength_Comb_Stand
+ANdIncreasedNSB.pdf>] [32
 
 ]
+Chapter 5.
+[33]
 <chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png, id=779, 929.4725pt x
  874.26625pt>
 File: chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png Graphic file (ty
@@ -2279,7 +2286,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  11370 strings out of 493029
  191637 string characters out of 6136233
- 387209 words of memory out of 5000000
+ 388209 words of memory out of 5000000
  14326 multiletter control sequences out of 15000+600000
  13902 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2297,7 +2304,7 @@ msfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on PhD_Thesis.pdf (83 pages, 13738913 bytes).
+Output written on PhD_Thesis.pdf (83 pages, 13738056 bytes).
 PDF statistics:
  1625 PDF objects out of 1728 (max. 8388607)
  1292 compressed objects within 13 object streams

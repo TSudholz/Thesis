@@ -2,17 +2,21 @@
 
 \section{Motivation}
 
-The Pierre Auger Observatory has been operational since 2004 and the collaboration  is in the process of rolling out upgrades to improve operations. The upgrade has been name AugerPrime \textbf{(ref)} and is a large project to improve both the Surface Detectors (SD) and the Fluorescence Detectors (FD). The FD portion of AugerPrime involves extending the duty cycle to observe EAS events while the moon is above the horizon. The main purpose of the FD upgrade is to increase the statistics per year for Extensive Air Shower (EAS) events in the highest energy bin ($>$ 10$^{19.5}$ eV). 
+The Pierre Auger Observatory has been operational since 2004 and the collaboration is in the process of rolling out upgrades to improve operations. The upgrade has been name AugerPrime \textbf{(ref)} and is a large project to improve both the Surface Detectors (SD) and the Fluorescence Detectors (FD). The FD portion of AugerPrime involves extending the duty cycle to observe EAS events while the moon is above the horizon. The main purpose for extending the FD duty cycle to include observation times while the moon is visible is to increase the statistics per year for Extensive Air Shower (EAS) events in the highest energy bin ($>$ 10$^{19.5}$ eV). 
 
-In this chapter I used real data and simulations to explore the effects of increasing the Night Sky Background on the collaboration's reconstruction method and trigger efficiency. A real data set was used to evaluate the efficiency of the reconstruction method under different NSB levels by artificially adding extra noise to signal traces. This was a repetition of a study done by M. Unger \textbf{Find ref.} which was used as a starting point and then was expanded on. The expanded work lead to using simulations to evaluate the full trigger and reconstruction efficiency.
+In this chapter I used real data and simulations to explore the effects of increasing the Night Sky Background on the collaboration's reconstruction method and trigger efficiency. A real data set was used to evaluate the efficiency of the reconstruction method under different NSB intensities by artificially adding extra noise to signal traces. This method was a repetition of a study done by M. Unger \textbf{Find ref.}. The study was used as a starting point then the results where examined in depth and found to mainly test the robustness of the collaboration's reconstruction algorithm. The analysis led to the use of the collaboration FD simulations to evaluate the effects of the increased NSB on both the FD triggers and reconstruction efficiency.
 
 \section{Background Information}
 
 \subsection{Current FD Operation}
-Currently the Fluorescence Detectors (FDs) are operated under these guidelines: an observation run is organised for nights when the illuminated fraction of the moon less then 70\% and can have a minimum of 3 hours of operation with the moon below the horizon. The FD telescope shutters are then opened when the sun is below -18\textdegree \ of the horizon (beginning of astronomical twilight). The FD shutters remain open while the average variance across the FD camera is less then 100 ADC$^2$/100 ns and the variance of individual PMTs is less then 2000 ADC$^2$/100 ns. The FD shutters at each site will also close if the individual rain sensors are trigger or the measured wind speed is above 50 km/h.  From these guidelines the FD time of operation can be calculated. A calculation performed by the collaboration to estimate the theoretical up time of the FD's was done before 2012 \textbf{(find ref.)} in Table \ref{tab:CFD_Q_F}.
+
+- FD Duty Cycle
+
+Currently the Fluorescence Detectors (FDs) are operated under these guidelines: an observation run is organised for nights when the illuminated fraction of the moon is less than 70\% and can have a minimum of 3 hours of operation with the moon below the horizon. The FD telescope shutters are then opened when the sun is below -18\textdegree \ of the horizon (beginning of astronomical twilight). The FD shutters remain open while the average variance across the FD camera is less then 100 ADC$^2$/100 ns and the variance of individual PMTs is less then 2000 ADC$^2$/100 ns. 100 ns is chosen as this is the smallest interval that the signal from the PMT anode (in electrons) is digitised to Analogue-to-Digital Units (ADCs). The FD shutters at each site will automatically close if the individual rain sensors are triggered or the measured wind speed is above 50 km/h at the individual FD sites. Using these guidelines the expected yearly FD duty cycle can be calculated. This calculation was performed by the collaboration in \textbf{DATE \& ref} to estimate the theoretical the FD duty cycle and the result is shown in Table \ref{tab:FD_uptime}. Bad weather is mainly caused by rain, high wind speeds or lightning strikes in the FDs field of view. Failures include any software or hardware issues that prevented any of the FD telescopes from collecting data.
+
 \begin{table}[h]
 \centering
-\begin{tabular}{c c}
+\begin{tabular}{ c c }
 \hline\hline
 Theoretical up time & 22\% \\
 Loss due to short nights ($<$ 3 hrs) & -2\% \\
@@ -20,9 +24,95 @@ Loss due to bad weather or failures & -5\% \\ \hline \hline
 Total measurement time & 15\% \\
 \hline\hline
 \end{tabular}
-\caption{Calculation of the FD up-time done by the Collaboration. Bad weather is the inclusion of rain, high wind speeds and lightning strikes in the FDs field of view. Explain Failure - equipment not working.} \label{tab:FD_uptime}
+\caption{Calculation of the yearly expected FD duty cycle done by the Collaboration. Bad weather is the inclusion of rain, high wind speeds and lightning strikes in the FDs field of view. Failures include any software or hardware issues that prevented any of the FD telescopes from collecting data.} \label{tab:FD_uptime}
 \end{table}
+
+- Convert Photons to ADC
+
+Photons that enter the FD telescope pass through the optics, are converted to photo-electrons by the photomultiplier tube (PMT) and then convert to Analogue-to-Digital units by the electronics. A basic diagram of how photons detected by a FD telescope is converted to ADC is show in Fig. \ref{fig:FD_CoefficientLayout_PhotonToADC}. The steps are split into 3 parts: the optics, PMT and electronics. When the photon reaches the PMT it is converted to a photo-electron and the electron signal from the PMT is converted to ADC by the electronics. 
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{/home/tsudholz/PhD/Thesis/chapters/pix/SelEff/Layout_Coefficients_PhotonsToADC.png}
+\caption{A diagram showing the steps that a photon passing through a FD telescope diaphram will travel to be convert to an ADC. The steps are split into 3 parts: the optics, PMT and electronics. When the photon reaches the PMT it is converted to a photo-electron and the electron signal from the PMT anode is converted to ADC by the electronics.} \label{fig:FD_CoefficientLayout_PhotonToADC}
+\end{figure}
+
+- Current measured NSB intensity in ADC and current
+  
+The electron signal from the FD PMT is AC coupled, which means the mean ADC of the NSB is zero. Instead the ADC variance is calculated and the ADC variance directly proportional to the variance in the NSB photon count. The typical mean ADC variance of the NSB measured by Auger \ref{find} at Malargue is:
+\begin{eqnarray}
+\left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{sky}} = 25 \ \mathrm{ADC}^2 \ / \ 100 \ \mathrm{ns} \\ 
+\left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{sky}} = \left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{back}} - \left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{elec}}
+\end{eqnarray}
+where:
+\begin{itemize}
+\item[] 100 ns is the digitisation rate of the ADC within the FD telescopes.
+\item[] $\left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{sky}}$ is the variance caused by the NSB.
+\item[] $\left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{back}}$ is the variance of background signal which is the combination of NSB and electronic noise.
+\item[] $\left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{elec}}$ is the variance of the electronic noise. The variance of FD electronic noise is measured while the shutters are closed.
+\end{itemize}
+The sky variance in ADC$^2$ can be converted back into photons seen at the aperture by using:
+
+\begin{eqnarray}
+\sigma^2_{pe} &=& [\sigma^2_{\mathrm{ADC}}]^{\mathrm{sky}} \ / \ \mathrm{A}^2_{\mathrm{G}} \label{eq:simgaPE} \\
+\mathrm{n}_{\mathrm{ph}} &=& \frac{\sigma^2_{pe}}{(1 + \mathrm{V}_{\mathrm{G}})} \label{eq:numPhoton}
+\end{eqnarray}
+where $\sigma_{pe}$ is the standard deviation of the photo-electron count, n$_{\mathrm{ph}}$ is the photon count, V$_{\mathrm{G}}$ is the PMT gain variance factor \ref{in GAP2004} and A$_{\mathrm{G}}$ is equal to:
+\begin{equation}\label{eq:abs_gain}
+\mathrm{A}_{\mathrm{G}} = \eta \times G \times E = \frac{1}{\mathrm{C}_{\mathrm{FD}}\times \mathrm{f} \times \mathrm{Q}}
+\end{equation}
+where
+\begin{itemize}
+\item[] A$_{\mathrm{G}}$ is the absolute gain (ADC/photo-electron)
+\item[] $\mathrm{C}_{\mathrm{FD}}$ is the FD pixel calibration constant.
+\item[] Q is the Quantum efficiency of the PMT turning photons into photo-electrons.
+\item[] f is the photon collection efficiency of the telescope optics.
+\end{itemize}
+
+/*------ \textbf{Find reference to number below} ------*/
+
+Typical measured values for C$_{\mathrm{FD}}$, Q and f shown in Table \ref{tab:CFD_Q_F}. The PMTs used as camera pixels in the FDs are HAMAMATSU XP3062 and are operated at a gain of $\sim$ 5 $\times$ 10$^4$ electrons/photo-electron.
+
+\vspace{3mm}
+\begin{table}[h]
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline 
+C$_{\mathrm{FD}}$ & 4.5 photons/ADC \\
+\hline
+Q & 0.29 \\
+\hline
+f & 0.465 \\
+\hline
+\end{tabular} 
+\end{center}
+\caption{Typical values for the constants use to calculate A$_{\mathrm{G}}$ which is the absolute gain (ADC/photo-electron). $\mathrm{C}_{\mathrm{FD}}$ is the FD pixel calibration constant, Q is the Quantum efficiency of the PMT turning photons into photo-electrons and f is the photon collection efficiency of the telescope optics.} \label{tab:CFD_Q_F}
+\end{table} 
+
+Therefore A$_{\mathrm{G}}$ can be calculated from Eq. \ref{eq:abs_gain} using the values from Table \ref{tab:CFD_Q_F}. If $\sigma^2_{\mathrm{ADC}}$ = 25 ADC$^2$ / 100 ns, through the calculations n$_{\mathrm{ph}}$ = 23 photons / 100 ns. The calculations to work out the standard deviation of the photon count (RMS$_{\mathrm{ph}}$ / 100 ns) from the measured variance in ADC$^2$ is as follows:
+\begin{equation}
+\mathrm{RMS}_{\mathrm{ph}} = \mathrm{C}_{\mathrm{FD}} \times \sqrt{\mathrm{ADC}^2}
+\end{equation}
+From all of the equations stated above I have outlined a table showing the expected photon count at the aperture per 100 ns from the measured variance (ADC$^2$ / 100 ns).
+\begin{center}
+\begin{tabular}{| c | c | c |}
+\hline \hline
+\textbf{Variance} & \multirow{2}{*}{\textbf{Photons / 100 ns}} & \textbf{RMS} \\
+\textbf{(ADC$^2$ / 100 ns)} & & \textbf{(Photons / 100 ns)} \\
+\hline \hline
+25  & 22.7 & 22.5 \\
+\hline
+178  & 161.4 & 60 \\
+\hline
+259  & 226.7 & 71.2 \\
+\hline
+1000  & 907.0 & 142.3 \\
+\hline
+\end{tabular}
+\end{center}
+
 \subsection{NSB and the Moon}
+
 For context, the ADC$^2$/100 ns measured by the FD PMTs at standard operation typically observe Night Sky Background (NSB) with no moon, quarter moon and full moon/twilight are shown in Table \ref{tab:MoonLightADC}. Bad weather is the inclusion of rain, high wind speeds and lightning strikes in the FDs field of view. Failures include any software or hardware issues that prevented any of the FD telescopes from collecting data.
 \begin{table}[h]
 \centering
@@ -39,7 +129,7 @@ full moon/twilight & 2500 & 50 \\
 
 \begin{figure}
 \centering
-\begin{subfigure}[b]{0.42\textwidth}
+\begin{subfigure}[b]{0.425\textwidth}
 \includegraphics[width=\textwidth]{chapters/pix/SelEff/IlluminatedMoonFrac_Twilight.JPG}
 \caption{}
 \end{subfigure}

@@ -22,8 +22,8 @@
 \BOOKMARK [0][-]{chapter.4}{The Effects of Increased NSB on the FD Trigger and Reconstruction}{}% 22
 \BOOKMARK [1][-]{section.4.1}{Motivation}{chapter.4}% 23
 \BOOKMARK [1][-]{section.4.2}{Background Information}{chapter.4}% 24
-\BOOKMARK [2][-]{subsection.4.2.1}{Current FD Operation}{section.4.2}% 25
-\BOOKMARK [2][-]{subsection.4.2.2}{NSB and the Moon}{section.4.2}% 26
+\BOOKMARK [2][-]{subsection.4.2.1}{Current Fluorescence Detector Operation}{section.4.2}% 25
+\BOOKMARK [2][-]{subsection.4.2.2}{Night Sky Background, Twilight and the Moon}{section.4.2}% 26
 \BOOKMARK [2][-]{subsection.4.2.3}{Toy Model of the effect of increased NSB on aperture}{section.4.2}% 27
 \BOOKMARK [1][-]{section.4.3}{Increasing NSB in Real Data to evaluate Reconstruction Efficiency}{chapter.4}% 28
 \BOOKMARK [2][-]{subsection.4.3.1}{Method}{section.4.3}% 29

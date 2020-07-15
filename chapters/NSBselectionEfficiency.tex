@@ -8,9 +8,7 @@ In this chapter I used real data and simulations to explore the effects of incre
 
 \section{Background Information}
 
-\subsection{Current FD Operation}
-
-- FD Duty Cycle
+\subsection{Current Fluorescence Detector Operation}
 
 Currently the Fluorescence Detectors (FDs) are operated under these guidelines: an observation run is organised for nights when the illuminated fraction of the moon is less than 70\% and can have a minimum of 3 hours of operation with the moon below the horizon. The FD telescope shutters are then opened when the sun is below -18\textdegree \ of the horizon (beginning of astronomical twilight). The FD shutters remain open while the average variance across the FD camera is less then 100 ADC$^2$/100 ns and the variance of individual PMTs is less then 2000 ADC$^2$/100 ns. 100 ns is chosen as this is the smallest interval that the signal from the PMT anode (in electrons) is digitised to Analogue-to-Digital Units (ADCs). The FD shutters at each site will automatically close if the individual rain sensors are triggered or the measured wind speed is above 50 km/h at the individual FD sites. Using these guidelines the expected yearly FD duty cycle can be calculated. This calculation was performed by the collaboration in \textbf{DATE \& ref} to estimate the theoretical the FD duty cycle and the result is shown in Table \ref{tab:FD_uptime}. Bad weather is mainly caused by rain, high wind speeds or lightning strikes in the FDs field of view. Failures include any software or hardware issues that prevented any of the FD telescopes from collecting data.
 
@@ -27,7 +25,6 @@ Total measurement time & 15\% \\
 \caption{Calculation of the yearly expected FD duty cycle done by the Collaboration. Bad weather is the inclusion of rain, high wind speeds and lightning strikes in the FDs field of view. Failures include any software or hardware issues that prevented any of the FD telescopes from collecting data.} \label{tab:FD_uptime}
 \end{table}
 
-- Convert Photons to ADC
 
 Photons that enter the FD telescope pass through the optics, are converted to photo-electrons by the photomultiplier tube (PMT) and then convert to Analogue-to-Digital units by the electronics. A basic diagram of how photons detected by a FD telescope is converted to ADC is show in Fig. \ref{fig:FD_CoefficientLayout_PhotonToADC}. The steps are split into 3 parts: the optics, PMT and electronics. When the photon reaches the PMT it is converted to a photo-electron and the electron signal from the PMT is converted to ADC by the electronics. 
 
@@ -36,42 +33,58 @@ Photons that enter the FD telescope pass through the optics, are converted to ph
 \includegraphics[width=\textwidth]{/home/tsudholz/PhD/Thesis/chapters/pix/SelEff/Layout_Coefficients_PhotonsToADC.png}
 \caption{A diagram showing the steps that a photon passing through a FD telescope diaphram will travel to be convert to an ADC. The steps are split into 3 parts: the optics, PMT and electronics. When the photon reaches the PMT it is converted to a photo-electron and the electron signal from the PMT anode is converted to ADC by the electronics.} \label{fig:FD_CoefficientLayout_PhotonToADC}
 \end{figure}
-
-- Current measured NSB intensity in ADC and current
   
-The electron signal from the FD PMT is AC coupled, which means the mean ADC of the NSB is zero. Instead the ADC variance is calculated and the ADC variance directly proportional to the variance in the NSB photon count. The typical mean ADC variance of the NSB measured by Auger \ref{find} at Malargue is:
-\begin{eqnarray}
-\left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{sky}} = 25 \ \mathrm{ADC}^2 \ / \ 100 \ \mathrm{ns} \\ 
-\left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{sky}} = \left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{back}} - \left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{elec}}
-\end{eqnarray}
+The electron signal from the FD PMT is AC coupled, which means the mean ADC of the NSB is zero. Instead the ADC variance is calculated and the ADC variance directly proportional to the variance in the NSB photon count. To find the variance of the ADC variance due to the NSB from the background trace the variance due to the electronic noise has to be removed first. Removal of the electronic noise is shown in Eq. \ref{eq:back_vars}. 
+\begin{equation}
+\left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{sky}} = \left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{back}} - \left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{elec}} \label{eq:back_vars}
+\end{equation} 
 where:
 \begin{itemize}
-\item[] 100 ns is the digitisation rate of the ADC within the FD telescopes.
-\item[] $\left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{sky}}$ is the variance caused by the NSB.
-\item[] $\left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{back}}$ is the variance of background signal which is the combination of NSB and electronic noise.
-\item[] $\left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{elec}}$ is the variance of the electronic noise. The variance of FD electronic noise is measured while the shutters are closed.
+\item[] $\left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{sky}}$ is the variance (ADC$^2$/100 ns) caused by the NSB.
+\item[] $\left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{back}}$ is the variance (ADC$^2$/100 ns) of background signal which is the combination of NSB and electronic noise.
+\item[] $\left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{elec}}$ is the variance (ADC$^2$/100 ns) of the electronic noise. The variance of FD electronic noise is measured while the shutters are closed.
 \end{itemize}
-The sky variance in ADC$^2$ can be converted back into photons seen at the aperture by using:
+The typical mean ADC variance of the NSB measured by Auger \ref{find} at Malargue is:
+\begin{equation}
+\left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{sky}} = 25 \ \mathrm{ADC}^2 \ / \ 100 \ \mathrm{ns} \nonumber
+\end{equation}
 
+The variance in ADC$^2$ seen by the FD can be converted back to photons at the diaphragm by the FD pixel calibration constant C$_{\mathrm{FD}}$ (photons/ADC). The FD pixel calibration constant has been preformed by illuminating the diaphragm with a know number of photons. This was originally done by a drum calibration which used a large device that covered the entire FD diaphragm and could illuminate the whole camera with known number of diffuse photons. The drum calibration has been retired and has been replaced with an experiment called the XY scanner. The XY scanner illuminates one pixel at the time and scans over the entire camera. The advantages of the XY scanner is that it is a more compact experiment with the aim of having the ability to be deployed more often to find the absolute calibration.
+
+C$_{\mathrm{FD}}$ can be used to find the variance of the NSB photons at the diaphragm from the measured ADC variance. An average variance of the NSB measured by an FD telescope is $\sigma^2_{\mathrm{ADC}}$ = 25 ADC$^2$ / 100 ns. The calculations to work out the variance of the photon count (RMS$_{\mathrm{ph}}$ / 100 ns) from the measured variance in ADC$^2$ is as follows:
+\begin{equation}
+\mathrm{\sigma}^2_{\mathrm{ph}} = (\mathrm{C}_{\mathrm{FD}})^2 \times \sigma^2_{\mathrm{ADC}} \label{eq:varADC_to_RMSphotons}
+\end{equation}
+Using Eq. \ref{eq:varADC_to_RMSphotons} and C$_{\mathrm{FD}}$ = 4.5 photons / ADC the fluctuations on the photon count can be calculated.
+\begin{equation}
+\sigma_{\mathrm{ph}} = 23 \ \mathrm{photons} \ / \ 100 \ \mathrm{ns} \nonumber
+\end{equation}
+where $\sigma_{\mathrm{ph}}$ is the fluctuations on the photon count per 100 ns.
+
+Finding the number of photons at the diaphragm takes more steps. The first step involves converting the ADC variance to photo-electrons. This step is achieved through the combination of using Eq. \ref{eq:numberPE} and Eq. \ref{eq:simgaPE}.
 \begin{eqnarray}
-\sigma^2_{pe} &=& [\sigma^2_{\mathrm{ADC}}]^{\mathrm{sky}} \ / \ \mathrm{A}^2_{\mathrm{G}} \label{eq:simgaPE} \\
-\mathrm{n}_{\mathrm{ph}} &=& \frac{\sigma^2_{pe}}{(1 + \mathrm{V}_{\mathrm{G}})} \label{eq:numPhoton}
+\mathrm{n}_{\mathrm{pe}} &=& \frac{\sigma^2_{pe}}{(1 + \mathrm{V}_{\mathrm{G}})} \label{eq:numberPE} \\
+\sigma^2_{pe} &=& [\sigma^2_{\mathrm{ADC}}]^{\mathrm{sky}} \ / \ \mathrm{A}^2_{\mathrm{G}} \label{eq:simgaPE}
 \end{eqnarray}
-where $\sigma_{pe}$ is the standard deviation of the photo-electron count, n$_{\mathrm{ph}}$ is the photon count, V$_{\mathrm{G}}$ is the PMT gain variance factor \ref{in GAP2004} and A$_{\mathrm{G}}$ is equal to:
+where $\sigma_{pe}$ is the standard deviation of the photo-electron count, n$_{\mathrm{pe}}$ is the photon-electron count, V$_{\mathrm{G}}$ is the PMT gain variance factor \ref{in GAP2004} and A$_{\mathrm{G}}$ is the absolute gain (ADC/photo-electron) of the PMT. A$_{\mathrm{G}}$ is equal to:
 \begin{equation}\label{eq:abs_gain}
-\mathrm{A}_{\mathrm{G}} = \eta \times G \times E = \frac{1}{\mathrm{C}_{\mathrm{FD}}\times \mathrm{f} \times \mathrm{Q}}
+\mathrm{A}_{\mathrm{G}} = \eta \times G \times E 
 \end{equation}
 where
 \begin{itemize}
-\item[] A$_{\mathrm{G}}$ is the absolute gain (ADC/photo-electron)
-\item[] $\mathrm{C}_{\mathrm{FD}}$ is the FD pixel calibration constant.
-\item[] Q is the Quantum efficiency of the PMT turning photons into photo-electrons.
-\item[] f is the photon collection efficiency of the telescope optics.
+\item[] $\eta$ is the PMT collection efficiency at the first dynode.
+\item[] $G$ is the PMT gain.
+\item[] $E$ is the electronic conversion constant (ADC/electron).
 \end{itemize}
-
-/*------ \textbf{Find reference to number below} ------*/
-
-Typical measured values for C$_{\mathrm{FD}}$, Q and f shown in Table \ref{tab:CFD_Q_F}. The PMTs used as camera pixels in the FDs are HAMAMATSU XP3062 and are operated at a gain of $\sim$ 5 $\times$ 10$^4$ electrons/photo-electron.
+An equivalent quantity can be used to calculate $\mathrm{A}_{\mathrm{G}}$ and is:
+\begin{equation}\label{eq:abs_gain_alt}
+\mathrm{A}_{\mathrm{G}} = \frac{1}{\mathrm{C}_{\mathrm{FD}}\times \mathrm{f} \times \mathrm{Q}}
+\end{equation}
+where
+\begin{itemize}
+\item[] Q is the Quantum efficiency of the PMT turning photons into photo-electrons.
+\item[] f is the photon collection efficiency of the telescope optics. The components that make up the telescope optics are shon in Table. \ref{tab:OpticsBreakdown}.
+\end{itemize}
 
 \vspace{3mm}
 \begin{table}[h]
@@ -82,38 +95,74 @@ C$_{\mathrm{FD}}$ & 4.5 photons/ADC \\
 \hline
 Q & 0.29 \\
 \hline
-f & 0.465 \\
+f & 0.494 \\
 \hline
 \end{tabular} 
 \end{center}
 \caption{Typical values for the constants use to calculate A$_{\mathrm{G}}$ which is the absolute gain (ADC/photo-electron). $\mathrm{C}_{\mathrm{FD}}$ is the FD pixel calibration constant, Q is the Quantum efficiency of the PMT turning photons into photo-electrons and f is the photon collection efficiency of the telescope optics.} \label{tab:CFD_Q_F}
 \end{table} 
 
-Therefore A$_{\mathrm{G}}$ can be calculated from Eq. \ref{eq:abs_gain} using the values from Table \ref{tab:CFD_Q_F}. If $\sigma^2_{\mathrm{ADC}}$ = 25 ADC$^2$ / 100 ns, through the calculations n$_{\mathrm{ph}}$ = 23 photons / 100 ns. The calculations to work out the standard deviation of the photon count (RMS$_{\mathrm{ph}}$ / 100 ns) from the measured variance in ADC$^2$ is as follows:
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+Optics & f & F $\times$ L $\times$ T $\times$ R $\times$ M \\ \hline
+Filter Transmission & F & 0.83 \\ \hline
+Corrector Ring lens Transmission & L & 0.90 \\ \hline
+Mirror Reflectivity & R & 0.90 \\ \hline
+Camera Shadow Factor & T & 0.79 \\ \hline
+Mercedes Collection Efficiency & M & 0.93 \\ \hline
+\end{tabular}
+\caption{Breakdown of all the components that go into the FD optics.}\label{tab:OpticsBreakdown}
+\end{table}
+
+Typical measured values for C$_{\mathrm{FD}}$, Q and f shown in Table \ref{tab:CFD_Q_F}. The PMTs used as camera pixels in the FDs are HAMAMATSU XP3062 and are operated at a gain of $\sim$ 5 $\times$ 10$^4$ electrons/photo-electron.
+
+The next step is to convert the photo-electrons to photons at the diaphragm. This step is achieved through using Eg. \ref{eq:numberPhotons}.
 \begin{equation}
-\mathrm{RMS}_{\mathrm{ph}} = \mathrm{C}_{\mathrm{FD}} \times \sqrt{\mathrm{ADC}^2}
+\mathrm{n}_{\mathrm{ph}} = \frac{\mathrm{n}_{\mathrm{pe}}}{\mathrm{Q} \times \mathrm{f}} \label{eq:numberPhotons}
 \end{equation}
-From all of the equations stated above I have outlined a table showing the expected photon count at the aperture per 100 ns from the measured variance (ADC$^2$ / 100 ns).
+
+Therefore A$_{\mathrm{G}}$ can be calculated from Eq. \ref{eq:abs_gain} using the values from Table \ref{tab:CFD_Q_F}. From all of the equations stated above I have outlined a table showing the expected photon count at the aperture per 100 ns from the measured variance (ADC$^2$ / 100 ns).
 \begin{center}
-\begin{tabular}{| c | c | c |}
+\begin{tabular}{| c | c | c | }
 \hline \hline
-\textbf{Variance} & \multirow{2}{*}{\textbf{Photons / 100 ns}} & \textbf{RMS} \\
-\textbf{(ADC$^2$ / 100 ns)} & & \textbf{(Photons / 100 ns)} \\
+\textbf{Variance} & \textbf{Photons / 100 ns} & \textbf{Photons / 100 ns} \\
+\textbf{(ADC$^2$/100 ns)} & \textbf{@ Pixel} & \textbf{@ diaphragm} \\
 \hline \hline
-25  & 22.7 & 22.5 \\
+25  & 23 & 46 \\
 \hline
-178  & 161.4 & 60 \\
+250  & 227 & 459 \\
 \hline
-259  & 226.7 & 71.2 \\
-\hline
-1000  & 907.0 & 142.3 \\
+2500  & 2267 & 4588 \\
 \hline
 \end{tabular}
 \end{center}
 
-\subsection{NSB and the Moon}
+\subsection{Night Sky Background, Twilight and the Moon}
 
-For context, the ADC$^2$/100 ns measured by the FD PMTs at standard operation typically observe Night Sky Background (NSB) with no moon, quarter moon and full moon/twilight are shown in Table \ref{tab:MoonLightADC}. Bad weather is the inclusion of rain, high wind speeds and lightning strikes in the FDs field of view. Failures include any software or hardware issues that prevented any of the FD telescopes from collecting data.
+\begin{figure}
+\centering
+\begin{subfigure}[b]{0.32\textwidth}
+\includegraphics[width=\textwidth]{chapters/pix/SelEff/IlluminatedMoonFrac_Twilight.JPG}
+\caption{}\label{fig:MoonYearlyFrac}
+\end{subfigure}
+\hspace*{3mm}
+\begin{subfigure}[b]{0.555\textwidth}
+\includegraphics[width=\textwidth]{/home/tsudholz/PhD/Thesis/chapters/pix/SelEff/RelMoonBright_Vs_IllumFrac_LogScale.pdf}
+\caption{}\label{fig:MoonIllumFrac}
+\end{subfigure}
+\caption{\textbf{(a)} Effects on different definitions of twilight. The solid line is the astronomical twilight (sun at least 18\textdegree \ below horizon). The dotted lines represent relaxed definition of twilight with the sun being at 15\textdegree , 12\textdegree \ and 9\textdegree \ below the horizon. \textbf{(b)} Relative brightness of the moon in the nigh sky compared with a full moon as a function of illuminated fraction. Images taken from \textbf{ref{(GAP1996-034)}}. } 
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth]{chapters/pix/SelEff/BGLoop_Variance_crop.jpg}
+\caption{Measured NSB variance from the Fluorescence Detectors at Standard PMT HV setting with different moon illuminated fractions. The moon was 30\textdegree \ above horizon or greater. Image taken from \textbf{ref(Radamir)}.} \label{fig:ADCvarVSmoonIllumFrac}
+\end{figure}
+
+The Night Sky Background for Auger typically refers to airglow, zodiacal light, scattered starlight and any man-made light. Moonlight is a separate source of background light as an FD shift is typically scheduled for when the moon is below the horizon. Table \ref{tab:MoonLightADC} shows the expected change in average background light observed by the FD telescopes for no moon, 1st/3rd quarter moon and full moon / twilight. 1st/3rd quarter moon is either one quarter or three quarters through the moon orbital cycle and is typically 50\% of the observable moon from earth is illuminated. From the table it can seen that going from no moon to quater moon to full moon jumps by a factor of ten in the observed ADC variance.
+
 \begin{table}[h]
 \centering
 \begin{tabular}{c c c}
@@ -125,160 +174,57 @@ full moon/twilight & 2500 & 50 \\
 \hline\hline
 \end{tabular}
 \caption{Expected average observed variance in ADC$^2$ and anode current in $\mu$A by the PMTs in the FD telescopes under different NSB conditions. No Moon is the typical conditions that the FD shift is run under.  } \label{tab:MoonLightADC}
-\end{table}
-
-\begin{figure}
-\centering
-\begin{subfigure}[b]{0.425\textwidth}
-\includegraphics[width=\textwidth]{chapters/pix/SelEff/IlluminatedMoonFrac_Twilight.JPG}
-\caption{}
-\end{subfigure}
-\hspace*{3mm}
-\begin{subfigure}[b]{0.48\textwidth}
-\includegraphics[width=\textwidth]{/home/tsudholz/PhD/Thesis/chapters/pix/SelEff/RelMoonBright_Vs_IllumFrac_LogScale.pdf}
-\caption{}
-\end{subfigure}
-\caption{\textbf{(a)} Effects on different definitions of twilight. The solid line is the astronomical twilight (sun at least 18\textdegree \ below horizon). The dotted lines represent relaxed definition of twilight with the sun being at 15\textdegree , 12\textdegree \ and 9\textdegree \ below the horizon. \textbf{(b)} Relative brightness of the moon in the nigh sky compared with a full moon as a function of illuminated fraction. Images taken from \textbf{ref{(GAP1996-034)}}. }
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width=0.8\textwidth]{chapters/pix/SelEff/BGLoop_Variance_crop.jpg}
-\caption{Measured NSB variance from the Fluorescence Detectors at Standard PMT HV setting with different moon illuminated fractions. The moon was 30\textdegree \ above horizon or greater. Image taken from \textbf{ref(Radamir)}.}
-\end{figure}
-
-The PMTs used as camera pixels are XP3062 and are operated at a gain of $\sim$ 5 $\times$ 10$^4$ electrons/photo-electron which give the above values in the table. The datasheet \textbf{(find ref.)} for the XP3062 recommend that for good stability anode currents less than 10 $\mu$A be measured. 
-  
-Later within this thesis I will investigate the effects of lower the gain on the PMTs to reduce the measured anode current. A lower anode current when observing under moonlight would help make sure that the PMT's life span are not changed by the increased in NSB. A PMT lifetime is measured in the amount of anode current removed in operation. A reduced gain by a factor of ten would theoretical allow the operation of the PMTs while a quarter moon is above the horizon in the same way as the current PMT operation.  
-
-The signal that the FD's observe is AC coupled, which means the mean signal of the NSB is zero. Instead the variance around zero is calculated and is directly proportional to the fluctuations in the NSB. The mean variance of the NSB measured by Auger at Malargue is:
-\begin{equation}
-\sigma^2_{\mathrm{ADC}} = 25 \ \mathrm{ADC}^2 \ / \ 100 \ \mathrm{ns}
-\end{equation}
-The ADC is measured in 100 ns increments as that is the digitisation rate within the FD telescopes. The expectation is the three HEAT telescopes which all do the digitisation once per 50 ns.  The mean variance in ADC$^2$ can be converted into photons seen at the aperture by using:
-\begin{eqnarray}
-\sigma^2_{pe} &=& [\sigma^2_{\mathrm{ADC}}]^{\mathrm{sky}} \ / \ \mathrm{A}^2_{\mathrm{G}} \label{eq:simgaPE} \\
-\mathrm{n}_{\mathrm{ph}} &=& \frac{\sigma^2_{pe}}{(1 + \mathrm{V}_{\mathrm{G}})} \label{eq:numPhoton}
-\end{eqnarray}
-where $\sigma_{pe}$ is the standard deviation of the photo-electron count, n$_{\mathrm{ph}}$ is the photon count and A$_{\mathrm{G}}$ is equal to:
-\begin{equation}\label{eq:abs_gain}
-\mathrm{A}_{\mathrm{G}} = \frac{1}{\mathrm{C}_{\mathrm{FD}}.\mathrm{f}.\mathrm{Q}}
-\end{equation}
-where
-\begin{itemize}
-\item[] A$_{\mathrm{G}}$ is the absolute gain (ADC/photo-electron)
-\item[] $\mathrm{C}_{\mathrm{FD}}$ is the FD pixel calibration constant.
-\item[] Q is the Quantum efficiency of the PMT turning photons into photo-electrons.
-\item[] f is the photon collection efficiency of the telescope optics.
-\end{itemize}
-
-/*------ \textbf{Find reference to number below} ------*/
-
-Typical measured values for C$_{\mathrm{FD}}$, Q and f shown in Table \ref{tab:CFD_Q_F}.
-\vspace{3mm}
-\begin{table}[h]
-\begin{center}
-\begin{tabular}{|c|c|}
-\hline 
-C$_{\mathrm{FD}}$ & 4.5 photons/ADC \\
-\hline
-Q & 0.29 \\
-\hline
-f & 0.465 \\
-\hline
-\end{tabular} 
-\end{center}
-\caption{Typical values for the constants use to calculate A$_{\mathrm{G}}$ which is the absolute gain (ADC/photo-electron). $\mathrm{C}_{\mathrm{FD}}$ is the FD pixel calibration constant, Q is the Quantum efficiency of the PMT turning photons into photo-electrons and f is the photon collection efficiency of the telescope optics.} \label{tab:CFD_Q_F}
 \end{table} 
 
-Therefore A$_{\mathrm{G}}$ can be calculated from Eq. \ref{eq:abs_gain} using the values from Table \ref{tab:CFD_Q_F}. If $\sigma^2_{\mathrm{ADC}}$ = 25 ADC$^2$ / 100 ns, through the calculations n$_{\mathrm{ph}}$ = 23 photons / 100 ns. The calculations to work out the standard deviation of the photon count (RMS$_{\mathrm{ph}}$ / 100 ns) from the measured variance in ADC$^2$ is as follows:
-\begin{equation}
-\mathrm{RMS}_{\mathrm{ph}} = \mathrm{C}_{\mathrm{FD}} \times \sqrt{\mathrm{ADC}^2}
-\end{equation}
-From all of the equations stated above I have outlined a table showing the expected photon count at the aperture per 100 ns from the measured variance (ADC$^2$ / 100 ns).
-\begin{center}
-\begin{tabular}{| c | c | c |}
-\hline \hline
-\textbf{Variance} & \multirow{2}{*}{\textbf{Photons / 100 ns}} & \textbf{RMS} \\
-\textbf{(ADC$^2$ / 100 ns)} & & \textbf{(Photons / 100 ns)} \\
-\hline \hline
-25  & 22.7 & 22.5 \\
-\hline
-178  & 161.4 & 60 \\
-\hline
-259  & 226.7 & 71.2 \\
-\hline
-1000  & 907.0 & 142.3 \\
-\hline
-\end{tabular}
-\end{center}
+Figure \ref{fig:MoonYearlyFrac} plot the percent of the night time within a year with the moon less than a particular illuminated fraction. The solid line shows the percent of the year is astronomical twilight (sun at least 18\textdegree below the horizon. The dotted lines represent relaxed definition of twilight with the sun being at 15\textdegree , 12\textdegree \ and 9\textdegree \ below the horizon. The line curves up slowly due to that throughout the moon orbital cycle it will be visible during the day. After first quarter and before 3rd quarter will the moon be visible for long at night time. A combination of loosen the definition of twilight and observing under indirect moonlight could increase the duty cycle by 5\% to 10\% across a year.
+
+
+Figure \ref{fig:MoonIllumFrac} shows the relative change in brightness of the moon depending of the observed illuminated fraction. The red line is a fitted exponential to U-Band data taken at the La Palma observatory. The graph shows the large different in moon brightness as the illuminated fraction increases which was also described in Table \ref{tab:MoonLightADC}. The slope is comparable to actual data taken from the background files measured by the FD telescopes. The ADC variance plotted against fraction of illuminated moon is shown in Figure \ref{fig:ADCvarVSmoonIllumFrac}.
+
 
 \subsection{Toy Model of the effect of increased NSB on aperture}
 
-To find a theoretical value for how well a detector will work is to calculate the signal-to-noise ratio. The steps to do this calculation was outline in \ref{P. Sokolsky}. The equation is get the background photo-electron count seen from the night sky is:
+A simple measure of how well a detector will operate is to calculate the signal-to-noise (S/N) ratio. The steps that I followed was outlined in \ref{P. Sokolsky}. The signal-to-noise ratio is denote by:
 \begin{equation}
-B \propto \epsilon A b \Delta \Omega \Delta t
+\mathrm{Signal \ to \ Noise} = \frac{\mathrm{S}}{\mathrm{N}} \label{eq:SNratio}
 \end{equation}
-where $\epsilon$ is the optical efficiency of the telescope, $A$ is the mirror area, $b$ is the background light flux and $\Delta\Omega$ is the solid angle of the sky viewed by a single PMT. $B$ calculates the DC signal from the NSB but as the FD is AC coupled this signal is not seen. It is the fluctuations in the NSB that can be interpreted as an EAS signal. The  fluctuations on Noise become:
+where S is the signal and N is the noise. The first step is to calculate the noise (N) expected from a background signal ($B$). First the background photo-electron count ($B$) seen from the night sky is calculate via:
 \begin{equation}
-N = \sqrt{B} \propto \sqrt{\epsilon A b \Delta \Omega \Delta t}
+B \propto \epsilon A b \Delta \Omega \Delta t \nonumber
+\end{equation}
+where $\epsilon$ is the optical efficiency of the telescope, $A$ is the mirror area, $b$ is the background light flux and $\Delta\Omega$ is the solid angle of the sky viewed by a single PMT. $\epsilon$ is f $\times$ Q where F is the optics factor shown in Table. \ref{tab:OpticsBreakdown} and Q is the quantum efficiency of the photon sensitive device (I.E. photomultiplier tube). Next the noise can be found which is the square root of the background signal:
+\begin{equation}
+N = \sqrt{B} \propto \sqrt{\epsilon A b \Delta \Omega \Delta t} \label{eq:DetectNoise}
 \end{equation}
 
+Next step is to calculate the signal (S) from an extensive air shower that a detector would observe.
+\begin{equation}
+S \propto \frac{\epsilon A n_{+} n_{\gamma} c \Delta t}{4 \pi \mathrm{R}^2} e^{-\mathrm{R}/\lambda_{\mathrm{R}}} \label{eq:DetectSignal}
+\end{equation}
+where $n_+$ is the number of charge particles in the shower viewed by the photon sensitive device, $n_{\gamma}$ is the photon yield per charged particle for atmospheric scintillation, $R$ is the distance to the shower segment, $c\Delta t$ is the length of the shower segment, and $\lambda_{\mathrm{R}}$ is the Rayleigh attenuation length of light in the atmosphere. Substituting Eq. \ref{eq:DetectNoise} and Eq. \ref{eq:DetectSignal} into Eq. \ref{eq:SNratio} and removing the approximation gives:
+\begin{equation}
+\frac{S}{N} = n_+ n_{\gamma} c \frac{(1 + \mathrm{cos}\theta)}{4 \pi (\mathrm{R} \times \mathrm{sin}\theta)^2} \sqrt{\frac{\epsilon A \Delta t}{b \Delta\Omega}} e^{-\mathrm{R}/\lambda_{\mathrm{R}}} \label{eq:SN_complete}
+\end{equation}
+where $\theta$ is the viewing angle of the EAS.
 
-
-\begin{itemize}
-\item Now consider the number of signal photo-electrons:
+From here I use value specific to the Fluorescence Detectors to calculate the S/N ratio expected. The majority of the values used are shown in Table \ref{tab:FDvalues}. The viewing angle is 90\textdegree \ as the shower viewed at 15\textdegree with the center of the FD camera is at 15\textdegree \ elevation. As the perpendicular segment of the shower is being observed therefore R = R$_P$ where R$_P$ is the closest distance that the shower axis is to the FD. The Rayleigh attenuation length ($\lambda_{\mathrm{R}}$) is calculated via:
 \begin{equation}
-S \propto \frac{\epsilon A n_{e} n_{\gamma} c \Delta t}{4 \pi R^2} e^{-R/\lambda}
+\lambda_{\mathrm{R}} = 2974 \left(\frac{\lambda}{400 \ \mathrm{nm}} \right)^4 \mathrm{g}/\mathrm{cm}^2 \label{eq:RayleighAttenuationLength}
 \end{equation}
-where $n_e$ is the shower size viewed by the PMT, $n_{\gamma}$ is the photon yield per electron for atmospheric scintillation, $R$ is the distance to the shower segment, $c\Delta t$ is the length of the shower segment, and $\lambda$ is the beam attenuation length of light in the atmosphere.
-\item The signal-to-noise becomes:
+where $\lambda$ is the chosen wavelength in nanometres. Currently R$_P$ is in units of length where the Rayleigh attenuation length calculated in Eq. \ref{eq:RayleighAttenuationLength} in units of mass per length squared. A diagram of how R$_P$ and the shower axis is related to the detector is shown in Fig. \ref{fig:ShowerPlaneAndAxis}. To find the distance R$_P$ in terms of grammage the term $\Delta$X$_P$ is defined. Substituting this term into Eq. \ref{eq:SN_complete} becomes:
 \begin{equation}
-\frac{S}{N} = n_e n_{\gamma} c \frac{(1 + cos\theta)}{4 \pi (R sin\theta)^2} \sqrt{\frac{\epsilon A \Delta t}{b \Delta\Omega}} e^{-R/\lambda}
+\frac{S}{N} = n_+ n_{\gamma} c \frac{(1 + \mathrm{cos}\theta)}{4 \pi (\mathrm{R} \times \mathrm{sin}\theta)^2} \sqrt{\frac{\epsilon A \Delta t}{b \Delta\Omega}} e^{-\Delta \mathrm{X}_P / \lambda_R}
 \end{equation}
-\item $\theta$ is the viewing angle of the EAS.
-\end{itemize}
-
-\begin{itemize}
-\item Calculating the Rayleigh Attenuation Length:
-\begin{equation}
-x_R = 2974 \left(\frac{\lambda}{400 \ nm} \right)^4 g/cm^2
-\end{equation}
-\item We want the light path $\Delta$X$_P$ also in g/cm$^2$ so the attenuation factor will be:
-\begin{equation}
-exp(-X / x_R )
-\end{equation}
-\item Convert R$_P$ to $\Delta$X$_P$:
+The $\Delta$X$_P$ can be calculated from the distance $R_P$ via
 \begin{eqnarray}
-h &=& R_P sin15^{\circ} \\
-\Delta X_{vertical} &=& 860 - 860exp(-h/7500)
+\Delta \mathrm{X}_P &=& \Delta X_{vertical} / \mathrm{cos}75^{\circ} \\
+\Delta \mathrm{X}_{\mathrm{vertical}} &=& 860 - 860\mathrm{exp}(-\mathrm{h}/7500) \\
+\mathrm{h} &=& \mathrm{R}_P \times \mathrm{sin}15^{\circ}
 \end{eqnarray}
-\item Light path in grammage:
-\begin{equation}
-\Delta X_P = \Delta X_{vertical} / cos75^{\circ}
-\end{equation}
-\end{itemize}
+where h is the vertical distance in meters and $\Delta$X$_{\mathrm{vertical}}$ is the vertical path in g/cm$^2$, the shower axis is at 15\textdegree \ elevation and 75\textdegree \ is the zenith angle. To find the grammage along the path to R$_P$ the vertical distance h is substituted and then the path $\Delta$X$_P$ can be found. The relationship between $\Delta$X$_P$ and R$_P$ is shown in Fig. \ref{fig:XpVsRp} for a detector viewing the sky at 15\textdegree \ elevation. The relationship is curved due to the amount of atmospheric molecules dropping off rapidly as the observed event moves further away both horizontially and vertically.
 
-\begin{figure}
-\centering
-\includegraphics[height=0.45\textheight]{chapters/pix/SelEff/ShowerPlane_and_Detector.png}
-\caption{Diagram showing the parameters used. Also show how they relate to the plane of the shower axis and to the position of the detector.}
-\end{figure}
 
-\begin{figure}
-\centering
-\includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/XpVsRp.pdf}
-\caption{How the relationship between the distance to the shower axis and grammage along the path. In this case the distance to the shower axis is denoted R$_P$ and the grammage is denoted $\Delta$X$_P$. The angle of the shower is 15$^{\circ}$}
-\end{figure}
-
-\begin{itemize}
-\item Substituting $\Delta X_P$ for R$_P$ into the signal-to-noise equation    :
-\begin{equation}
-\frac{S}{N} = n_e n_{\gamma} c \frac{(1 + cos\theta)}{4 \pi (R sin\theta)^2} \sqrt{\frac{\epsilon A \Delta t}{b \Delta\Omega}} e^{-\Delta X_P / x_R}
-\end{equation}
-\end{itemize}
-
-\begin{table}[h]
+\begin{table}
 \centering
 \begin{tabular}{|c|c|c|}
 \hline
@@ -289,60 +235,61 @@ Increased background light flux & $b2$ & 5e6 photons / m$^2$ / sr / $\mu$s \\ \h
 solid angle of a single PMT & $\Delta\Omega$ & 5.38e-4 sr \\ \hline
 viewing angle & $\theta$ & 90$^\circ$ \\ \hline
 speed of light & $c$ & 3e2 m / $\mu$s \\ \hline
-number of charged particles & $n_e$ & Particle Energy / 1e9 \\ \hline
+number of charged particles & $n_+$ & Particle Energy / 1e9 \\ \hline
 Fluorescence yield & $n_{\gamma}$ & 4 photons / m / charged particle\\ \hline
+Chosen wavelength & $\lambda$ & 350 nm \\ \hline
+Rayleigh attenuation length & $\lambda_{\mathrm{R}}$ & 1743 g / cm$^2$ \\ \hline
 \end{tabular}
-\caption{Values specific to the Fluorescence Detectors.}
+\caption{Values specific to the Fluorescence Detectors.} \label{tab:FDvalues}
 \end{table}
 
-\begin{table}[h]
+\begin{figure}
 \centering
-\begin{tabular}{|c|c|c|}
-\hline
-Optical Efficiency & $\epsilon$ & F $\times$ L $\times$ T $\times$ R $\times$ M $\times$ Q \\ \hline
-Filter Transmission & F & 0.83 \\ \hline
-Corrector Ring lens Transmission & L & 0.90 \\ \hline
-Mirror Reflectivity & R & 0.90 \\ \hline
-Camera Shadow Factor & T & 0.79 \\ \hline
-Mercedes Collection Efficiency & M & 0.93 \\ \hline
-PMT Quantum Efficiency & Q & 0.29 \\ \hline
-\end{tabular}
-\caption{Breakdown of all the components that go into the FD optical efficiency.}
-\end{table}
-
+\includegraphics[height=0.45\textheight]{chapters/pix/SelEff/ShowerPlane_and_Detector.png}
+\caption{Diagram showing the parameters used. Also show how they relate to the plane of the shower axis and to the position of the detector.} \label{fig:ShowerPlaneAndAxis}
+\vspace{3mm}
+\includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/XpVsRp.pdf}
+\caption{How the relationship between the distance to the shower axis and grammage along the path. In this case the distance to the shower axis is denoted R$_P$ and the grammage is denoted $\Delta$X$_P$. The angle of the shower is 15$^{\circ}$} \label{fig:XpVsRp}
+\end{figure}
 
 
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/RangeIncreaseVsRangeStand_Xp.pdf}
-\caption{The image of how a detector measure the Signal-to-Noise ratio the NSB at the Standard value and Increased by a factor of 10 as a function of distance. The dashed black line denotes the distances where the Signal-to-Noise ratio is the same. The solid black line denotes where the distances are equal.}
+\caption{The image of how a detector measure the Signal-to-Noise ratio the NSB at the Standard value and Increased by a factor of 10 as a function of distance. The dashed black line denotes the distances where the Signal-to-Noise ratio is the same. The solid black line denotes where the distances are equal.}\label{fig:RangeIncVsRangeStand}
 \includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/RatioAreaVsDistance_Xp.pdf}
-\caption{The image shows how the ratio of the detector viewing area changes with increasing the NSB by a factor of 10 as a function of distance from the detector. The solid black line denotes where the Signal-to-Noise ratio is the same.}
+\caption{The image shows how the ratio of the detector viewing area changes with increasing the NSB by a factor of 10 as a function of distance from the detector. The solid black line denotes where the Signal-to-Noise ratio is the same.}\label{fig:RatioAreaVsDistance}
 \end{figure}
 
 \begin{figure}
 \centering
-\begin{subfigure}[b]{0.45\textwidth}
+\begin{subfigure}[b]{0.48\textwidth}
 \includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E1e18eV.pdf}
 \caption{E = 1 $\times$ 10$^{18}$ eV}
 \end{subfigure}
 \hspace{3mm}
-\begin{subfigure}[b]{0.45\textwidth}
+\begin{subfigure}[b]{0.48\textwidth}
 \includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E3e18eV.pdf}
 \caption{E = 3 $\times$ 10$^{18}$ eV}
 \end{subfigure}
 \vspace{3mm}
-\begin{subfigure}[b]{0.45\textwidth}
+\begin{subfigure}[b]{0.48\textwidth}
 \includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E1e19eV.pdf}
 \caption{E = 1 $\times$ 10$^{19}$ eV}
 \end{subfigure}
 \hspace{3mm}
-\begin{subfigure}[b]{0.45\textwidth}
+\begin{subfigure}[b]{0.48\textwidth}
 \includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E3e19eV.pdf}
 \caption{E = 3 $\times$ 10$^{19}$ eV}
 \end{subfigure}
-\caption{Using values for the equation to calculate the Signal-to-Noise ratio from specific values for the FD, NSB and conversion's from shower energy to photons to photo-electrons. }
+\caption{Using values for the equation to calculate the Signal-to-Noise ratio from specific values for the FD, NSB and conversion's from shower energy to photons to photo-electrons. } \label{fig:SNvsDistance}
 \end{figure}
+
+The result of calculating the theoretical of the Signal-to-Noise Ratio is shown in Fig. \ref{fig:RangeIncVsRangeStand} and Fig. \ref{fig:RatioAreaVsDistance}. The scale for both is shown in Log$_{10}$ scale so the colour range above and below one is equidistant.  Range$_{\mathrm{Stand}}$ is the expected S/N ratio for the range with standard observed NSB and Range$_{\mathrm{Increase}}$ is the expected S/N for the range with observed NSB increased by a factor of 10. Fig. \ref{fig:RangeIncVsRangeStand} shows the relationship between the S/N ratio for Range$_{\mathrm{Stand}}$ and Range$_{\mathrm{Increase}}$. The solid black line represents the S/N ratio for when the distances are equal. The difference between ratio at the solid black line is 1/$\sqrt{10}$. The dashed black line represents where the S/N ratio are equal. It can be seen that Range$_{\mathrm{Increase}}$ is smaller then Range$_{\mathrm{Stand}}$ which is expected when the NSB has been increased for Range$_{\mathrm{Increase}}$. Fig. \ref{fig:RatioAreaVsDistance} shows how much the observing area changes from Range$_{\mathrm{Stand}}$ to Range$_{\mathrm{Increase}}$. The solid black line denotes where the S/N ratio is the same.
+
+Table \ref{tab:FDvalues} and Eq. \ref{eq:SN_complete} where used to produce Fig. \ref{fig:SNvsDistance} which shows how the S/N ratio changes versus distance for cosmic-rays of four different primary energies. The black solid line represents the S/N ratio at typical NSB flux seen at Auger, the red solid line represents the S/N ratio if the NSB flux was increased by a factor of 10, the blue dash line represents the single pixel trigger threshold, and the green dashed line represents the viewing limit of a single FD telescope before an event is closer to another FD telescope. The figures show that for showers with energies above 3 $\times$ 10$^{19}$ eV that increasing the NSB by a factor of 10 would expect no impact on the FD collecting area. For showers energies of 1 $\times$ 10$^{19}$ eV and below it would be expected that the FD collecting area would be reduced as the NSB is increased.
+
+
 
 \section{Increasing NSB in Real Data to evaluate Reconstruction Efficiency}
 

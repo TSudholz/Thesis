@@ -31,10 +31,10 @@
 \contentsline {subsection}{\numberline {4.3.3}Discussion}{25}{subsection.4.3.3}
 \contentsline {section}{\numberline {4.4}Increasing NSB in Simulations to evaluate Trigger/Reconstruction Efficiency}{25}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}Method}{25}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Comparison of Simulated Data to Real Data}{29}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Results}{29}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}Discussion}{29}{subsection.4.4.4}
-\contentsline {section}{\numberline {4.5}Conclusion/Summary}{29}{section.4.5}
+\contentsline {subsection}{\numberline {4.4.2}Comparison of Simulated Data to Real Data}{33}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Results}{33}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Discussion}{33}{subsection.4.4.4}
+\contentsline {section}{\numberline {4.5}Conclusion/Summary}{33}{section.4.5}
 \contentsline {chapter}{\numberline {5}Quantifying Characteristics of the FD PMT}{35}{chapter.5}
 \contentsline {section}{\numberline {5.1}Motivation}{35}{section.5.1}
 \contentsline {section}{\numberline {5.2}PMT Linearity}{36}{section.5.2}

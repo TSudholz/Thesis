@@ -2,15 +2,15 @@
 
 \section{Motivation}
 
-The Pierre Auger Observatory has been operational since 2004 and the collaboration is in the process of rolling out upgrades to improve operations. The upgrade has been name AugerPrime \textbf{(ref)} and is a large project to improve both the Surface Detectors (SD) and the Fluorescence Detectors (FD). The FD portion of AugerPrime involves extending the duty cycle to observe EAS events while the moon is above the horizon. The main purpose for extending the FD duty cycle to include observation times while the moon is visible is to increase the statistics per year for Extensive Air Shower (EAS) events in the highest energy bin ($>$ 10$^{19.5}$ eV). 
+The Pierre Auger Observatory has been operational since 2004 and the collaboration is in the process of rolling out upgrades to improve the experiment. The upgrade has been name AugerPrime \textbf{(ref)} and is a large project to improve both the Surface Detectors (SD) and the Fluorescence Detectors (FD). The FD portion of AugerPrime involves extending the duty cycle to observe Extensive Air Shower (EAS) events while the moon is above the horizon. The main purpose for extending the FD duty cycle to include observation times while the moon is visible is to increase the statistics per year for EAS events in the highest energy bin ($>$ 10$^{19.5}$ eV). 
 
-In this chapter I used real data and simulations to explore the effects of increasing the Night Sky Background on the collaboration's reconstruction method and trigger efficiency. A real data set was used to evaluate the efficiency of the reconstruction method under different NSB intensities by artificially adding extra noise to signal traces. This method was a repetition of a study done by M. Unger \textbf{Find ref.}. The study was used as a starting point then the results where examined in depth and found to mainly test the robustness of the collaboration's reconstruction algorithm. The analysis led to the use of the collaboration FD simulations to evaluate the effects of the increased NSB on both the FD triggers and reconstruction efficiency.
+In this chapter I used real data events and simulations to explore the effects of increasing the Night Sky Background (NSB) on the collaboration's reconstruction method and trigger efficiency. A real data set was used to evaluate the efficiency of the reconstruction method under different NSB intensities by artificially adding extra noise to signal traces. This method was a repetition of a study done by M. Unger \textbf{Find ref.}. The study was used as a starting point then the results where examined in depth and found to mainly test the robustness of the collaboration's reconstruction algorithm. The analysis led to the use of the collaboration FD simulations to evaluate the effects of the increased NSB on both the FD triggers and reconstruction efficiency.
 
 \section{Background Information}
 
 \subsection{Current Fluorescence Detector Operation}
 
-Currently the Fluorescence Detectors (FDs) are operated under these guidelines: an observation run is organised for nights when the illuminated fraction of the moon is less than 70\% and can have a minimum of 3 hours of operation with the moon below the horizon. The FD telescope shutters are then opened when the sun is below -18\textdegree \ of the horizon (beginning of astronomical twilight). The FD shutters remain open while the average variance across the FD camera is less then 100 ADC$^2$/100 ns and the variance of individual PMTs is less then 2000 ADC$^2$/100 ns. 100 ns is chosen as this is the smallest interval that the signal from the PMT anode (in electrons) is digitised to Analogue-to-Digital Units (ADCs). The FD shutters at each site will automatically close if the individual rain sensors are triggered or the measured wind speed is above 50 km/h at the individual FD sites. Using these guidelines the expected yearly FD duty cycle can be calculated. This calculation was performed by the collaboration in \textbf{DATE \& ref} to estimate the theoretical the FD duty cycle and the result is shown in Table \ref{tab:FD_uptime}. Bad weather is mainly caused by rain, high wind speeds or lightning strikes in the FDs field of view. Failures include any software or hardware issues that prevented any of the FD telescopes from collecting data.
+Currently the FDs are operated under these guidelines: an observation run is organised for nights when the illuminated fraction of the moon is less than 70\% and can have a minimum of 3 hours of operation with the moon below the horizon. The FD telescope shutters are then opened when the sun is below -18\textdegree \ of the horizon (beginning of astronomical twilight). The FD shutters remain open while the average variance across the FD camera is less then 100 ADC$^2$/100 ns and the variance of individual pixels (which are photomultiplier tubes) is less then 2000 ADC$^2$/100 ns. 100 ns is chosen as this is the smallest interval that the signal from the photomultiplier tube (PMT) anode (in electrons) is digitised to Analogue-to-Digital Units (ADCs). The FD shutters at each site will automatically close if the individual rain sensors are triggered or the measured wind speed is above 50 km/h at the individual FD sites. Using these guidelines the expected yearly FD duty cycle can be calculated. This calculation was performed by the collaboration in \textbf{DATE \& ref} to estimate the theoretical the FD duty cycle and the result is shown in Table \ref{tab:FD_uptime}. Bad weather is mainly caused by rain, high wind speeds or lightning strikes in the FDs field of view. Failures include any software or hardware issues that prevented any of the FD telescopes from collecting data.
 
 \begin{table}[h]
 \centering
@@ -26,7 +26,7 @@ Total measurement time & 15\% \\
 \end{table}
 
 
-Photons that enter the FD telescope pass through the optics, are converted to photo-electrons by the photomultiplier tube (PMT) and then convert to Analogue-to-Digital units by the electronics. A basic diagram of how photons detected by a FD telescope is converted to ADC is show in Fig. \ref{fig:FD_CoefficientLayout_PhotonToADC}. The steps are split into 3 parts: the optics, PMT and electronics. When the photon reaches the PMT it is converted to a photo-electron and the electron signal from the PMT is converted to ADC by the electronics. 
+Photons that enter the FD telescope pass through the optics, are converted to photo-electrons by PMT and then convert to Analogue-to-Digital units by the electronics. A basic diagram of how photons detected by a FD telescope is converted to ADC is show in Fig. \ref{fig:FD_CoefficientLayout_PhotonToADC}. The steps are split into 3 parts: the optics, PMT and electronics. When the photon reaches the PMT it is converted to a photo-electron and the electron signal from the PMT is converted to ADC by the electronics. 
 
 \begin{figure}
 \centering
@@ -34,7 +34,7 @@ Photons that enter the FD telescope pass through the optics, are converted to ph
 \caption{A diagram showing the steps that a photon passing through a FD telescope diaphram will travel to be convert to an ADC. The steps are split into 3 parts: the optics, PMT and electronics. When the photon reaches the PMT it is converted to a photo-electron and the electron signal from the PMT anode is converted to ADC by the electronics.} \label{fig:FD_CoefficientLayout_PhotonToADC}
 \end{figure}
   
-The electron signal from the FD PMT is AC coupled, which means the mean ADC of the NSB is zero. Instead the ADC variance is calculated and the ADC variance directly proportional to the variance in the NSB photon count. To find the variance of the ADC variance due to the NSB from the background trace the variance due to the electronic noise has to be removed first. Removal of the electronic noise is shown in Eq. \ref{eq:back_vars}. 
+The electron signal from the FD PMT is AC coupled, which means the average ADC of the NSB is zero. Instead the ADC variance is calculated and the ADC variance directly proportional to the variance in the NSB photon count. To find the variance of the ADC variance due to the NSB from the background trace the variance due to the electronic noise has to be removed first. Removal of the electronic noise is shown in Eq. \ref{eq:back_vars}. 
 \begin{equation}
 \left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{sky}} = \left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{back}} - \left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{elec}} \label{eq:back_vars}
 \end{equation} 
@@ -51,7 +51,7 @@ The typical mean ADC variance of the NSB measured by Auger \ref{find} at Malargu
 
 The variance in ADC$^2$ seen by the FD can be converted back to photons at the diaphragm by the FD pixel calibration constant C$_{\mathrm{FD}}$ (photons/ADC). The FD pixel calibration constant has been preformed by illuminating the diaphragm with a know number of photons. This was originally done by a drum calibration which used a large device that covered the entire FD diaphragm and could illuminate the whole camera with known number of diffuse photons. The drum calibration has been retired and has been replaced with an experiment called the XY scanner. The XY scanner illuminates one pixel at the time and scans over the entire camera. The advantages of the XY scanner is that it is a more compact experiment with the aim of having the ability to be deployed more often to find the absolute calibration.
 
-C$_{\mathrm{FD}}$ can be used to find the variance of the NSB photons at the diaphragm from the measured ADC variance. An average variance of the NSB measured by an FD telescope is $\sigma^2_{\mathrm{ADC}}$ = 25 ADC$^2$ / 100 ns. The calculations to work out the variance of the photon count (RMS$_{\mathrm{ph}}$ / 100 ns) from the measured variance in ADC$^2$ is as follows:
+C$_{\mathrm{FD}}$ can be used to find the variance of the NSB photons at the diaphragm from the measured ADC variance. An average variance of the NSB measured by an FD telescope under standard operational guidelines is $\sigma^2_{\mathrm{ADC}}$ = 25 ADC$^2$ / 100 ns. The calculations to work out the variance of the photon count (RMS$_{\mathrm{ph}}$ / 100 ns) from the measured variance in ADC$^2$ is as follows:
 \begin{equation}
 \mathrm{\sigma}^2_{\mathrm{ph}} = (\mathrm{C}_{\mathrm{FD}})^2 \times \sigma^2_{\mathrm{ADC}} \label{eq:varADC_to_RMSphotons}
 \end{equation}
@@ -99,7 +99,7 @@ f & 0.494 \\
 \hline
 \end{tabular} 
 \end{center}
-\caption{Typical values for the constants use to calculate A$_{\mathrm{G}}$ which is the absolute gain (ADC/photo-electron). $\mathrm{C}_{\mathrm{FD}}$ is the FD pixel calibration constant, Q is the Quantum efficiency of the PMT turning photons into photo-electrons and f is the photon collection efficiency of the telescope optics.} \label{tab:CFD_Q_F}
+\caption{Typical values for the constants used to calculate A$_{\mathrm{G}}$ which is the absolute gain (ADC/photo-electron). $\mathrm{C}_{\mathrm{FD}}$ is the FD pixel calibration constant, Q is the Quantum efficiency of the PMT turning photons into photo-electrons and f is the photon collection efficiency of the telescope optics.} \label{tab:CFD_Q_F}
 \end{table} 
 
 \begin{table}[h]
@@ -152,7 +152,7 @@ Therefore A$_{\mathrm{G}}$ can be calculated from Eq. \ref{eq:abs_gain} using th
 \includegraphics[width=\textwidth]{/home/tsudholz/PhD/Thesis/chapters/pix/SelEff/RelMoonBright_Vs_IllumFrac_LogScale.pdf}
 \caption{}\label{fig:MoonIllumFrac}
 \end{subfigure}
-\caption{\textbf{(a)} Effects on different definitions of twilight. The solid line is the astronomical twilight (sun at least 18\textdegree \ below horizon). The dotted lines represent relaxed definition of twilight with the sun being at 15\textdegree , 12\textdegree \ and 9\textdegree \ below the horizon. \textbf{(b)} Relative brightness of the moon in the nigh sky compared with a full moon as a function of illuminated fraction. Images taken from \textbf{ref{(GAP1996-034)}}. } 
+\caption{\textbf{(a)} Integral Percent of nights across the year with the moon with different illuminated fractions. Only times between astronomical dusk and dawn have been included. The solid line is the astronomical twilight (sun at least 18\textdegree \ below horizon). The dotted lines represent relaxed definition of twilight with the sun being at 15\textdegree , 12\textdegree \ and 9\textdegree \ below the horizon. \textbf{(b)} Relative brightness of the moon in the nigh sky compared with a full moon as a function of illuminated fraction. Images taken from \textbf{ref{(GAP1996-034)}}. } 
 \end{figure}
 
 \begin{figure}
@@ -161,7 +161,7 @@ Therefore A$_{\mathrm{G}}$ can be calculated from Eq. \ref{eq:abs_gain} using th
 \caption{Measured NSB variance from the Fluorescence Detectors at Standard PMT HV setting with different moon illuminated fractions. The moon was 30\textdegree \ above horizon or greater. Image taken from \textbf{ref(Radamir)}.} \label{fig:ADCvarVSmoonIllumFrac}
 \end{figure}
 
-The Night Sky Background for Auger typically refers to airglow, zodiacal light, scattered starlight and any man-made light. Moonlight is a separate source of background light as an FD shift is typically scheduled for when the moon is below the horizon. Table \ref{tab:MoonLightADC} shows the expected change in average background light observed by the FD telescopes for no moon, 1st/3rd quarter moon and full moon / twilight. 1st/3rd quarter moon is either one quarter or three quarters through the moon orbital cycle and is typically 50\% of the observable moon from earth is illuminated. From the table it can seen that going from no moon to quater moon to full moon jumps by a factor of ten in the observed ADC variance.
+The Night Sky Background for Auger typically refers to airglow, zodiacal light, scattered starlight and any man-made light. Moonlight is a separate source of background light as an FD shift is typically operated when the moon is below the horizon. Table \ref{tab:MoonLightADC} shows the expected change in average background light observed by the FD telescopes for no moon, 1st/3rd quarter moon and full moon / twilight. 1st/3rd quarter moon is either one quarter or three quarters through the moon orbital cycle and is typically 50\% of the observable moon from earth is illuminated. From the table it can seen that going from no moon to quarter moon to full moon jumps by a factor of ten in the observed ADC variance. The large change in moon brightness for the different phases is due to that the light is spectral reflection not diffusion reflection.
 
 \begin{table}[h]
 \centering
@@ -176,7 +176,7 @@ full moon/twilight & 2500 & 50 \\
 \caption{Expected average observed variance in ADC$^2$ and anode current in $\mu$A by the PMTs in the FD telescopes under different NSB conditions. No Moon is the typical conditions that the FD shift is run under.  } \label{tab:MoonLightADC}
 \end{table} 
 
-Figure \ref{fig:MoonYearlyFrac} plot the percent of the night time within a year with the moon less than a particular illuminated fraction. The solid line shows the percent of the year is astronomical twilight (sun at least 18\textdegree below the horizon. The dotted lines represent relaxed definition of twilight with the sun being at 15\textdegree , 12\textdegree \ and 9\textdegree \ below the horizon. The line curves up slowly due to that throughout the moon orbital cycle it will be visible during the day. After first quarter and before 3rd quarter will the moon be visible for long at night time. A combination of loosen the definition of twilight and observing under indirect moonlight could increase the duty cycle by 5\% to 10\% across a year.
+Figure \ref{fig:MoonYearlyFrac} plot the integral percent of the night time within a year with the moon less than a particular illuminated fraction. Only times between astronomical dusk and dawn has been included. The solid line shows the percent of the year is astronomical twilight (sun at least 18\textdegree below the horizon. The dotted lines represent relaxed definition of twilight with the sun being at 15\textdegree , 12\textdegree \ and 9\textdegree \ below the horizon. The line curves up slowly due to that throughout the moon orbital cycle it will be visible during the day. After first quarter and before 3rd quarter will the moon be visible for longer at night time. A combination of loosen the definition of twilight and observing under indirect moonlight could increase the duty cycle by 5\% to 10\% across a year.
 
 
 Figure \ref{fig:MoonIllumFrac} shows the relative change in brightness of the moon depending of the observed illuminated fraction. The red line is a fitted exponential to U-Band data taken at the La Palma observatory. The graph shows the large different in moon brightness as the illuminated fraction increases which was also described in Table \ref{tab:MoonLightADC}. The slope is comparable to actual data taken from the background files measured by the FD telescopes. The ADC variance plotted against fraction of illuminated moon is shown in Figure \ref{fig:ADCvarVSmoonIllumFrac}.
@@ -221,7 +221,7 @@ The $\Delta$X$_P$ can be calculated from the distance $R_P$ via
 \Delta \mathrm{X}_{\mathrm{vertical}} &=& 860 - 860\mathrm{exp}(-\mathrm{h}/7500) \\
 \mathrm{h} &=& \mathrm{R}_P \times \mathrm{sin}15^{\circ}
 \end{eqnarray}
-where h is the vertical distance in meters and $\Delta$X$_{\mathrm{vertical}}$ is the vertical path in g/cm$^2$, the shower axis is at 15\textdegree \ elevation and 75\textdegree \ is the zenith angle. To find the grammage along the path to R$_P$ the vertical distance h is substituted and then the path $\Delta$X$_P$ can be found. The relationship between $\Delta$X$_P$ and R$_P$ is shown in Fig. \ref{fig:XpVsRp} for a detector viewing the sky at 15\textdegree \ elevation. The relationship is curved due to the amount of atmospheric molecules dropping off rapidly as the observed event moves further away both horizontially and vertically.
+where h is the vertical distance in meters and $\Delta$X$_{\mathrm{vertical}}$ is the vertical path in g/cm$^2$, the shower axis is at 15\textdegree \ elevation and 75\textdegree \ is the zenith angle. To find the grammage along the path to R$_P$ the vertical distance h is substituted and then the path $\Delta$X$_P$ can be found. The relationship between $\Delta$X$_P$ and R$_P$ is shown in Fig. \ref{fig:XpVsRp} for a detector viewing the sky at 15\textdegree \ elevation. The relationship is curved due to the amount of atmospheric molecules dropping off rapidly as the observed event moves further away both horizontally and vertically.
 
 
 \begin{table}
@@ -249,14 +249,14 @@ Rayleigh attenuation length & $\lambda_{\mathrm{R}}$ & 1743 g / cm$^2$ \\ \hline
 \caption{Diagram showing the parameters used. Also show how they relate to the plane of the shower axis and to the position of the detector.} \label{fig:ShowerPlaneAndAxis}
 \vspace{3mm}
 \includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/XpVsRp.pdf}
-\caption{How the relationship between the distance to the shower axis and grammage along the path. In this case the distance to the shower axis is denoted R$_P$ and the grammage is denoted $\Delta$X$_P$. The angle of the shower is 15$^{\circ}$} \label{fig:XpVsRp}
+\caption{How the relationship between the distance to the shower axis and grammage along the path. In this case the distance to the shower axis is denoted R$_P$ and the grammage is denoted $\Delta$X$_P$. R$_P$ is the closest distance that the shower axis is to the detector. The angle of the shower is 15$^{\circ}$} \label{fig:XpVsRp}
 \end{figure}
 
 
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/RangeIncreaseVsRangeStand_Xp.pdf}
-\caption{The image of how a detector measure the Signal-to-Noise ratio the NSB at the Standard value and Increased by a factor of 10 as a function of distance. The dashed black line denotes the distances where the Signal-to-Noise ratio is the same. The solid black line denotes where the distances are equal.}\label{fig:RangeIncVsRangeStand}
+\caption{The image of the calculated Signal-to-Noise ratio the NSB at the Standard value and Increased NSB by a factor of 10 as a function of distance for an individual detector. The dashed black line denotes the distances where the Signal-to-Noise ratio is the same for the different NSB levles. The solid black line denotes where the distances are equal.}\label{fig:RangeIncVsRangeStand}
 \includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/RatioAreaVsDistance_Xp.pdf}
 \caption{The image shows how the ratio of the detector viewing area changes with increasing the NSB by a factor of 10 as a function of distance from the detector. The solid black line denotes where the Signal-to-Noise ratio is the same.}\label{fig:RatioAreaVsDistance}
 \end{figure}
@@ -282,7 +282,7 @@ Rayleigh attenuation length & $\lambda_{\mathrm{R}}$ & 1743 g / cm$^2$ \\ \hline
 \includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E3e19eV.pdf}
 \caption{E = 3 $\times$ 10$^{19}$ eV}
 \end{subfigure}
-\caption{Using values for the equation to calculate the Signal-to-Noise ratio from specific values for the FD, NSB and conversion's from shower energy to photons to photo-electrons. } \label{fig:SNvsDistance}
+\caption{Using the FD values in Table \ref{tab:FDvalues} and Eq. \ref{eq:SN_complete} to calculate the Signal-to-Noise ratio from specific values for the FD, NSB and conversion's from shower energy to photons to photo-electrons.  The black solid line represents the S/N ratio at typical NSB flux seen at Auger, the red solid line represents the S/N ratio if the NSB flux was increased by a factor of 10, the blue dash line represents the single pixel trigger threshold, and the green dashed line represents the viewing limit of a single FD telescope before an event is closer to another FD telescope. } \label{fig:SNvsDistance}
 \end{figure}
 
 The result of calculating the theoretical of the Signal-to-Noise Ratio is shown in Fig. \ref{fig:RangeIncVsRangeStand} and Fig. \ref{fig:RatioAreaVsDistance}. The scale for both is shown in Log$_{10}$ scale so the colour range above and below one is equidistant.  Range$_{\mathrm{Stand}}$ is the expected S/N ratio for the range with standard observed NSB and Range$_{\mathrm{Increase}}$ is the expected S/N for the range with observed NSB increased by a factor of 10. Fig. \ref{fig:RangeIncVsRangeStand} shows the relationship between the S/N ratio for Range$_{\mathrm{Stand}}$ and Range$_{\mathrm{Increase}}$. The solid black line represents the S/N ratio for when the distances are equal. The difference between ratio at the solid black line is 1/$\sqrt{10}$. The dashed black line represents where the S/N ratio are equal. It can be seen that Range$_{\mathrm{Increase}}$ is smaller then Range$_{\mathrm{Stand}}$ which is expected when the NSB has been increased for Range$_{\mathrm{Increase}}$. Fig. \ref{fig:RatioAreaVsDistance} shows how much the observing area changes from Range$_{\mathrm{Stand}}$ to Range$_{\mathrm{Increase}}$. The solid black line denotes where the S/N ratio is the same.
@@ -294,16 +294,28 @@ Table \ref{tab:FDvalues} and Eq. \ref{eq:SN_complete} where used to produce Fig.
 \section{Increasing NSB in Real Data to evaluate Reconstruction Efficiency}
 
 
-I investigated evaluating increasing the NSB by different factors on event reconstruction seen by the FD's through two different methods. In this section I will be discussing the method used to evaluate the effects of increasing the NSB on the reconstruction efficiency with the use of real data. The method involved using the raw signal traces from fluorescence telescope EAS shower events that would passed reconstruction and quality cuts and adding addition variance in ADC$^2$ equivalent to an increased NSB from moonlight to the FD pixel signal traces.  The shower events are then reconstructed and passed through the same quality cuts. 
+- Aim
 
-This a repetition of a similar method that M. Unger had preformed in \textbf{2012}. \textbf{Also need to refer to the study done by Brue and Andrew Smith around 1999}. Adding artificial noise to the signal traces was used as an initial proof of concept that EAS showers could still be reconstructed with our current software package. I repeated this study to have a known base-line to work from and have the ability to perform a deeper analysis to understand any underlying mechanics. 
+To test the effect of increasing the NSB levels in real data to evaluate the effects on reconstruction efficiency. The reconstruction tool that Auger employs is a internally developed software package called OffLine. OffLine takes selected shower events and goes through the process of finding signals within pixles, and calculating energy and arrival direction. The real data set was the showers used for analysis for ICRC 2015. 
 
 \subsection{Method}
- The Efficiency was calculated with the equation used:
+
+- Take shower set
+
+- add artifical noise to the raw pixel traces
+
+- Use OffLine to reconstruct shower with the increased noise
+
+- Compare Selection Efficiency, Energy resolution and bias, and Xmax resolution and bias.
+
+To evaluate the effects of increased NSB levels on the reconstruction efficiency the data set used for ICRC 2015 had artifical noise add to the raw pixel traces. Once the desired NSB level has been added OffLine is used to reconstruct the shower events again. The results from the standard NSB levels and the increased NSB levels can be compare. I mainly focused on the comparison between Efficiency, Energy resolution and bias, and Xmax resolution and bias. This method allows for any NSB flux levels to be investigated.
+
+
+The Efficiency is comparison of events that are successfully reconstructed at standard NSB compared to the number of events that are successfully reconstructed at the increasde NSB levels. The Efficiency was calculated with the equation used:
 \begin{equation}
-\mathrm{Efficiency} = \mathrm{N}^{'}_{\mathrm{Select}} \ / \ \mathrm{N}^0_{\mathrm{Select}}
+\mathrm{Efficiency}_{\mathrm{Data}} = \mathrm{N}^{'}_{\mathrm{SelectData}} \ / \ \mathrm{N}^0_{\mathrm{SelectData}}
 \end{equation}
-where $\mathrm{N}^{0}_{\mathrm{Select}}$ is the number of selected events at the standard NSB level and $\mathrm{N}^{'}_{\mathrm{Select}}$ is the number of selected events at the increased NSB
+where $\mathrm{N}^{0}_{\mathrm{SelectData}}$ is the number of selected events at the standard NSB level and $\mathrm{N}^{'}_{\mathrm{SelectData}}$ is the number of selected events at the increased NSB
 level. 
 
 After the Efficiency was calculated the bias and resolution for Xmax and energy was determined. For real data, the bias is the relative change in the mean of the distributions at increased NSB to the mean of the distributions at standard NSB, both after reconstruction and selection cuts. The bias calculations for real data become:
@@ -311,39 +323,27 @@ After the Efficiency was calculated the bias and resolution for Xmax and energy 
 \Delta \mathrm{E}_{\mathrm{Data}} &=& \frac{\mathrm{E}_{\mathrm{IncreasedNSB}} - \mathrm{E}_{\mathrm{StandardNSB}}}{\mathrm{E}_{\mathrm{StandardNSB}}} \label{eq:energybias_data} \\
 \Delta \mathrm{Xmax}_{\mathrm{Data}} &=& \mathrm{Xmax}_{\mathrm{IncreasedNSB}} - \mathrm{Xmax}_{\mathrm{StandardNSB}}\label{eq:xmaxbias_data}
 \end{eqnarray} 
-For simulated data the bias is the relative change in the mean of the distributions after the full simulation by EAS events going through an atmosphere with a specified NSB photon field, the FD telescopes optics, trigger, reconstruction and selection cuts compared with Monte-Carlo truth.
-\begin{eqnarray}
-\Delta \mathrm{E}_{\mathrm{Sim}} &=& \frac{\mathrm{E}_{\mathrm{recon}} - \mathrm{E}_{\mathrm{true}}}{\mathrm{E}_{\mathrm{true}}}  \label{eq:energybias_sim} \\
-\Delta \mathrm{Xmax}_{\mathrm{Sim}} &=& \mathrm{Xmax}_{\mathrm{recon}} - \mathrm{Xmax}_{\mathrm{true}} \label{eq:xmaxbias_sim}
-\end{eqnarray}
- 
- 
 The energy and Xmax resolution is calculated via:
 \begin{eqnarray}
-\sigma_{\mathrm{res}} &=& \left( \frac{1}{\mathrm{N}} \sum \frac{1}{\sigma^2_i} \right)^{1/2}
+\sigma_{\mathrm{resData}} &=& \left( \frac{1}{\mathrm{N}} \sum \sigma^2_i \right)^{1/2}
 \end{eqnarray}
-
-To further evaluate the effects of increasing the NSB on the quality of the reconstructed EAS data, I look at the resolution and bias of both the reconstructed energy and reconstructed Xmax. A quick reminder that Xmax is the measurement of the brightest part of the shower relating to the maximum number of particles produced. For the smearing method the energy and Xmax bias is comparing to the measured data taken at standard NSB levels to the reconstructed with the increased NSB levels. For the simulations the energy and Xmax bias can be calculated using the true energy and Xmax values used to generate each EAS profile.
-
-The trend of the energy resolution for both methods is that as the energy of the EAS event increases the bias decreases. This was expected as the energy of the shower increases the brighter and longer the track that is observed. A brighter and longer track allows for a better reconstruction.
+where $\sigma^2_i$ is the reconstructed uncertainty on the individual shower events.
 
 \subsection{Results}
+
 \begin{figure}
 \centering
-\includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/Smearing_RealData_EnergyBias.pdf}
-\caption{Energy Bias using Smearing Method.}
-\vspace{3mm}
-\includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/Simulation_ProtonIron_EnergyBias.pdf}
-\caption{Energy Bias using simulated data.}
+\includegraphics[width=\textwidth]{/home/tsudholz/PhD/Thesis/chapters/graphs/SelectionEff/SelectionEff_errorbars_10timesNSB.pdf}
+\caption{The selection efficiency with my repetition against the data points from M. Unger. The method and data sets are similar with the NSB used differing slightly.}
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf}
-\caption{Xmax Bias using Smearing Method.}
+\includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/Smearing_RealData_EnergyBias.pdf}
+\caption{Energy Bias from increasing NSB in Real Data.}
 \vspace{3mm}
-\includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/Simulation_ProtonIron_XmaxBias.pdf}
-\caption{Xmax Bias using simulated data.}
+\includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf}
+\caption{Xmax Bias from increasing NSB in Real Data.}
 \end{figure}
 
 \begin{figure}
@@ -358,8 +358,9 @@ The trend of the energy resolution for both methods is that as the energy of the
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{chapters/graphs/SelectionEff/Smearing_TrackLength_DiffNSBlevels.pdf}
-\caption{Track length using Smearing method.} \label{fig:TrackLength_Smearing}
+\caption{Track length calculated from events with standard NSB and those with increased NSB fluxes.} \label{fig:TrackLength_Smearing}
 \end{figure}
+
 \subsection{Discussion}
 
 \section{Increasing NSB in Simulations to evaluate Trigger/Reconstruction Efficiency}

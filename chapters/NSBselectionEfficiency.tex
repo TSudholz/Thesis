@@ -291,7 +291,7 @@ Table \ref{tab:FDvalues} and Eq. \ref{eq:SN_complete} where used to produce Fig.
 
 
 
-\section{Increasing NSB in Real Data to evaluate Reconstruction Efficiency}
+\section{Increasing NSB in Real Data to evaluate \\ Reconstruction Efficiency}
 
 
 - Aim
@@ -363,7 +363,7 @@ where $\sigma^2_i$ is the reconstructed uncertainty on the individual shower eve
 
 \subsection{Discussion}
 
-\section{Increasing NSB in Simulations to evaluate Trigger/Reconstruction Efficiency}
+\section{Increasing NSB in Simulations to evaluate \\ Trigger/Reconstruction Efficiency}
 
 \subsection{Method}
  The Efficiency was calculated with the equation used:
@@ -373,11 +373,6 @@ where $\sigma^2_i$ is the reconstructed uncertainty on the individual shower eve
 where $\mathrm{N}^{0}_{\mathrm{Select}}$ is the number of selected events at the standard NSB level and $\mathrm{N}^{'}_{\mathrm{Select}}$ is the number of selected events at the increased NSB
 level. 
 
-After the Efficiency was calculated the bias and resolution for Xmax and energy was determined. For real data, the bias is the relative change in the mean of the distributions at increased NSB to the mean of the distributions at standard NSB, both after reconstruction and selection cuts. The bias calculations for real data become:
-\begin{eqnarray}
-\Delta \mathrm{E}_{\mathrm{Data}} &=& \frac{\mathrm{E}_{\mathrm{IncreasedNSB}} - \mathrm{E}_{\mathrm{StandardNSB}}}{\mathrm{E}_{\mathrm{StandardNSB}}} \label{eq:energybias_data} \\
-\Delta \mathrm{Xmax}_{\mathrm{Data}} &=& \mathrm{Xmax}_{\mathrm{IncreasedNSB}} - \mathrm{Xmax}_{\mathrm{StandardNSB}}\label{eq:xmaxbias_data}
-\end{eqnarray} 
 For simulated data the bias is the relative change in the mean of the distributions after the full simulation by EAS events going through an atmosphere with a specified NSB photon field, the FD telescopes optics, trigger, reconstruction and selection cuts compared with Monte-Carlo truth.
 \begin{eqnarray}
 \Delta \mathrm{E}_{\mathrm{Sim}} &=& \frac{\mathrm{E}_{\mathrm{recon}} - \mathrm{E}_{\mathrm{true}}}{\mathrm{E}_{\mathrm{true}}}  \label{eq:energybias_sim} \\
@@ -387,7 +382,7 @@ For simulated data the bias is the relative change in the mean of the distributi
  
 The energy and Xmax resolution is calculated via:
 \begin{eqnarray}
-\sigma_{\mathrm{res}} &=& \left( \frac{1}{\mathrm{N}} \sum \frac{1}{\sigma^2_i} \right)^{1/2}
+\sigma_{\mathrm{resSim}} &=& \left( \frac{1}{\mathrm{N}} \sum \frac{1}{\sigma^2_i} \right)^{1/2}
 \end{eqnarray}
 
 \subsection{Comparison of Simulated Data to Real Data}

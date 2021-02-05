@@ -1,29 +1,40 @@
 \chapter[Quantifying Characteristics of the FD PMT]{\centering Quantifying Characteristics of \\ the Fluorescence Detector \\ Photomultiplier Tube \\}\label{Ch:PMTCharacter}
 
 
-Characterising the PMT at 600V and 900V
-\begin{itemize}
-\item Using the characteristics of the PMT at 900V as a baseline
-\item Measure linearity
-\item ND filters vs Two LED method
-\item temperature effects
-\end{itemize}
+%Characterising the PMT at 600V and 900V
+%\begin{itemize}
+%\item Using the characteristics of the PMT at 900V as a baseline
+%\item Measure linearity
+%\item ND filters vs Two LED method
+%\item temperature effects
+%\end{itemize}
 
 \section{Motivation}
 
-- Start off with moonlight explanation
+%- Start off with moonlight explanation
+%
+%- Looking at effects of increased NSB on equipment
+%
+%- What type of PMT used
 
-- Looking at effects of increased NSB on equipment
+The Pierre Auger Observatory has been operational since 2004 and the Collaboration is in the process of rolling out upgrades to improve the experiment. The current upgrade has been name AugerPrime \textbf{(ref)} and is a large project to improve both the Surface Detectors (SD) and the Fluorescence Detectors (FD). The FD portion of AugerPrime involves extending the duty cycle to observe Extensive Air Shower (EAS) events while the moon is above the horizon. The main purpose for extending the FD duty cycle to include observation times while the moon is visible is to increase the statistics per year for EAS events at the highest energy ($>$ 10$^{19.5}$ eV). 
 
-- What type of PMT used
+In this chapter I will explore the linearity and effects of temperature on the gain for a HAMAMATSU XP3062 Photomultiplier Tube (PMT) at the Hight Voltage setting of 600V. I will use the measurements obtained at 900V as the baseline of expected performance. The Fluorescence Detectors (FDs) at Auger use Photomultiplier Tube (PMT) as camera pixels within the telescopes to view the Extensive Air Showers. The PMTs are operated at a gain of 5 $\times$ 10$^4$ electrons per photo-electron. This gain relates to a High Voltage about 900V. The investigation into running the Fluorescence Detectors under moonlight has lead to the proposal of running the PMTs under decreased gain. The PMT gain is expected to decreased by a factor of 10 to compensate. Therefore the PMT High Voltage would be dropped to about 600V to have a gain of 5 $\times$ 10$^3$ electrons per photo-electron.
 
-The Fluorescence Detectors (FDs) at Auger use Photomultiplier Tube (PMT) as camera pixels within the telescopes to view the Extensive Air Showers. The PMTs are operated at a gain of 5 $\times$ 10$^4$ electrons per photo-electron. This gain relates to a High Voltage about 900V. The investigation into running the Fluorescence Detectors under moonlight has lead to the thinking of running the PMTs under decreased PMT gain. The PMT gain is expected to decreased by a factor of 10 to compensate. Therefore the PMT High Voltage would be dropped to about 600V.
+%The aim is to use the measurements done at 900V as the baseline of expected performance and then observe the repeated measurements at 600V. We have a good  understanding of the characteristics of the PMT operating at 900V due to this being the nominal voltage that the PMTS in the FD telescopes are run at. I explore the characteristics at 600V as we are expecting to to reduce the PMT gain by a factor of 10 and this related to an approximate voltage drop to 600V. This may be an over estimate but we can be confident if the PMT voltage used is greater then 600V then the characteristics will be the same.
 
-The aim is to use the measurements done at 900V as the baseline of expected performance and then observe the repeated measurements at 600V. We have a good  understanding of the characteristics of the PMT operating at 900V due to this being the nominal voltage that the PMTS in the FD telescopes are run at. I explore the characteristics at 600V as we are expecting to to reduce the PMT gain by a factor of 10 and this related to an approximate voltage drop to 600V. This may be an over estimate but we can be confident if the PMT voltage used is greater then 600V then the characteristics will be the same.
+\section{Background}
+
+- HAMAMATSU XP3062 Photomultiplier Tube (PMT)
+- 8 dynodes
+- sensitive within the wavelength range
+- is behind a UV filter
+- Voltage across each dynode layout
+- data sheet of expected behaviour
 
 \section{PMT Linearity}
 
-One of the main characteristics of a Photomultiplier Tube (PMT) to measure is its linearity. A PMT linearity is where if a light intensity is doubled the PMT response doubles as while. It is important to quantify this region to be confident that if the light intensity changes the PMT response follows.
+One of the major characteristics of interest when operating a Photomultiplier Tube (PMT) is its linearity. A PMT linearity is where if a light intensity is doubled the PMT response doubles as while. It is important to quantify this region to be confident that if the light intensity changes the PMT response follows.
 
 I look at two methods to measure the PMT linearity - using Neutral Density filters and the Two LED method.
 
@@ -37,7 +48,7 @@ To get different transmission values, the filters can be stack and the optical d
 
 I repeated a study done by Privitera et. al. (1990) \textbf{ref.} on Auger PMTs. I wanted to use the result done at an High Voltage value of 900V as my baseline then continue the study to observe the result at an High Voltage value of 600V.
 
-Some of the disadvantages of using Neutral Density filters it that you are restricted to fixed units of transmission depending on which filters you have access too. Also you are relying on the fact that the optical density doesn't change over time and is not effected by handing and storage. There is also some uncertainty on the optical density value quote.
+Some of the disadvantages of using Neutral Density filters it that you are restricted to fixed units of transmission depending on which filters you have access too. Also you are relying on the fact that the optical density do not deteriorate over time and is not effected by handing and storage. There is also some uncertainty on the optical density value quote.
 
 \begin{figure}
 \centering
@@ -60,7 +71,7 @@ Some of the disadvantages of using Neutral Density filters it that you are restr
 
 \subsection{Two LED Method}
 
-Another method investigate was the two LED method. This method was first used in the original measurement of the SD PMTs \textbf{ref}. To measure the linearity, two LEDs are pointed at the PMT and with one set of observations taken with the LEDs on separately then one set taken with the LEDs on at the same time. A graphical representation is shown in Fig. \ref{fig:TwoLEDmethod_Setup} of the set-up used to measure the PMT linearity at both 900V and 600V. Two pulse generators are used to drive the LEDs separately and to allow the two pulses to overlap when needed to measure the PMT response to the LEDs on at the same time. To find the linearity a ratio is plotted against peak pulse ampere. the ratio is calculated via:
+Another method investigate was the two LED method. This method was used in the original measurement of the SD PMTs \textbf{ref}. To measure the linearity, two LEDs are pointed at the PMT and with one set of observations taken with the LEDs on separately then one set taken with the LEDs on at the same time. A graphical representation is shown in Fig. \ref{fig:TwoLEDmethod_Setup} of the set-up used to measure the PMT linearity at both 900V and 600V. Two pulse generators are used to drive the LEDs separately and to allow the two pulses to overlap when needed to measure the PMT response to the LEDs on at the same time. To find the linearity a ratio is plotted against peak pulse ampere. the ratio is calculated via:
 \begin{equation}
 \mathrm{Ratio} = \frac{\mathrm{LED}_{1+2}}{\mathrm{LED}_{1} + \mathrm{LED}_{2}}
 \end{equation}

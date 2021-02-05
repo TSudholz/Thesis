@@ -6,60 +6,74 @@
 \BOOKMARK [1][-]{section.1.3}{Production Method and Sources}{chapter.1}% 6
 \BOOKMARK [0][-]{chapter.2}{Detection of Cosmic-rays}{}% 7
 \BOOKMARK [1][-]{section.2.1}{Extensive Air Showers}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.2}{Fluorescence Production}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.3}{Atmospheric Effects}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.4}{Detectors and History}{chapter.2}% 11
-\BOOKMARK [0][-]{chapter.3}{Pierre Auger Observatory}{}% 12
-\BOOKMARK [1][-]{section.3.1}{Surface Detector}{chapter.3}% 13
-\BOOKMARK [2][-]{subsection.3.1.1}{AugerPrime}{section.3.1}% 14
-\BOOKMARK [1][-]{section.3.2}{Fluorescence Detector}{chapter.3}% 15
-\BOOKMARK [2][-]{subsection.3.2.1}{Photomultiplier Tubes}{section.3.2}% 16
-\BOOKMARK [1][-]{section.3.3}{Communication System and CDAS}{chapter.3}% 17
-\BOOKMARK [1][-]{section.3.4}{Event Reconstruction}{chapter.3}% 18
-\BOOKMARK [2][-]{subsection.3.4.1}{Surface Detector}{section.3.4}% 19
-\BOOKMARK [2][-]{subsection.3.4.2}{Fluorescence Detector}{section.3.4}% 20
-\BOOKMARK [1][-]{section.3.5}{Enhancements and future upgrades}{chapter.3}% 21
-\BOOKMARK [0][-]{chapter.4}{The Effects of Increased NSB on the FD Trigger and Reconstruction}{}% 22
-\BOOKMARK [1][-]{section.4.1}{Motivation}{chapter.4}% 23
-\BOOKMARK [1][-]{section.4.2}{Background Information}{chapter.4}% 24
-\BOOKMARK [2][-]{subsection.4.2.1}{Current Fluorescence Detector Operation}{section.4.2}% 25
-\BOOKMARK [2][-]{subsection.4.2.2}{Night Sky Background, Twilight and the Moon}{section.4.2}% 26
-\BOOKMARK [2][-]{subsection.4.2.3}{Toy Model of the effect of increased NSB on aperture}{section.4.2}% 27
-\BOOKMARK [1][-]{section.4.3}{Increasing NSB in Real Data to evaluate \040Reconstruction Efficiency}{chapter.4}% 28
-\BOOKMARK [2][-]{subsection.4.3.1}{Method}{section.4.3}% 29
-\BOOKMARK [2][-]{subsection.4.3.2}{Results}{section.4.3}% 30
-\BOOKMARK [2][-]{subsection.4.3.3}{Discussion}{section.4.3}% 31
-\BOOKMARK [1][-]{section.4.4}{Increasing NSB in Simulations to evaluate \040Trigger/Reconstruction Efficiency}{chapter.4}% 32
-\BOOKMARK [2][-]{subsection.4.4.1}{Method}{section.4.4}% 33
-\BOOKMARK [2][-]{subsection.4.4.2}{Comparison of Simulated Data to Real Data}{section.4.4}% 34
-\BOOKMARK [2][-]{subsection.4.4.3}{Results}{section.4.4}% 35
-\BOOKMARK [2][-]{subsection.4.4.4}{Discussion}{section.4.4}% 36
-\BOOKMARK [1][-]{section.4.5}{Conclusion/Summary}{chapter.4}% 37
-\BOOKMARK [0][-]{chapter.5}{Quantifying Characteristics of the FD PMT}{}% 38
-\BOOKMARK [1][-]{section.5.1}{Motivation}{chapter.5}% 39
-\BOOKMARK [1][-]{section.5.2}{PMT Linearity}{chapter.5}% 40
-\BOOKMARK [2][-]{subsection.5.2.1}{Neutral Density Filters}{section.5.2}% 41
-\BOOKMARK [2][-]{subsection.5.2.2}{Two LED Method}{section.5.2}% 42
-\BOOKMARK [1][-]{section.5.3}{Effects of Temperature on PMT Gain}{chapter.5}% 43
-\BOOKMARK [0][-]{chapter.6}{Computer Simulation of FD PMT}{}% 44
-\BOOKMARK [1][-]{section.6.1}{Motivation}{chapter.6}% 45
-\BOOKMARK [1][-]{section.6.2}{Method and Theory}{chapter.6}% 46
-\BOOKMARK [2][-]{subsection.6.2.1}{Theoretical value of Gain Variance?}{section.6.2}% 47
-\BOOKMARK [1][-]{section.6.3}{Results of PMT Gain Variance Simulation}{chapter.6}% 48
-\BOOKMARK [1][-]{section.6.4}{Simulation of Gain Variance Method}{chapter.6}% 49
-\BOOKMARK [1][-]{section.6.5}{FD FLT under different NSB levels}{chapter.6}% 50
-\BOOKMARK [0][-]{chapter.7}{Measuring FD PMT Gain Variance with CalA Data}{}% 51
-\BOOKMARK [1][-]{section.7.1}{Motivation}{chapter.7}% 52
-\BOOKMARK [1][-]{section.7.2}{Using CalA to measure relative changes in Gain Variance}{chapter.7}% 53
-\BOOKMARK [1][-]{section.7.3}{Electronic Noise}{chapter.7}% 54
-\BOOKMARK [1][-]{section.7.4}{Pairs Method}{chapter.7}% 55
-\BOOKMARK [2][-]{subsection.7.4.1}{Results}{section.7.4}% 56
-\BOOKMARK [1][-]{section.7.5}{Averaging Sets of Traces Method}{chapter.7}% 57
-\BOOKMARK [2][-]{subsection.7.5.1}{Results}{section.7.5}% 58
-\BOOKMARK [1][-]{section.7.6}{Result of Averaging Sets of Traces Method with Least Trimmed Squares}{chapter.7}% 59
-\BOOKMARK [1][-]{section.7.7}{Result of Averaging Sets of Traces Method using Noise Distribution}{chapter.7}% 60
-\BOOKMARK [1][-]{section.7.8}{Attempts to measure Gain Variance directly in the Lab}{chapter.7}% 61
-\BOOKMARK [0][-]{chapter.8}{Laboratory Simulation of FD shift}{}% 62
-\BOOKMARK [0][-]{chapter.9}{Evaluation of Cloud Camera Cuts}{}% 63
-\BOOKMARK [0][-]{chapter.10}{Conclusion}{}% 64
-\BOOKMARK [1][-]{section.10.1}{Future Work}{chapter.10}% 65
+\BOOKMARK [1][-]{section.2.2}{Electromagnetic Component}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.3}{Hadronic Component}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.4}{Fluorescence Production}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.5}{Atmospheric Effects}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.6}{Detectors and History}{chapter.2}% 13
+\BOOKMARK [0][-]{chapter.3}{Pierre Auger Observatory}{}% 14
+\BOOKMARK [1][-]{section.3.1}{Surface Detector}{chapter.3}% 15
+\BOOKMARK [2][-]{subsection.3.1.1}{AugerPrime}{section.3.1}% 16
+\BOOKMARK [1][-]{section.3.2}{Fluorescence Detector}{chapter.3}% 17
+\BOOKMARK [2][-]{subsection.3.2.1}{Photomultiplier Tubes}{section.3.2}% 18
+\BOOKMARK [1][-]{section.3.3}{Communication System and CDAS}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.4}{Event Reconstruction}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.4.1}{Surface Detector}{section.3.4}% 21
+\BOOKMARK [2][-]{subsection.3.4.2}{Fluorescence Detector}{section.3.4}% 22
+\BOOKMARK [1][-]{section.3.5}{Enhancements and future upgrades}{chapter.3}% 23
+\BOOKMARK [0][-]{chapter.4}{The Effects of Increased NSB on the FD Trigger and Reconstruction}{}% 24
+\BOOKMARK [1][-]{section.4.1}{Motivation}{chapter.4}% 25
+\BOOKMARK [1][-]{section.4.2}{Background Information}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.2.1}{Current Fluorescence Detector Operation}{section.4.2}% 27
+\BOOKMARK [2][-]{subsection.4.2.2}{Night Sky Background and the Moon}{section.4.2}% 28
+\BOOKMARK [2][-]{subsection.4.2.3}{Toy Model of the effect of increased NSB on aperture}{section.4.2}% 29
+\BOOKMARK [1][-]{section.4.3}{Increasing NSB in Real Data to evaluate \040Reconstruction Efficiency}{chapter.4}% 30
+\BOOKMARK [2][-]{subsection.4.3.1}{Method}{section.4.3}% 31
+\BOOKMARK [2][-]{subsection.4.3.2}{Results}{section.4.3}% 32
+\BOOKMARK [2][-]{subsection.4.3.3}{Discussion}{section.4.3}% 33
+\BOOKMARK [1][-]{section.4.4}{Increasing NSB in Simulations to evaluate \040Trigger/Reconstruction Efficiency}{chapter.4}% 34
+\BOOKMARK [2][-]{subsection.4.4.1}{Method}{section.4.4}% 35
+\BOOKMARK [2][-]{subsection.4.4.2}{Comparison of Simulated Data to Real Data}{section.4.4}% 36
+\BOOKMARK [2][-]{subsection.4.4.3}{Results}{section.4.4}% 37
+\BOOKMARK [2][-]{subsection.4.4.4}{Discussion}{section.4.4}% 38
+\BOOKMARK [1][-]{section.4.5}{Conclusion/Summary}{chapter.4}% 39
+\BOOKMARK [0][-]{chapter.5}{Quantifying Characteristics of the FD PMT}{}% 40
+\BOOKMARK [1][-]{section.5.1}{Motivation}{chapter.5}% 41
+\BOOKMARK [1][-]{section.5.2}{Background}{chapter.5}% 42
+\BOOKMARK [1][-]{section.5.3}{PMT Linearity}{chapter.5}% 43
+\BOOKMARK [2][-]{subsection.5.3.1}{Neutral Density Filters}{section.5.3}% 44
+\BOOKMARK [2][-]{subsection.5.3.2}{Two LED Method}{section.5.3}% 45
+\BOOKMARK [1][-]{section.5.4}{Effects of Temperature on PMT Gain}{chapter.5}% 46
+\BOOKMARK [0][-]{chapter.6}{Computer Simulation of FD PMT}{}% 47
+\BOOKMARK [1][-]{section.6.1}{Motivation}{chapter.6}% 48
+\BOOKMARK [1][-]{section.6.2}{Method and Theory}{chapter.6}% 49
+\BOOKMARK [2][-]{subsection.6.2.1}{Theoretical value of Gain Variance?}{section.6.2}% 50
+\BOOKMARK [1][-]{section.6.3}{Results of PMT Gain Variance Simulation}{chapter.6}% 51
+\BOOKMARK [1][-]{section.6.4}{Simulation of Gain Variance Method}{chapter.6}% 52
+\BOOKMARK [1][-]{section.6.5}{FD FLT under different NSB levels}{chapter.6}% 53
+\BOOKMARK [0][-]{chapter.7}{Measuring FD PMT Gain Variance with CalA Data}{}% 54
+\BOOKMARK [1][-]{section.7.1}{Motivation}{chapter.7}% 55
+\BOOKMARK [1][-]{section.7.2}{Using CalA to measure relative changes in Gain Variance}{chapter.7}% 56
+\BOOKMARK [1][-]{section.7.3}{Electronic Noise}{chapter.7}% 57
+\BOOKMARK [1][-]{section.7.4}{Pairs Method}{chapter.7}% 58
+\BOOKMARK [2][-]{subsection.7.4.1}{Results}{section.7.4}% 59
+\BOOKMARK [1][-]{section.7.5}{Averaging Sets of Traces Method}{chapter.7}% 60
+\BOOKMARK [2][-]{subsection.7.5.1}{Results}{section.7.5}% 61
+\BOOKMARK [1][-]{section.7.6}{Result of Averaging Sets of Traces Method with Least Trimmed Squares}{chapter.7}% 62
+\BOOKMARK [1][-]{section.7.7}{Result of Averaging Sets of Traces Method using Noise Distribution}{chapter.7}% 63
+\BOOKMARK [1][-]{section.7.8}{Attempts to measure Gain Variance directly in the Lab}{chapter.7}% 64
+\BOOKMARK [0][-]{chapter.8}{Results of FD PMT Gain Variance from CalA Data}{}% 65
+\BOOKMARK [0][-]{chapter.9}{Laboratory Simulation of FD shift}{}% 66
+\BOOKMARK [1][-]{section.9.1}{Motivation}{chapter.9}% 67
+\BOOKMARK [1][-]{section.9.2}{Method and equipment set-up}{chapter.9}% 68
+\BOOKMARK [1][-]{section.9.3}{Results}{chapter.9}% 69
+\BOOKMARK [1][-]{section.9.4}{Discussion}{chapter.9}% 70
+\BOOKMARK [1][-]{section.9.5}{Conclusion}{chapter.9}% 71
+\BOOKMARK [0][-]{chapter.10}{Evaluation of Cloud Cuts on Auger Event Data}{}% 72
+\BOOKMARK [1][-]{section.10.1}{Equipment used to detect cloud over the array}{chapter.10}% 73
+\BOOKMARK [1][-]{section.10.2}{Method - Cloud Flags and Their Impact}{chapter.10}% 74
+\BOOKMARK [1][-]{section.10.3}{Results - Effect on Mean Xmax and Spread in Xmax}{chapter.10}% 75
+\BOOKMARK [1][-]{section.10.4}{Discussion - Are we being too conservative?}{chapter.10}% 76
+\BOOKMARK [1][-]{section.10.5}{Conclusion}{chapter.10}% 77
+\BOOKMARK [0][-]{chapter.11}{Conclusion}{}% 78
+\BOOKMARK [1][-]{section.11.1}{Future Work}{chapter.11}% 79

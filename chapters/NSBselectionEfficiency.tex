@@ -2,15 +2,15 @@
 
 \section{Motivation}
 
-The Pierre Auger Observatory has been operational since 2004 and the collaboration is in the process of rolling out upgrades to improve the experiment. The upgrade has been name AugerPrime \textbf{(ref)} and is a large project to improve both the Surface Detectors (SD) and the Fluorescence Detectors (FD). The FD portion of AugerPrime involves extending the duty cycle to observe Extensive Air Shower (EAS) events while the moon is above the horizon. The main purpose for extending the FD duty cycle to include observation times while the moon is visible is to increase the statistics per year for EAS events in the highest energy bin ($>$ 10$^{19.5}$ eV). 
+The Pierre Auger Observatory has been operational since 2004 and the Collaboration is in the process of rolling out upgrades to improve the experiment. The current upgrade has been name AugerPrime \textbf{(ref)} and is a large project to improve both the Surface Detectors (SD) and the Fluorescence Detectors (FD). The FD portion of AugerPrime involves extending the duty cycle to observe Extensive Air Shower (EAS) events while the moon is above the horizon. The main purpose for extending the FD duty cycle to include observation times while the moon is visible is to increase the statistics per year for EAS events at the highest energy ($>$ 10$^{19.5}$ eV). 
 
-In this chapter I used real data events and simulations to explore the effects of increasing the Night Sky Background (NSB) on the collaboration's reconstruction method and trigger efficiency. A real data set was used to evaluate the efficiency of the reconstruction method under different NSB intensities by artificially adding extra noise to signal traces. This method was a repetition of a study done by M. Unger \textbf{Find ref.}. The study was used as a starting point then the results where examined in depth and found to mainly test the robustness of the collaboration's reconstruction algorithm. The analysis led to the use of the collaboration FD simulations to evaluate the effects of the increased NSB on both the FD triggers and reconstruction efficiency.
+In this chapter I use real data events and simulations to explore the effects of increasing the Night Sky Background (NSB) on the collaboration's reconstruction method and trigger efficiency. A real data set was used to evaluate the efficiency of the reconstruction method under different NSB intensities by artificially adding extra noise to signal traces. This method follows a study done by M. Unger \textbf{Find ref.}. The method from M. Unger study was used as a basis. The results where examined in depth and found to mainly test the robustness of the collaboration's reconstruction algorithm. This analysis led to the use of the collaboration FD simulations to evaluate the effects of the increased NSB on both the FD triggers and reconstruction efficiency.
 
 \section{Background Information}
 
 \subsection{Current Fluorescence Detector Operation}
 
-Currently the FDs are operated under these guidelines: an observation run is organised for nights when the illuminated fraction of the moon is less than 70\% and can have a minimum of 3 hours of operation with the moon below the horizon. The FD telescope shutters are then opened when the sun is below -18\textdegree \ of the horizon (beginning of astronomical twilight). The FD shutters remain open while the average variance across the FD camera is less then 100 ADC$^2$/100 ns and the variance of individual pixels (which are photomultiplier tubes) is less then 2000 ADC$^2$/100 ns. 100 ns is chosen as this is the smallest interval that the signal from the photomultiplier tube (PMT) anode (in electrons) is digitised to Analogue-to-Digital Units (ADCs). The FD shutters at each site will automatically close if the individual rain sensors are triggered or the measured wind speed is above 50 km/h at the individual FD sites. Using these guidelines the expected yearly FD duty cycle can be calculated. This calculation was performed by the collaboration in \textbf{DATE \& ref} to estimate the theoretical the FD duty cycle and the result is shown in Table \ref{tab:FD_uptime}. Bad weather is mainly caused by rain, high wind speeds or lightning strikes in the FDs field of view. Failures include any software or hardware issues that prevented any of the FD telescopes from collecting data.
+Currently an Fluorescence Detector (FDs) run is organised for nights when the illuminated fraction of the moon is less than 70\% and the night has a minimum of 3 hours of operation with the moon below the horizon. The FD telescope shutters are opened when the sun is below -18\textdegree \ of the horizon (beginning of astronomical twilight). The FD shutters remain open while the average variance across the FD camera is less than 100 ADC$^2$/100 ns and the variance of no individual pixels (which are photomultiplier tubes) is greater than 2000 ADC$^2$/100 ns. ADC units is the digitised of the photomultiplier tube (PMT) anode signal in electrons to Analogue-to-Digital Converter (ADC) units and 100 ns is chosen as the time interval that the ADC is digitised over. The FD shutters at each site automatically close if the individual rain sensors are triggered or the measured wind speed is above 50 km/h at the individual FD sites. Using these guidelines the expected yearly FD duty cycle can be calculated. This calculation was performed by the collaboration in \textbf{DATE \& ref} to estimate the theoretical the FD duty cycle and the result is shown in Table \ref{tab:FD_uptime}. Bad weather is mainly caused by rain, high wind speeds or lightning strikes in the FDs field of view. Failures include any software or hardware issues that prevented any of the FD telescopes from collecting data.
 
 \begin{table}[h]
 \centering
@@ -26,15 +26,16 @@ Total measurement time & 15\% \\
 \end{table}
 
 
-Photons that enter the FD telescope pass through the optics, are converted to photo-electrons by PMT and then convert to Analogue-to-Digital units by the electronics. A basic diagram of how photons detected by a FD telescope is converted to ADC is show in Fig. \ref{fig:FD_CoefficientLayout_PhotonToADC}. The steps are split into 3 parts: the optics, PMT and electronics. When the photon reaches the PMT it is converted to a photo-electron and the electron signal from the PMT is converted to ADC by the electronics. 
+Photons that enter the FD telescope pass through the optics, are converted to photo-electrons by PMT and are then converted to Analogue-to-Digital Converter units by the electronics. A basic diagram of how photons detected by an FD telescope are converted to ADC is shown in Fig. \ref{fig:FD_CoefficientLayout_PhotonToADC}. The steps are split into 3 parts: the optics, PMT and electronics. When the photon reaches the PMT it produces a photo-electron and the electron signal from the PMT is converted to ADC units by the electronics. 
 
 \begin{figure}
 \centering
 \includegraphics[width=\textwidth]{/home/tsudholz/PhD/Thesis/chapters/pix/SelEff/Layout_Coefficients_PhotonsToADC.png}
-\caption{A diagram showing the steps that a photon passing through a FD telescope diaphram will travel to be convert to an ADC. The steps are split into 3 parts: the optics, PMT and electronics. When the photon reaches the PMT it is converted to a photo-electron and the electron signal from the PMT anode is converted to ADC by the electronics.} \label{fig:FD_CoefficientLayout_PhotonToADC}
+\caption{A diagram showing the steps that a photon passing through an FD telescope diaphram will travel to be convert to an ADC. The steps are split into 3 parts: the optics, PMT and electronics. When the photon reaches the PMT it is converted to a photo-electron and the electron signal from the PMT anode is converted to ADC units by the electronics.
+- Define all of the symbols.} \label{fig:FD_CoefficientLayout_PhotonToADC}
 \end{figure}
   
-The electron signal from the FD PMT is AC coupled, which means the average ADC of the NSB is zero. Instead the ADC variance is calculated and the ADC variance directly proportional to the variance in the NSB photon count. To find the variance of the ADC variance due to the NSB from the background trace the variance due to the electronic noise has to be removed first. Removal of the electronic noise is shown in Eq. \ref{eq:back_vars}. 
+The electron signal from the FD PMT is AC coupled, which means the average ADC of the NSB is zero. Instead the ADC variance is used to measure the number of photons at the diaphragm. When converting a NSB trace into a NSB photon count the NSB ADC variance is proportional to the variance in the NSB photon count. To find the ADC variance due to the NSB the electronic noise has to be removed from the background ADC variance traces. Removal of the electronic noise is achieved by using Eq. \ref{eq:back_vars}. 
 \begin{equation}
 \left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{sky}} = \left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{back}} - \left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{elec}} \label{eq:back_vars}
 \end{equation} 
@@ -49,19 +50,19 @@ The typical mean ADC variance of the NSB measured by Auger \ref{find} at Malargu
 \left[\sigma^2_{\mathrm{ADC}}\right]^{\mathrm{sky}} = 25 \ \mathrm{ADC}^2 \ / \ 100 \ \mathrm{ns} \nonumber
 \end{equation}
 
-The variance in ADC$^2$ seen by the FD can be converted back to photons at the diaphragm by the FD pixel calibration constant C$_{\mathrm{FD}}$ (photons/ADC). The FD pixel calibration constant has been preformed by illuminating the diaphragm with a know number of photons. This was originally done by a drum calibration which used a large device that covered the entire FD diaphragm and could illuminate the whole camera with known number of diffuse photons. The drum calibration has been retired and has been replaced with an experiment called the XY scanner. The XY scanner illuminates one pixel at the time and scans over the entire camera. The advantages of the XY scanner is that it is a more compact experiment with the aim of having the ability to be deployed more often to find the absolute calibration.
+The variance in ADC$^2$ seen by the FD can be converted back to photon numbers at the diaphragm by the FD pixel calibration constant C$_{\mathrm{FD}}$ (photons/ADC units). The FD pixel calibration constant has been determined by illuminating the diaphragm with a known number of photons. This was originally done by a drum calibration which used a large device that covered the entire FD diaphragm and could illuminate the whole camera with a known number of diffuse photons. The drum calibration has now been retired and has been replaced with an experiment called the XY scanner [ref]. The XY scanner illuminates one pixel at the time and scans over the entire camera. The advantages of the XY scanner is that it is a more compact experiment with the aim of having the ability to be deployed more often to find the absolute calibration.
 
-C$_{\mathrm{FD}}$ can be used to find the variance of the NSB photons at the diaphragm from the measured ADC variance. An average variance of the NSB measured by an FD telescope under standard operational guidelines is $\sigma^2_{\mathrm{ADC}}$ = 25 ADC$^2$ / 100 ns. The calculations to work out the variance of the photon count (RMS$_{\mathrm{ph}}$ / 100 ns) from the measured variance in ADC$^2$ is as follows:
+The FD pixel calibration factor C$_{\mathrm{FD}}$ can be used to find the variance of the NSB photons at the diaphragm from the measured ADC variance. An average variance of the NSB measured by an FD telescope under standard operational guidelines is $\sigma^2_{\mathrm{ADC}}$ = 25 ADC$^2$ / 100 ns. The calculations to work out the variance of the photon count (RMS$_{\mathrm{ph}}$ / 100 ns) from the measured variance in ADC$^2$ is as follows:
 \begin{equation}
 \mathrm{\sigma}^2_{\mathrm{ph}} = (\mathrm{C}_{\mathrm{FD}})^2 \times \sigma^2_{\mathrm{ADC}} \label{eq:varADC_to_RMSphotons}
 \end{equation}
-Using Eq. \ref{eq:varADC_to_RMSphotons} and C$_{\mathrm{FD}}$ = 4.5 photons / ADC the fluctuations on the photon count can be calculated.
+Using Eq. \ref{eq:varADC_to_RMSphotons} and C$_{\mathrm{FD}}$ = 4.5 photons / ADC, the average fluctuations on the photon count can be calculated.
 \begin{equation}
 \sigma_{\mathrm{ph}} = 23 \ \mathrm{photons} \ / \ 100 \ \mathrm{ns} \nonumber
 \end{equation}
 where $\sigma_{\mathrm{ph}}$ is the fluctuations on the photon count per 100 ns.
 
-Finding the number of photons at the diaphragm takes more steps. The first step involves converting the ADC variance to photo-electrons. This step is achieved through the combination of using Eq. \ref{eq:numberPE} and Eq. \ref{eq:simgaPE}.
+Finding the number of photons at the diaphragm takes more steps since the fluctuations are affected by more then the Poisson statistics of the photon number. The first step involves converting the ADC variance to photo-electron numbers. This step is achieved through using the combination of Eq. \ref{eq:numberPE} and Eq. \ref{eq:simgaPE}.
 \begin{eqnarray}
 \mathrm{n}_{\mathrm{pe}} &=& \frac{\sigma^2_{pe}}{(1 + \mathrm{V}_{\mathrm{G}})} \label{eq:numberPE} \\
 \sigma^2_{pe} &=& [\sigma^2_{\mathrm{ADC}}]^{\mathrm{sky}} \ / \ \mathrm{A}^2_{\mathrm{G}} \label{eq:simgaPE}
@@ -74,7 +75,7 @@ where
 \begin{itemize}
 \item[] $\eta$ is the PMT collection efficiency at the first dynode.
 \item[] $G$ is the PMT gain.
-\item[] $E$ is the electronic conversion constant (ADC/electron).
+\item[] $E$ is the electronic conversion constant (ADC per anode electron).
 \end{itemize}
 An equivalent quantity can be used to calculate $\mathrm{A}_{\mathrm{G}}$ and is:
 \begin{equation}\label{eq:abs_gain_alt}
@@ -106,80 +107,83 @@ f & 0.494 \\
 \centering
 \begin{tabular}{|c|c|c|}
 \hline
-Optics & f & F $\times$ L $\times$ T $\times$ R $\times$ M \\ \hline
+Photon Collection Efficiency & f & F $\times$ L $\times$ T $\times$ R $\times$ M \\ \hline
 Filter Transmission & F & 0.83 \\ \hline
 Corrector Ring lens Transmission & L & 0.90 \\ \hline
 Mirror Reflectivity & R & 0.90 \\ \hline
 Camera Shadow Factor & T & 0.79 \\ \hline
 Mercedes Collection Efficiency & M & 0.93 \\ \hline
 \end{tabular}
-\caption{Breakdown of all the components that go into the FD optics.}\label{tab:OpticsBreakdown}
+\caption{Breakdown of all the components that go into the FD photon collection efficiency. Photon Collection Efficiency = Filter Transmission $\times$ Corrector Ring lens Transmission $\times$ Mirror Reflectivity $\times$ Camera Shadow Factor $\times$ Mercedes Collection Efficiency ( f = F $\times$ L $\times$ T $\times$ R $\times$ M)}\label{tab:OpticsBreakdown}
 \end{table}
 
-Typical measured values for C$_{\mathrm{FD}}$, Q and f shown in Table \ref{tab:CFD_Q_F}. The PMTs used as camera pixels in the FDs are HAMAMATSU XP3062 and are operated at a gain of $\sim$ 5 $\times$ 10$^4$ electrons/photo-electron.
+Therefore A$_{\mathrm{G}}$ can be calculated from Eq. \ref{eq:abs_gain} using the values from Table \ref{tab:CFD_Q_F}. Typical measured values for C$_{\mathrm{FD}}$, Q and f shown in Table \ref{tab:CFD_Q_F}. The PMTs used as camera pixels in the FDs are HAMAMATSU XP3062 and are operated at a gain of $\sim$ 5 $\times$ 10$^4$ electrons/photo-electron.
 
-The next step is to convert the photo-electrons to photons at the diaphragm. This step is achieved through using Eg. \ref{eq:numberPhotons}.
+The next step is to convert the photo-electron numbers to number of photons at the diaphragm. This step is achieved through using Eg. \ref{eq:numberPhotons}.
 \begin{equation}
 \mathrm{n}_{\mathrm{ph}} = \frac{\mathrm{n}_{\mathrm{pe}}}{\mathrm{Q} \times \mathrm{f}} \label{eq:numberPhotons}
 \end{equation}
 
-Therefore A$_{\mathrm{G}}$ can be calculated from Eq. \ref{eq:abs_gain} using the values from Table \ref{tab:CFD_Q_F}. From all of the equations stated above I have outlined a table showing the expected photon count at the aperture per 100 ns from the measured variance (ADC$^2$ / 100 ns).
+From all of the equations stated above the following table shows the expected photon count at the aperture per 100 ns from the measured variance (ADC$^2$ / 100 ns).
+\begin{table}
 \begin{center}
-\begin{tabular}{| c | c | c | }
+\begin{tabular}{| c | c | c | c | }
 \hline \hline
-\textbf{Variance} & \textbf{Photons / 100 ns} & \textbf{Photons / 100 ns} \\
-\textbf{(ADC$^2$/100 ns)} & \textbf{@ Pixel} & \textbf{@ diaphragm} \\
+\textbf{Moon Illumination} & \textbf{Variance} & \textbf{Photons / 100 ns} & \textbf{Photons / 100 ns} \\
+\textbf{Fraction (\%)} &\textbf{(ADC$^2$/100 ns)} & \textbf{@ Pixel} & \textbf{@ diaphragm} \\
 \hline \hline
-25  & 23 & 46 \\
+0 & 25  & 23 & 46 \\
 \hline
-250  & 227 & 459 \\
+50 & 250  & 227 & 459 \\
 \hline
-2500  & 2267 & 4588 \\
+100 & 2500  & 2267 & 4588 \\
 \hline
 \end{tabular}
 \end{center}
+\caption{}
+\end{table}
 
-\subsection{Night Sky Background, Twilight and the Moon}
+\subsection{Night Sky Background and the Moon}
 
 \begin{figure}
 \centering
-\begin{subfigure}[b]{0.32\textwidth}
+\begin{subfigure}[b]{0.60\textwidth}
 \includegraphics[width=\textwidth]{chapters/pix/SelEff/IlluminatedMoonFrac_Twilight.JPG}
 \caption{}\label{fig:MoonYearlyFrac}
 \end{subfigure}
 \hspace*{3mm}
-\begin{subfigure}[b]{0.555\textwidth}
+\begin{subfigure}[b]{0.90\textwidth}
 \includegraphics[width=\textwidth]{/home/tsudholz/PhD/Thesis/chapters/pix/SelEff/RelMoonBright_Vs_IllumFrac_LogScale.pdf}
 \caption{}\label{fig:MoonIllumFrac}
 \end{subfigure}
-\caption{\textbf{(a)} Integral Percent of nights across the year with the moon with different illuminated fractions. Only times between astronomical dusk and dawn have been included. The solid line is the astronomical twilight (sun at least 18\textdegree \ below horizon). The dotted lines represent relaxed definition of twilight with the sun being at 15\textdegree , 12\textdegree \ and 9\textdegree \ below the horizon. \textbf{(b)} Relative brightness of the moon in the nigh sky compared with a full moon as a function of illuminated fraction. Images taken from \textbf{ref{(GAP1996-034)}}. } 
+\caption{\textbf{(a)} Integral fraction of nights across the year with the moon with different illuminated fractions. Only times between dusk and dawn have been included. The solid line is the astronomical twilight (sun at least 18\textdegree \ below horizon). The dotted lines represent relaxed definitions of twilight with the sun being at 15\textdegree , 12\textdegree \ and 9\textdegree \ below the horizon. \textbf{(b)} Relative brightness of the moon in the night sky compared with a full moon as a function of illuminated fraction. Images taken from \textbf{ref{(GAP1996-034)}}. } 
 \end{figure}
 
 \begin{figure}
 \centering
-\includegraphics[width=0.75\textwidth]{chapters/pix/SelEff/BGLoop_Variance_crop.jpg}
+\includegraphics[width=0.80\textwidth]{chapters/pix/SelEff/BGLoop_Variance_crop.jpg}
 \caption{Measured NSB variance from the Fluorescence Detectors at Standard PMT HV setting with different moon illuminated fractions. The moon was 30\textdegree \ above horizon or greater. Image taken from \textbf{ref(Radamir)}.} \label{fig:ADCvarVSmoonIllumFrac}
 \end{figure}
 
-The Night Sky Background for Auger typically refers to airglow, zodiacal light, scattered starlight and any man-made light. Moonlight is a separate source of background light as an FD shift is typically operated when the moon is below the horizon. Table \ref{tab:MoonLightADC} shows the expected change in average background light observed by the FD telescopes for no moon, 1st/3rd quarter moon and full moon / twilight. 1st/3rd quarter moon is either one quarter or three quarters through the moon orbital cycle and is typically 50\% of the observable moon from earth is illuminated. From the table it can seen that going from no moon to quarter moon to full moon jumps by a factor of ten in the observed ADC variance. The large change in moon brightness for the different phases is due to that the light is spectral reflection not diffusion reflection.
+The Night Sky Background for Auger typically refers to airglow, zodiacal light, scattered starlight and any man-made light. Moonlight is a separate source of background light as an FD shift is typically operated when the moon is below the horizon. Table \ref{tab:MoonLightADC} shows the expected change in average background light observed by the FD telescopes for no moon, 1st/3rd quarter moon and full moon / twilight. 1st/3rd quarter moon is either one quarter or three quarters through the moon orbital cycle and is when 50\% of the observable moon from earth is illuminated. From the table it can seen that going from no moon to quarter moon to full moon jumps by a factor of ten in the observed ADC variance at each step. The large change in moon brightness for the different phases is due to the fact that the light is subject to spectral reflection not diffusion reflection.
 
 \begin{table}[h]
 \centering
-\begin{tabular}{c c c}
+\begin{tabular}{c c c c}
 \hline\hline
-Condition & $\sigma^2$ [ADC$^2$/100 ns] & I$_{\mathrm{a}}$ [$\mu$A] \\ \hline\hline
-no moon & 25 & 0.5 \\
-quarter moon & 250 & 5 \\
-full moon/twilight & 2500 & 50 \\ 
+Condition & Illumination Fraction & $\sigma^2$ [ADC$^2$/100 ns] & I$_{\mathrm{a}}$ [$\mu$A] \\ \hline\hline
+no moon & 0\% & 25 & 0.5 \\
+quarter moon & 50\% & 250 & 5 \\
+full moon/twilight & 100\% & 2500 & 50 \\ 
 \hline\hline
 \end{tabular}
-\caption{Expected average observed variance in ADC$^2$ and anode current in $\mu$A by the PMTs in the FD telescopes under different NSB conditions. No Moon is the typical conditions that the FD shift is run under.  } \label{tab:MoonLightADC}
+\caption{Expected average observed variance in ADC$^2$, and the anode current in $\mu$A by the PMTs in the FD telescopes under different NSB conditions. No Moon is the typical conditions for operation of the FD shift.} \label{tab:MoonLightADC}
 \end{table} 
 
-Figure \ref{fig:MoonYearlyFrac} plot the integral percent of the night time within a year with the moon less than a particular illuminated fraction. Only times between astronomical dusk and dawn has been included. The solid line shows the percent of the year is astronomical twilight (sun at least 18\textdegree below the horizon. The dotted lines represent relaxed definition of twilight with the sun being at 15\textdegree , 12\textdegree \ and 9\textdegree \ below the horizon. The line curves up slowly due to that throughout the moon orbital cycle it will be visible during the day. After first quarter and before 3rd quarter will the moon be visible for longer at night time. A combination of loosen the definition of twilight and observing under indirect moonlight could increase the duty cycle by 5\% to 10\% across a year.
+Figure \ref{fig:MoonYearlyFrac} plots the integral fraction of the night time within a year with the moon less than a particular illuminated fraction. Only times between astronomical dusk and dawn has been included. The solid line shows the percent of the year is astronomical twilight (sun at least 18\textdegree below the horizon. The dotted lines represent relaxed definition of twilight with the sun being at 15\textdegree , 12\textdegree \ and 9\textdegree \ below the horizon. The line curves up slowly due to that throughout the moon orbital cycle at times it will above the horizon during daylight hours. After first quarter and before 3rd quarter the moon be visible for longer at night time. Observing under indirect moonlight could increase the duty cycle by 5\% to 10\% across a year.
 
 
-Figure \ref{fig:MoonIllumFrac} shows the relative change in brightness of the moon depending of the observed illuminated fraction. The red line is a fitted exponential to U-Band data taken at the La Palma observatory. The graph shows the large different in moon brightness as the illuminated fraction increases which was also described in Table \ref{tab:MoonLightADC}. The slope is comparable to actual data taken from the background files measured by the FD telescopes. The ADC variance plotted against fraction of illuminated moon is shown in Figure \ref{fig:ADCvarVSmoonIllumFrac}.
+Figure \ref{fig:MoonIllumFrac} shows the relative change in brightness of the moon depending of the observed illuminated fraction. The red line is a fitted exponential to U-Band data taken at the La Palma observatory. The graph shows the large different in moon brightness as the illuminated fraction increases which was also described in Table \ref{tab:MoonLightADC}. The slope is comparable to actual data taken from the background files measured by the FD telescopes. The measured ADC variance plotted against fraction of illuminated moon is shown in Figure \ref{fig:ADCvarVSmoonIllumFrac}.
 
 
 \subsection{Toy Model of the effect of increased NSB on aperture}
@@ -188,11 +192,11 @@ A simple measure of how well a detector will operate is to calculate the signal-
 \begin{equation}
 \mathrm{Signal \ to \ Noise} = \frac{\mathrm{S}}{\mathrm{N}} \label{eq:SNratio}
 \end{equation}
-where S is the signal and N is the noise. The first step is to calculate the noise (N) expected from a background signal ($B$). First the background photo-electron count ($B$) seen from the night sky is calculate via:
+where S is the signal and N is the noise amplitude. The first step is to calculate the noise (N) expected from a background signal ($B$). First the background photo-electron count rate ($B$) seen from the night sky is calculate via:
 \begin{equation}
 B \propto \epsilon A b \Delta \Omega \Delta t \nonumber
 \end{equation}
-where $\epsilon$ is the optical efficiency of the telescope, $A$ is the mirror area, $b$ is the background light flux and $\Delta\Omega$ is the solid angle of the sky viewed by a single PMT. $\epsilon$ is f $\times$ Q where F is the optics factor shown in Table. \ref{tab:OpticsBreakdown} and Q is the quantum efficiency of the photon sensitive device (I.E. photomultiplier tube). Next the noise can be found which is the square root of the background signal:
+where $\epsilon$ is the optical efficiency of the telescope, $A$ is the mirror area, $b$ is the background light flux and $\Delta\Omega$ is the solid angle of the sky viewed by a single PMT. $\epsilon$ is f $\times$ Q where F is the optics factor shown in Table. \ref{tab:OpticsBreakdown} and Q is the quantum efficiency of the photon sensitive device (i.e. photomultiplier tube). Next the fluctuations on the noise can be found which is the square root of the background signal:
 \begin{equation}
 N = \sqrt{B} \propto \sqrt{\epsilon A b \Delta \Omega \Delta t} \label{eq:DetectNoise}
 \end{equation}
@@ -201,13 +205,13 @@ Next step is to calculate the signal (S) from an extensive air shower that a det
 \begin{equation}
 S \propto \frac{\epsilon A n_{+} n_{\gamma} c \Delta t}{4 \pi \mathrm{R}^2} e^{-\mathrm{R}/\lambda_{\mathrm{R}}} \label{eq:DetectSignal}
 \end{equation}
-where $n_+$ is the number of charge particles in the shower viewed by the photon sensitive device, $n_{\gamma}$ is the photon yield per charged particle for atmospheric scintillation, $R$ is the distance to the shower segment, $c\Delta t$ is the length of the shower segment, and $\lambda_{\mathrm{R}}$ is the Rayleigh attenuation length of light in the atmosphere. Substituting Eq. \ref{eq:DetectNoise} and Eq. \ref{eq:DetectSignal} into Eq. \ref{eq:SNratio} and removing the approximation gives:
+where $n_+$ is the number of charge particles in the shower viewed by the photon sensitive device, $n_{\gamma}$ is the photon yield per charged particle for atmospheric scintillation, $R$ is the distance to the shower segment, $c\Delta t$ is the length of the shower segment, and $\lambda_{\mathrm{R}}$ is the Rayleigh attenuation length of light in the atmosphere. Substituting Eq. \ref{eq:DetectNoise} and Eq. \ref{eq:DetectSignal} into Eq. \ref{eq:SNratio} and removing the proportionality gives:
 \begin{equation}
 \frac{S}{N} = n_+ n_{\gamma} c \frac{(1 + \mathrm{cos}\theta)}{4 \pi (\mathrm{R} \times \mathrm{sin}\theta)^2} \sqrt{\frac{\epsilon A \Delta t}{b \Delta\Omega}} e^{-\mathrm{R}/\lambda_{\mathrm{R}}} \label{eq:SN_complete}
 \end{equation}
 where $\theta$ is the viewing angle of the EAS.
 
-From here I use value specific to the Fluorescence Detectors to calculate the S/N ratio expected. The majority of the values used are shown in Table \ref{tab:FDvalues}. The viewing angle is 90\textdegree \ as the shower viewed at 15\textdegree with the center of the FD camera is at 15\textdegree \ elevation. As the perpendicular segment of the shower is being observed therefore R = R$_P$ where R$_P$ is the closest distance that the shower axis is to the FD. The Rayleigh attenuation length ($\lambda_{\mathrm{R}}$) is calculated via:
+From here I use values specific to the Fluorescence Detectors to calculate the S/N ratio expected. The majority of the values used are shown in Table \ref{tab:FDvalues}. The viewing angle is 90\textdegree \ as the shower is viewed at 15\textdegree \ with the center of the FD camera at 15\textdegree \ elevation. As the perpendicular segment of the shower is being observed therefore R = R$_P$ where R$_P$ is the closest distance that the shower axis is to the FD. The Rayleigh attenuation length ($\lambda_{\mathrm{R}}$) is calculated via:
 \begin{equation}
 \lambda_{\mathrm{R}} = 2974 \left(\frac{\lambda}{400 \ \mathrm{nm}} \right)^4 \mathrm{g}/\mathrm{cm}^2 \label{eq:RayleighAttenuationLength}
 \end{equation}
@@ -221,7 +225,7 @@ The $\Delta$X$_P$ can be calculated from the distance $R_P$ via
 \Delta \mathrm{X}_{\mathrm{vertical}} &=& 860 - 860\mathrm{exp}(-\mathrm{h}/7500) \\
 \mathrm{h} &=& \mathrm{R}_P \times \mathrm{sin}15^{\circ}
 \end{eqnarray}
-where h is the vertical distance in meters and $\Delta$X$_{\mathrm{vertical}}$ is the vertical path in g/cm$^2$, the shower axis is at 15\textdegree \ elevation and 75\textdegree \ is the zenith angle. To find the grammage along the path to R$_P$ the vertical distance h is substituted and then the path $\Delta$X$_P$ can be found. The relationship between $\Delta$X$_P$ and R$_P$ is shown in Fig. \ref{fig:XpVsRp} for a detector viewing the sky at 15\textdegree \ elevation. The relationship is curved due to the amount of atmospheric molecules dropping off rapidly as the observed event moves further away both horizontally and vertically.
+where h is the vertical distance of the shower segment in meters and $\Delta$X$_{\mathrm{vertical}}$ is the vertical path in g/cm$^2$, the shower axis is at 15\textdegree \ elevation and 75\textdegree \ is the zenith angle. To find the grammage along the path to R$_P$ the vertical distance h is substituted and then the path $\Delta$X$_P$ can be found. The relationship between $\Delta$X$_P$ and R$_P$ is shown in Fig. \ref{fig:XpVsRp} for a detector viewing the sky at 15\textdegree \ elevation. The relationship is curved due to the amount of atmospheric molecules dropping off rapidly as the observed event moves further away both horizontally and vertically.
 
 
 \begin{table}

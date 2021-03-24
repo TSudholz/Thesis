@@ -1,0 +1,17 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Calculation of the yearly expected FD duty cycle done by the Collaboration. Bad weather is the inclusion of rain, high wind speeds and lightning strikes in the FDs field of view. Failures include any software or hardware issues that prevented any of the FD telescopes from collecting data.\relax }}{18}{table.caption.16}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Typical values for the constants used to calculate A$_{\mathrm {G}}$ which is the absolute gain (ADC/photo-electron). $\mathrm {C}_{\mathrm {FD}}$ is the FD pixel calibration constant, Q is the Quantum efficiency of the PMT turning photons into photo-electrons and f is the photon collection efficiency of the telescope optics.\relax }}{21}{table.caption.18}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Breakdown of all the components that go into the FD photon collection efficiency. Photon Collection Efficiency = Filter Transmission $\times $ Corrector Ring lens Transmission $\times $ Mirror Reflectivity $\times $ Camera Shadow Factor $\times $ Mercedes Collection Efficiency ( f = F $\times $ L $\times $ T $\times $ R $\times $ M)\relax }}{21}{table.caption.19}
+\contentsline {table}{\numberline {4.4}{\ignorespaces \relax }}{21}{table.caption.20}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Expected average observed variance in ADC$^2$, and the anode current in $\mu $A by the PMTs in the FD telescopes under different NSB conditions. No Moon is the typical conditions for operation of the FD shift.\relax }}{22}{table.caption.23}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Values specific to the Fluorescence Detectors.\relax }}{28}{table.caption.24}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

@@ -15,7 +15,7 @@
 \usepackage[labelfont={bf}, margin=0.5cm]{caption}
 \usepackage{pdflscape}
 \usepackage{subcaption}
-\usepackage{caption}
+%\usepackage{caption}
 \usepackage{xspace}
 \usepackage{float}
 \usepackage{placeins}
@@ -24,9 +24,10 @@
 \usepackage{datetime}
 \usepackage[a4paper,inner=3.5cm,outer=2cm,top=2.5cm,bottom=2.5cm,pdftex]{geometry}
 \usepackage{emptypage}
-\usepackage{hyperref}
+\usepackage[pagebackref]{hyperref}
 \usepackage[export]{adjustbox}
 \usepackage{sectsty}
+\usepackage{times}
 
 \hypersetup{
 	linktocpage,
@@ -42,6 +43,7 @@
 \fancyhead[RE]{\rightmark}
 \fancyhead[RO,LE]{\thepage}
 
+\renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\textfraction}{.05}
 \renewcommand{\floatpagefraction}{.40}
 
@@ -90,6 +92,17 @@
 %\usepackage{etoolbox}
 %\patchcmd{\chapter}{\thispagestyle{plain}}{\thispagestyle{fancy}}{}{}
 
+\usepackage[square, numbers]{natbib}
+\bibliographystyle{unsrt2authabbrvpp}
+\renewcommand*{\backref}[1]{}
+\renewcommand*{\backrefalt}[4]{%
+    \ifcase #1 (Not cited.)%
+    \or        (Cited on page~#2.)%
+    \else      (Cited on pages~#2.)%
+    \fi} 
+
+\usepackage[nottoc,notlot,notlof]{tocbibind}
+
 \setlength{\headheight}{15pt}
 
 \chapternumberfont{\LARGE} 
@@ -113,6 +126,7 @@
 %
 \input{chapters/acknowledgements.tex}
 
+
 \tableofcontents
 %\listoffigures
 %\listoftables
@@ -132,6 +146,7 @@
 \input{chapters/CharacterOfPMT.tex}
 \input{chapters/CompSimOfPMT.tex}
 \input{chapters/GainVarianceMeasure.tex}
+\input{chapters/GainVarianceResults.tex}
 \input{chapters/LabSimOfFDshift.tex}
 \input{chapters/CloudCamera.tex}
 
@@ -147,6 +162,7 @@
 \end{appendices}
 
 \bibliographystyle{ieeetr}
+
 \bibliography{PhD_PaperBiblography}
 
 \end{document}

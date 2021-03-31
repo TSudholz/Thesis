@@ -1,11 +1,12 @@
-\contentsline {chapter}{Nomenclature}{xiii}{chapter*.5}
+\contentsline {chapter}{Nomenclature}{xi}{chapter*.5}
 \contentsline {chapter}{Introduction}{1}{chapter*.6}
 \contentsline {chapter}{\numberline {1}Cosmic-Rays}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}History of Cosmic-Rays}{3}{section.1.1}
 \contentsline {section}{\numberline {1.2}Energy Spectrum and Mass composition}{3}{section.1.2}
-\contentsline {section}{\numberline {1.3}Production Method and Sources}{5}{section.1.3}
+\contentsline {section}{\numberline {1.3}Production Method and Sources}{3}{section.1.3}
 \contentsline {chapter}{\numberline {2}Detection of Cosmic-rays}{7}{chapter.2}
 \contentsline {section}{\numberline {2.1}Extensive Air Showers}{7}{section.2.1}
+<<<<<<< HEAD
 \contentsline {section}{\numberline {2.2}Electromagnetic Component}{8}{section.2.2}
 \contentsline {section}{\numberline {2.3}Hadronic Component}{9}{section.2.3}
 \contentsline {section}{\numberline {2.4}Fluorescence Production}{9}{section.2.4}
@@ -80,3 +81,62 @@
 \contentsline {chapter}{\numberline {11}Conclusion}{95}{chapter.11}
 \contentsline {section}{\numberline {11.1}Future Work}{95}{section.11.1}
 \contentsline {chapter}{Bibliography}{97}{chapter*.79}
+=======
+\contentsline {section}{\numberline {2.2}Fluorescence Production}{7}{section.2.2}
+\contentsline {section}{\numberline {2.3}Atmospheric Effects}{7}{section.2.3}
+\contentsline {section}{\numberline {2.4}Detectors and History}{7}{section.2.4}
+\contentsline {chapter}{\numberline {3}Pierre Auger Observatory}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1}Surface Detector}{9}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}AugerPrime}{9}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Fluorescence Detector}{9}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Photomultiplier Tubes}{12}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Communication System and CDAS}{12}{section.3.3}
+\contentsline {section}{\numberline {3.4}Event Reconstruction}{12}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Surface Detector}{12}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Fluorescence Detector}{12}{subsection.3.4.2}
+\contentsline {section}{\numberline {3.5}Enhancements and future upgrades}{12}{section.3.5}
+\contentsline {chapter}{\numberline {4}The Effects of Increased NSB on the FD Trigger and Reconstruction}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}Motivation}{13}{section.4.1}
+\contentsline {section}{\numberline {4.2}Background Information}{13}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Current Fluorescence Detector Operation}{13}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Night Sky Background and the Moon}{17}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Toy Model of the effect of increased NSB on aperture}{19}{subsection.4.2.3}
+\contentsline {section}{\numberline {4.3}Increasing NSB in Real Data to evaluate Reconstruction Efficiency}{24}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Method}{24}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Results}{28}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Discussion}{28}{subsection.4.3.3}
+\contentsline {section}{\numberline {4.4}Increasing NSB in Simulations to evaluate Trigger and Reconstruction Efficiency}{28}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Method}{28}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Comparison of Simulated Data to Real Data}{29}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Results}{29}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Discussion}{29}{subsection.4.4.4}
+\contentsline {section}{\numberline {4.5}Conclusion/Summary}{29}{section.4.5}
+\contentsline {chapter}{\numberline {5}Quantifying Characteristics of the FD PMT}{35}{chapter.5}
+\contentsline {section}{\numberline {5.1}Motivation}{35}{section.5.1}
+\contentsline {section}{\numberline {5.2}PMT Linearity}{36}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Neutral Density Filters}{36}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Two LED Method}{36}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Effects of Temperature on PMT Gain}{39}{section.5.3}
+\contentsline {chapter}{\numberline {6}Computer Simulation of FD PMT}{43}{chapter.6}
+\contentsline {section}{\numberline {6.1}Motivation}{43}{section.6.1}
+\contentsline {section}{\numberline {6.2}Method and Theory}{43}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Theoretical value of Gain Variance?}{44}{subsection.6.2.1}
+\contentsline {section}{\numberline {6.3}Results of PMT Gain Variance Simulation}{44}{section.6.3}
+\contentsline {section}{\numberline {6.4}Simulation of Gain Variance Method}{44}{section.6.4}
+\contentsline {section}{\numberline {6.5}FD FLT under different NSB levels}{44}{section.6.5}
+\contentsline {chapter}{\numberline {7}Measuring FD PMT Gain Variance with CalA Data}{51}{chapter.7}
+\contentsline {section}{\numberline {7.1}Motivation}{51}{section.7.1}
+\contentsline {section}{\numberline {7.2}Using CalA to measure relative changes in Gain Variance}{51}{section.7.2}
+\contentsline {section}{\numberline {7.3}Electronic Noise}{52}{section.7.3}
+\contentsline {section}{\numberline {7.4}Pairs Method}{52}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Results}{54}{subsection.7.4.1}
+\contentsline {section}{\numberline {7.5}Averaging Sets of Traces Method}{54}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Results}{54}{subsection.7.5.1}
+\contentsline {section}{\numberline {7.6}Result of Averaging Sets of Traces Method with Least Trimmed Squares}{63}{section.7.6}
+\contentsline {section}{\numberline {7.7}Result of Averaging Sets of Traces Method using Noise Distribution}{63}{section.7.7}
+\contentsline {section}{\numberline {7.8}Attempts to measure Gain Variance directly in the Lab}{63}{section.7.8}
+\contentsline {chapter}{\numberline {8}Laboratory Simulation of FD shift}{67}{chapter.8}
+\contentsline {chapter}{\numberline {9}Evaluation of Cloud Camera Cuts}{69}{chapter.9}
+\contentsline {chapter}{\numberline {10}Conclusion}{71}{chapter.10}
+\contentsline {section}{\numberline {10.1}Future Work}{71}{section.10.1}
+>>>>>>> master

@@ -73,8 +73,10 @@
 \contentsline {section}{\numberline {10.1}Equipment used to detect cloud over the array}{77}{section.10.1}
 \contentsline {section}{\numberline {10.2}Method - Cloud Flags and Their Impact}{77}{section.10.2}
 \contentsline {section}{\numberline {10.3}Results - Effect on Mean Xmax and Spread in Xmax}{79}{section.10.3}
+\contentsline {subsection}{\numberline {10.3.1}Examples of Events that have failed Cloud Selection Cuts from EventBrowser}{79}{subsection.10.3.1}
+\contentsline {subsection}{\numberline {10.3.2}Examples of Events that have passed Cloud Selection Cuts from EventBrowser}{79}{subsection.10.3.2}
 \contentsline {section}{\numberline {10.4}Discussion - Are we being too conservative?}{79}{section.10.4}
 \contentsline {section}{\numberline {10.5}Conclusion}{79}{section.10.5}
-\contentsline {chapter}{\numberline {11}Conclusion}{87}{chapter.11}
-\contentsline {section}{\numberline {11.1}Future Work}{87}{section.11.1}
-\contentsline {chapter}{Bibliography}{89}{chapter*.72}
+\contentsline {chapter}{\numberline {11}Conclusion}{95}{chapter.11}
+\contentsline {section}{\numberline {11.1}Future Work}{95}{section.11.1}
+\contentsline {chapter}{Bibliography}{97}{chapter*.79}

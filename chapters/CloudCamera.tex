@@ -13,9 +13,11 @@ IR Cloud Cameras - Two version of IR camera has been running in tandem with the 
 
 GOES Satellite data
 
-CLF and XLF
+CLF and XLF - mainly used to measure atmospheric aerosol. These instruments can also be used to measure the Cloud Base Heights above their locations. Their locations happen to be towards the center of the array.
 
-LIDAR
+LIDAR - there's a LIDAR site located behind each of FD eye's. Operated to scan 
+
+
 
 \section{Method - Cloud Flags and Their Impact}
 
@@ -175,6 +177,252 @@ Look at the histograms of Xmax distributions for data passing cloud cuts, data f
 \centering
 \includegraphics[width=\textwidth]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_FailedCloudCut_logE_Greater19_5_Comb.pdf}
 \caption{Distribution of the energy of events within the bin of log(E) of greater than 19.5. Red (X15) denotes all event that failed the cloud cuts, black (X25) denotes events that failed the cloud camera/lidar cut, blue (X35) denotes events that failed the GOES data cut and green (X45) are events that have fail a combination of CLF/XLF, GOES and Cloud camera cut.}
+\end{figure}
+
+\subsection{Examples of Events that have failed Cloud Selection Cuts from EventBrowser}
+
+% Events that would fail the cloud cut only
+
+\begin{figure}
+\centering
+  \settoheight{\tempheight}{\includegraphics[width=0.45\textwidth , trim = 0 0 5.5cm 0]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_52704749200_FdEventInfo.pdf}}
+ \vspace{2cm}
+  \begin{subfigure}[b]{\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_52704749200_SlantDepth.pdf}
+  \caption{FD profile of the energy deposited as a function of atmospheric depth.}
+  \end{subfigure}
+ \vspace{0.5cm}
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+  	\includegraphics[width=\textwidth , height=\tempheight]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_52704749200_FdProfile.pdf}
+  	\caption{FD light profile}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+  	\includegraphics[width=0.8\textwidth , height=\tempheight]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_52704749200_SdProfile.pdf}
+  	\caption{SD tank triggered profile}
+  \end{subfigure}
+
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+	\includegraphics[height=\tempheight , trim = 0 0 5.5cm 0]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_52704749200_FdEventInfo.pdf}
+  	\caption{FD light profile}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+	\includegraphics[height=\tempheight]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_52704749200_SdEventInfo.pdf}
+  	\caption{SD tank triggered profile}
+  \end{subfigure}
+  \caption{Example of an Auger event that would fail the cloud selection cut from EventBrowser}
+\end{figure}
+
+\begin{figure}
+\centering
+  \settoheight{\tempheight}{\includegraphics[width=0.45\textwidth , trim = 0 0 5.5cm 0]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_70735278500_FdEventInfo.pdf}}
+ \vspace{2cm}
+  \begin{subfigure}[b]{\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_160416430001_SlantDepth.pdf}
+  \caption{FD profile of the energy deposited as a function of atmospheric depth.}
+  \end{subfigure}
+ \vspace{0.5cm}
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+  	\includegraphics[width=\textwidth , height=\tempheight]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_160416430001_FdProfile.pdf}
+  	\caption{FD light profile}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+  	\includegraphics[width=0.8\textwidth , height=\tempheight]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_160416430001_SdProfile.pdf}
+  	\caption{SD tank triggered profile}
+  \end{subfigure}
+
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+	\includegraphics[height=\tempheight , trim = 0 0 5.5cm 0]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_160416430001_FdEventInfo.pdf}
+  	\caption{FD light profile}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+	\includegraphics[height=\tempheight]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_160416430001_SdEventInfo.pdf}
+  	\caption{SD tank triggered profile}
+  \end{subfigure}
+  \caption{Example of an Auger event that would fail the cloud selection cut from EventBrowser}
+\end{figure}
+
+\begin{figure}
+\centering
+  \settoheight{\tempheight}{\includegraphics[width=0.45\textwidth , trim = 0 0 5.5cm 0]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_70735278500_FdEventInfo.pdf}}
+ \vspace{2cm}
+  \begin{subfigure}[b]{\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_70735278500_SlantDepth.pdf}
+  \caption{FD profile of the energy deposited as a function of atmospheric depth.}
+  \end{subfigure}
+ \vspace{0.5cm}
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+  	\includegraphics[width=\textwidth , height=\tempheight]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_70735278500_FdProfile.pdf}
+  	\caption{FD light profile}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+  	\includegraphics[width=0.8\textwidth , height=\tempheight]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_70735278500_SdProfile.pdf}
+  	\caption{SD tank triggered profile}
+  \end{subfigure}
+
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+	\includegraphics[height=\tempheight , trim = 0 0 5.5cm 0]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_70735278500_FdEventInfo.pdf}
+  	\caption{FD light profile}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+	\includegraphics[height=\tempheight]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_70735278500_SdEventInfo.pdf}
+  	\caption{SD tank triggered profile}
+  \end{subfigure}
+  \caption{Example of an Auger event that would fail the cloud selection cut from EventBrowser}
+\end{figure}
+
+\begin{figure}
+\centering
+  \settoheight{\tempheight}{\includegraphics[width=0.45\textwidth , trim = 0 0 5.5cm 0]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_153086776200_FdEventInfo.pdf}}
+ \vspace{2cm}
+  \begin{subfigure}[b]{\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_153086776200_SlantDepth.pdf}
+  \caption{FD profile of the energy deposited as a function of atmospheric depth.}
+  \end{subfigure}
+ \vspace{0.5cm}
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+  	\includegraphics[width=\textwidth , height=\tempheight]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_153086776200_FdProfile.pdf}
+  	\caption{FD light profile}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+  	\includegraphics[width=0.8\textwidth , height=\tempheight]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_153086776200_SdProfile.pdf}
+  	\caption{SD tank triggered profile}
+  \end{subfigure}
+
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+	\includegraphics[height=\tempheight , trim = 0 0 5.5cm 0]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_153086776200_FdEventInfo.pdf}
+  	\caption{FD light profile}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+	\includegraphics[height=\tempheight]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_153086776200_SdEventInfo.pdf}
+  	\caption{SD tank triggered profile}
+  \end{subfigure}
+  \caption{Example of an Auger event that would fail the cloud selection cut from EventBrowser}
+\end{figure}
+
+\subsection{Examples of Events that have passed Cloud Selection Cuts from EventBrowser}
+
+% Events that would fail the cloud cut only
+
+\begin{figure}
+\centering
+  \settoheight{\tempheight}{\includegraphics[width=0.45\textwidth , trim = 0 0 5.5cm 0]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_70136635100_FdEventInfo.pdf}}
+ \vspace{2cm}
+  \begin{subfigure}[b]{\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_70136635100_SlantDepth.pdf}
+  \caption{FD profile of the energy deposited as a function of atmospheric depth.}
+  \end{subfigure}
+ \vspace{0.5cm}
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+  	\includegraphics[width=\textwidth , height=\tempheight]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_70136635100_FdProfile.pdf}
+  	\caption{FD light profile}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+  	\includegraphics[width=0.8\textwidth , height=\tempheight]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_70136635100_SdProfile.pdf}
+  	\caption{SD tank triggered profile}
+  \end{subfigure}
+
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+	\includegraphics[height=\tempheight , trim = 0 0 5.5cm 0]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_70136635100_FdEventInfo.pdf}
+  	\caption{FD light profile}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+	\includegraphics[height=\tempheight]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_70136635100_SdEventInfo.pdf}
+  	\caption{SD tank triggered profile}
+  \end{subfigure}
+  \caption{Example of an Auger event that would pass the cloud selection cut from EventBrowser}
+\end{figure}
+
+\begin{figure}
+\centering
+  \settoheight{\tempheight}{\includegraphics[width=0.45\textwidth , trim = 0 0 5.5cm 0]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_101576030600_FdEventInfo.pdf}}
+ \vspace{2cm}
+  \begin{subfigure}[b]{\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_101576030600_SlantDepth.pdf}
+  \caption{FD profile of the energy deposited as a function of atmospheric depth.}
+  \end{subfigure}
+ \vspace{0.5cm}
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+  	\includegraphics[width=\textwidth , height=\tempheight]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_101576030600_FdProfile.pdf}
+  	\caption{FD light profile}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+  	\includegraphics[width=0.8\textwidth , height=\tempheight]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_101576030600_SdProfile.pdf}
+  	\caption{SD tank triggered profile}
+  \end{subfigure}
+
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+	\includegraphics[height=\tempheight , trim = 0 0 5.5cm 0]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_101576030600_FdEventInfo.pdf}
+  	\caption{FD light profile}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+	\includegraphics[height=\tempheight]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_101576030600_SdEventInfo.pdf}
+  	\caption{SD tank triggered profile}
+  \end{subfigure}
+  \caption{Example of an Auger event that would pass the cloud selection cut from EventBrowser}
+\end{figure}
+
+\begin{figure}
+\centering
+  \settoheight{\tempheight}{\includegraphics[width=0.45\textwidth , trim = 0 0 5.5cm 0]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_92285877600_FdEventInfo.pdf}}
+ \vspace{2cm}
+  \begin{subfigure}[b]{\textwidth}
+  \centering
+  \includegraphics[width=\textwidth]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_92285877600_SlantDepth.pdf}
+  \caption{FD profile of the energy deposited as a function of atmospheric depth.}
+  \end{subfigure}
+ \vspace{0.5cm}
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+  	\includegraphics[width=\textwidth , height=\tempheight]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_92285877600_FdProfile.pdf}
+  	\caption{FD light profile}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+  	\includegraphics[width=0.8\textwidth , height=\tempheight]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_92285877600_SdProfile.pdf}
+  	\caption{SD tank triggered profile}
+  \end{subfigure}
+
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+	\includegraphics[height=\tempheight , trim = 0 0 5.5cm 0]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_92285877600_FdEventInfo.pdf}
+  	\caption{FD light profile}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.45\textwidth}
+  	\centering
+	\includegraphics[height=\tempheight]{/home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_92285877600_SdEventInfo.pdf}
+  	\caption{SD tank triggered profile}
+  \end{subfigure}
+  \caption{Example of an Auger event that would pass the cloud selection cut from EventBrowser}
 \end{figure}
 
 \section{Discussion - Are we being too conservative?}

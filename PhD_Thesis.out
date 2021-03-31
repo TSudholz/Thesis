@@ -73,8 +73,10 @@
 \BOOKMARK [1][-]{section.10.1}{Equipment used to detect cloud over the array}{chapter.10}% 73
 \BOOKMARK [1][-]{section.10.2}{Method - Cloud Flags and Their Impact}{chapter.10}% 74
 \BOOKMARK [1][-]{section.10.3}{Results - Effect on Mean Xmax and Spread in Xmax}{chapter.10}% 75
-\BOOKMARK [1][-]{section.10.4}{Discussion - Are we being too conservative?}{chapter.10}% 76
-\BOOKMARK [1][-]{section.10.5}{Conclusion}{chapter.10}% 77
-\BOOKMARK [0][-]{chapter.11}{Conclusion}{}% 78
-\BOOKMARK [1][-]{section.11.1}{Future Work}{chapter.11}% 79
-\BOOKMARK [0][-]{chapter*.72}{Bibliography}{}% 80
+\BOOKMARK [2][-]{subsection.10.3.1}{Examples of Events that have failed Cloud Selection Cuts from EventBrowser}{section.10.3}% 76
+\BOOKMARK [2][-]{subsection.10.3.2}{Examples of Events that have passed Cloud Selection Cuts from EventBrowser}{section.10.3}% 77
+\BOOKMARK [1][-]{section.10.4}{Discussion - Are we being too conservative?}{chapter.10}% 78
+\BOOKMARK [1][-]{section.10.5}{Conclusion}{chapter.10}% 79
+\BOOKMARK [0][-]{chapter.11}{Conclusion}{}% 80
+\BOOKMARK [1][-]{section.11.1}{Future Work}{chapter.11}% 81
+\BOOKMARK [0][-]{chapter*.79}{Bibliography}{}% 82

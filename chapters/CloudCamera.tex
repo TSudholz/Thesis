@@ -1,21 +1,31 @@
 \chapter[Evaluation of Cloud Cuts on Auger Event Data]{\centering Evaluation of Cloud Cuts on Auger Event Data \\}\label{Ch:CloudCuts}
 
 First look into the effectiveness of the Cloud cuts on Auger Golden Hybrid data from 2004 to 2018.
-I investigated the effects of removing the cloud cut from the list of quality cuts. This list includes cuts to remove events within known bad data taking periods, cuts on aerosol levels, event quality etc. Below is an example of a cuts file that is used within Auger.
+I investigated the effects of removing the cloud cut from the list of quality cuts. This list includes cuts to remove events within known bad data taking periods, cuts on aerosol levels, event quality etc. Within the method section I shown an example of a cuts file that is used within Auger.
 
 This investigation was done to quantify the effects that the cloud cuts had on the data set. A question had been raised about whether the quality cuts on fitted values, Chi2 and requiring events with large gaps where doing the same job as the cloud cuts. There is a lot of uncertainty about whether a detected cloud had impacted each events.
 
+It is important to know where clouds are located in relation to EAS events due to the different effects that clouds can have on the detected light profile by the FDs. If a cloud partially obscures the FD view of the event it can causing a gap in the profile or a cloud may in the path of the development of the EAS event. In the first case a gap will cause the reconstruction of the energy of the event to be underestimated. While in the second case a cloud within the path of development can amplify the amount of Cherenkov light scattered towards the FD which can in turn cause an overestimate of the reconstructed energy.
+
 Cloud information has large uncertainty about quantities like cloud height, distance from telescopes and timing. The timing uncertainty is due to atmospheric data being snapshots with time gaps between shots. Examples are Cloud camera scans are performed every 5 minutes. A cloud could move quite a far distance within this time.
 
-\section{Equipment used to detect cloud over the array}
+\section{Equipment used to monitor clouds above the array}
 
-IR Cloud Cameras - Two version of IR camera has been running in tandem with the operation of the FD's. Find dates of operation
+There are multiple instruments used to monitor the cloud coverage across the array. These are a combination of collaboration run instruments specifically setup to monitor atmospheric conditions within the array and externally run instruments that monitor boarder atmospheric conditions that happen to include the array. 
 
-GOES Satellite data
+The combination of instruments used to monitor clouds are the bistatic lidar system, the Geostationary Operational Environmental Satellite (GOES) system, Infra-red cameras and the Central Laser Facility (CLF).
 
-CLF and XLF - mainly used to measure atmospheric aerosol. These instruments can also be used to measure the Cloud Base Heights above their locations. Their locations happen to be towards the center of the array.
+\subsection{Infra-Red Cameras}
 
-LIDAR - there's a LIDAR site located behind each of FD eye's. Operated to scan 
+The main way clouds are monitored is by infra-red cameras located on the roof of each FD eyes. The cameras record light between 8 $\mu$m and 14 $\mu$m which measurement clouds as warmer then the sky. The cloud cameras take images with the FoV of the FD eyes every 5 minutes while a full sky scan is performed every 15 minutes. The images within the FoV of the Fd eyes are analysed to calculate a cloud fraction between 0\% and 100\% for each FD pixel. The pixels observing $\sim$ 5\textdegree \ above the horizon and below are not assigned a cloud fraction as observing clouds this close to the ground is difficult. The difficulty arise due to the fact that in IR the atmosphere becomes optically thick close to the horizon and the large present of water vapour close to the ground. When an event is reconstructed, the cloud fraction of each FD pixel that observed the EAS event is queried.
+ 
+\subsection{Bistatic Lidar System}
+
+
+
+\subsection{Geostationary Operational Environmental Satellite (GOES) system}
+
+\subsection{Central Laser Facility (CLF)}
 
 
 

@@ -1,19 +1,21 @@
 \chapter[Computer Simulation of FD PMT]{\centering Computer Simulation of Fluorescence Detector Photomultiplier Tubes \\}\label{Ch:CompSimPMT}
 
-Simulating the FD PMT under differing NSB and for different reasons.
-\begin{itemize}
-\item Theoretical value for Gain Variance
-\item PMT Gain Variance
-\item Show both for flat distribution and Gaussian variations for dynodes
-\item Results
-\item FD FLT under increased NSB
-\end{itemize}
+%Simulating the FD PMT under differing NSB and for different reasons.
+%\begin{itemize}
+%\item Theoretical value for Gain Variance
+%\item PMT Gain Variance
+%\item Show both for flat distribution and Gaussian variations for dynodes
+%\item Results
+%\item FD FLT under increased NSB
+%\end{itemize}
 
 \section{Motivation}
 
-- PMT Theory/Background
+We want to understand the theoretical framework that underlines the working of a Photomultiplier Tube in regards to the Gain Variance. 
 
-\section{Method and Theory}
+\section{Background}
+
+\section{Method}
 
 For a deeper understanding of how the PMT gain variance works I used a toy model Monte Carlo to  simulate electrons moving throughout the PMT dynode chain. Gain Variance is the Gaussian broadening of the measured anode signal. The number of electrons that are emitted from each dynode follows a Poisson distribution.  When an electron hits a dynode the number of electrons emitted follow a probability distribution that is Poission in shape. As electrons travel further down the dynode chain and the number of electrons emitted per dynode increase the distribution becomes more Gaussian like.
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.11)  4 MAY 2021 14:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2018.12.11)  18 NOV 2021 13:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -707,7 +707,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 5.
 
-<pix/UoA_col_vert.png, id=361, 124.0635pt x 92.0238pt>
+<pix/UoA_col_vert.png, id=365, 124.0635pt x 92.0238pt>
 File: pix/UoA_col_vert.png Graphic file (type png)
 
 <use pix/UoA_col_vert.png>
@@ -742,17 +742,12 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [9] [10]
-Overfull \hbox (4.77951pt too wide) in paragraph at lines 83--83
- [][] []\OT1/ptm/m/n/12 Examples of Events that have failed Cloud Se-lec-tion C
-uts from Event- 
- []
-
-)
+) [9] [10])
 \tf@toc=\write4
 \openout4 = `PhD_Thesis.toc'.
 
- (./nomenclature.tex [11] [12
+
+(./nomenclature.tex [11] [12
 
 ])
 Overfull \hbox (38.98227pt too wide) in paragraph at lines 5--138
@@ -766,12 +761,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--138
 
 (./chapters/introduction.tex [13] [14
 
-]
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 7.
+] [1]
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 40.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [1])
+))
 (./chapters/cosmic_rays.tex [2]
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
@@ -793,7 +788,7 @@ line 23.
 Package natbib Warning: Citation `2010arXiv1002.1810P' on page 3 undefined on i
 nput line 23.
 
-<chapters/pix/CosmicRay_Spectrum.png, id=543, 610.28pt x 753.81625pt>
+<chapters/pix/CosmicRay_Spectrum.png, id=548, 610.28pt x 753.81625pt>
 File: chapters/pix/CosmicRay_Spectrum.png Graphic file (type png)
 
 <use chapters/pix/CosmicRay_Spectrum.png>
@@ -822,7 +817,7 @@ Overfull \hbox (10.46481pt too wide) in paragraph at lines 5--9
 par-ti-cle in-ter-acts with the molecules
  []
 
-<chapters/pix/CR_ExtensiveAirShowers.png, id=566, 619.113pt x 462.528pt>
+<chapters/pix/CR_ExtensiveAirShowers.png, id=571, 619.113pt x 462.528pt>
 File: chapters/pix/CR_ExtensiveAirShowers.png Graphic file (type png)
 
 <use chapters/pix/CR_ExtensiveAirShowers.png>
@@ -841,7 +836,7 @@ ut line 18.
 Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
-[7] <chapters/pictures/heilter_model_EM.png, id=574, 969.6225pt x 528.97626pt>
+[7] <chapters/pictures/heilter_model_EM.png, id=579, 969.6225pt x 528.97626pt>
 File: chapters/pictures/heilter_model_EM.png Graphic file (type png)
 
 <use chapters/pictures/heilter_model_EM.png>
@@ -850,7 +845,7 @@ ine 45.
 (pdftex.def)             Requested size: 441.01773pt x 240.59578pt.
  [8 <./chapters/pix/CR_ExtensiveAirShowers.png> <./chapters/pictures/heilter_mo
 del_EM.png>]
-<chapters/pictures/hielter_model_hadronic.png, id=585, 1000.73875pt x 780.9175p
+<chapters/pictures/hielter_model_hadronic.png, id=590, 1000.73875pt x 780.9175p
 t>
 File: chapters/pictures/hielter_model_hadronic.png Graphic file (type png)
  <use chapters/pictures/hielter_model_hadronic.png>
@@ -874,14 +869,14 @@ Package natbib Warning: Citation `kumpel' on page 9 undefined on input line 76.
 (./chapters/pierre_auger.tex [11] [12]
 Chapter 3.
 
-<chapters/pix/PAO_equipment_layout_overview.png, id=611, 853.1875pt x 770.88pt>
+<chapters/pix/PAO_equipment_layout_overview.png, id=616, 853.1875pt x 770.88pt>
 File: chapters/pix/PAO_equipment_layout_overview.png Graphic file (type png)
 <use chapters/pix/PAO_equipment_layout_overview.png>
 Package pdftex.def Info: chapters/pix/PAO_equipment_layout_overview.png used on
  input line 10.
 (pdftex.def)             Requested size: 308.71106pt x 278.92812pt.
 
-<chapters/pix/pierre-auger-observatory_tankAndTelescope.jpg, id=612, 552.0625pt
+<chapters/pix/pierre-auger-observatory_tankAndTelescope.jpg, id=617, 552.0625pt
  x 414.54875pt>
 File: chapters/pix/pierre-auger-observatory_tankAndTelescope.jpg Graphic file (
 type jpg)
@@ -891,7 +886,7 @@ Package pdftex.def Info: chapters/pix/pierre-auger-observatory_tankAndTelescope
 .jpg used on input line 13.
 (pdftex.def)             Requested size: 308.71106pt x 231.8231pt.
 
-<chapters/pix/inside_surface_detector.jpg, id=613, 466.74374pt x 350.30875pt>
+<chapters/pix/inside_surface_detector.jpg, id=618, 466.74374pt x 350.30875pt>
 File: chapters/pix/inside_surface_detector.jpg Graphic file (type jpg)
 
 <use chapters/pix/inside_surface_detector.jpg>
@@ -899,7 +894,7 @@ Package pdftex.def Info: chapters/pix/inside_surface_detector.jpg used on input
  line 23.
 (pdftex.def)             Requested size: 308.71106pt x 231.70694pt.
 
-<chapters/pix/fluorescence_telescope.png, id=614, 562.1pt x 546.04pt>
+<chapters/pix/fluorescence_telescope.png, id=619, 562.1pt x 546.04pt>
 File: chapters/pix/fluorescence_telescope.png Graphic file (type png)
 
 <use chapters/pix/fluorescence_telescope.png>
@@ -921,7 +916,7 @@ Chapter 4.
 
 ]
 </home/tsudholz/PhD/Thesis/chapters/pix/SelEff/Layout_Coefficients_PhotonsToADC
-.png, id=643, 1046.91125pt x 881.2925pt>
+.png, id=648, 1046.91125pt x 881.2925pt>
 File: /home/tsudholz/PhD/Thesis/chapters/pix/SelEff/Layout_Coefficients_Photons
 ToADC.png Graphic file (type png)
 
@@ -979,7 +974,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
                                                   \fi \fi 
 l.121 
       ]
-<chapters/pix/SelEff/IlluminatedMoonFrac_Twilight.JPG, id=672, 520.19344pt x 47
+<chapters/pix/SelEff/IlluminatedMoonFrac_Twilight.JPG, id=677, 520.19344pt x 47
 2.01344pt>
 File: chapters/pix/SelEff/IlluminatedMoonFrac_Twilight.JPG Graphic file (type j
 pg)
@@ -996,7 +991,7 @@ lMoonBright_Vs_IllumFrac_LogScale.pdf): PDF inclusion: found PDF version <1.7>,
  but at most version <1.5> allowed
 
 </home/tsudholz/PhD/Thesis/chapters/pix/SelEff/RelMoonBright_Vs_IllumFrac_LogSc
-ale.pdf, id=673, 569.12625pt x 305.14pt>
+ale.pdf, id=678, 569.12625pt x 305.14pt>
 File: /home/tsudholz/PhD/Thesis/chapters/pix/SelEff/RelMoonBright_Vs_IllumFrac_
 LogScale.pdf Graphic file (type pdf)
 
@@ -1006,7 +1001,7 @@ Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/pix/SelEff/RelMoonB
 right_Vs_IllumFrac_LogScale.pdf used on input line 156.
 (pdftex.def)             Requested size: 396.91325pt x 212.81432pt.
  [21]
-<chapters/pix/SelEff/BGLoop_Variance_crop.jpg, id=682, 619.56468pt x 418.56375p
+<chapters/pix/SelEff/BGLoop_Variance_crop.jpg, id=687, 619.56468pt x 418.56375p
 t>
 File: chapters/pix/SelEff/BGLoop_Variance_crop.jpg Graphic file (type jpg)
  <use chapters/pix/SelEff/BGLoop_Variance_crop.jpg>
@@ -1041,7 +1036,7 @@ er (name{equation.4.2.9}) has been already used, duplicate ignored
                    \relax 
 l.200 \begin{equation}
                       
-<chapters/pix/SelEff/ShowerPlane_and_Detector.png, id=722, 591.20876pt x 859.21
+<chapters/pix/SelEff/ShowerPlane_and_Detector.png, id=727, 591.20876pt x 859.21
 pt>
 File: chapters/pix/SelEff/ShowerPlane_and_Detector.png Graphic file (type png)
  <use chapters/pix/SelEff/ShowerPlane_and_Detector.png>
@@ -1052,7 +1047,7 @@ on input line 252.
 
 pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/XpVsRp.pdf): PDF 
 inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<chapters/graphs/SelectionEff/XpVsRp.pdf, id=723, 569.12625pt x 305.14pt>
+<chapters/graphs/SelectionEff/XpVsRp.pdf, id=728, 569.12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/XpVsRp.pdf Graphic file (type pdf)
 
 <use chapters/graphs/SelectionEff/XpVsRp.pdf>
@@ -1065,7 +1060,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RangeIncreaseVsRa
 ngeStand_Xp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
 
-<chapters/graphs/SelectionEff/RangeIncreaseVsRangeStand_Xp.pdf, id=724, 569.126
+<chapters/graphs/SelectionEff/RangeIncreaseVsRangeStand_Xp.pdf, id=729, 569.126
 25pt x 305.14pt>
 File: chapters/graphs/SelectionEff/RangeIncreaseVsRangeStand_Xp.pdf Graphic fil
 e (type pdf)
@@ -1080,7 +1075,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RatioAreaVsDistan
 ce_Xp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
 llowed
 
-<chapters/graphs/SelectionEff/RatioAreaVsDistance_Xp.pdf, id=725, 569.12625pt x
+<chapters/graphs/SelectionEff/RatioAreaVsDistance_Xp.pdf, id=730, 569.12625pt x
  305.14pt>
 File: chapters/graphs/SelectionEff/RatioAreaVsDistance_Xp.pdf Graphic file (typ
 e pdf)
@@ -1094,7 +1089,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/SignalToNoiseVsDi
 stance_E1e18eV.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
 n <1.5> allowed
 
-<chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E1e18eV.pdf, id=726, 569.
+<chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E1e18eV.pdf, id=731, 569.
 12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E1e18eV.pdf Graphic 
 file (type pdf)
@@ -1109,7 +1104,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/SignalToNoiseVsDi
 stance_E3e18eV.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
 n <1.5> allowed
 
-<chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E3e18eV.pdf, id=727, 569.
+<chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E3e18eV.pdf, id=732, 569.
 12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E3e18eV.pdf Graphic 
 file (type pdf)
@@ -1124,7 +1119,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/SignalToNoiseVsDi
 stance_E1e19eV.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
 n <1.5> allowed
 
-<chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E1e19eV.pdf, id=728, 569.
+<chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E1e19eV.pdf, id=733, 569.
 12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E1e19eV.pdf Graphic 
 file (type pdf)
@@ -1139,7 +1134,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/SignalToNoiseVsDi
 stance_E3e19eV.pdf): PDF inclusion: found PDF version <1.7>, but at most versio
 n <1.5> allowed
 
-<chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E3e19eV.pdf, id=729, 569.
+<chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E3e19eV.pdf, id=734, 569.
 12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/SignalToNoiseVsDistance_E3e19eV.pdf Graphic 
 file (type pdf)
@@ -1167,7 +1162,7 @@ ionEff/SelectionEff_errorbars_10timesNSB.pdf): PDF inclusion: found PDF version
  <1.7>, but at most version <1.5> allowed
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/SelectionEff/SelectionEff_errorbars_
-10timesNSB.pdf, id=823, 569.12625pt x 305.14pt>
+10timesNSB.pdf, id=828, 569.12625pt x 305.14pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/SelectionEff/SelectionEff_error
 bars_10timesNSB.pdf Graphic file (type pdf)
 
@@ -1182,7 +1177,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Smearing_RealData
 _EnergyBias.pdf): PDF inclusion: found PDF version <1.7>, but at most version <
 1.5> allowed
 
-<chapters/graphs/SelectionEff/Smearing_RealData_EnergyBias.pdf, id=824, 569.126
+<chapters/graphs/SelectionEff/Smearing_RealData_EnergyBias.pdf, id=829, 569.126
 25pt x 297.11pt>
 File: chapters/graphs/SelectionEff/Smearing_RealData_EnergyBias.pdf Graphic fil
 e (type pdf)
@@ -1197,7 +1192,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Smearing_RealData
 _XmaxBias.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.
 5> allowed
 
-<chapters/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf, id=825, 569.12625
+<chapters/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf, id=830, 569.12625
 pt x 297.11pt>
 File: chapters/graphs/SelectionEff/Smearing_RealData_XmaxBias.pdf Graphic file 
 (type pdf)
@@ -1212,7 +1207,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Combined_EnergyRe
 s_All.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
 llowed
 
-<chapters/graphs/SelectionEff/Combined_EnergyRes_All.pdf, id=826, 569.12625pt x
+<chapters/graphs/SelectionEff/Combined_EnergyRes_All.pdf, id=831, 569.12625pt x
  305.14pt>
 File: chapters/graphs/SelectionEff/Combined_EnergyRes_All.pdf Graphic file (typ
 e pdf)
@@ -1226,7 +1221,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Combined_XmaxRes_
 All.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
 
-<chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf, id=827, 569.12625pt x 2
+<chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf, id=832, 569.12625pt x 2
 97.11pt>
 File: chapters/graphs/SelectionEff/Combined_XmaxRes_All.pdf Graphic file (type 
 pdf)
@@ -1240,7 +1235,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/Smearing_TrackLen
 gth_DiffNSBlevels.pdf): PDF inclusion: found PDF version <1.7>, but at most ver
 sion <1.5> allowed
 
-<chapters/graphs/SelectionEff/Smearing_TrackLength_DiffNSBlevels.pdf, id=828, 5
+<chapters/graphs/SelectionEff/Smearing_TrackLength_DiffNSBlevels.pdf, id=833, 5
 69.12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/Smearing_TrackLength_DiffNSBlevels.pdf Graph
 ic file (type pdf)
@@ -1267,7 +1262,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RealDataAndSim_Xm
 axDistComp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1
 .5> allowed
 
-<chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf, id=885, 569.1262
+<chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf, id=890, 569.1262
 5pt x 305.14pt>
 File: chapters/graphs/SelectionEff/RealDataAndSim_XmaxDistComp.pdf Graphic file
  (type pdf)
@@ -1282,7 +1277,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RealDataAndSim_Rp
 DistComp.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5
 > allowed
 
-<chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf, id=886, 569.12625p
+<chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf, id=891, 569.12625p
 t x 305.14pt>
 File: chapters/graphs/SelectionEff/RealDataAndSim_RpDistComp.pdf Graphic file (
 type pdf)
@@ -1296,7 +1291,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RealDataAndSim_Ze
 nithDistComp.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.pdf, id=887, 569.12
+<chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.pdf, id=892, 569.12
 625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/RealDataAndSim_ZenithDistComp.pdf Graphic fi
 le (type pdf)
@@ -1311,7 +1306,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/SelectionEff/RealDataAndSim_Di
 stToXmaxDistComp.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
 
-<chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf, id=888, 56
+<chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf, id=893, 56
 9.12625pt x 305.14pt>
 File: chapters/graphs/SelectionEff/RealDataAndSim_DistToXmaxDistComp.pdf Graphi
 c file (type pdf)
@@ -1360,7 +1355,7 @@ ength_Comb_StandANdIncreasedNSB.pdf): PDF inclusion: found PDF version <1.7>, b
 ut at most version <1.5> allowed
 
 <chapters/graphs/SelectionEff/Simulation_TrackLength_Comb_StandANdIncreasedNSB.
-pdf, id=948, 569.12625pt x 297.11pt>
+pdf, id=953, 569.12625pt x 297.11pt>
 File: chapters/graphs/SelectionEff/Simulation_TrackLength_Comb_StandANdIncrease
 dNSB.pdf Graphic file (type pdf)
 
@@ -1378,7 +1373,7 @@ Chapter 5.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [41]
-<chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png, id=982, 929.4725pt x
+<chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png, id=987, 929.4725pt x
  874.26625pt>
 File: chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png Graphic file (ty
 pe png)
@@ -1392,7 +1387,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT900V_linearityNDmet
 hod.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
 
-<chapters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf, id=983, 569.12625pt x 2
+<chapters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf, id=988, 569.12625pt x 2
 97.11pt>
 File: chapters/graphs/PMTchar/PMT900V_linearityNDmethod.pdf Graphic file (type 
 pdf)
@@ -1412,7 +1407,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT600V_linearityNDmet
 hod.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> all
 owed
 
-<chapters/graphs/PMTchar/PMT600V_linearityNDmethod.pdf, id=984, 569.12625pt x 2
+<chapters/graphs/PMTchar/PMT600V_linearityNDmethod.pdf, id=989, 569.12625pt x 2
 97.11pt>
 File: chapters/graphs/PMTchar/PMT600V_linearityNDmethod.pdf Graphic file (type 
 pdf)
@@ -1430,7 +1425,7 @@ Missing character: There is no ¢ in font ptmr7t!
 [43 <./chapters/graphs/PMTchar/pmt_linearity_100V_privitera.png>] [44 <./chapte
 rs/graphs/PMTchar/PMT900V_linearityNDmethod.pdf> <./chapters/graphs/PMTchar/PMT
 600V_linearityNDmethod.pdf>]
-<chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf, id=1020, 462.75282pt x 329.5
+<chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf, id=1025, 462.75282pt x 329.5
 773pt>
 File: chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf Graphic file (type pdf)
  <use chapters/graphs/PMTchar/diagram_TwoLEDmethod.pdf>
@@ -1443,7 +1438,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT900V_linearity2LEDm
 ethod.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
 llowed
 
-<chapters/graphs/PMTchar/PMT900V_linearity2LEDmethod.pdf, id=1021, 569.12625pt 
+<chapters/graphs/PMTchar/PMT900V_linearity2LEDmethod.pdf, id=1026, 569.12625pt 
 x 297.11pt>
 File: chapters/graphs/PMTchar/PMT900V_linearity2LEDmethod.pdf Graphic file (typ
 e pdf)
@@ -1463,7 +1458,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT600V_linearity2LEDm
 ethod.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
 llowed
 
-<chapters/graphs/PMTchar/PMT600V_linearity2LEDmethod.pdf, id=1022, 569.12625pt 
+<chapters/graphs/PMTchar/PMT600V_linearity2LEDmethod.pdf, id=1027, 569.12625pt 
 x 297.11pt>
 File: chapters/graphs/PMTchar/PMT600V_linearity2LEDmethod.pdf Graphic file (typ
 e pdf)
@@ -1486,7 +1481,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT900V_temperatureVsA
 DC.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
 
-<chapters/graphs/PMTchar/PMT900V_temperatureVsADC.pdf, id=1051, 569.12625pt x 2
+<chapters/graphs/PMTchar/PMT900V_temperatureVsADC.pdf, id=1056, 569.12625pt x 2
 97.11pt>
 File: chapters/graphs/PMTchar/PMT900V_temperatureVsADC.pdf Graphic file (type p
 df)
@@ -1506,7 +1501,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTchar/PMT600V_temperatureVsA
 DC.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
 
-<chapters/graphs/PMTchar/PMT600V_temperatureVsADC.pdf, id=1052, 569.12625pt x 2
+<chapters/graphs/PMTchar/PMT600V_temperatureVsADC.pdf, id=1057, 569.12625pt x 2
 97.11pt>
 File: chapters/graphs/PMTchar/PMT600V_temperatureVsADC.pdf Graphic file (type p
 df)
@@ -1533,13 +1528,13 @@ _PoissonFit_Dynode1_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at mo
 st version <1.5> allowed
 
 <chapters/graphs/PMTsimulation/ElectronsLeaving_PoissonFit_Dynode1_5e4.pdf, id=
-1081, 569.12625pt x 305.14pt>
+1086, 569.12625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_PoissonFit_Dynode1_5e4.pdf
  Graphic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_PoissonFit_Dynode1_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Poisson
-Fit_Dynode1_5e4.pdf used on input line 33.
+Fit_Dynode1_5e4.pdf used on input line 35.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1547,14 +1542,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _Dynode2_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode2_5e4.pdf, id=1082, 569.1
+<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode2_5e4.pdf, id=1087, 569.1
 2625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode2_5e4.pdf Graphic fi
 le (type pdf)
 
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode2_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode2
-_5e4.pdf used on input line 38.
+_5e4.pdf used on input line 40.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1562,14 +1557,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _Dynode3_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode3_5e4.pdf, id=1083, 569.1
+<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode3_5e4.pdf, id=1088, 569.1
 2625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode3_5e4.pdf Graphic fi
 le (type pdf)
 
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode3_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode3
-_5e4.pdf used on input line 45.
+_5e4.pdf used on input line 47.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1577,14 +1572,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _Dynode4_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode4_5e4.pdf, id=1084, 569.1
+<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode4_5e4.pdf, id=1089, 569.1
 2625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode4_5e4.pdf Graphic fi
 le (type pdf)
 
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode4_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode4
-_5e4.pdf used on input line 50.
+_5e4.pdf used on input line 52.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1592,14 +1587,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _Dynode5_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode5_5e4.pdf, id=1085, 569.1
+<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode5_5e4.pdf, id=1090, 569.1
 2625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode5_5e4.pdf Graphic fi
 le (type pdf)
 
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode5_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode5
-_5e4.pdf used on input line 57.
+_5e4.pdf used on input line 59.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1607,14 +1602,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _Dynode6_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode6_5e4.pdf, id=1086, 569.1
+<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode6_5e4.pdf, id=1091, 569.1
 2625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode6_5e4.pdf Graphic fi
 le (type pdf)
 
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode6_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode6
-_5e4.pdf used on input line 62.
+_5e4.pdf used on input line 64.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1622,14 +1617,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _Dynode7_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode7_5e4.pdf, id=1087, 569.1
+<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode7_5e4.pdf, id=1092, 569.1
 2625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode7_5e4.pdf Graphic fi
 le (type pdf)
 
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode7_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode7
-_5e4.pdf used on input line 69.
+_5e4.pdf used on input line 71.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1637,14 +1632,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/ElectronsLeaving
 _Dynode8_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode8_5e4.pdf, id=1088, 569.1
+<chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode8_5e4.pdf, id=1093, 569.1
 2625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode8_5e4.pdf Graphic fi
 le (type pdf)
 
 <use chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode8_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/ElectronsLeaving_Dynode8
-_5e4.pdf used on input line 74.
+_5e4.pdf used on input line 76.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1652,14 +1647,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_5e5.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e5.pdf, id=1089, 5
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e5.pdf, id=1094, 5
 69.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e5.pdf Graphi
 c file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e5.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_5e5.pdf used on input line 85.
+igm0_5e5.pdf used on input line 87.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1667,14 +1662,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_1_5e5.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e5.pdf, id=1090,
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e5.pdf, id=1095,
  569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e5.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e5.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_1_5e5.pdf used on input line 90.
+igm0_1_5e5.pdf used on input line 92.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1682,14 +1677,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_2_5e5.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e5.pdf, id=1091,
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e5.pdf, id=1096,
  569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e5.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e5.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_2_5e5.pdf used on input line 97.
+igm0_2_5e5.pdf used on input line 99.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1697,14 +1692,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_3_5e5.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e5.pdf, id=1092,
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e5.pdf, id=1097,
  569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e5.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e5.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_3_5e5.pdf used on input line 102.
+igm0_3_5e5.pdf used on input line 104.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1712,14 +1707,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_4_5e5.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e5.pdf, id=1093,
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e5.pdf, id=1098,
  569.12625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e5.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e5.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_4_5e5.pdf used on input line 109.
+igm0_4_5e5.pdf used on input line 111.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1727,14 +1722,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_5_5e5.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e5.pdf, id=1094,
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e5.pdf, id=1099,
  569.12625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e5.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e5.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_5_5e5.pdf used on input line 114.
+igm0_5_5e5.pdf used on input line 116.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1742,14 +1737,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e4.pdf, id=1095, 5
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e4.pdf, id=1100, 5
 69.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e4.pdf Graphi
 c file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_5e4.pdf used on input line 122.
+igm0_5e4.pdf used on input line 124.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1757,14 +1752,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_1_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e4.pdf, id=1096,
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e4.pdf, id=1101,
  569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e4.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_1_5e4.pdf used on input line 127.
+igm0_1_5e4.pdf used on input line 129.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1772,14 +1767,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_2_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e4.pdf, id=1097,
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e4.pdf, id=1102,
  569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e4.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_2_5e4.pdf used on input line 134.
+igm0_2_5e4.pdf used on input line 136.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1787,14 +1782,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_3_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e4.pdf, id=1098,
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e4.pdf, id=1103,
  569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e4.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_3_5e4.pdf used on input line 139.
+igm0_3_5e4.pdf used on input line 141.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1802,14 +1797,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_4_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e4.pdf, id=1099,
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e4.pdf, id=1104,
  569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e4.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_4_5e4.pdf used on input line 146.
+igm0_4_5e4.pdf used on input line 148.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1817,14 +1812,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_5_5e4.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e4.pdf, id=1100,
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e4.pdf, id=1105,
  569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e4.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e4.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_5_5e4.pdf used on input line 151.
+igm0_5_5e4.pdf used on input line 153.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1832,14 +1827,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_5e3.pdf): PDF inclusion: found PDF version <1.7>, but at most vers
 ion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e3.pdf, id=1101, 5
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e3.pdf, id=1106, 5
 69.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e3.pdf Graphi
 c file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5e3.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_5e3.pdf used on input line 159.
+igm0_5e3.pdf used on input line 161.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1847,14 +1842,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_1_5e3.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e3.pdf, id=1102,
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e3.pdf, id=1107,
  569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e3.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_1_5e3.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_1_5e3.pdf used on input line 164.
+igm0_1_5e3.pdf used on input line 166.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1862,14 +1857,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_2_5e3.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e3.pdf, id=1103,
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e3.pdf, id=1108,
  569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e3.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_2_5e3.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_2_5e3.pdf used on input line 171.
+igm0_2_5e3.pdf used on input line 173.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1877,14 +1872,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_3_5e3.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e3.pdf, id=1104,
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e3.pdf, id=1109,
  569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e3.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_3_5e3.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_3_5e3.pdf used on input line 176.
+igm0_3_5e3.pdf used on input line 178.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1892,14 +1887,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_4_5e3.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e3.pdf, id=1105,
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e3.pdf, id=1110,
  569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e3.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_4_5e3.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_4_5e3.pdf used on input line 183.
+igm0_4_5e3.pdf used on input line 185.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1907,14 +1902,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC
 _DynodeSigm0_5_5e3.pdf): PDF inclusion: found PDF version <1.7>, but at most ve
 rsion <1.5> allowed
 
-<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e3.pdf, id=1106,
+<chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e3.pdf, id=1111,
  569.12625pt x 297.11pt>
 File: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e3.pdf Grap
 hic file (type pdf)
 
 <use chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeSigm0_5_5e3.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/PMTsim_1PE_TypeC_DynodeS
-igm0_5_5e3.pdf used on input line 188.
+igm0_5_5e3.pdf used on input line 190.
 (pdftex.def)             Requested size: 569.12486pt x 297.10927pt.
 
 
@@ -1922,14 +1917,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/FLT_simulation_2
 _71pePER100ns.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
 
-<chapters/graphs/PMTsimulation/FLT_simulation_2_71pePER100ns.pdf, id=1107, 569.
+<chapters/graphs/PMTsimulation/FLT_simulation_2_71pePER100ns.pdf, id=1112, 569.
 12625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/FLT_simulation_2_71pePER100ns.pdf Graphic f
 ile (type pdf)
 
 <use chapters/graphs/PMTsimulation/FLT_simulation_2_71pePER100ns.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/FLT_simulation_2_71pePER
-100ns.pdf used on input line 211.
+100ns.pdf used on input line 213.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1937,14 +1932,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/FLT_simulation_6
 _60pePER100ns.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
 
-<chapters/graphs/PMTsimulation/FLT_simulation_6_60pePER100ns.pdf, id=1108, 569.
+<chapters/graphs/PMTsimulation/FLT_simulation_6_60pePER100ns.pdf, id=1113, 569.
 12625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/FLT_simulation_6_60pePER100ns.pdf Graphic f
 ile (type pdf)
 
 <use chapters/graphs/PMTsimulation/FLT_simulation_6_60pePER100ns.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/FLT_simulation_6_60pePER
-100ns.pdf used on input line 216.
+100ns.pdf used on input line 218.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1952,14 +1947,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/FLT_simulation_4
 6_8pePER100ns.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
 
-<chapters/graphs/PMTsimulation/FLT_simulation_46_8pePER100ns.pdf, id=1109, 569.
+<chapters/graphs/PMTsimulation/FLT_simulation_46_8pePER100ns.pdf, id=1114, 569.
 12625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/FLT_simulation_46_8pePER100ns.pdf Graphic f
 ile (type pdf)
 
 <use chapters/graphs/PMTsimulation/FLT_simulation_46_8pePER100ns.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/FLT_simulation_46_8pePER
-100ns.pdf used on input line 223.
+100ns.pdf used on input line 225.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1967,14 +1962,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/FLT_simulation_6
 5_8pePER100ns.pdf): PDF inclusion: found PDF version <1.7>, but at most version
  <1.5> allowed
 
-<chapters/graphs/PMTsimulation/FLT_simulation_65_8pePER100ns.pdf, id=1110, 569.
+<chapters/graphs/PMTsimulation/FLT_simulation_65_8pePER100ns.pdf, id=1115, 569.
 12625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/FLT_simulation_65_8pePER100ns.pdf Graphic f
 ile (type pdf)
 
 <use chapters/graphs/PMTsimulation/FLT_simulation_65_8pePER100ns.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/FLT_simulation_65_8pePER
-100ns.pdf used on input line 228.
+100ns.pdf used on input line 230.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1982,14 +1977,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/FLT_simulation_2
 63pePER100ns.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/PMTsimulation/FLT_simulation_263pePER100ns.pdf, id=1111, 569.1
+<chapters/graphs/PMTsimulation/FLT_simulation_263pePER100ns.pdf, id=1116, 569.1
 2625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/FLT_simulation_263pePER100ns.pdf Graphic fi
 le (type pdf)
 
 <use chapters/graphs/PMTsimulation/FLT_simulation_263pePER100ns.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/FLT_simulation_263pePER1
-00ns.pdf used on input line 234.
+00ns.pdf used on input line 236.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 
 
@@ -1997,14 +1992,14 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/PMTsimulation/FLT_simulation_6
 57pePER100ns.pdf): PDF inclusion: found PDF version <1.7>, but at most version 
 <1.5> allowed
 
-<chapters/graphs/PMTsimulation/FLT_simulation_657pePER100ns.pdf, id=1112, 569.1
+<chapters/graphs/PMTsimulation/FLT_simulation_657pePER100ns.pdf, id=1117, 569.1
 2625pt x 305.14pt>
 File: chapters/graphs/PMTsimulation/FLT_simulation_657pePER100ns.pdf Graphic fi
 le (type pdf)
 
 <use chapters/graphs/PMTsimulation/FLT_simulation_657pePER100ns.pdf>
 Package pdftex.def Info: chapters/graphs/PMTsimulation/FLT_simulation_657pePER1
-00ns.pdf used on input line 239.
+00ns.pdf used on input line 241.
 (pdftex.def)             Requested size: 569.12486pt x 305.13924pt.
 )
 (./chapters/GainVarianceMeasure.tex [50] [51 <./chapters/graphs/PMTsimulation/E
@@ -2050,7 +2045,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /example_NoiseHist1.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
 
-<chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist1.pdf, id=1451
+<chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist1.pdf, id=1456
 , 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist1.pdf Gra
 phic file (type pdf)
@@ -2065,7 +2060,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 /example_NoiseHist2.pdf): PDF inclusion: found PDF version <1.7>, but at most v
 ersion <1.5> allowed
 
-<chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist2.pdf, id=1452
+<chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist2.pdf, id=1457
 , 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/example_NoiseHist2.pdf Gra
 phic file (type pdf)
@@ -2083,7 +2078,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 n <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_StandHV_Pairs
-_set0and2.pdf, id=1483, 569.12625pt x 297.11pt>
+_set0and2.pdf, id=1488, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_StandHV_
 Pairs_set0and2.pdf Graphic file (type pdf)
 
@@ -2099,7 +2094,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_LowHV_Pairs_s
-et0and2.pdf, id=1484, 569.12625pt x 297.11pt>
+et0and2.pdf, id=1489, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_LowHV_Pa
 irs_set0and2.pdf Graphic file (type pdf)
 
@@ -2115,7 +2110,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 rsion <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_StandHV_P
-airs_set0and2.pdf, id=1485, 569.12625pt x 297.11pt>
+airs_set0and2.pdf, id=1490, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_Stan
 dHV_Pairs_set0and2.pdf Graphic file (type pdf)
 
@@ -2131,7 +2126,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 ion <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_LowHV_Pai
-rs_set0and2.pdf, id=1486, 569.12625pt x 297.11pt>
+rs_set0and2.pdf, id=1491, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_LowH
 V_Pairs_set0and2.pdf Graphic file (type pdf)
 
@@ -2147,7 +2142,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_Pairs
-.pdf, id=1491, 569.12625pt x 297.11pt>
+.pdf, id=1496, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_
 Pairs.pdf Graphic file (type pdf)
 
@@ -2163,7 +2158,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 und PDF version <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_Gain
-Variance_Pairs_Set0and2.pdf, id=1492, 569.12625pt x 297.11pt>
+Variance_Pairs_Set0and2.pdf, id=1497, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel
 _GainVariance_Pairs_Set0and2.pdf Graphic file (type pdf)
 
@@ -2179,7 +2174,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 ion <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_StandHV_Avera
-ge_set0and2.pdf, id=1493, 569.12625pt x 297.11pt>
+ge_set0and2.pdf, id=1498, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_StandHV_
 Average_set0and2.pdf Graphic file (type pdf)
 
@@ -2195,7 +2190,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 n <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_LowHV_Average
-_set0and2.pdf, id=1494, 569.12625pt x 297.11pt>
+_set0and2.pdf, id=1499, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/meanHist_LowHV_Av
 erage_set0and2.pdf Graphic file (type pdf)
 
@@ -2211,7 +2206,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 version <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_StandHV_A
-verage_set0and2.pdf, id=1495, 569.12625pt x 297.11pt>
+verage_set0and2.pdf, id=1500, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_Stan
 dHV_Average_set0and2.pdf Graphic file (type pdf)
 
@@ -2227,7 +2222,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 rsion <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_LowHV_Ave
-rage_set0and2.pdf, id=1496, 569.12625pt x 297.11pt>
+rage_set0and2.pdf, id=1501, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/varianceHist_LowH
 V_Average_set0and2.pdf Graphic file (type pdf)
 
@@ -2243,7 +2238,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 on <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_Avera
-ge_Method1.pdf, id=1501, 569.12625pt x 297.11pt>
+ge_Method1.pdf, id=1506, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_
 Average_Method1.pdf Graphic file (type pdf)
 
@@ -2259,7 +2254,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_Gain
-Variance_Average_Method1_Set0and2.pdf, id=1502, 569.12625pt x 297.11pt>
+Variance_Average_Method1_Set0and2.pdf, id=1507, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel
 _GainVariance_Average_Method1_Set0and2.pdf Graphic file (type pdf)
 
@@ -2276,7 +2271,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 ion <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod_Sig
-nal_StandHV.pdf, id=1503, 569.12625pt x 297.11pt>
+nal_StandHV.pdf, id=1508, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMetho
 d_Signal_StandHV.pdf Graphic file (type pdf)
 
@@ -2292,7 +2287,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 n <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod_Sig
-nal_LowHV.pdf, id=1504, 569.12625pt x 297.11pt>
+nal_LowHV.pdf, id=1509, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMetho
 d_Signal_LowHV.pdf Graphic file (type pdf)
 
@@ -2308,7 +2303,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 on <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod_Noi
-se_StandHV.pdf, id=1505, 569.12625pt x 297.11pt>
+se_StandHV.pdf, id=1510, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMetho
 d_Noise_StandHV.pdf Graphic file (type pdf)
 
@@ -2324,7 +2319,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
  <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMethod_Noi
-se_LowHV.pdf, id=1506, 569.12625pt x 297.11pt>
+se_LowHV.pdf, id=1511, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/Chi2_AverageMetho
 d_Noise_LowHV.pdf Graphic file (type pdf)
 
@@ -2360,7 +2355,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_Avera
-ge_LTS.pdf, id=1647, 569.12625pt x 297.11pt>
+ge_LTS.pdf, id=1652, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_
 Average_LTS.pdf Graphic file (type pdf)
 
@@ -2376,7 +2371,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 n: found PDF version <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_Gain
-Variance_AverageLTS_Set0and2.pdf, id=1648, 569.12625pt x 297.11pt>
+Variance_AverageLTS_Set0and2.pdf, id=1653, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel
 _GainVariance_AverageLTS_Set0and2.pdf Graphic file (type pdf)
 
@@ -2393,7 +2388,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 on <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_Avera
-ge_Method2.pdf, id=1649, 569.12625pt x 297.11pt>
+ge_Method2.pdf, id=1654, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVairanceHist_
 Average_Method2.pdf Graphic file (type pdf)
 
@@ -2409,7 +2404,7 @@ pdfTeX warning: pdflatex (file ./chapters/graphs/GainVarsMeas/LL_m04_2016-06-11
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 <chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel_Gain
-Variance_Average_Method2_Set0and2.pdf, id=1650, 569.12625pt x 297.11pt>
+Variance_Average_Method2_Set0and2.pdf, id=1655, 569.12625pt x 297.11pt>
 File: chapters/graphs/GainVarsMeas/LL_m04_2016-06-11/Set0and2/GainVars_Vs_Pixel
 _GainVariance_Average_Method2_Set0and2.pdf Graphic file (type pdf)
 
@@ -2437,33 +2432,33 @@ Chapter 9.
 
 ]
 Chapter 10.
-<chapters/graphs/CloudFlags/lidar_scan.png, id=1713, 803.0pt x 602.25pt>
+<chapters/graphs/CloudFlags/lidar_scan.png, id=1718, 803.0pt x 602.25pt>
 File: chapters/graphs/CloudFlags/lidar_scan.png Graphic file (type png)
 
 <use chapters/graphs/CloudFlags/lidar_scan.png>
 Package pdftex.def Info: chapters/graphs/CloudFlags/lidar_scan.png used on inpu
-t line 20.
+t line 19.
 (pdftex.def)             Requested size: 132.30666pt x 99.22911pt.
 
-<chapters/graphs/CloudFlags/ir_cloudfraction_pixels.pdf, id=1714, 569.12625pt x
+<chapters/graphs/CloudFlags/ir_cloudfraction_pixels.pdf, id=1719, 569.12625pt x
  426.59375pt>
 File: chapters/graphs/CloudFlags/ir_cloudfraction_pixels.pdf Graphic file (type
  pdf)
  <use chapters/graphs/CloudFlags/ir_cloudfraction_pixels.pdf>
 Package pdftex.def Info: chapters/graphs/CloudFlags/ir_cloudfraction_pixels.pdf
- used on input line 24.
+ used on input line 23.
 (pdftex.def)             Requested size: 132.30666pt x 99.16899pt.
 
-<chapters/graphs/CloudFlags/ir_cloudprobability_map.pdf, id=1715, 569.12625pt x
+<chapters/graphs/CloudFlags/ir_cloudprobability_map.pdf, id=1720, 569.12625pt x
  426.59375pt>
 File: chapters/graphs/CloudFlags/ir_cloudprobability_map.pdf Graphic file (type
  pdf)
  <use chapters/graphs/CloudFlags/ir_cloudprobability_map.pdf>
 Package pdftex.def Info: chapters/graphs/CloudFlags/ir_cloudprobability_map.pdf
- used on input line 28.
+ used on input line 27.
 (pdftex.def)             Requested size: 132.30666pt x 99.16899pt.
 
-Underfull \vbox (badness 4353) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [77]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2471,225 +2466,243 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [78 <./chapters/graphs/CloudFlags/lidar_scan.png> <./chapters/graphs/CloudFlag
 s/ir_cloudfraction_pixels.pdf, page is rotated 90 degrees> <./chapters/graphs/C
 loudFlags/ir_cloudprobability_map.pdf, page is rotated 90 degrees>]
-<chapters/graphs/CloudFlags/cloud_cuts.pdf, id=1815, 1223.46844pt x 995.84645pt
+<chapters/graphs/CloudFlags/cloud_cuts.pdf, id=1820, 1223.46844pt x 995.84645pt
 >
 File: chapters/graphs/CloudFlags/cloud_cuts.pdf Graphic file (type pdf)
  <use chapters/graphs/CloudFlags/cloud_cuts.pdf>
 Package pdftex.def Info: chapters/graphs/CloudFlags/cloud_cuts.pdf used on inpu
-t line 70.
+t line 57.
 (pdftex.def)             Requested size: 308.71106pt x 251.27069pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `' on page 79 undefined on input line 86.
+ [79 <./chapters/graphs/CloudFlags/cloud_cuts.pdf>] [80] [81] [82]
 
-[79] [80 <./chapters/graphs/CloudFlags/cloud_cuts.pdf>]
-<chapters/graphs/CloudFlags/hist_cloudFlags.pdf, id=1843, 569.12625pt x 297.11p
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `!tbp') on input line 165.
+
+
+<chapters/graphs/CloudFlags/hist_cloudFlags.pdf, id=1862, 569.12625pt x 297.11p
 t>
 File: chapters/graphs/CloudFlags/hist_cloudFlags.pdf Graphic file (type pdf)
  <use chapters/graphs/CloudFlags/hist_cloudFlags.pdf>
 Package pdftex.def Info: chapters/graphs/CloudFlags/hist_cloudFlags.pdf used on
- input line 117.
-(pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
-
-
-pdfTeX warning: pdflatex (file ./chapters/graphs/CloudFlags/ElongationRate.pdf)
-: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-
-<chapters/graphs/CloudFlags/ElongationRate.pdf, id=1844, 569.12625pt x 297.11pt
->
-File: chapters/graphs/CloudFlags/ElongationRate.pdf Graphic file (type pdf)
- <use chapters/graphs/CloudFlags/ElongationRate.pdf>
-Package pdftex.def Info: chapters/graphs/CloudFlags/ElongationRate.pdf used on 
-input line 123.
+ input line 167.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/EnergyHistAll_logE_18_0to
-20_5_Comb2.pdf, id=1846, 569.12625pt x 297.11pt>
+20_5_Comb2.pdf, id=1864, 569.12625pt x 297.11pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/EnergyHistAll_logE_1
 8_0to20_5_Comb2.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/EnergyHistAll_logE_18
 _0to20_5_Comb2.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/E
-nergyHistAll_logE_18_0to20_5_Comb2.pdf used on input line 135.
+nergyHistAll_logE_18_0to20_5_Comb2.pdf used on input line 179.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
- [81] [82 <./chapters/graphs/CloudFlags/hist_cloudFlags.pdf, page is rotated 90
- degrees> <./chapters/graphs/CloudFlags/ElongationRate.pdf>]
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[83 <./chapters/graphs/CloudFlags/hist_cloudFlags.pdf, page is rotated 90 degre
+es>]
+
+pdfTeX warning: pdflatex (file ./chapters/graphs/CloudFlags/ElongationRate.pdf)
+: PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+
+<chapters/graphs/CloudFlags/ElongationRate.pdf, id=1915, 569.12625pt x 297.11pt
+>
+File: chapters/graphs/CloudFlags/ElongationRate.pdf Graphic file (type pdf)
+ <use chapters/graphs/CloudFlags/ElongationRate.pdf>
+Package pdftex.def Info: chapters/graphs/CloudFlags/ElongationRate.pdf used on 
+input line 189.
+(pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_18_0to
-18_5_Comb.pdf, id=1906, 569.12625pt x 297.11pt>
+18_5_Comb.pdf, id=1916, 569.12625pt x 297.11pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_1
 8_0to18_5_Comb.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_18
 _0to18_5_Comb.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/N
-ormHist_Xmax_logE_18_0to18_5_Comb.pdf used on input line 183.
+ormHist_Xmax_logE_18_0to18_5_Comb.pdf used on input line 240.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_18_5to
-18_75_Comb.pdf, id=1907, 569.12625pt x 297.11pt>
+18_75_Comb.pdf, id=1917, 569.12625pt x 297.11pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_1
 8_5to18_75_Comb.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_18
 _5to18_75_Comb.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/N
-ormHist_Xmax_logE_18_5to18_75_Comb.pdf used on input line 189.
+ormHist_Xmax_logE_18_5to18_75_Comb.pdf used on input line 246.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_18_75t
-o19_0_Comb.pdf, id=1908, 569.12625pt x 297.11pt>
+o19_0_Comb.pdf, id=1918, 569.12625pt x 297.11pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_1
 8_75to19_0_Comb.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_18
 _75to19_0_Comb.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/N
-ormHist_Xmax_logE_18_75to19_0_Comb.pdf used on input line 195.
+ormHist_Xmax_logE_18_75to19_0_Comb.pdf used on input line 252.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_19_0to
-19_25_Comb.pdf, id=1909, 569.12625pt x 297.11pt>
+19_25_Comb.pdf, id=1919, 569.12625pt x 297.11pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_1
 9_0to19_25_Comb.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_19
 _0to19_25_Comb.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/N
-ormHist_Xmax_logE_19_0to19_25_Comb.pdf used on input line 201.
+ormHist_Xmax_logE_19_0to19_25_Comb.pdf used on input line 258.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_19_25t
-o19_5_Comb.pdf, id=1910, 569.12625pt x 297.11pt>
+o19_5_Comb.pdf, id=1920, 569.12625pt x 297.11pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_1
 9_25to19_5_Comb.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_19
 _25to19_5_Comb.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/N
-ormHist_Xmax_logE_19_25to19_5_Comb.pdf used on input line 207.
+ormHist_Xmax_logE_19_25to19_5_Comb.pdf used on input line 264.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_Greate
-r19_5_Comb.pdf, id=1911, 569.12625pt x 297.11pt>
+r19_5_Comb.pdf, id=1921, 569.12625pt x 297.11pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_G
 reater19_5_Comb.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_Gr
 eater19_5_Comb.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/N
-ormHist_Xmax_logE_Greater19_5_Comb.pdf used on input line 213.
+ormHist_Xmax_logE_Greater19_5_Comb.pdf used on input line 270.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
-
+ [84 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/EnergyHistAll_logE_1
+8_0to20_5_Comb2.pdf, page is rotated 90 degrees>]
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_FailedCloud
-Cut_logE_18_0to18_5_Comb.pdf, id=1912, 569.12625pt x 297.11pt>
+Cut_logE_18_0to18_5_Comb.pdf, id=1974, 569.12625pt x 297.11pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_Failed
 CloudCut_logE_18_0to18_5_Comb.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_FailedC
 loudCut_logE_18_0to18_5_Comb.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/N
-ormHist_Xmax_FailedCloudCut_logE_18_0to18_5_Comb.pdf used on input line 223.
+ormHist_Xmax_FailedCloudCut_logE_18_0to18_5_Comb.pdf used on input line 286.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_FailedCloud
-Cut_logE_18_5to18_75_Comb.pdf, id=1913, 569.12625pt x 297.11pt>
+Cut_logE_18_5to18_75_Comb.pdf, id=1975, 569.12625pt x 297.11pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_Failed
 CloudCut_logE_18_5to18_75_Comb.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_FailedC
 loudCut_logE_18_5to18_75_Comb.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/N
-ormHist_Xmax_FailedCloudCut_logE_18_5to18_75_Comb.pdf used on input line 229.
+ormHist_Xmax_FailedCloudCut_logE_18_5to18_75_Comb.pdf used on input line 292.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_FailedCloud
-Cut_logE_18_75to19_0_Comb.pdf, id=1914, 569.12625pt x 297.11pt>
+Cut_logE_18_75to19_0_Comb.pdf, id=1976, 569.12625pt x 297.11pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_Failed
 CloudCut_logE_18_75to19_0_Comb.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_FailedC
 loudCut_logE_18_75to19_0_Comb.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/N
-ormHist_Xmax_FailedCloudCut_logE_18_75to19_0_Comb.pdf used on input line 235.
+ormHist_Xmax_FailedCloudCut_logE_18_75to19_0_Comb.pdf used on input line 298.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_FailedCloud
-Cut_logE_19_0to19_25_Comb.pdf, id=1915, 569.12625pt x 297.11pt>
+Cut_logE_19_0to19_25_Comb.pdf, id=1977, 569.12625pt x 297.11pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_Failed
 CloudCut_logE_19_0to19_25_Comb.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_FailedC
 loudCut_logE_19_0to19_25_Comb.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/N
-ormHist_Xmax_FailedCloudCut_logE_19_0to19_25_Comb.pdf used on input line 241.
+ormHist_Xmax_FailedCloudCut_logE_19_0to19_25_Comb.pdf used on input line 304.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_FailedCloud
-Cut_logE_19_25to19_5_Comb.pdf, id=1916, 569.12625pt x 297.11pt>
+Cut_logE_19_25to19_5_Comb.pdf, id=1978, 569.12625pt x 297.11pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_Failed
 CloudCut_logE_19_25to19_5_Comb.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_FailedC
 loudCut_logE_19_25to19_5_Comb.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/N
-ormHist_Xmax_FailedCloudCut_logE_19_25to19_5_Comb.pdf used on input line 247.
+ormHist_Xmax_FailedCloudCut_logE_19_25to19_5_Comb.pdf used on input line 310.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_FailedCloud
-Cut_logE_Greater19_5_Comb.pdf, id=1917, 569.12625pt x 297.11pt>
+Cut_logE_Greater19_5_Comb.pdf, id=1979, 569.12625pt x 297.11pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_Failed
 CloudCut_logE_Greater19_5_Comb.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_FailedC
 loudCut_logE_Greater19_5_Comb.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/N
-ormHist_Xmax_FailedCloudCut_logE_Greater19_5_Comb.pdf used on input line 253.
+ormHist_Xmax_FailedCloudCut_logE_Greater19_5_Comb.pdf used on input line 316.
 (pdftex.def)             Requested size: 441.01773pt x 230.23973pt.
 
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 324.
+
+
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Au
-ger_52704749200_FdEventInfo.pdf, id=1918, 569.12625pt x 239.89626pt>
+ger_52704749200_FdEventInfo.pdf, id=1982, 569.12625pt x 239.89626pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_52704749200_FdEventInfo.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_52704749200_FdEventInfo.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_52704749200_FdEventInfo.pdf used on input line 263.
+loudCut_Events_Failed/Auger_52704749200_FdEventInfo.pdf used on input line 330.
 
 (pdftex.def)             Requested size: 198.45662pt x 115.3795pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Au
-ger_52704749200_SlantDepth.pdf, id=1919, 569.12625pt x 255.95625pt>
+ger_52704749200_SlantDepth.pdf, id=1983, 569.12625pt x 255.95625pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_52704749200_SlantDepth.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_52704749200_SlantDepth.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_52704749200_SlantDepth.pdf used on input line 267.
+loudCut_Events_Failed/Auger_52704749200_SlantDepth.pdf used on input line 334.
 (pdftex.def)             Requested size: 441.01773pt x 198.3484pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Au
-ger_52704749200_FdProfile.pdf, id=1920, 569.12625pt x 255.95625pt>
+ger_52704749200_FdProfile.pdf, id=1984, 569.12625pt x 255.95625pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_52704749200_FdProfile.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_52704749200_FdProfile.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_52704749200_FdProfile.pdf used on input line 273.
+loudCut_Events_Failed/Auger_52704749200_FdProfile.pdf used on input line 340.
 (pdftex.def)             Requested size: 198.45901pt x 115.37842pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Au
-ger_52704749200_SdProfile.pdf, id=1921, 569.12625pt x 498.86375pt>
+ger_52704749200_SdProfile.pdf, id=1985, 569.12625pt x 498.86375pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_52704749200_SdProfile.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_52704749200_SdProfile.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_52704749200_SdProfile.pdf used on input line 278.
+loudCut_Events_Failed/Auger_52704749200_SdProfile.pdf used on input line 345.
 (pdftex.def)             Requested size: 158.76373pt x 115.37566pt.
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_52704749200_FdEventInfo.pdf Graphic file (type pdf)
@@ -2697,89 +2710,89 @@ ed/Auger_52704749200_FdEventInfo.pdf Graphic file (type pdf)
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_52704749200_FdEventInfo.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_52704749200_FdEventInfo.pdf used on input line 284.
+loudCut_Events_Failed/Auger_52704749200_FdEventInfo.pdf used on input line 351.
 
 (pdftex.def)             Requested size: 198.45975pt x 115.3795pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Au
-ger_52704749200_SdEventInfo.pdf, id=1922, 569.12625pt x 685.56125pt>
+ger_52704749200_SdEventInfo.pdf, id=1986, 569.12625pt x 685.56125pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_52704749200_SdEventInfo.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_52704749200_SdEventInfo.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_52704749200_SdEventInfo.pdf used on input line 289.
+loudCut_Events_Failed/Auger_52704749200_SdEventInfo.pdf used on input line 356.
 
 (pdftex.def)             Requested size: 95.77756pt x 115.3795pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Au
-ger_70735278500_FdEventInfo.pdf, id=1923, 569.12625pt x 239.89626pt>
+ger_70735278500_FdEventInfo.pdf, id=1987, 569.12625pt x 239.89626pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_70735278500_FdEventInfo.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_70735278500_FdEventInfo.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_70735278500_FdEventInfo.pdf used on input line 297.
+loudCut_Events_Failed/Auger_70735278500_FdEventInfo.pdf used on input line 364.
 
 (pdftex.def)             Requested size: 198.45662pt x 115.3795pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Au
-ger_160416430001_SlantDepth.pdf, id=1924, 569.12625pt x 255.95625pt>
+ger_160416430001_SlantDepth.pdf, id=1988, 569.12625pt x 255.95625pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_160416430001_SlantDepth.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_160416430001_SlantDepth.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_160416430001_SlantDepth.pdf used on input line 301.
+loudCut_Events_Failed/Auger_160416430001_SlantDepth.pdf used on input line 368.
 
 (pdftex.def)             Requested size: 441.01773pt x 198.3484pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Au
-ger_160416430001_FdProfile.pdf, id=1925, 569.12625pt x 255.95625pt>
+ger_160416430001_FdProfile.pdf, id=1989, 569.12625pt x 255.95625pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_160416430001_FdProfile.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_160416430001_FdProfile.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_160416430001_FdProfile.pdf used on input line 307.
+loudCut_Events_Failed/Auger_160416430001_FdProfile.pdf used on input line 374.
 (pdftex.def)             Requested size: 198.45901pt x 115.37842pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Au
-ger_160416430001_SdProfile.pdf, id=1926, 569.12625pt x 498.86375pt>
+ger_160416430001_SdProfile.pdf, id=1990, 569.12625pt x 498.86375pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_160416430001_SdProfile.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_160416430001_SdProfile.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_160416430001_SdProfile.pdf used on input line 312.
+loudCut_Events_Failed/Auger_160416430001_SdProfile.pdf used on input line 379.
 (pdftex.def)             Requested size: 158.76373pt x 115.37566pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Au
-ger_160416430001_FdEventInfo.pdf, id=1927, 569.12625pt x 239.89626pt>
+ger_160416430001_FdEventInfo.pdf, id=1991, 569.12625pt x 239.89626pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_160416430001_FdEventInfo.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_160416430001_FdEventInfo.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_160416430001_FdEventInfo.pdf used on input line 318
+loudCut_Events_Failed/Auger_160416430001_FdEventInfo.pdf used on input line 385
 .
 (pdftex.def)             Requested size: 198.45975pt x 115.3795pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Au
-ger_160416430001_SdEventInfo.pdf, id=1928, 569.12625pt x 685.56125pt>
+ger_160416430001_SdEventInfo.pdf, id=1992, 569.12625pt x 685.56125pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_160416430001_SdEventInfo.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_160416430001_SdEventInfo.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_160416430001_SdEventInfo.pdf used on input line 323
+loudCut_Events_Failed/Auger_160416430001_SdEventInfo.pdf used on input line 390
 .
 (pdftex.def)             Requested size: 95.77756pt x 115.3795pt.
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
@@ -2788,41 +2801,41 @@ ed/Auger_70735278500_FdEventInfo.pdf Graphic file (type pdf)
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_70735278500_FdEventInfo.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_70735278500_FdEventInfo.pdf used on input line 331.
+loudCut_Events_Failed/Auger_70735278500_FdEventInfo.pdf used on input line 398.
 
 (pdftex.def)             Requested size: 198.45662pt x 115.3795pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Au
-ger_70735278500_SlantDepth.pdf, id=1929, 569.12625pt x 255.95625pt>
+ger_70735278500_SlantDepth.pdf, id=1993, 569.12625pt x 255.95625pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_70735278500_SlantDepth.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_70735278500_SlantDepth.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_70735278500_SlantDepth.pdf used on input line 335.
+loudCut_Events_Failed/Auger_70735278500_SlantDepth.pdf used on input line 402.
 (pdftex.def)             Requested size: 441.01773pt x 198.3484pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Au
-ger_70735278500_FdProfile.pdf, id=1930, 569.12625pt x 255.95625pt>
+ger_70735278500_FdProfile.pdf, id=1994, 569.12625pt x 255.95625pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_70735278500_FdProfile.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_70735278500_FdProfile.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_70735278500_FdProfile.pdf used on input line 341.
+loudCut_Events_Failed/Auger_70735278500_FdProfile.pdf used on input line 408.
 (pdftex.def)             Requested size: 198.45901pt x 115.37842pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Au
-ger_70735278500_SdProfile.pdf, id=1931, 569.12625pt x 498.86375pt>
+ger_70735278500_SdProfile.pdf, id=1995, 569.12625pt x 498.86375pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_70735278500_SdProfile.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_70735278500_SdProfile.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_70735278500_SdProfile.pdf used on input line 346.
+loudCut_Events_Failed/Auger_70735278500_SdProfile.pdf used on input line 413.
 (pdftex.def)             Requested size: 158.76373pt x 115.37566pt.
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_70735278500_FdEventInfo.pdf Graphic file (type pdf)
@@ -2830,66 +2843,66 @@ ed/Auger_70735278500_FdEventInfo.pdf Graphic file (type pdf)
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_70735278500_FdEventInfo.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_70735278500_FdEventInfo.pdf used on input line 352.
+loudCut_Events_Failed/Auger_70735278500_FdEventInfo.pdf used on input line 419.
 
 (pdftex.def)             Requested size: 198.45975pt x 115.3795pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Au
-ger_70735278500_SdEventInfo.pdf, id=1932, 569.12625pt x 685.56125pt>
+ger_70735278500_SdEventInfo.pdf, id=1996, 569.12625pt x 685.56125pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_70735278500_SdEventInfo.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_70735278500_SdEventInfo.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_70735278500_SdEventInfo.pdf used on input line 357.
+loudCut_Events_Failed/Auger_70735278500_SdEventInfo.pdf used on input line 424.
 
 (pdftex.def)             Requested size: 95.77756pt x 115.3795pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Au
-ger_153086776200_FdEventInfo.pdf, id=1933, 569.12625pt x 239.89626pt>
+ger_153086776200_FdEventInfo.pdf, id=1997, 569.12625pt x 239.89626pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_153086776200_FdEventInfo.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_153086776200_FdEventInfo.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_153086776200_FdEventInfo.pdf used on input line 365
+loudCut_Events_Failed/Auger_153086776200_FdEventInfo.pdf used on input line 432
 .
 (pdftex.def)             Requested size: 198.45662pt x 115.3795pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Au
-ger_153086776200_SlantDepth.pdf, id=1934, 569.12625pt x 255.95625pt>
+ger_153086776200_SlantDepth.pdf, id=1998, 569.12625pt x 255.95625pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_153086776200_SlantDepth.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_153086776200_SlantDepth.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_153086776200_SlantDepth.pdf used on input line 369.
+loudCut_Events_Failed/Auger_153086776200_SlantDepth.pdf used on input line 436.
 
 (pdftex.def)             Requested size: 441.01773pt x 198.3484pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Au
-ger_153086776200_FdProfile.pdf, id=1935, 569.12625pt x 255.95625pt>
+ger_153086776200_FdProfile.pdf, id=1999, 569.12625pt x 255.95625pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_153086776200_FdProfile.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_153086776200_FdProfile.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_153086776200_FdProfile.pdf used on input line 375.
+loudCut_Events_Failed/Auger_153086776200_FdProfile.pdf used on input line 442.
 (pdftex.def)             Requested size: 198.45901pt x 115.37842pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Au
-ger_153086776200_SdProfile.pdf, id=1936, 569.12625pt x 498.86375pt>
+ger_153086776200_SdProfile.pdf, id=2000, 569.12625pt x 498.86375pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_153086776200_SdProfile.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_153086776200_SdProfile.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_153086776200_SdProfile.pdf used on input line 380.
+loudCut_Events_Failed/Auger_153086776200_SdProfile.pdf used on input line 447.
 (pdftex.def)             Requested size: 158.76373pt x 115.37566pt.
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_153086776200_FdEventInfo.pdf Graphic file (type pdf)
@@ -2897,64 +2910,64 @@ ed/Auger_153086776200_FdEventInfo.pdf Graphic file (type pdf)
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_153086776200_FdEventInfo.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_153086776200_FdEventInfo.pdf used on input line 386
+loudCut_Events_Failed/Auger_153086776200_FdEventInfo.pdf used on input line 453
 .
 (pdftex.def)             Requested size: 198.45975pt x 115.3795pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Au
-ger_153086776200_SdEventInfo.pdf, id=1937, 569.12625pt x 685.56125pt>
+ger_153086776200_SdEventInfo.pdf, id=2001, 569.12625pt x 685.56125pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fail
 ed/Auger_153086776200_SdEventInfo.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
 d/Auger_153086776200_SdEventInfo.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events_Failed/Auger_153086776200_SdEventInfo.pdf used on input line 391
+loudCut_Events_Failed/Auger_153086776200_SdEventInfo.pdf used on input line 458
 .
 (pdftex.def)             Requested size: 95.77756pt x 115.3795pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_701
-36635100_FdEventInfo.pdf, id=1938, 569.12625pt x 239.89626pt>
+36635100_FdEventInfo.pdf, id=2002, 569.12625pt x 239.89626pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auge
 r_70136635100_FdEventInfo.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger
 _70136635100_FdEventInfo.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events/Auger_70136635100_FdEventInfo.pdf used on input line 403.
+loudCut_Events/Auger_70136635100_FdEventInfo.pdf used on input line 469.
 (pdftex.def)             Requested size: 198.45662pt x 115.3795pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_701
-36635100_SlantDepth.pdf, id=1939, 569.12625pt x 255.95625pt>
+36635100_SlantDepth.pdf, id=2003, 569.12625pt x 255.95625pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auge
 r_70136635100_SlantDepth.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger
 _70136635100_SlantDepth.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events/Auger_70136635100_SlantDepth.pdf used on input line 407.
+loudCut_Events/Auger_70136635100_SlantDepth.pdf used on input line 473.
 (pdftex.def)             Requested size: 441.01773pt x 198.3484pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_701
-36635100_FdProfile.pdf, id=1940, 569.12625pt x 255.95625pt>
+36635100_FdProfile.pdf, id=2004, 569.12625pt x 255.95625pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auge
 r_70136635100_FdProfile.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger
 _70136635100_FdProfile.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events/Auger_70136635100_FdProfile.pdf used on input line 413.
+loudCut_Events/Auger_70136635100_FdProfile.pdf used on input line 479.
 (pdftex.def)             Requested size: 198.45901pt x 115.37842pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_701
-36635100_SdProfile.pdf, id=1941, 569.12625pt x 498.86375pt>
+36635100_SdProfile.pdf, id=2005, 569.12625pt x 498.86375pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auge
 r_70136635100_SdProfile.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger
 _70136635100_SdProfile.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events/Auger_70136635100_SdProfile.pdf used on input line 418.
+loudCut_Events/Auger_70136635100_SdProfile.pdf used on input line 484.
 (pdftex.def)             Requested size: 158.76373pt x 115.37566pt.
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auge
 r_70136635100_FdEventInfo.pdf Graphic file (type pdf)
@@ -2962,62 +2975,66 @@ r_70136635100_FdEventInfo.pdf Graphic file (type pdf)
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger
 _70136635100_FdEventInfo.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events/Auger_70136635100_FdEventInfo.pdf used on input line 424.
+loudCut_Events/Auger_70136635100_FdEventInfo.pdf used on input line 490.
 (pdftex.def)             Requested size: 198.45975pt x 115.3795pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_701
-36635100_SdEventInfo.pdf, id=1942, 569.12625pt x 685.56125pt>
+36635100_SdEventInfo.pdf, id=2006, 569.12625pt x 685.56125pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auge
 r_70136635100_SdEventInfo.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger
 _70136635100_SdEventInfo.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events/Auger_70136635100_SdEventInfo.pdf used on input line 429.
+loudCut_Events/Auger_70136635100_SdEventInfo.pdf used on input line 495.
 (pdftex.def)             Requested size: 95.77756pt x 115.3795pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_101
-576030600_FdEventInfo.pdf, id=1943, 569.12625pt x 239.89626pt>
+576030600_FdEventInfo.pdf, id=2007, 569.12625pt x 239.89626pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auge
 r_101576030600_FdEventInfo.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger
 _101576030600_FdEventInfo.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events/Auger_101576030600_FdEventInfo.pdf used on input line 437.
+loudCut_Events/Auger_101576030600_FdEventInfo.pdf used on input line 503.
 (pdftex.def)             Requested size: 198.45662pt x 115.3795pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_101
-576030600_SlantDepth.pdf, id=1944, 569.12625pt x 255.95625pt>
+576030600_SlantDepth.pdf, id=2008, 569.12625pt x 255.95625pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auge
 r_101576030600_SlantDepth.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger
 _101576030600_SlantDepth.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events/Auger_101576030600_SlantDepth.pdf used on input line 441.
+loudCut_Events/Auger_101576030600_SlantDepth.pdf used on input line 507.
 (pdftex.def)             Requested size: 441.01773pt x 198.3484pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_101
-576030600_FdProfile.pdf, id=1945, 569.12625pt x 255.95625pt>
+576030600_FdProfile.pdf, id=2009, 569.12625pt x 255.95625pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auge
 r_101576030600_FdProfile.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger
 _101576030600_FdProfile.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events/Auger_101576030600_FdProfile.pdf used on input line 447.
+loudCut_Events/Auger_101576030600_FdProfile.pdf used on input line 513.
 (pdftex.def)             Requested size: 198.45901pt x 115.37842pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_101
-576030600_SdProfile.pdf, id=1946, 569.12625pt x 498.86375pt>
+576030600_SdProfile.pdf, id=2010, 569.12625pt x 498.86375pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auge
 r_101576030600_SdProfile.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger
 _101576030600_SdProfile.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events/Auger_101576030600_SdProfile.pdf used on input line 452.
+loudCut_Events/Auger_101576030600_SdProfile.pdf used on input line 518.
 (pdftex.def)             Requested size: 158.76373pt x 115.37566pt.
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auge
 r_101576030600_FdEventInfo.pdf Graphic file (type pdf)
@@ -3025,62 +3042,66 @@ r_101576030600_FdEventInfo.pdf Graphic file (type pdf)
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger
 _101576030600_FdEventInfo.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events/Auger_101576030600_FdEventInfo.pdf used on input line 458.
+loudCut_Events/Auger_101576030600_FdEventInfo.pdf used on input line 524.
 (pdftex.def)             Requested size: 198.45975pt x 115.3795pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_101
-576030600_SdEventInfo.pdf, id=1947, 569.12625pt x 685.56125pt>
+576030600_SdEventInfo.pdf, id=2011, 569.12625pt x 685.56125pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auge
 r_101576030600_SdEventInfo.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger
 _101576030600_SdEventInfo.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events/Auger_101576030600_SdEventInfo.pdf used on input line 463.
+loudCut_Events/Auger_101576030600_SdEventInfo.pdf used on input line 529.
 (pdftex.def)             Requested size: 95.77756pt x 115.3795pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_922
-85877600_FdEventInfo.pdf, id=1948, 569.12625pt x 239.89626pt>
+85877600_FdEventInfo.pdf, id=2012, 569.12625pt x 239.89626pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auge
 r_92285877600_FdEventInfo.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger
 _92285877600_FdEventInfo.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events/Auger_92285877600_FdEventInfo.pdf used on input line 471.
+loudCut_Events/Auger_92285877600_FdEventInfo.pdf used on input line 537.
 (pdftex.def)             Requested size: 198.45662pt x 115.3795pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_922
-85877600_SlantDepth.pdf, id=1949, 569.12625pt x 255.95625pt>
+85877600_SlantDepth.pdf, id=2013, 569.12625pt x 255.95625pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auge
 r_92285877600_SlantDepth.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger
 _92285877600_SlantDepth.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events/Auger_92285877600_SlantDepth.pdf used on input line 475.
+loudCut_Events/Auger_92285877600_SlantDepth.pdf used on input line 541.
 (pdftex.def)             Requested size: 441.01773pt x 198.3484pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_922
-85877600_FdProfile.pdf, id=1950, 569.12625pt x 255.95625pt>
+85877600_FdProfile.pdf, id=2014, 569.12625pt x 255.95625pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auge
 r_92285877600_FdProfile.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger
 _92285877600_FdProfile.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events/Auger_92285877600_FdProfile.pdf used on input line 481.
+loudCut_Events/Auger_92285877600_FdProfile.pdf used on input line 547.
 (pdftex.def)             Requested size: 198.45901pt x 115.37842pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_922
-85877600_SdProfile.pdf, id=1951, 569.12625pt x 498.86375pt>
+85877600_SdProfile.pdf, id=2015, 569.12625pt x 498.86375pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auge
 r_92285877600_SdProfile.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger
 _92285877600_SdProfile.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events/Auger_92285877600_SdProfile.pdf used on input line 486.
+loudCut_Events/Auger_92285877600_SdProfile.pdf used on input line 552.
 (pdftex.def)             Requested size: 158.76373pt x 115.37566pt.
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auge
 r_92285877600_FdEventInfo.pdf Graphic file (type pdf)
@@ -3088,101 +3109,103 @@ r_92285877600_FdEventInfo.pdf Graphic file (type pdf)
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger
 _92285877600_FdEventInfo.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events/Auger_92285877600_FdEventInfo.pdf used on input line 492.
+loudCut_Events/Auger_92285877600_FdEventInfo.pdf used on input line 558.
 (pdftex.def)             Requested size: 198.45975pt x 115.3795pt.
 
 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_922
-85877600_SdEventInfo.pdf, id=1952, 569.12625pt x 685.56125pt>
+85877600_SdEventInfo.pdf, id=2016, 569.12625pt x 685.56125pt>
 File: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auge
 r_92285877600_SdEventInfo.pdf Graphic file (type pdf)
 
 <use /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger
 _92285877600_SdEventInfo.pdf>
 Package pdftex.def Info: /home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
-loudCut_Events/Auger_92285877600_SdEventInfo.pdf used on input line 497.
+loudCut_Events/Auger_92285877600_SdEventInfo.pdf used on input line 563.
 (pdftex.def)             Requested size: 95.77756pt x 115.3795pt.
-) (./chapters/conclusion.tex [83 </home/tsudholz/PhD/Thesis/chapters/graphs/Clo
-udFlags/EnergyHistAll_logE_18_0to20_5_Comb2.pdf, page is rotated 90 degrees>] [
-84 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_18_
-0to18_5_Comb.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapte
-rs/graphs/CloudFlags/NormHist_Xmax_logE_18_5to18_75_Comb.pdf, page is rotated 9
-0 degrees>] [85 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_
-Xmax_logE_18_75to19_0_Comb.pdf, page is rotated 90 degrees> </home/tsudholz/PhD
-/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_19_0to19_25_Comb.pdf, pag
-e is rotated 90 degrees>] [86 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudF
-lags/NormHist_Xmax_logE_19_25to19_5_Comb.pdf, page is rotated 90 degrees> </hom
-e/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_Greater19_5
-_Comb.pdf, page is rotated 90 degrees>] [87 </home/tsudholz/PhD/Thesis/chapters
-/graphs/CloudFlags/NormHist_Xmax_FailedCloudCut_logE_18_0to18_5_Comb.pdf, page 
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[85 <./chapters/graphs/CloudFlags/ElongationRate.pdf>] [86 </home/tsudholz/PhD/
+Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_18_0to18_5_Comb.pdf, page 
 is rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/No
-rmHist_Xmax_FailedCloudCut_logE_18_5to18_75_Comb.pdf, page is rotated 90 degree
-s>] [88 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_Fai
-ledCloudCut_logE_18_75to19_0_Comb.pdf, page is rotated 90 degrees> </home/tsudh
-olz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_FailedCloudCut_logE_19_
-0to19_25_Comb.pdf, page is rotated 90 degrees>]
-[89 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_FailedC
-loudCut_logE_19_25to19_5_Comb.pdf, page is rotated 90 degrees> </home/tsudholz/
-PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_FailedCloudCut_logE_Greater
-19_5_Comb.pdf, page is rotated 90 degrees>] [90 </home/tsudholz/PhD/Thesis/chap
-ters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_52704749200_SlantDepth.pdf,
- page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFl
-ags/CloudCut_Events_Failed/Auger_52704749200_FdProfile.pdf, page is rotated 90 
-degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_
-Failed/Auger_52704749200_SdProfile.pdf, page is rotated 90 degrees> </home/tsud
-holz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_5270474
-9200_FdEventInfo.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/ch
-apters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_52704749200_SdEventInfo.p
-df>] [91 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_
-Failed/Auger_160416430001_SlantDepth.pdf, page is rotated 90 degrees> </home/ts
-udholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_16041
-6430001_FdProfile.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/c
-hapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_160416430001_SdProfile.p
-df, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/Clou
-dFlags/CloudCut_Events_Failed/Auger_160416430001_FdEventInfo.pdf, page is rotat
-ed 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_E
-vents_Failed/Auger_160416430001_SdEventInfo.pdf>] [92 </home/tsudholz/PhD/Thesi
-s/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_70735278500_SlantDept
-h.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/C
-loudFlags/CloudCut_Events_Failed/Auger_70735278500_FdProfile.pdf, page is rotat
-ed 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_E
-vents_Failed/Auger_70735278500_SdProfile.pdf, page is rotated 90 degrees> </hom
-e/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_7
-0735278500_FdEventInfo.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/The
-sis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_70735278500_SdEvent
-Info.pdf>] [93 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_E
-vents_Failed/Auger_153086776200_SlantDepth.pdf, page is rotated 90 degrees> </h
-ome/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger
-_153086776200_FdProfile.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Th
-esis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_153086776200_SdPro
-file.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graph
-s/CloudFlags/CloudCut_Events_Failed/Auger_153086776200_FdEventInfo.pdf, page is
- rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/Clou
-dCut_Events_Failed/Auger_153086776200_SdEventInfo.pdf>] [94 </home/tsudholz/PhD
-/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_70136635100_SlantDepth
+rmHist_Xmax_logE_18_5to18_75_Comb.pdf, page is rotated 90 degrees>] [87 </home/
+tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE_18_75to19_0_C
+omb.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graphs
+/CloudFlags/NormHist_Xmax_logE_19_0to19_25_Comb.pdf, page is rotated 90 degrees
+>] [88 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_logE
+_19_25to19_5_Comb.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/c
+hapters/graphs/CloudFlags/NormHist_Xmax_logE_Greater19_5_Comb.pdf, page is rota
+ted 90 degrees>] [89 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/Norm
+Hist_Xmax_FailedCloudCut_logE_18_0to18_5_Comb.pdf, page is rotated 90 degrees> 
+</home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_FailedCloud
+Cut_logE_18_5to18_75_Comb.pdf, page is rotated 90 degrees>] [90 </home/tsudholz
+/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_FailedCloudCut_logE_18_75t
+o19_0_Comb.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters
+/graphs/CloudFlags/NormHist_Xmax_FailedCloudCut_logE_19_0to19_25_Comb.pdf, page
+ is rotated 90 degrees>] [91 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFl
+ags/NormHist_Xmax_FailedCloudCut_logE_19_25to19_5_Comb.pdf, page is rotated 90 
+degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/NormHist_Xmax_Fa
+iledCloudCut_logE_Greater19_5_Comb.pdf, page is rotated 90 degrees>] [92 </home
+/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_52
+704749200_SlantDepth.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Thesi
+s/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_52704749200_FdProfile
 .pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/Cl
-oudFlags/CloudCut_Events/Auger_70136635100_FdProfile.pdf, page is rotated 90 de
-grees> </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Au
-ger_70136635100_SdProfile.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/
-Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_70136635100_FdEventInfo
-.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/Cl
-oudFlags/CloudCut_Events/Auger_70136635100_SdEventInfo.pdf>] [95 </home/tsudhol
-z/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_101576030600_Slan
-tDepth.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/gra
-phs/CloudFlags/CloudCut_Events/Auger_101576030600_FdProfile.pdf, page is rotate
+oudFlags/CloudCut_Events_Failed/Auger_52704749200_SdProfile.pdf, page is rotate
 d 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Ev
-ents/Auger_101576030600_SdProfile.pdf, page is rotated 90 degrees> </home/tsudh
-olz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_101576030600_Fd
-EventInfo.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/
-graphs/CloudFlags/CloudCut_Events/Auger_101576030600_SdEventInfo.pdf>] [96 </ho
-me/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_9228587
-7600_SlantDepth.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/cha
-pters/graphs/CloudFlags/CloudCut_Events/Auger_92285877600_FdProfile.pdf, page i
-s rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/Clo
-udCut_Events/Auger_92285877600_SdProfile.pdf, page is rotated 90 degrees> </hom
-e/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_92285877
-600_FdEventInfo.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/cha
-pters/graphs/CloudFlags/CloudCut_Events/Auger_92285877600_SdEventInfo.pdf>]
-[97] [98
+ents_Failed/Auger_52704749200_FdEventInfo.pdf, page is rotated 90 degrees> </ho
+me/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_
+52704749200_SdEventInfo.pdf>] [93 </home/tsudholz/PhD/Thesis/chapters/graphs/Cl
+oudFlags/CloudCut_Events_Failed/Auger_160416430001_SlantDepth.pdf, page is rota
+ted 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_
+Events_Failed/Auger_160416430001_FdProfile.pdf, page is rotated 90 degrees> </h
+ome/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger
+_160416430001_SdProfile.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Th
+esis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_160416430001_FdEve
+ntInfo.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/gra
+phs/CloudFlags/CloudCut_Events_Failed/Auger_160416430001_SdEventInfo.pdf>]
+[94 </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Faile
+d/Auger_70735278500_SlantDepth.pdf, page is rotated 90 degrees> </home/tsudholz
+/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_70735278500
+_FdProfile.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters
+/graphs/CloudFlags/CloudCut_Events_Failed/Auger_70735278500_SdProfile.pdf, page
+ is rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/C
+loudCut_Events_Failed/Auger_70735278500_FdEventInfo.pdf, page is rotated 90 deg
+rees> </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fai
+led/Auger_70735278500_SdEventInfo.pdf>] [95 </home/tsudholz/PhD/Thesis/chapters
+/graphs/CloudFlags/CloudCut_Events_Failed/Auger_153086776200_SlantDepth.pdf, pa
+ge is rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags
+/CloudCut_Events_Failed/Auger_153086776200_FdProfile.pdf, page is rotated 90 de
+grees> </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Fa
+iled/Auger_153086776200_SdProfile.pdf, page is rotated 90 degrees> </home/tsudh
+olz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_15308677
+6200_FdEventInfo.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/ch
+apters/graphs/CloudFlags/CloudCut_Events_Failed/Auger_153086776200_SdEventInfo.
+pdf>]) (./chapters/conclusion.tex [96] [97 </home/tsudholz/PhD/Thesis/chapters/
+graphs/CloudFlags/CloudCut_Events/Auger_70136635100_SlantDepth.pdf, page is rot
+ated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut
+_Events/Auger_70136635100_FdProfile.pdf, page is rotated 90 degrees> </home/tsu
+dholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_70136635100_S
+dProfile.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/g
+raphs/CloudFlags/CloudCut_Events/Auger_70136635100_FdEventInfo.pdf, page is rot
+ated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut
+_Events/Auger_70136635100_SdEventInfo.pdf>] [98 </home/tsudholz/PhD/Thesis/chap
+ters/graphs/CloudFlags/CloudCut_Events/Auger_101576030600_SlantDepth.pdf, page 
+is rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/Cl
+oudCut_Events/Auger_101576030600_FdProfile.pdf, page is rotated 90 degrees> </h
+ome/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_101576
+030600_SdProfile.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/ch
+apters/graphs/CloudFlags/CloudCut_Events/Auger_101576030600_FdEventInfo.pdf, pa
+ge is rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags
+/CloudCut_Events/Auger_101576030600_SdEventInfo.pdf>] [99 </home/tsudholz/PhD/T
+hesis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_92285877600_SlantDepth.p
+df, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/Clou
+dFlags/CloudCut_Events/Auger_92285877600_FdProfile.pdf, page is rotated 90 degr
+ees> </home/tsudholz/PhD/Thesis/chapters/graphs/CloudFlags/CloudCut_Events/Auge
+r_92285877600_SdProfile.pdf, page is rotated 90 degrees> </home/tsudholz/PhD/Th
+esis/chapters/graphs/CloudFlags/CloudCut_Events/Auger_92285877600_FdEventInfo.p
+df, page is rotated 90 degrees> </home/tsudholz/PhD/Thesis/chapters/graphs/Clou
+dFlags/CloudCut_Events/Auger_92285877600_SdEventInfo.pdf>] [100
 
 ]
 Chapter 11.
@@ -3190,38 +3213,32 @@ Chapter 11.
 \tf@brf=\write5
 \openout5 = `PhD_Thesis.brf'.
 
- [99] [100
+ [101] [102
 
 ])
 
 Package natbib Warning: There were undefined citations.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
-[101]
+[103]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
  (./PhD_Thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
-
-
-Package rerunfilecheck Warning: File `PhD_Thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `PhD_Thesis.out':
-(rerunfilecheck)             Before: 9C488B74C6EC8CDED81EB7DBA6E21AF9;6657
-(rerunfilecheck)             After:  A057B063F5DAF08C620727B8454CAD63;6855.
+Package rerunfilecheck Info: File `PhD_Thesis.out' has not changed.
+(rerunfilecheck)             Checksum: C7F3B16E242299B4CA78E16A47E5E2AE;6702.
 Package rerunfilecheck Info: File `PhD_Thesis.brf' has not changed.
 (rerunfilecheck)             Checksum: 79BD4C993DE63555F6F50B19CF7CBF8A;48.
+
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 12466 strings out of 493029
- 227830 string characters out of 6136233
- 405076 words of memory out of 5000000
- 15231 multiletter control sequences out of 15000+600000
+ 12485 strings out of 493029
+ 228308 string characters out of 6136233
+ 416271 words of memory out of 5000000
+ 15248 multiletter control sequences out of 15000+600000
  31639 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,12n,77p,1479b,600s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -3239,10 +3256,10 @@ are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmri8a.pfb>
-Output written on PhD_Thesis.pdf (115 pages, 8641445 bytes).
+Output written on PhD_Thesis.pdf (117 pages, 8651692 bytes).
 PDF statistics:
- 4248 PDF objects out of 4296 (max. 8388607)
- 2533 compressed objects within 26 object streams
- 318 named destinations out of 1000 (max. 500000)
- 1453 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4270 PDF objects out of 4296 (max. 8388607)
+ 2552 compressed objects within 26 object streams
+ 320 named destinations out of 1000 (max. 500000)
+ 1461 words of extra memory for PDF output out of 10000 (max. 10000000)
 
